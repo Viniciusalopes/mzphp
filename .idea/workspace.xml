@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="26bad531-6e36-4195-81b9-a351e0a51e89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/py/check.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/checkdesc.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/install.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/menu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/remove.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/show.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/update.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/py/upgrade.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="34">
+                <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/mz" />
+        <option value="$PROJECT_DIR$/upgrade.py" />
+        <option value="$PROJECT_DIR$/checkdesc.py" />
+        <option value="$PROJECT_DIR$/check.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/menu.py" />
+        <option value="$PROJECT_DIR$/search.py" />
+        <option value="$PROJECT_DIR$/install.py" />
+        <option value="$PROJECT_DIR$/remove.py" />
+        <option value="$PROJECT_DIR$/show.py" />
+        <option value="$PROJECT_DIR$/update.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/mzphp.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="25" />
+    <option name="width" value="1364" />
+    <option name="height" value="749" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mzphp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mzphp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/py" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="26bad531-6e36-4195-81b9-a351e0a51e89" name="Default Changelist" comment="" />
+      <created>1563219082535</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563219082535</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1364" height="749" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981302" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/mz">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="440" lean-forward="true" selection-start-line="72" selection-end-line="440" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/check.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="20" column="56" lean-forward="true" selection-start-line="20" selection-start-column="56" selection-end-line="20" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding>
+            <element signature="e#23#267#1" />
+            <element signature="e#615#759#0" />
+            <element signature="e#671#693#0" />
+            <element signature="e#712#759#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/menu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+          <folding>
+            <element signature="e#1484#2076#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/install.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#23#267#1" />
+            <element signature="e#268#324#0" />
+            <element signature="e#2123#4686#0" />
+            <element signature="e#2149#4629#0" />
+            <element signature="e#2217#2243#0" />
+            <element signature="e#2270#4629#0" />
+            <element signature="e#2460#4629#0" />
+            <element signature="e#2554#2763#0" />
+            <element signature="e#2601#2763#0" />
+            <element signature="e#2811#4545#0" />
+            <element signature="e#2937#3391#0" />
+            <element signature="e#3112#3325#0" />
+            <element signature="e#3442#4545#0" />
+            <element signature="e#3527#3734#0" />
+            <element signature="e#3793#3923#0" />
+            <element signature="e#4198#4545#0" />
+            <element signature="e#4256#4471#0" />
+            <element signature="e#4649#4686#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/remove.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="e#23#267#1" />
+            <element signature="e#268#324#0" />
+            <element signature="e#615#759#0" />
+            <element signature="e#671#693#0" />
+            <element signature="e#712#759#0" />
+            <element signature="e#4731#5465#0" />
+            <element signature="e#4787#4809#0" />
+            <element signature="e#4828#5465#0" />
+            <element signature="e#5065#5405#0" />
+            <element signature="e#5127#5405#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/show.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+          <folding>
+            <element signature="e#23#267#1" />
+            <element signature="e#268#324#0" />
+            <element signature="e#5506#7564#0" />
+            <element signature="e#5562#5584#0" />
+            <element signature="e#5603#7564#0" />
+            <element signature="e#5729#7564#0" />
+            <element signature="e#5815#7496#0" />
+            <element signature="e#5858#7496#0" />
+            <element signature="e#6197#6513#0" />
+            <element signature="e#6238#6513#0" />
+            <element signature="e#6369#6513#0" />
+            <element signature="e#6616#6817#0" />
+            <element signature="e#6868#7193#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+          <folding>
+            <element signature="e#23#267#1" />
+            <element signature="e#268#324#0" />
+            <element signature="e#7609#9175#0" />
+            <element signature="e#7635#9135#0" />
+            <element signature="e#8034#9115#0" />
+            <element signature="e#8071#9115#0" />
+            <element signature="e#8411#9115#0" />
+            <element signature="e#8455#9115#0" />
+            <element signature="e#8807#9115#0" />
+            <element signature="e#8876#9115#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/upgrade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="e#23#267#1" />
+            <element signature="e#268#324#0" />
+            <element signature="e#840#861#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/py/checkdesc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
+          <folding>
+            <element signature="e#23#267#1" />
+            <element signature="e#679#1486#0" />
+            <element signature="e#705#1429#0" />
+            <element signature="e#983#1227#0" />
+            <element signature="e#1069#1203#0" />
+            <element signature="e#1107#1203#0" />
+            <element signature="e#1259#1373#0" />
+            <element signature="e#1449#1486#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
