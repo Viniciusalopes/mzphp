@@ -1,6 +1,6 @@
 <?php
 
-/*
+/* 
  * A licença MIT
  *
  * Copyright 2019 Viniciusalopes Tecnologia <suporte@viniciusalopes.com.br>.
@@ -24,22 +24,10 @@
  * OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
  * ------------------------------------------------------------------------------------------
  * Projeto   : mzphp
- * Criado em : 15/07/2019
+ * Criado em : 18/07/2019
  * Autor     : Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
 
-/**
- * Description of Mirror
- *
- * @author vovostudio
- */
-class Mirror {
-
-    private $url = 'http://mazonos.com/packages/'; # Repositório oficial
-    
-    function get_url() {
-        return $this->url;
-    }
-}
+session_start();

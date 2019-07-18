@@ -1,5 +1,4 @@
 <?php
-
 /*
  * A licença MIT
  *
@@ -24,22 +23,15 @@
  * OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
  * ------------------------------------------------------------------------------------------
  * Projeto   : mzphp
- * Criado em : 15/07/2019
+ * Criado em : 18/07/2019
  * Autor     : Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
-
-/**
- * Description of Mirror
- *
- * @author vovostudio
- */
-class Mirror {
-
-    private $url = 'http://mazonos.com/packages/'; # Repositório oficial
-    
-    function get_url() {
-        return $this->url;
-    }
-}
+?>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>mzPhp</title>
+<meta name="description" content="mzPhp gerenciador de pacotes">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.css">

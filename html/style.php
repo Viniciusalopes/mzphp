@@ -1,5 +1,4 @@
 <?php
-
 /*
  * A licença MIT
  *
@@ -24,22 +23,23 @@
  * OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
  * ------------------------------------------------------------------------------------------
  * Projeto   : mzphp
- * Criado em : 15/07/2019
+ * Criado em : 18/07/2019
  * Autor     : Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
-
-/**
- * Description of Mirror
- *
- * @author vovostudio
- */
-class Mirror {
-
-    private $url = 'http://mazonos.com/packages/'; # Repositório oficial
-    
-    function get_url() {
-        return $this->url;
+?>
+<style type="text/css">
+    #navbar{
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
     }
-}
+    #menu{
+        padding-bottom: 60px;
+    }
+
+    #mussum-ipsun > img {
+        width: 30%;
+        padding: 1em;
+    }
+</style>

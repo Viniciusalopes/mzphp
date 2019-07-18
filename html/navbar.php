@@ -1,5 +1,4 @@
 <?php
-
 /*
  * A licença MIT
  *
@@ -24,22 +23,19 @@
  * OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
  * ------------------------------------------------------------------------------------------
  * Projeto   : mzphp
- * Criado em : 15/07/2019
+ * Criado em : 18/07/2019
  * Autor     : Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
-
-/**
- * Description of Mirror
- *
- * @author vovostudio
- */
-class Mirror {
-
-    private $url = 'http://mazonos.com/packages/'; # Repositório oficial
-    
-    function get_url() {
-        return $this->url;
-    }
-}
+?>
+<nav id="navbar" class="navbar navbar-light bg-light">
+    <a class="navbar-brand">Pacotes para Mazon OS</a>
+    <form class="form-inline">
+        <input class="form-control mr-sm-2"
+               id="pkgname"
+               name="pkgname"
+               type="search" placeholder="Pesquisar pacotes..." aria-label="Pesquisar pacotes...">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+    </form>
+</nav>
