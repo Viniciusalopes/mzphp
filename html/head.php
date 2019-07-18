@@ -35,3 +35,23 @@
 <meta name="description" content="mzPhp gerenciador de pacotes">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/bootstrap.css">
+
+
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.css" rel="stylesheet">
+
+<!-- Material Design Bootstrap -->
+<link href="css/mdb.css" rel="stylesheet">
+
+<!-- Your custom styles (optional) -->
+<link href="css/estilo.css" rel="stylesheet">
+
+<!-- MDBootstrap Datatables  -->
+<link href="css/addons/datatables.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Emojis -->
+<link href="css/emoji.css" rel="stylesheet">

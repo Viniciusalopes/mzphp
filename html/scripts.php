@@ -29,7 +29,17 @@
  * ------------------------------------------------------------------------------------------
  */
 ?>
-<div class="m-4">
-    <p class="h5"><strong>mzphp</strong> é um gerenciador de pacotes feito em php exclusivamente para a <strong><a href="http://mazonos.com">Mazon Os</a></strong></p>
-    <p>Com ele é possível administrar pacotes de programas em conjunto com o <strong><a href="https://bananapkg.github.io/">bananapkg</a></strong>.</p>
-</div>
+<!-- SCRIPTS -->
+<!-- JQuery -->
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="js/mdb.js"></script>
+<!-- MDBootstrap Datatables  -->
+<script type="text/javascript" src="js/addons/datatables.js"></script>
+
+<script type="text/javascript" src="js/scripts.js"></script>
+

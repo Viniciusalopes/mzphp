@@ -51,7 +51,6 @@ Finalidade: No início a terra era vazia e sem forma.
         <?php require_once 'html/style.php' ?>
         <?php require_once 'html/menu.php' ?>
         <?php require_once 'html/subtitulo.php' ?>
-        <?php require_once 'html/navbar.php' ?>
 
         <?php
         $mirror = (new Mirror())->get_url();
@@ -88,34 +87,32 @@ Finalidade: No início a terra era vazia e sem forma.
             }
         }
         $_SESSION['packages'] = $packages;
-        
         ?>
         <div class="m-4">
-            <?php
-            if (count($packages) > 0) {
-                echo count($packages) . ' encontrados.'
-                ?>
+            <?php if (count($packages) > 0) { ?>
                 <hr>
-                <table cellspacing="0">
-                    <thead class="text-left">
-                        <tr class="border-botton">
-                            <th class="border-botton">Instalado</th>
-                            <th class="border-botton">Nome do pacote</th>
-                            <th class="border-botton">Versão</th>
-                            <th class="border-botton">Mantenedor</th>
-                            <th class="border-botton">Descrição</th>
+                <table id="table-packages" class="table table-sm table-hover">
+                    <thead class="thead-dark text-left">
+                        <tr>
+                            <th scope="col">Instalado</th>
+                            <th>Nome do pacote</th>
+                            <th>Versão</th>
+                            <th>Espelho</th>
+                            <th>Mantenedor</th>
+                            <th>Descrição</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php
                         foreach ($packages as $package) {
                             ?>
-                            <tr>
-                                <td class="border-botton"><!--?php echo $Os->instalado($pkgname) ?--></td>
-                                <td class="border-botton"><?php echo $package->pkgname ?></td>
-                                <td class="border-botton"><?php echo $package->version ?></td>
-                                <td class="border-botton"></td>
-                                <td class="border-botton"></td>
+                            <tr scope="row">
+                                <td><!--?php echo $Os->instalado($pkgname) ?--></td>
+                                <td><?php echo $package->pkgname ?></td>
+                                <td><?php echo $package->version ?></td>
+                                <td><?php echo $package->mirror ?></td>
+                                <td></td>
+                                <td></td>
                             </tr>
                             <?php
                         }
@@ -128,5 +125,6 @@ Finalidade: No início a terra era vazia e sem forma.
             <!--?php require_once './bin/etc.php' ?>
         </div>-->
         </div>
+        <?php require './html/scripts.php' ?>
     </body>
 </html>

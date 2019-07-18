@@ -22,23 +22,13 @@ DELITO OU DE OUTRA FORMA, DECORRENTES DE, OU EM CONEXÃO COM O SOFTWARE OU O USO
 OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
 ------------------------------------------------------------------------------------------
 Projeto   : mzphp
-Criado em : 15/07/2019
+Criado em : 18/07/2019
 Autor     : Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
-Finalidade: Fornecer uma aparência 'bacana'!
+Finalidade: 
 ------------------------------------------------------------------------------------------
 */
 /* 
-    Created on : 15/07/2019, 17:57:22
+    Created on : 18/07/2019, 08:19:46
     Author     : vovostudio
 */
-@charset "UTF-8";
 
-@font-face {
-    font-family: 'UbuntuRegular';
-    src: url('../fonts/UbuntuMono-R.ttf');
-}
-
-
-*{
-    font-family: 'UbuntuRegular', sans-serif;
-}

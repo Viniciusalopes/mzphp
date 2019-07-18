@@ -1,5 +1,4 @@
-<?php
-/*
+/* 
  * A licença MIT
  *
  * Copyright 2019 Viniciusalopes Tecnologia <suporte@viniciusalopes.com.br>.
@@ -28,8 +27,14 @@
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
-?>
-<div class="m-4">
-    <p class="h5"><strong>mzphp</strong> é um gerenciador de pacotes feito em php exclusivamente para a <strong><a href="http://mazonos.com">Mazon Os</a></strong></p>
-    <p>Com ele é possível administrar pacotes de programas em conjunto com o <strong><a href="https://bananapkg.github.io/">bananapkg</a></strong>.</p>
-</div>
+
+/* mdbootstrap DataTable*/
+$(document).ready(function () {
+    $('#table-packages').DataTable({
+        "oLanguage": {
+            "sUrl": "lang/pt_BR_dic.json"
+        }
+    });
+
+    $('.dataTables_length').addClass('bs-select');
+});
