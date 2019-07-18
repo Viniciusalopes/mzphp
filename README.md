@@ -9,4 +9,4 @@ Gerenciador de pacotes em php
 Inicialmente python3, php7, html5, css3 e javascript estão na mira, sem impeditivos
 
 ### Filosofia do projeto
-FUNCIONAR, sem dogmatismos nem apegos ideológicos, culturais ou filosóficos de qualquer natureza.
+FUNCIONAR, sem dogmatismos, apegos ideológicos, culturais ou filosóficos de qualquer natureza.
