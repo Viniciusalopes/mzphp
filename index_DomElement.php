@@ -1,9 +1,10 @@
 <?php
-header('location: fora-do-ar.php');
+//header('location: fora-do-ar.php');
 require_once './bin/sessao.php';
-//require_once './bin/Mirror.php';
-//require_once './bin/Dir.php';
-//require_once './bin/Package.php';
+require_once './bin/Mirror.php';
+require_once './bin/Dir.php';
+require_once './bin/Package.php';
+
 //require_once './bin/Os.php';
 //$Os = new Os();
 //try {
@@ -57,44 +58,36 @@ Finalidade: No início a terra era vazia e sem forma.
         <?php
         $mirrors = [];
         $dirs = [];
-        $doc = new DOMDocument();
 
-        foreach ($_SESSION['mirrors_urls'] as $mirror) {
-            $doc->loadHTMLFile($mirror->url);
+        foreach ($_SESSION['mirrors_urls'] as $url) {
+
+            $doc = new DOMDocument();
+
+            $doc->loadHTMLFile($url);
             $tags = $doc->getElementsByTagName('a');
 
             foreach ($tags as $tag) {
                 if (strpos($tag->nodeValue, '/') !== FALSE) {
-                    $dirs[] = (object) [
-                                'mirror_name' => $mirror->name,
-                                'mirror' => $mirror->url,
-                                'name' => $tag->nodeValue,
-                                'packages' => []
-                    ];
+                    $dirs[] = new Dir($url, $tag->nodeValue);
                 }
             }
-            $_SESSION['dirs'] = $dirs;
-//            foreach ($dirs as $d) {
-//                $doc->loadHTMLFile($d->mirror . $d->name);
-//                $tags = $doc->getElementsByTagName('a');
-//
-//                foreach ($tags as $tag) {
-//                    $len = (int) strlen($tag->nodeValue);
-//                    if (substr($tag->nodeValue, $len - 5) !== '.desc' &&
-//                            substr($tag->nodeValue, $len - 7) !== '.sha256' &&
-//                            substr($tag->nodeValue, $len - 4) !== '.sig') {
-//                        $pkg = explode('-', $tag->nodeValue);
-//                        $d->packages[] = (object) [
-//                                    'mirror_name' => $d->mirror_name,
-//                                    'mirror' => $d->mirror,
-//                                    'dir' => $d->name,
-//                                    'pkgname' => $pkg[0],
-//                                    'version' => count($pkg)
-//                        ];
-//                    }
-//                }
-//                $mirrors[] = (object) ['url' => $mirror->url, 'dirs' => $dirs];
-//        }
+
+            foreach ($dirs as $d) {
+                $_SESSION['dirs'] = $dirs;
+                $doc->loadHTMLFile($d->mirror . $d->name);
+                $tags = $doc->getElementsByTagName('a');
+
+                foreach ($tags as $tag) {
+                    $len = (int) strlen($tag->nodeValue);
+                    $pos = (int) strpos($tag->nodeValue, '.mz');
+                    if ($pos === $len - 3) {
+                        $pkg = explode('-', $tag->nodeValue);
+                        $package = new Package($d->mirror, $d->name, $pkg[0], $pkg[1]);
+                        $d->add_package($package);
+                    }
+                }
+            }
+            $mirrors[] = new Mirror($url, $dirs);
         }
         $_SESSION['mirrors'] = $mirrors;
         ?>
@@ -102,17 +95,44 @@ Finalidade: No início a terra era vazia e sem forma.
             <?php
             $packages = [];
             foreach ($mirrors as $mirror) {
-                foreach ($mirror->dirs as $dir) {
-                    foreach ($dir->packages as $package) {
-                        $packages[] = $package;
-                    }
+                $dirs = $mirror->get_dirs();
+                foreach ($dirs as $dir) {
+                    $packages[] = $dir->get_packages();
                 }
             }
 
             if (count($packages) > 0) {
-                #require 'html/tabela.php';
-            }
-            ?>
+                ?>
+                <hr>
+                <table id="table-packages" class="table table-sm table-hover">
+                    <thead class="thead-dark text-left">
+                        <tr>
+                            <th scope="col">Instalado</th>
+                            <th>Nome do pacote</th>
+                            <th>Versão</th>
+                            <th>Espelho</th>
+                            <th>Mantenedor</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php
+                        foreach ($packages as $package) {
+                            ?>
+                            <tr scope="row">
+                                <td><!--?php echo $Os->instalado($pkgname) ?--></td>
+                                <td><?php echo $package->pkgname ?></td>
+                                <td><?php echo $package->version ?></td>
+                                <td><?php echo $package->mirror ?></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <?php
+                        }
+                    }
+                    ?>
+                </tbody>
+            </table>
             <!--            <div id="mussum-ipsun" class="text-justify">
                             <img src="img/mussum-ipsun.png" class="float-left" alt="Cacildis">
             <!--?php require_once './bin/etc.php' ?>

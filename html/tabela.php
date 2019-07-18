@@ -1,5 +1,4 @@
 <?php
-
 /*
  * A licença MIT
  *
@@ -29,19 +28,35 @@
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
-
-session_start();
-
-require_once 'bin/Mirror.php';
-if (!isset($_SESSION['mirrors_urls'])) {
-    $_SESSION['mirrors_urls'] = [
-        (object) ['name' => 'Oficial', 'url' => 'http://mazonos.com/packages/'],
-        (object) ['name' => 'Rumbler', 'url' => 'http://mazonos.com/rumbler/Packages-for-Mazon/']
-    ];
-}
-
-if (!isset($_SESSION['mirrors'])) {
-    $_SESSION['mirrors'] = [];
-}
-
-
+?>
+<hr>
+<table id="table-packages" class="table table-sm table-hover">
+    <thead class="thead-dark text-left">
+        <tr>
+            <th scope="col">Instalado</th>
+            <th>Nome do pacote</th>
+            <th>Versão</th>
+            <th>Espelho</th>
+            <th>Diretório</th>
+            <th>Mantenedor</th>
+            <th>Descrição</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+        foreach ($packages as $package) {
+            ?>
+            <tr scope="row">
+                <td><!--?php echo $Os->instalado($pkgname) ?--></td>
+                <td><?php echo $package->pkgname ?></td>
+                <td><?php echo $package->version ?></td>
+                <td><?php echo '( ' . $package->mirror_name . ' )' . $package->mirror ?></td>
+                <td><?php echo $package->dir ?></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <?php
+        }
+        ?>
+    </tbody>
+</table>

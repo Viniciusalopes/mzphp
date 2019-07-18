@@ -12,7 +12,7 @@
     "sEmptyTable": "Nenhum pacote encontrado. :( sEmptyTable",
     "sInfo": "Exibindo _START_ a _END_ de _TOTAL_ pacotes",
     "sInfoEmpty": "Nenhum pacote encontrado.",
-    "sInfoFiltered": "<br><i>(Pesquisa feita em de _MAX_ pacotes no total)</i>",
+    "sInfoFiltered": "<br><i>(Pesquisa feita em _MAX_ pacotes no total)</i>",
     "sLengthMenu": "Exibir _MENU_ pacotes",
     "sLoadingRecords": "Lendo...",
     "sProcessing": "Processando...",

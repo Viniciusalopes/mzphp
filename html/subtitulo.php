@@ -30,6 +30,6 @@
  */
 ?>
 <div class="m-4">
-    <p class="h5"><strong>mzphp</strong> é um gerenciador de pacotes feito em php exclusivamente para a <strong><a href="http://mazonos.com">Mazon Os</a></strong></p>
-    <p>Com ele é possível administrar pacotes de programas em conjunto com o <strong><a href="https://bananapkg.github.io/">bananapkg</a></strong>.</p>
+    <p class="h5"><strong>mzphp</strong> é um gerenciador de pacotes feito em php exclusivamente para a <strong><a href="http://mazonos.com" target="_blank">Mazon Os</a></strong></p>
+    <p>Com ele é possível administrar pacotes de programas em conjunto com o <strong><a href="https://bananapkg.github.io/" target="_blank">bananapkg</a></strong>.</p>
 </div>
