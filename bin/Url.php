@@ -24,77 +24,27 @@
  * OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
  * ------------------------------------------------------------------------------------------
  * Projeto   : mzphp
- * Criado em : 15/07/2019
+ * Criado em : 18/07/2019
  * Autor     : Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
 
 /**
- * Description of Package
+ * Description of Url
  *
  * @author vovostudio
  */
-class Package {
-    # ATRIBUTOS
+class Url {
 
-    public $mirror;
-    public $dir;
-    public $pkgname;
-    public $version;
+    private $url;
 
-    # CONSTRUTOR
-
-    function __construct($mirror, $dir, $pkgname, $version) {
-        $this->mirror = $mirror;
-        $this->dir = $dir;
-        $this->pkgname = $pkgname;
-        $this->version = $version;
+    function get_url() {
+        return $this->url;
     }
 
-    # GET
-    function get_mirror() {
-        return $this->mirror;
-    }
-
-    function get_dir() {
-        return $this->dir;
-    }
-
-    function get_pkgname() {
-        return $this->pkgname;
-    }
-
-    function get_version() {
-        return $this->version;
-    }
-
-    #SET
-    private function set_mirror($mirror) {
-        $this->mirror = $mirror;
-    }
-
-    private function set_dir($dir) {
-        $this->dir = $dir;
-    }
-
-    private function set_pkgname($pkgname) {
-        $this->pkgname = $pkgname;
-    }
-
-    private function set_version($version) {
-        $this->version = $version;
-    }
-
-    # PERDIDAZINHA :p
-    function get_csv() {
-        if (($fp = fopen($this->filecsv, "r")) !== FALSE) {
-            while (($linha = fgetcsv($fp, 1000, ',', '"')) !== FALSE) {
-                $colecao[] = $linha;
-            }
-            fclose($fp);
-        }
-        return $colecao;
+    function set_url($url) {
+        $this->url = $url;
     }
 
 }

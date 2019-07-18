@@ -23,78 +23,14 @@
  * DELITO OU DE OUTRA FORMA, DECORRENTES DE, OU EM CONEXÃO COM O SOFTWARE OU O USO
  * OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
  * ------------------------------------------------------------------------------------------
- * Projeto   : mzphp
- * Criado em : 15/07/2019
- * Autor     : Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
- * Finalidade: 
+ * Projeto   : LightSun
+ * Criado em : 07/07/2019
+ * Autor     : Viniciusalopes (Vovolinux) <suporte@viniciusalopes.com.br>
+ * Finalidade: Limpar as variáveis da sessao
  * ------------------------------------------------------------------------------------------
  */
 
-/**
- * Description of Package
- *
- * @author vovostudio
- */
-class Package {
-    # ATRIBUTOS
-
-    public $mirror;
-    public $dir;
-    public $pkgname;
-    public $version;
-
-    # CONSTRUTOR
-
-    function __construct($mirror, $dir, $pkgname, $version) {
-        $this->mirror = $mirror;
-        $this->dir = $dir;
-        $this->pkgname = $pkgname;
-        $this->version = $version;
-    }
-
-    # GET
-    function get_mirror() {
-        return $this->mirror;
-    }
-
-    function get_dir() {
-        return $this->dir;
-    }
-
-    function get_pkgname() {
-        return $this->pkgname;
-    }
-
-    function get_version() {
-        return $this->version;
-    }
-
-    #SET
-    private function set_mirror($mirror) {
-        $this->mirror = $mirror;
-    }
-
-    private function set_dir($dir) {
-        $this->dir = $dir;
-    }
-
-    private function set_pkgname($pkgname) {
-        $this->pkgname = $pkgname;
-    }
-
-    private function set_version($version) {
-        $this->version = $version;
-    }
-
-    # PERDIDAZINHA :p
-    function get_csv() {
-        if (($fp = fopen($this->filecsv, "r")) !== FALSE) {
-            while (($linha = fgetcsv($fp, 1000, ',', '"')) !== FALSE) {
-                $colecao[] = $linha;
-            }
-            fclose($fp);
-        }
-        return $colecao;
-    }
-
-}
+require_once 'bin/sessao.php';
+session_destroy();
+clearstatcache();
+header('location: _sessao.php');

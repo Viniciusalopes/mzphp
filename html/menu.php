@@ -33,7 +33,7 @@
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <nav class="nav">
             <a class="navbar-brand active" href="#">mzPhp v0.2</a>
-            <a class="navbar-light" href="#">Sessão</a>
+            <a class="navbar-light" href="_sessao.php">Sessão</a>
         </nav>
     </nav>
 </div>    

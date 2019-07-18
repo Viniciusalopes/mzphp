@@ -37,9 +37,39 @@
  */
 class Mirror {
 
-    private $url = 'http://mazonos.com/packages/'; # Repositório oficial
-    
+    private $url = '';
+    private $dirs = [];
+    private $packages = [];
+
+    # Construtor
+    function __construct($url, $dirs) {
+        $this->url = $url;
+        $this->dirs = $dirs;
+    }
+
+    # GET
+
     function get_url() {
         return $this->url;
+    }
+
+    function get_dirs() {
+        return $this->dirs;
+    }
+
+    # SET
+
+    private function set_url($url) {
+        $this->url = $url;
+    }
+
+    private function set_dirs($dirs) {
+        $this->dirs = $dirs;
+    }
+
+    private function set_mirror($url, $dirs, $packages) {
+        $this->set_url($url);
+        $this->set_dirs($dirs);
+        $this->set_packages($packages);
     }
 }

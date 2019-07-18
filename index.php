@@ -1,8 +1,11 @@
 <?php
+//header('location: fora-do-ar.php');
 require_once './bin/sessao.php';
 require_once './bin/Mirror.php';
+require_once './bin/Dir.php';
 require_once './bin/Package.php';
-require_once './bin/Os.php';
+
+//require_once './bin/Os.php';
 //$Os = new Os();
 //try {
 //    if (file_exists('var/lib/mz/mz_base.csv')) {
@@ -53,43 +56,53 @@ Finalidade: No início a terra era vazia e sem forma.
         <?php require_once 'html/subtitulo.php' ?>
 
         <?php
-        $mirror = (new Mirror())->get_url();
-
-        $doc = new DOMDocument();
-        $doc->loadHTMLFile($mirror);
-        $tags = $doc->getElementsByTagName('a');
-
+        $mirrors = [];
         $dirs = [];
-        foreach ($tags as $tag) {
-            if (strpos($tag->nodeValue, '/') !== FALSE) {
-                $dirs[] = (object) ['dir' => $tag->nodeValue];
-            }
-        }
-        $_SESSION['dirs'] = $dirs;
 
-        $packages = [];
-        foreach ($dirs as $d) {
-            $doc->loadHTMLFile($mirror . $d->dir);
+        foreach ($_SESSION['mirrors_urls'] as $url) {
+
+            $doc = new DOMDocument();
+
+            $doc->loadHTMLFile($url);
             $tags = $doc->getElementsByTagName('a');
 
             foreach ($tags as $tag) {
-                $len = (int) strlen($tag->nodeValue);
-                $pos = (int) strpos($tag->nodeValue, '.mz');
-                if ($pos === $len - 3) {
-                    $pkg = explode('-', $tag->nodeValue);
-                    $packages[] = (object) [
-                                'mirror' => $mirror,
-                                'dir' => $d->dir,
-                                'pkgname' => $pkg[0],
-                                'version' => $pkg[1]
-                    ];
+                if (strpos($tag->nodeValue, '/') !== FALSE) {
+                    $dirs[] = new Dir($url, $tag->nodeValue);
                 }
             }
+
+            foreach ($dirs as $d) {
+                $_SESSION['dirs'] = $dirs;
+                $doc->loadHTMLFile($d->mirror . $d->name);
+                $tags = $doc->getElementsByTagName('a');
+
+                foreach ($tags as $tag) {
+                    $len = (int) strlen($tag->nodeValue);
+                    $pos = (int) strpos($tag->nodeValue, '.mz');
+                    if ($pos === $len - 3) {
+                        $pkg = explode('-', $tag->nodeValue);
+                        $package = new Package($d->mirror, $d->name, $pkg[0], $pkg[1]);
+                        $d->add_package($package);
+                    }
+                }
+            }
+            $mirrors[] = new Mirror($url, $dirs);
         }
-        $_SESSION['packages'] = $packages;
+        $_SESSION['mirrors'] = $mirrors;
         ?>
         <div class="m-4">
-            <?php if (count($packages) > 0) { ?>
+            <?php
+            $packages = [];
+            foreach ($mirrors as $mirror) {
+                $dirs = $mirror->get_dirs();
+                foreach ($dirs as $dir) {
+                    $packages[] = $dir->get_packages();
+                }
+            }
+
+            if (count($packages) > 0) {
+                ?>
                 <hr>
                 <table id="table-packages" class="table table-sm table-hover">
                     <thead class="thead-dark text-left">

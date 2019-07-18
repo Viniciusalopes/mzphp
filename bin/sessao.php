@@ -1,6 +1,6 @@
 <?php
 
-/* 
+/*
  * A licença MIT
  *
  * Copyright 2019 Viniciusalopes Tecnologia <suporte@viniciusalopes.com.br>.
@@ -31,3 +31,17 @@
  */
 
 session_start();
+
+require_once 'bin/Mirror.php';
+if (!isset($_SESSION['mirrors_urls'])) {
+    $_SESSION['mirrors_urls'] = [
+//        'http://mazonos.com/packages/',
+        'http://mazonos.com/rumbler/Packages-for-Mazon/'
+    ];
+}
+
+if (!isset($_SESSION['mirrors'])) {
+    $_SESSION['mirrors'] = [];
+}
+
+
