@@ -1,0 +1,34 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer='Jefferson Rocha <root@slackjeff.com.br>'
+
+# Package Name
+pkgname='dconf'
+
+# Software Version
+version='0.26.1'
+
+# Build
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The DConf package contains a low-level configuration system.
+Its main purpose is to provide a backend to GSettings on platforms that
+dont already have configuration storage systems."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://ftp.gnome.org/pub/gnome/sources/dconf/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

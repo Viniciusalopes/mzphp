@@ -1,0 +1,45 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='gmime'
+
+# Software Version
+version='3.2.0'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="he GMime package contains a set of utilities for parsing and 
+creating messages using the Multipurpose Internet Mail Extension 
+(MIME) as defined by the applicable RFCs."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnome.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('glib' 'libgpg_error' 'gobject_introspection' 'libidn' 'vala' 'gpgme')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

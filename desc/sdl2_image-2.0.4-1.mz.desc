@@ -1,0 +1,46 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Jefferson Rocha <root@slackjeff.com.br>"
+
+# Package Name
+pkgname='sdl2_image'
+
+# Software Version
+version='2.0.4'
+
+# Build number
+build='1'
+
+# License
+license=''
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="SDL_image is an image file loading library. 
+It loads images as SDL surfaces and textures, and supports the following
+formats: BMP, GIF, JPEG, LBM, PCX, PNG, PNM, SVG, TGA, TIFF, WEBP, XCF,
+XPM, XV"
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.libsdl.org/projects/SDL_image/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

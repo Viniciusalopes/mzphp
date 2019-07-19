@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='zip'
+
+# Software Version
+version='3.0'
+
+# Build number
+build='1'
+
+# License
+license='Info-ZIP'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The Zip package contains Zip utilities. These are useful for 
+compressing files into ZIP archives."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://sourceforge.net/infozip'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

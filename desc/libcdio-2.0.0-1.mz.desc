@@ -1,0 +1,46 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='libcdio'
+
+# Software Version
+version='2.0.0'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The libcdio is a library for CD-ROM and CD image access. 
+The associated libcdio-cdparanoia library reads audio from the 
+CD-ROM directly as data, with no analog step between, and writes 
+the data to a file or pipe as .wav, .aifc or as raw 16 bit linear PCM."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnu.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('libcddb')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

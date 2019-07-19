@@ -1,0 +1,49 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='squashfs'
+
+# Software Version
+version='4.3'
+
+# Build number
+build='1'
+
+# License
+license='GPL2'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Squashfs is a compressed read-only file system for Linux. Squashfs
+compresses files, inodes and directories, and supports block sizes from 4
+KiB up to 1 MiB for greater compression.
+
+Several compression algorithms are supported. Squashfs is also the name
+of free software, licensed under the GPL, for accessing Squashfs
+filesystems."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://sourceforge.net/projects/squashfs/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

@@ -1,0 +1,49 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='cyrus_sasl'
+
+# Software Version
+version='2.1.26'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The Cyrus SASL package contains a Simple Authentication and 
+Security Layer, a method for adding authentication support to 
+connection-based protocols. To use SASL, a protocol includes a command 
+for identifying and authenticating a user to a server and for optionally
+negotiating protection of subsequent protocol interactions. If its use 
+is negotiated, a security layer is inserted between the 
+protocol and the connection."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://cyrusimap.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('json_c' 'libgcrypt' 'lvm' 'popt' 'python2')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

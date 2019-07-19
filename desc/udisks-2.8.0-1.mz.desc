@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='udisks'
+
+# Software Version
+version='2.8.0'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The UDisks package provides a daemon, tools and libraries to 
+access and manipulate disks and storage devices."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/storaged-project/udisks'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('libatasmart' 'libblockdev' 'libgudev' 'polkit' 'btrfs_progs' 'dosfstools' 'gptfdisk' 'mdadm' 'xfsprogs' 'gobject_introspection' 'lvm2' 'ntfs_3g')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

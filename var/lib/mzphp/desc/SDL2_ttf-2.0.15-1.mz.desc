@@ -1,0 +1,37 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='SDL2_ttf'
+
+# Software Version
+version='2.0.15'
+
+# Build number
+build='1'
+
+# License
+license='zlib license'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="This is a sample library which allows you to use TrueType fonts in
+your SDL applications. It comes with an example program 'showfont' which
+displays an example string for a given TrueType font file."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://www.libsdl.org/projects/SDL_ttf/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('SDL2-2.0.5')

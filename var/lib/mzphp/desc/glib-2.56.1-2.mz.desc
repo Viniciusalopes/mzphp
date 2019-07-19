@@ -1,0 +1,35 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Hugo Torres de Lima <hugotorres@protonmail.ch>"
+
+# Package Name
+pkgname='glib'
+
+# Software Version
+version='2.56.1'
+
+# Build number
+build='2'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The GLib package contains low-level libraries useful for providing
+data structure handling for C, portability wrappers and interfaces for
+such runtime functionality as an event loop, threads, dynamic loading
+and an object system."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/GNOME/glib'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('pcre')

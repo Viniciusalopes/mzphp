@@ -1,0 +1,48 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='pth'
+
+# Software Version
+version='2.0.7'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The Pth package contains a very portable POSIX/ANSI-C based 
+library for Unix platforms which provides non-preemptive priority-based 
+scheduling for multiple threads of execution (multithreading) inside 
+event-driven applications. All threads run in the same address space 
+of the server application, but each thread has its own individual 
+program-counter, run-time stack, signal mask and errno variable."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnu.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

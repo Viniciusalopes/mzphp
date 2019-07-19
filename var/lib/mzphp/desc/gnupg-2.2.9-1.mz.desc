@@ -1,0 +1,49 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='gnupg'
+
+# Software Version
+version='2.2.9'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The GnuPG package is GNU's tool for secure communication and 
+data storage. It can be used to encrypt data and to create digital 
+signatures. It includes an advanced key management facility and is 
+compliant with the proposed OpenPGP Internet standard as described 
+in RFC2440 and the S/MIME standard as described by several RFCs. 
+GnuPG 2 is the stable version of GnuPG integrating support 
+for OpenPGP and S/MIME."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnupg.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('libassuan' 'libgcrypt' 'libgpg_error' 'libksba' 'npth' 'curl' 'gnutls' 'sqlite' 'openldap_client')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

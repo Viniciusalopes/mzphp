@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='librsvg'
+
+# Software Version
+version='2.42.2'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The librsvg package contains a library and tools used 
+to manipulate, convert and view Scalable Vector Graphic (SVG) images."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnome.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('gdk_pixbuf' 'libcroco' 'pango' 'gobject_introspection' 'gtk3' 'vala')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

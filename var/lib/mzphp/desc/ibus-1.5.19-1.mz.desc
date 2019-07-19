@@ -1,0 +1,45 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='ibus'
+
+# Software Version
+version='1.5.19'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="ibus is an Intelligent Input Bus. It is a new input framework for 
+Linux OS. It provides a full featured and user friendly input 
+method user interface."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/ibus/ibus'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('dconf' 'isocodes' 'vala' 'gobject_introspection' 'gtk2' 'libnotify' 'dbus_python' 'pygobject' 'libxkbcommon' 'wayland' 'ucd')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

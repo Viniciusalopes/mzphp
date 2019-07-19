@@ -1,0 +1,34 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='bubblegum'
+
+# Software Version
+version='1.0'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="You're a chewing gum looking for your princess. Seek it before it
+falls into the forces of evil.
+Game developed with free softwares, godot, gimp, audacity."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://diego.sarzi.com.br/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

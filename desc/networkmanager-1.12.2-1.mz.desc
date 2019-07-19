@@ -1,0 +1,47 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='networkmanager'
+
+# Software Version
+version='1.12.2'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="NetworkManager is a set of co-operative tools that make networking
+simple and straightforward. Whether WiFi, wired, 3G, or Bluetooth, 
+NetworkManager allows you to quickly move from one network to another: 
+Once a network has been configured and joined once, it can be detected 
+and re-joined automatically the next time it's available."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnome.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('dbus_glib' 'libndp' 'libnl' 'nss' 'consolekit2' 'curl' 'dhcp' 'gobject_introspection' 'iptables' 'polkit' 'pygobject3' 'upower' 'vala' 'wpa_supplicant' 'bluez' 'qt5_base' 'modemmanager')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

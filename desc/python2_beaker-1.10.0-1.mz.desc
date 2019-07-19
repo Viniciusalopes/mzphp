@@ -1,0 +1,45 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='python2_beaker'
+
+# Software Version
+version='1.10.0'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Beaker is a Python module that implements caching and sessions 
+WSGI middleware for use with web applications and stand-alone Python 
+scripts and applications."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://pypi.org/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('python2')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

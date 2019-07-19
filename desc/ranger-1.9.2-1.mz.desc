@@ -1,0 +1,46 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='ranger'
+
+# Software Version
+version='1.9.2'
+
+# Build number
+build='1'
+
+# License
+license='GPL3'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="ranger is a console file manager with VI key bindings. It provides
+a minimalistic and nice curses interface with a view on the directory
+hierarchy. It ships with rifle, a file launcher that is good at
+automatically finding out which program to use for what file type."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/ranger/ranger'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

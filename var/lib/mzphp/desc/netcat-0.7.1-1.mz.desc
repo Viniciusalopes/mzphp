@@ -1,0 +1,42 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Hugo Torres de Lima <hugotorres@protonmail.ch>"
+
+# Package Name
+pkgname='netcat'
+
+# Software Version
+version='0.7.1'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Netcat is a featured networking utility which reads and writes 
+data across network connections, using the TCP/IP protocol.
+It is designed to be a reliable 'back-end' tool that can be used 
+directly or easily driven by other programs and scripts. At the same 
+time, it is a feature-rich network debugging and exploration tool, 
+since it can create almost any kind of connection you would need and 
+has several interesting built-in capabilities.
+Although the project development is marked as beta, GNU Netcat is 
+already enough stable for everyday use.
+Goals of this project are full compatibility with the original nc 1.10 
+that is widely used, and portability."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://netcat.sourceforge.net/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

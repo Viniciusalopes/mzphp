@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='zsh'
+
+# Software Version
+version='5.7.1'
+
+# Build number
+build='1'
+
+# License
+license='CUSTOM'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The zsh package contains a command interpreter (shell) usable as 
+an interactive login shell and as a shell script command processor"
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://zsh.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('pcre' 'libcap' 'gdbm')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

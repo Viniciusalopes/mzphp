@@ -35,8 +35,18 @@ session_start();
 require_once 'bin/Mirror.php';
 if (!isset($_SESSION['mirrors_urls'])) {
     $_SESSION['mirrors_urls'] = [
-        (object) ['name' => 'Oficial', 'url' => 'http://mazonos.com/packages/'],
-        (object) ['name' => 'Rumbler', 'url' => 'http://mazonos.com/rumbler/Packages-for-Mazon/']
+        (object) [
+            'name' => 'Oficial',
+            'dirlib' => '/var/lib/mz/', 
+            'filecsv' => '/var/lib/mz/mz_base.csv',
+            'url' => 'http://mazonos.com/packages/'
+        ],
+        (object) [
+            'name' => 'Rumbler',
+            'dirlib' => '/var/lib/mzphp/',
+            'filecsv' => '/var/lib/mzphp/mzphp_base.csv',
+            'url' => 'http://mazonos.com/rumbler/Packages-for-Mazon/'
+        ]
     ];
 }
 

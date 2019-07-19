@@ -1,0 +1,45 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='directfb'
+
+# Software Version
+version='1.6.3'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="DirectFB is a graphics library which was designed with embedded
+   systems in mind. It offers maximum hardware accelerated performance
+   at a minimum of resource usage and overhead."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.directfb.org/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('sdl' 'xorg_server' 'freetype')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

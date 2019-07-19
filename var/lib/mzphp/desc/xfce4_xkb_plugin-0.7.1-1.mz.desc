@@ -1,0 +1,47 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='xfce4_xkb_plugin'
+
+# Software Version
+version='0.7.1'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The Xfce4 Keyboard Plugin package contains a very customizable 
+and useful Xfce4 Panel plugin to setup and use multiple 
+(currently up to 4 due to X11 protocol limitation) keyboard layouts and 
+switch between them, individually by application, individually 
+by window, or globally for the desktop and all applications and windows."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://xfce.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('librsvg' 'libxklavier' 'xfce4_painel')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

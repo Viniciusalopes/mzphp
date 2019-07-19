@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='keybinder'
+
+# Software Version
+version='3.0'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="is a library for registering global key bindings, for gtk-based 
+applications in X11. With gir bindings"
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/kupferlauncher/keybinder'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('glib' 'gtk+3' 'gobject_introspection')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

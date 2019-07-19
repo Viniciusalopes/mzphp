@@ -1,0 +1,36 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='libatomic_ops'
+
+# Software Version
+version='7.6.6'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="libatomic_ops provides implementations for atomic memory update
+operations on a number of architectures. This allows direct use of these
+in reasonably portable code. Unlike earlier similar packages, this one
+explicitly considers memory barrier semantics, and allows the construction
+of code that involves minimum overhead across a variety of architectures."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.linuxfromscratch.org/blfs/view/8.3/general/libatomic_ops.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

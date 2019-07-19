@@ -1,0 +1,46 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='libedit'
+
+# Software Version
+version='3.1'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="This is an autotool- and libtoolized port of the NetBSD Editline 
+library (libedit). This Berkeley-style licensed command line editor 
+library provides generic line editing, history, and tokenization 
+functions, similar to those found in GNU Readline."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://thrysoee.dk/editline/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

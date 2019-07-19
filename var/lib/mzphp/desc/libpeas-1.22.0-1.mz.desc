@@ -1,0 +1,33 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer='Jefferson Rocha <root@slackjeff.com.br>'
+
+# Package Name
+pkgname='libpeas'
+
+# Software Version
+version='1.22.0'
+
+# Build
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc='libpeas is a GObject based plugins engine, and is targeted at
+giving every application the chance to assume its own extensibility.'
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://ftp.gnome.org/pub/gnome/sources/libpeas/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

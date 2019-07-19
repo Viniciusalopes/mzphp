@@ -1,0 +1,47 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Hugo Torres de Lima <hugotorres@protonmail.ch>"
+
+# Package Name
+pkgname='freetype'
+
+# Software Version
+version='2.10.0'
+
+# Build number
+build='1'
+
+# License
+license='FTL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="FreeType is a freely available software library to render fonts.
+
+It is written in C, designed to be small, efficient, highly
+customizable, and portable while capable of producing high-quality
+output (glyph images) of most vector and bitmap font formats."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://www.freetype.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

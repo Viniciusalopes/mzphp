@@ -1,0 +1,46 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Hugo Torres de Lima <hugotorres@protonmail.ch>"
+
+# Package Name
+pkgname='pango'
+
+# Software Version
+version='1.42.3'
+
+# Build number
+build='1'
+
+# License
+license='GPLv2'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Pango is a library for laying out and rendering of text, with an
+emphasis on internationalization. It can be used anywhere that text
+layout is needed, though most of the work on Pango so far has been done
+in the context of the GTK+ widget toolkit. "
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.linuxfromscratch.org/blfs/view/8.3/x/pango.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('glib-2' 'fribidi' 'fontconfig' 'freetype' 'harfbuzz')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

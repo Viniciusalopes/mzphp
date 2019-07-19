@@ -1,0 +1,48 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='libvdpau_va_gl'
+
+# Software Version
+version='0.4.0'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The libvdpau-va-gl package contains a library which implements 
+the VDPAU library. Libvdpau_va_gl uses OpenGL under the hood to 
+accelerate drawing and scaling and the VA-API (if available) to 
+accelerate video decoding. For now VA-API is available on some 
+Intel chips, and on some AMD video adapters with the help of 
+the libvdpau driver."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/i-rinat/libvdpau-va-gl'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('ffmpeg' 'libvdpau' 'libva' 'mesa')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

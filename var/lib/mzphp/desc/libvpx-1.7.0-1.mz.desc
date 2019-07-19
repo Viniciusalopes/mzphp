@@ -1,0 +1,34 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer='Diego Sarzi <diegosarzi@gmail.com>'
+
+# Package Name
+pkgname='libvpx'
+
+# Software Version
+version='1.7.0'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="This package, from the WebM project, provides the reference
+implementations of the VP8 Codec, used in most current html5 video,
+and of the next-generation VP9 Codec."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/libvpx.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('yasm-1.3.0' 'NASM-2.13.03' 'Which-2.21')

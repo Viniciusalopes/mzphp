@@ -1,0 +1,45 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Jefferson Rocha <root@slackjeff.com.br>"
+
+# Package Name
+pkgname='sdl_net'
+
+# Software Version
+version='1.2.8'
+
+# Build number
+build='1'
+
+# License
+license=''
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc=" This is a small sample cross-platform networking library, with a
+sample chat client and server application. The chat client uses the
+GUIlib GUI framework library."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://www.libsdl.org/projects/SDL_net/release-1.2.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

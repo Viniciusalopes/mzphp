@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Lincoln Lordello <lincoln.lordello@terra.com.br>"
+
+# Package Name
+pkgname='p7zip'
+
+# Software Version
+version='16.02'
+
+# Build number
+build='1'
+
+# License
+license='LGPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="p7zip is a port of the Windows program 7-zip.
+7-zip is a file archiver with the highest compression ratio."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://p7zip.sourceforge.net/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

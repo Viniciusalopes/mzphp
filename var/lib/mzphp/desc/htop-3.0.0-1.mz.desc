@@ -1,0 +1,34 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='htop'
+
+# Software Version
+version='3.0.0'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="This is htop, an interactive process viewer. It requires ncurses.
+It is developed primarily on Linux, but we also have code for running
+under FreeBSD and Mac OS X (help and testing are wanted for these platforms!)"
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/hishamhm/htop'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

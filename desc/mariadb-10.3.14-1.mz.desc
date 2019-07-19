@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='mariadb'
+
+# Software Version
+version='10.3.14'
+
+# Build number
+build='1'
+
+# License
+license='GPL2'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="MariaDB is a community-developed fork and a drop-in replacement 
+for the MySQL relational database management system."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://mariadb.org/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('cmake,libevent')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

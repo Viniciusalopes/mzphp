@@ -1,0 +1,43 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='xorg_server'
+
+# Software Version
+version='1.20.1'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The Xorg Server is the core of the X Window system."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://x.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('pixman' 'xorg_fonts' 'xkeyboard_config' 'libepoxy' 'acpid' 'nettle' 'libgcrypt' 'xcb_util_keysyms' 'xcb_util_image' 'xcb_util_renderuril' 'xcb_util_wm' 'ayland_protocols')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

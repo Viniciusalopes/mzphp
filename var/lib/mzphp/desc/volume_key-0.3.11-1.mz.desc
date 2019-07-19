@@ -1,0 +1,45 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='volume_key'
+
+# Software Version
+version='0.3.11'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The volume_key package provides a library for manipulating 
+storage volume encryption keys and storing them separately from volumes
+to handle forgotten passphrases."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://pagure.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('cryptsetup' 'glib' 'gpgme' 'python2')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

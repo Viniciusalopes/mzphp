@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='spotify'
+
+# Software Version
+version='1.0.98.78'
+
+# Build number
+build='1'
+
+# License
+license='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Music Stream"
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://www.spotify.com'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('libasound,atk-bridge,libatomic,curl,gconf,glib,gtk2,libnss,libssl,libxss,libxtst,xdg_utils,libavcodec,libavcodec_extra,libavcodec_ffmpeg,
+libavcodec_ffmpeg_extra,libavformat,libavformat_ffmpeg,libnotify')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

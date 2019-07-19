@@ -1,0 +1,45 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='libusb_compat'
+
+# Software Version
+version='0.1.5'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The libusb-compat package aims to look, feel and behave exactly 
+like libusb-0.1. It is a compatibility layer needed by packages 
+that have not been upgraded to the libusb-1.0 API."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://sourceforge.net/projects/libusb/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('libusb')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

@@ -1,0 +1,34 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='mpc'
+
+# Software Version
+version='1.1.0'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The MPC package contains a library for the arithmetic of complex 
+numbers with arbitrarily high precision and correct 
+rounding of the result."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.multiprecision.org/mpc/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

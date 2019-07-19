@@ -1,0 +1,46 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='brasero'
+
+# Software Version
+version='3.12.2'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Brasero is an application used to burn CD/DVD on the GNOME 
+Desktop. It is designed to be as simple as possible and has some 
+unique features that enable users to create their discs easily 
+and quickly."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnome.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('gst_plugin_base' 'itstool' 'libcanberra' 'libnotify' 'gobject_introspection' 'libburn' 'libisofs' 'totem_pl_parser' 'traker' 'dvd+rw_tools' 'gvfs' 'cdrdao' 'libdvdcss' 'cdrtools')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

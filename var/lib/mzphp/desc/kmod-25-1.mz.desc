@@ -1,0 +1,33 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='kmod'
+
+# Software Version
+version='25'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The Kmod package contains libraries and utilities for loading
+kernel modules."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.linuxfromscratch.org/lfs/view/stable/chapter06/kmod.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

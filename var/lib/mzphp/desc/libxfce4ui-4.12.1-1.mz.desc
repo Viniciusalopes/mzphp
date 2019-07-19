@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='libxfce4ui'
+
+# Software Version
+version='4.12.1'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The libxfce4ui package contains GTK+ 2 widgets that are 
+used by other Xfce applications"
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://xfce.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('gtk2' 'gtk3' 'xfconf' 'startup_notification')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

@@ -1,0 +1,46 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Jefferson Rocha <root@slackjeff.com.br>"
+
+# Package Name
+pkgname='sdl_mixer'
+
+# Software Version
+version='1.2.12'
+
+# Build number
+build='1'
+
+# License
+license=''
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="SDL_mixer is a sample multi-channel audio mixer library. 
+It supports any number of simultaneously playing channels of 16 bit
+stereo audio, plus a single channel of music, mixed by the popular
+FLAC, MikMod MOD, Timidity MIDI, Ogg Vorbis, and SMPEG MP3 libraries."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://www.libsdl.org/projects/SDL_mixer/release-1.2.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

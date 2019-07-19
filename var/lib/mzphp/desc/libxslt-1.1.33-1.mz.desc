@@ -1,0 +1,36 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Emerson Alves <emerson_alves262016@hotmail.com>"
+
+# Package Name
+pkgname='libxslt'
+
+# Software Version
+version='1.1.33'
+
+# Build number
+build='1'
+
+# License
+license='none'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The libxslt package contains XSLT libraries used for extending 
+libxml2 libraries to support XSLT files."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.linuxfromscratch.org/blfs/view/svn/general/libxslt.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('libxml2-2.9.9')

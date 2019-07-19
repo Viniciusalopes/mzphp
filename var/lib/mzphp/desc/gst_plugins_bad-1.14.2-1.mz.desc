@@ -1,0 +1,47 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='gst_plugins_bad'
+
+# Software Version
+version='1.14.2'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The GStreamer Bad Plug-ins package contains a set of plug-ins 
+that aren't up to par compared to the rest. They might be close 
+to being good quality, but they're missing something - be it a good 
+code review, some documentation, a set of tests, a real live maintainer, 
+or some actual wide use."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gstreamer.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('gst_plugin_base' 'libdvdread' 'libdvdnav' 'llvm' 'soundtouch' 'bluez' 'clutter' 'curl' 'faac' 'faad2' 'gnutls' 'gtk2' 'gtk3' 'lcms' 'libass' 'libexif' 'libgcrypt' 'libgudev' 'libusb' 'libvdpau' 'libwebp' 'nettle' 'opus' 'qt5_base' 'sdl' 'wayland' 'x256' 'xorg_libraries')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

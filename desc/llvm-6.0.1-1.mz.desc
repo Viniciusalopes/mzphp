@@ -1,0 +1,49 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='llvm'
+
+# Software Version
+version='6.0.1'
+
+# Build number
+build='1'
+
+# License
+license='VARIOUS'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The LLVM package contains a collection of modular and reusable 
+compiler and toolchain technologies. The Low Level Virtual Machine 
+(LLVM) Core libraries provide a modern source and target-independent 
+optimizer, along with code generation support for many popular CPUs 
+(as well as some less common ones!). These libraries are built around 
+a well specified code representation known as the LLVM 
+intermediate representation (LLVM IR)."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://llvm.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

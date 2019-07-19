@@ -1,0 +1,38 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='which'
+
+# Software Version
+version='2.21'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The presence or absence of the which program in the main LFS book
+is probably one of the most contentious issues on the mailing lists.
+
+It has resulted in at least one flame war in the past. To hopefully put
+an end to this once and for all, presented here are two options for
+equipping your system with which. The question of which 'which'
+is for you to decide."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.linuxfromscratch.org/blfs/view/svn/general/which.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

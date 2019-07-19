@@ -1,0 +1,39 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+######################################################################
+
+# Package Maintainer Name
+maintainer="Vilmar Catafesta  <vcatafesta@gmail.com>"
+
+# Package Name
+pkgname="dnsmasq"
+
+# Software Version
+version="2.80.32"
+
+# Versão de construção do pacote (build)
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Dnsmasq provides network infrastructure for small networks: DNS, 
+DHCP, router advertisement and network boot. It is designed to be 
+lightweight and have a small footprint, suitable for resource 
+constrained routers and firewalls. It has also been widely used 
+for tethering on smartphones and portable hotspots, and to support 
+virtual networking in virtualisation frameworks. Supported platforms 
+include Linux (with glibc and uclibc), Android, *BSD, and Mac OS X. 
+Dnsmasq is included in most Linux distributions and the 
+ports systems of FreeBSD, OpenBSD and NetBSD. Dnsmasq provides full 
+IPv6 support."
+#=============RULER=====================================================|
+
+# URL SOFTWARE
+url="http://www.thekelleys.org.uk/dnsmasq/"
+
+# What packages do your package need to run?
+# This array is optional.
+dep=("")

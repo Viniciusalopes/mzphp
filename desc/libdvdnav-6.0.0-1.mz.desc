@@ -1,0 +1,45 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='libdvdnav'
+
+# Software Version
+version='6.0.0'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="libdvdnav is a library that allows easy use of sophisticated 
+DVD navigation features such as DVD menus, multiangle playback and 
+even interactive DVD games."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://videolan.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('libdvdread')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

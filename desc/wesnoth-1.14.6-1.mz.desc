@@ -1,0 +1,37 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='wesnoth'
+
+# Software Version
+version='1.14.6'
+
+# Build number
+build='1'
+
+# License
+license='GPL2+'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The Battle for Wesnoth is an open source, turn-based strategy
+game with a high fantasy theme. It features both singleplayer and
+online/hotseat multiplayer combat."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://www.wesnoth.org/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('SDL2_image' 'SDL2_mixer' 'SDL2_tff' 'SDL2')

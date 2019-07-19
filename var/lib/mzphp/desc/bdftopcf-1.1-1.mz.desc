@@ -1,0 +1,33 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer='Jefferson Rocha <root@slackjeff.com.br>'
+
+# Package Name
+pkgname='bdftopcf'
+
+# Software Version
+version='1.1'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="convert X font from Bitmap Distribution Format to Portable
+Compiled Format"
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://www.x.org/archive/current/doc/man/man1/bdftopcf.1.xhtml'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

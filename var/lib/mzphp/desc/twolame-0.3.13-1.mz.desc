@@ -1,0 +1,43 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Lincoln Lordello <lincoln.lordello@terra.com.br>"
+
+# Package Name
+pkgname='twolame'
+
+# Software Version
+version='0.3.13'
+
+# Build number
+build='1'
+
+# License
+license='LGPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="TwoLAME is an optimized MPEG Audio Layer 2 (MP2) encoder."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.twolame.org/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

@@ -1,0 +1,48 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='libassuan'
+
+# Software Version
+version='2.5.1'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The libassuan package contains an inter process communication 
+library used by some of the other GnuPG related packages. libassuan's 
+primary use is to allow a client to interact with a non-persistent 
+server. libassuan is not, however, limited to use with GnuPG servers 
+and clients. It was designed to be flexible enough to meet the demands 
+of many transaction based environments with non-persistent servers."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnupg.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('libgpg_error')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

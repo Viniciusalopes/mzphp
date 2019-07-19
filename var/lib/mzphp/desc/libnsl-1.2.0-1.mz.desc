@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='libnsl'
+
+# Software Version
+version='1.2.0'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The libnsl package contains the public client interface for 
+NIS(YP) and NIS+. It replaces the NIS library that used to be in glibc."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/thkukuk/libnsl'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('rpcsvc_proto' 'libtirrpc')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

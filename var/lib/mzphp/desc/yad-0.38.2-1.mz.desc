@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='yad'
+
+# Software Version
+version='0.38.2'
+
+# Build number
+build='1'
+
+# License
+license=''
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="YAD (yet another dialog) is a tool for create graphical dialogs
+from shell scripts"
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://sourceforge.net/projects/yad-dialog/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

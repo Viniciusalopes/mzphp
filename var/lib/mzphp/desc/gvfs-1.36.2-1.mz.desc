@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='gvfs'
+
+# Software Version
+version='1.36.2'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The Gvfs package is a userspace virtual filesystem designed 
+to work with the I/O abstractions of GLib's GIO library."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnome.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('dbus' 'glib' 'libsecret' 'libsoup' 'gcr' 'gtk3' 'libgudev' 'udisks' 'avahi' 'bluez' 'dbus_glib' 'fuse' 'libarchive' 'libgcrypt' 'libxml2' 'libxslt' 'openssh' 'libmtp')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

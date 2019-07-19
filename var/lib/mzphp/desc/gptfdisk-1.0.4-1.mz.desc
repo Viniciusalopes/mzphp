@@ -1,0 +1,48 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='gptfdisk'
+
+# Software Version
+version='1.0.4'
+
+# Build number
+build='1'
+
+# License
+license='GPL'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="The gptfdisk package is a set of programs for creation and 
+maintenance of GUID Partition Table (GPT) disk drives. A GPT partitioned
+ disk is required for drives greater than 2 TB and is a modern 
+replacement for legacy PC-BIOS partitioned disk drives that use
+a Master Boot Record (MBR). The main program, gdisk, has an 
+inteface similar to the classic fdisk program."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://sourceforge.net/gptfdisk'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('popt' 'icu')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

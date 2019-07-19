@@ -1,0 +1,37 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='acpid'
+
+# Software Version
+version='2.0.30'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Acpid (Advanced Configuration and Power Interface event daemon) 
+is a completely flexible, totally extensible daemon for delivering 
+ACPI events. It listens on netlink interface and when an event occurs, 
+executes programs to handle the event. The programs it executes are 
+configured through a set of configuration files, which can be dropped 
+into place by packages or by the user."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://sourceforge.net/projects/acpid2/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('pm-utils')

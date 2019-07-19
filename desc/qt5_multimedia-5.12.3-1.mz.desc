@@ -1,0 +1,43 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Rumbler Soppa <rumbler.soppa@gmail.com>"
+
+# Package Name
+pkgname='qt5_multimedia'
+
+# Software Version
+version='5.12.3'
+
+# Build number
+build='1'
+
+# License
+license='VARIOUS'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Classes for audio, video, radio and camera functionality"
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://qt.io'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('qt5_base' 'qt5_declarative' 'pulseaudio' 'gst_plugin_base')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.2"
+

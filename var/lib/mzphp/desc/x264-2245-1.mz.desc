@@ -1,0 +1,33 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer='Diego Sarzi <diegosarzi@gmail.com>'
+
+# Package Name
+pkgname='x264'
+
+# Software Version
+version='2245'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="x264 package provides a library for encoding video streams into
+the H.264/MPEG-4 AVC format."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/x264.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
