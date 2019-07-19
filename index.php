@@ -55,69 +55,139 @@ Finalidade: No início a terra era vazia e sem forma.
         <?php require_once 'html/subtitulo.php' ?>
 
         <?php
-        $mirrors = [];
-        $dirs = [];
+        $urls = [];
+        $packages = [];
+
         $doc = new DOMDocument();
 
         foreach ($_SESSION['mirrors_urls'] as $mirror) {
             $doc->loadHTMLFile($mirror->url);
             $tags = $doc->getElementsByTagName('a');
 
+            # Diretórios do repositório
+
             foreach ($tags as $tag) {
+                $url = (object) [
+                            'mirror_name' => $mirror->name,
+                            'mirror' => $mirror->url,
+                            'folder' => ''
+                ];
                 if (strpos($tag->nodeValue, '/') !== FALSE) {
-                    $dirs[] = (object) [
-                                'mirror_name' => $mirror->name,
-                                'mirror' => $mirror->url,
-                                'name' => $tag->nodeValue,
-                                'packages' => []
-                    ];
+                    $url->folder = $tag->nodeValue;
+                    $urls[] = $url;
                 }
             }
-            $_SESSION['dirs'] = $dirs;
-//            foreach ($dirs as $d) {
-//                $doc->loadHTMLFile($d->mirror . $d->name);
-//                $tags = $doc->getElementsByTagName('a');
-//
-//                foreach ($tags as $tag) {
-//                    $len = (int) strlen($tag->nodeValue);
-//                    if (substr($tag->nodeValue, $len - 5) !== '.desc' &&
-//                            substr($tag->nodeValue, $len - 7) !== '.sha256' &&
-//                            substr($tag->nodeValue, $len - 4) !== '.sig') {
-//                        $pkg = explode('-', $tag->nodeValue);
-//                        $d->packages[] = (object) [
-//                                    'mirror_name' => $d->mirror_name,
-//                                    'mirror' => $d->mirror,
-//                                    'dir' => $d->name,
-//                                    'pkgname' => $pkg[0],
-//                                    'version' => count($pkg)
-//                        ];
-//                    }
-//                }
-//                $mirrors[] = (object) ['url' => $mirror->url, 'dirs' => $dirs];
-//        }
         }
-        $_SESSION['mirrors'] = $mirrors;
-        ?>
-        <div class="m-4">
-            <?php
-            $packages = [];
-            foreach ($mirrors as $mirror) {
-                foreach ($mirror->dirs as $dir) {
-                    foreach ($dir->packages as $package) {
-                        $packages[] = $package;
+        $_SESSION['urls'] = $urls;
+
+        # Packages, descs e sha256
+
+        foreach ($urls as $url) {
+
+            $doc->loadHTMLFile($url->mirror . $url->folder);
+            $tags = $doc->getElementsByTagName('a');
+
+            $filecsv = 'mz/mz_base.csv';
+            if (file_exists($filecsv)) {
+                # Remove o .desc atual
+                shell_exec('rm -f ' . $filecsv);
+            }
+            
+            foreach ($tags as $tag) {
+                $package = (object) [
+                            'repo' => $url->mirror_name,
+                            'mirror' => $url->mirror,
+                            'folder' => $url->folder,
+                            'name' => '',
+                            'version' => '',
+                            'desc' => '',
+                            'maintainer' => '',
+                            'license' => '',
+                            'url' => '',
+                            'deps' => '',
+                            'file_mz' => '',
+                            'file_desc' => '',
+                            'file_sha256' => ''
+                ];
+
+                $txt = explode('-', $tag->nodeValue);
+                $len = strlen($tag->nodeValue);
+
+
+                if (substr($tag->nodeValue, $len - 3) === '.mz') {
+                    # Existe o .mz
+                    $package->name = $txt[0];
+                    $package->version = str_replace($package->name . '-', '', str_replace('.mz', '', $tag->nodeValue));
+                    $package->file_mz = $tag->nodeValue;
+                }
+
+                if (substr($tag->nodeValue, $len - 5) === '.desc') {
+                    # Existe o .desc
+                    $package->file_desc = $tag->nodeValue;
+
+                    # Verifica se já existe .desc local/servidor
+                    $remote_file = $package->mirror . $package->folder . $package->file_desc;
+                    $file = 'desc/' . $package->file_desc;
+                    if (!file_exists($file)) {
+                        # Download do .desc
+                        shell_exec('curl -o ' . $file . ' ' . $remote_file);
+                    }
+
+                    # Detalhes do pacote
+                    $txt = explode('|', str_replace("\"", "'", str_replace('==', '', str_replace('#', '|'
+                                                    , explode('#####', explode('maintainer=', file_get_contents($file))[1])[0]))));
+
+                    $package->maintainer = '[' . trim(str_replace("'", '', explode('<', $txt[0])[0])) . ']';
+                    foreach ($txt as $key => $value) {
+                        if (strpos($value, 'license=') !== FALSE) {
+                            $package->license = '[' . trim(explode('license=', $txt[$key])[1]) . ']';
+                        }
+                        if (strpos($value, 'desc=') !== FALSE) {
+                            $package->desc = '[' . trim(explode("'", (explode('desc=', $txt[$key])[1]))[1]) . ']';
+                        }
+                        if (strpos($value, 'url=') !== FALSE) {
+                            $package->url = '[' . trim(explode("'", explode('url=', $txt[$key])[1])[1]) . ']';
+                        }
+                        if (strpos($value, 'dep=(') !== FALSE) {
+                            $package->deps = '[' . trim(str_replace(')', '', explode('dep=(', $value)[1])) . ']';
+                        }
                     }
                 }
-            }
 
-            if (count($packages) > 0) {
-                #require 'html/tabela.php';
+                if (substr($tag->nodeValue, $len - 7) === '.sha256') {
+                    # Existe o .sha256
+                    $package->file_sha256 = $tag->nodeValue;
+                }
+
+                # Constrói mz_base.csv
+                $texto = $package->folder . ','
+                        . $package->file_mz . ','
+                        . $package->file_desc . ','
+                        . $package->file_sha256;
+
+                //Variável $fp armazena a conexão com o arquivo e o tipo de ação.
+                $fp = fopen($filecsv, "a+");
+
+                //Escreve no arquivo aberto.
+                fwrite($fp, $texto);
+
+                //Fecha o arquivo.
+                fclose($fp);
+
+                $packages[] = $package;
             }
-            ?>
-            <!--            <div id="mussum-ipsun" class="text-justify">
-                            <img src="img/mussum-ipsun.png" class="float-left" alt="Cacildis">
-            <!--?php require_once './bin/etc.php' ?>
-        </div>-->
-        </div>
-        <?php require './html/scripts.php' ?>
-    </body>
+        }
+        $_SESSION['packages'] = $packages;
+        if (count($pkgs) > 0) {
+            #require 'html/tabela.php';
+            echo 'pronto.';
+        }
+        ?>
+        <!--            <div id="mussum-ipsun" class="text-justify">
+                        <img src="img/mussum-ipsun.png" class="float-left" alt="Cacildis">
+        <!--?php require_once './bin/etc.php' ?>
+    </div>-->
+    </div>
+    <?php require './html/scripts.php' ?>
+</body>
 </html>

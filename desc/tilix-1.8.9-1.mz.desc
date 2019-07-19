@@ -1,0 +1,44 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Lincoln Lordello <lincoln.lordello@terra.com.br>"
+
+# Package Name
+pkgname='tilix'
+
+# Software Version
+version='1.8.9'
+
+# Build number
+build='1'
+
+# License
+license=''
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Tilix is an advanced GTK3 tiling terminal emulator that follows
+the Gnome Human Interface Guidelines."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://gnunn1.github.io/tilix-web/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

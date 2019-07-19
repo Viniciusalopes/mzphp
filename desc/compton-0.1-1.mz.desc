@@ -1,0 +1,49 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='compton'
+
+# Software Version
+version='0.1'
+
+# Build number
+build='1'
+
+# License
+license=''
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="I was frustrated by the low amount of standalone lightweight
+compositors. Compton was forked from Dana Jansens' fork of xcompmgr
+and refactored. I fixed whatever bug I found, and added features I
+wanted. Things seem stable, but don't quote me on it. I will most
+likely be actively working on this until I get the features I want.
+This is also a learning experience for me. That is, I'm partially
+doing this out of a desire to learn Xlib."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://github.com/chjj/compton'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')
+
+
+#####################################################
+# Banana Infos, dont edit!!!
+#####################################################
+
+BANANAVERSION="2.1.5.3"
+

@@ -53,6 +53,7 @@ class Package {
     }
 
     # GET
+
     function get_mirror() {
         return $this->mirror;
     }
@@ -70,6 +71,7 @@ class Package {
     }
 
     #SET
+
     private function set_mirror($mirror) {
         $this->mirror = $mirror;
     }
@@ -84,17 +86,6 @@ class Package {
 
     private function set_version($version) {
         $this->version = $version;
-    }
-
-    # PERDIDAZINHA :p
-    function get_csv() {
-        if (($fp = fopen($this->filecsv, "r")) !== FALSE) {
-            while (($linha = fgetcsv($fp, 1000, ',', '"')) !== FALSE) {
-                $colecao[] = $linha;
-            }
-            fclose($fp);
-        }
-        return $colecao;
     }
 
 }

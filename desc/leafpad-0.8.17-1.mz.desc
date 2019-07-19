@@ -1,0 +1,36 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer='Jefferson Rocha <root@slackjeff.com.br>'
+
+# Package Name
+pkgname='leafpad'
+
+# Software Version
+version='0.8.17'
+
+# Build
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc='Leafpad is a simple GTK+ text editor that emphasizes simplicity.
+As development focuses on keeping weight down to a minimum, only the
+most essential features are implemented in the editor.
+Leafpad is simple to use, is easily compiled, requires few libraries,and
+starts up quickly.'
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://tarot.freeshell.org/leafpad/'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

@@ -1,0 +1,33 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Diego Sarzi <diegosarzi@gmail.com>"
+
+# Package Name
+pkgname='inkscape'
+
+# Software Version
+version='0.92.3'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Inkscape is a what you see is what you get Scalable Vector Graphics
+editor. It is useful for creating, viewing and changing SVG images."
+#=======================================================================|
+
+# URL SOFTWARE
+url='http://www.linuxfromscratch.org/blfs/view/8.3/xsoft/inkscape.html'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('Boost-1.68.0' 'GC-7.6.4' 'Gsl-2.5' 'Gtkmm-2.24.5' 'libxslt-1.1.32' 'Poppler-0.67.0' 'popt-1.16' 'Wget-1.19.5')

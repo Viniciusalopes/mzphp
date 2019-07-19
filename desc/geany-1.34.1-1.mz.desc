@@ -1,0 +1,36 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+#
+# !!!! USE SIMPLE QUOTES '' ONLY. !!!!
+######################################################################
+
+# Package Maintainer Name
+maintainer="Alan Ramalho <ramalho.sit@gmail.com>"
+
+# Package Name
+pkgname='geany'
+
+# Software Version
+version='1.34.1'
+
+# Build number
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="Geany is a small lightweight Integrated Development Environment. 
+It was developed to provide a small and fast IDE, which has only a few 
+dependencies from other packages. Another goal was to be as independent 
+as possible from a special Desktop Environment like KDE or GNOME - 
+Geany only requires the GTK2 runtime libraries."
+#=======================================================================|
+
+# URL SOFTWARE
+url='https://www.geany.org'
+
+# What packages do your package need to run?
+# This array is optional.
+dep=('')

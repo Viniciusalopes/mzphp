@@ -1,0 +1,30 @@
+######################################################################
+# This file is the heart of the package, it is necessary to do
+# conferences, so it is important you add the information correctly.
+# All variables are required! The array of dependencies *dep* does
+# not, but it's interesting you add for future reference.
+######################################################################
+
+# Package Maintainer Name
+maintainer="Jefferson Rocha <root@slackjeff.com.br>"
+
+# Package Name
+pkgname="hexchat"
+
+# Software Version
+version="2.14.2"
+
+# Build
+build='1'
+
+# SMALL Description of Software, NO Trespassing |
+#=============RULER=====================================================|
+desc="HexChat is an IRC chat program."
+#=======================================================================|
+
+# URL SOFTWARE
+url="https://hexchat.github.io/"
+
+# What packages do your package need to run?
+# This array is optional.
+dep=("lua")

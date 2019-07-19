@@ -28,22 +28,36 @@
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
+require_once '../bin/sessao.php';
 ?>
 <hr>
 <table id="table-packages" class="table table-sm table-hover">
     <thead class="thead-dark text-left">
         <tr>
             <th scope="col">Instalado</th>
-            <th>Nome do pacote</th>
-            <th>Versão</th>
+            <th>Repositório</th>
             <th>Espelho</th>
             <th>Diretório</th>
+            <th>Nome</th>
+            <th>Versão</th>
+            <th>Build</th>
             <th>Mantenedor</th>
             <th>Descrição</th>
         </tr>
     </thead>
     <tbody>
         <?php
+        /**
+         * ObjPackage
+          $pkgs[] = (object) [
+          'repo' => $pkg[0],
+          'mirror' => $pkg[1],
+          'folder' => $pkg[2],
+          'name' => $pkg[3],
+          'version' => $pkg[4],
+          'build' => $pkg[5]
+          ];
+         */
         foreach ($packages as $package) {
             ?>
             <tr scope="row">
@@ -53,7 +67,7 @@
                 <td><?php echo '( ' . $package->mirror_name . ' )' . $package->mirror ?></td>
                 <td><?php echo $package->dir ?></td>
                 <td></td>
-                <td></td>
+                <td><?php echo $package->desc ?></td>
             </tr>
             <?php
         }

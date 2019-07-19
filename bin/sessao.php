@@ -40,8 +40,5 @@ if (!isset($_SESSION['mirrors_urls'])) {
     ];
 }
 
-if (!isset($_SESSION['mirrors'])) {
-    $_SESSION['mirrors'] = [];
-}
 
 
