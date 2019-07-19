@@ -74,7 +74,6 @@ Finalidade: No início a terra era vazia e sem forma.
             foreach ($_SESSION['mirrors_urls'] as $mirror) {
 
                 # filecsv
-                #$filecsv = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($mirror->filecsv, 1) : $mirror->filecsv;
                 $filecsv = $mirror->filecsv;
 
                 if (file_exists($filecsv)) {
@@ -117,6 +116,9 @@ Finalidade: No início a terra era vazia e sem forma.
 
 
                     if (substr($tag->nodeValue, $len - 3) === '.mz') {
+                        
+                        if(file_exists($url->mirror_dirlib))
+                        
                         # Existe o .mz
                         $package = (object) [
                                     'repo' => $url->mirror_name,
@@ -142,15 +144,7 @@ Finalidade: No início a terra era vazia e sem forma.
                                 . $package->file_desc . ','
                                 . $package->file_sha256;
                         shell_exec("echo \"" . $texto . "\" >> " . $package->filecsv);
-                        # filecsv
-                        #$filecsv = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($package->filecsv, 1) : $package->filecsv;
-                        #$filecsv = $package->filecsv;
-                        //Variável $fp armazena a conexão com o arquivo e o tipo de ação.
-                        #$fp = fopen($filecsv, '+w');
-                        //Escreve no arquivo aberto.
-                        #fwrite($fp, $texto);
-                        //Fecha o arquivo.
-                        #fclose($fp);
+
                         # Inclui o package na lista
                         $packages[] = $package;
                     } // if existe .mz no repositório
@@ -161,7 +155,6 @@ Finalidade: No início a terra era vazia e sem forma.
 
                 # Verifica se já existe .desc local/servidor
                 $remote_file = $package->mirror . $package->folder . $package->file_desc;
-                #$dirlib = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($package->dirlib, 1) : $package->dirlib;
                 $dirlib = $package->dirlib;
                 $file = $dirlib . 'desc/' . $package->file_desc;
                 if (!file_exists($file)) {
