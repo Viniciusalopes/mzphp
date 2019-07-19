@@ -1,5 +1,8 @@
 <?php
-header('location: fora-do-ar.php');
+if ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') {
+    header('location: fora-do-ar.php');
+    return;
+}
 require_once './bin/sessao.php';
 $_SESSION['time'] = (object) [
             'inicius' => date('Yjd-h:i:s'),
@@ -59,151 +62,158 @@ Finalidade: No início a terra era vazia e sem forma.
         <?php require_once 'html/subtitulo.php' ?>
 
         <?php
-        $_SESSION['server'] = $_SERVER;
-        $urls = [];
-        $packages = [];
-        $_SESSION['filedescs'] = [];
+        try {
 
-        $doc = new DOMDocument();
 
-        foreach ($_SESSION['mirrors_urls'] as $mirror) {
+            $_SESSION['server'] = $_SERVER;
+            $urls = [];
+            $packages = [];
 
-            # filecsv
-            $filecsv = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($mirror->filecsv, 1) : $mirror->filecsv;
+            $doc = new DOMDocument();
 
-            if (file_exists($filecsv)) {
-                # Remove o .desc atual
-                shell_exec('rm -f ' . $filecsv);
-            }
+            foreach ($_SESSION['mirrors_urls'] as $mirror) {
 
-            $doc->loadHTMLFile($mirror->url);
-            $tags = $doc->getElementsByTagName('a');
+                # filecsv
+                #$filecsv = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($mirror->filecsv, 1) : $mirror->filecsv;
+                $filecsv = $mirror->filecsv;
 
-            # Diretórios do repositório
-            foreach ($tags as $tag) {
-                $url = (object) [
-                            'mirror_name' => $mirror->name,
-                            'mirror_dirlib' => $mirror->dirlib,
-                            'mirror_filecsv' => $mirror->filecsv,
-                            'mirror' => $mirror->url,
-                            'folder' => ''
-                ];
-                if (strpos($tag->nodeValue, '/') !== FALSE) {
-                    $url->folder = $tag->nodeValue;
-                    $urls[] = $url;
+                if (file_exists($filecsv)) {
+                    # Remove o .csv atual
+                    shell_exec('rm -f ' . $filecsv);
                 }
-            } // foreach tags de urls
-            $_SESSION['urls'] = $urls;
-        } // foreach mirrors
-        #
+
+                $doc->loadHTMLFile($mirror->url);
+                $tags = $doc->getElementsByTagName('a');
+
+                # Diretórios do repositório
+                foreach ($tags as $tag) {
+                    $url = (object) [
+                                'mirror_name' => $mirror->name,
+                                'mirror_dirlib' => $mirror->dirlib,
+                                'mirror_filecsv' => $mirror->filecsv,
+                                'mirror' => $mirror->url,
+                                'folder' => ''
+                    ];
+                    if (strpos($tag->nodeValue, '/') !== FALSE) {
+                        $url->folder = $tag->nodeValue;
+                        $urls[] = $url;
+                    }
+                } // foreach tags de urls
+                $_SESSION['urls'] = $urls;
+            } // foreach mirrors
+            #
         ## Packages, descs e sha256
-        foreach ($urls as $url) {
+            foreach ($urls as $url) {
 
-            $doc->loadHTMLFile($url->mirror . $url->folder);
-            $tags = $doc->getElementsByTagName('a');
+                $doc->loadHTMLFile($url->mirror . $url->folder);
+                $tags = $doc->getElementsByTagName('a');
 
-            foreach ($tags as $tag) {
+                foreach ($tags as $tag) {
 //                if (count($packages) >= 1) {
 //                    break;
 //                }
-                $txt = explode('-', $tag->nodeValue);
-                $len = strlen($tag->nodeValue);
+                    $txt = explode('-', $tag->nodeValue);
+                    $len = strlen($tag->nodeValue);
 
 
-                if (substr($tag->nodeValue, $len - 3) === '.mz') {
-                    # Existe o .mz
-                    $package = (object) [
-                                'repo' => $url->mirror_name,
-                                'mirror' => $url->mirror,
-                                'dirlib' => $url->mirror_dirlib,
-                                'filecsv' => $url->mirror_filecsv,
-                                'folder' => $url->folder,
-                                'name' => $txt[0],
-                                'version' => str_replace($package->name . '-', '', str_replace('.mz', '', $tag->nodeValue)),
-                                'maintainer' => '',
-                                'license' => '',
-                                'url' => '',
-                                'deps' => '',
-                                'file_mz' => $tag->nodeValue,
-                                'file_desc' => $tag->nodeValue . '.desc',
-                                'file_sha256' => $tag->nodeValue . '.sha256',
-                                'desc' => ''
-                    ];
+                    if (substr($tag->nodeValue, $len - 3) === '.mz') {
+                        # Existe o .mz
+                        $package = (object) [
+                                    'repo' => $url->mirror_name,
+                                    'mirror' => $url->mirror,
+                                    'dirlib' => $url->mirror_dirlib,
+                                    'filecsv' => $url->mirror_filecsv,
+                                    'folder' => $url->folder,
+                                    'name' => $txt[0],
+                                    'version' => str_replace($txt[0] . '-', '', str_replace('.mz', '', $tag->nodeValue)),
+                                    'maintainer' => '',
+                                    'license' => '',
+                                    'url' => '',
+                                    'deps' => '',
+                                    'file_mz' => $tag->nodeValue,
+                                    'file_desc' => $tag->nodeValue . '.desc',
+                                    'file_sha256' => $tag->nodeValue . '.sha256',
+                                    'desc' => ''
+                        ];
 
-                    # Constrói mz_base.csv
-                    $texto = $package->folder . ','
-                            . $package->file_mz . ','
-                            . $package->file_desc . ','
-                            . $package->file_sha256;
+                        # Constrói mz_base.csv
+                        $texto = $package->folder . ','
+                                . $package->file_mz . ','
+                                . $package->file_desc . ','
+                                . $package->file_sha256;
+                        shell_exec("echo \"" . $texto . "\" >> " . $package->filecsv);
+                        # filecsv
+                        #$filecsv = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($package->filecsv, 1) : $package->filecsv;
+                        #$filecsv = $package->filecsv;
+                        //Variável $fp armazena a conexão com o arquivo e o tipo de ação.
+                        #$fp = fopen($filecsv, '+w');
+                        //Escreve no arquivo aberto.
+                        #fwrite($fp, $texto);
+                        //Fecha o arquivo.
+                        #fclose($fp);
+                        # Inclui o package na lista
+                        $packages[] = $package;
+                    } // if existe .mz no repositório
+                } // foreach tags
+            } // foreach urls
 
-                    # filecsv
-                    $filecsv = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($package->filecsv, 1) : $package->filecsv;
+            foreach ($packages as $package) {
 
+                # Verifica se já existe .desc local/servidor
+                $remote_file = $package->mirror . $package->folder . $package->file_desc;
+                #$dirlib = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($package->dirlib, 1) : $package->dirlib;
+                $dirlib = $package->dirlib;
+                $file = $dirlib . 'desc/' . $package->file_desc;
+                if (!file_exists($file)) {
+                    # Download do .desc
+                    $curl = 'curl -o ' . $file . ' ' . $remote_file;
+                    shell_exec($curl);
+                }
 
-                    //Variável $fp armazena a conexão com o arquivo e o tipo de ação.
-                    $fp = fopen($filecsv, 'a');
+                # obtém o arquivo package.desc
+                $file_desc = file_get_contents($file);
 
-                    //Escreve no arquivo aberto.
-                    fwrite($fp, $texto);
+                if (strpos($file_desc, "<title>File Not Found</title>") === FALSE) {
 
-                    //Fecha o arquivo.
-                    fclose($fp);
-                    # Inclui o package na lista
-                    $packages[] = $package;
-                } // if existe .mz no repositório
-            } // foreach tags
-        } // foreach urls
+                    # Detalhes do pacote
+                    $txt = explode('|', str_replace("\"", "'", str_replace('==', '', str_replace('#', '|'
+                                                    , explode('#####', explode('maintainer=', $file_desc)[1])[0]))));
 
-        foreach ($packages as $package) {
+                    $package->maintainer = trim(str_replace("'", '', explode('<', $txt[0])[0]));
+                    foreach ($txt as $key => $value) {
+                        if (strpos($value, 'license=') !== FALSE) {
+                            $package->license = trim(explode('license=', $txt[$key])[1]);
+                        }
+                        if (strpos($value, 'desc=') !== FALSE) {
+                            $package->desc = trim(explode("'", (explode('desc=', $txt[$key])[1]))[1]);
+                        }
+                        if (strpos($value, 'url=') !== FALSE) {
+                            $package->url = trim(explode("'", explode('url=', $txt[$key])[1])[1]);
+                        }
+                        if (strpos($value, 'dep=(') !== FALSE) {
+                            $package->deps = trim(str_replace(')', '', explode('dep=(', $value)[1]));
+                        }
+                    }
+                }
+            } //foreach packages
 
-            # Verifica se já existe .desc local/servidor
-            $remote_file = $package->mirror . $package->folder . $package->file_desc;
-            $dirlib = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($package->dirlib, 1) : $package->dirlib;
-            $file = $dirlib . $package->file_desc;
-            if (!file_exists($file)) {
-                # Download do .desc
-                $curl = 'curl -o ' . $file . ' ' . $remote_file;
-                shell_exec($curl);
-                $_SESSION['filedescs'][] = "-> $curl<br>";
+            $_SESSION['packages'] = $packages;
+            if (count($packages) > 0) {
+                #require 'html/tabela.php';
+                echo 'pronto.';
             }
+            ?>
+            <!--div id="mussum-ipsun" class="text-justify">
+                <img src="img/mussum-ipsun.png" class="float-left" alt="Cacildis">
+            <?php #require_once './bin/etc.php'  ?>
+            </div-->
 
-            # obtém o arquivo package.desc
-            $file_desc = file_get_contents($file);
-            $_SESSION['filedescs'][] = "->$file_desc <br>";
-
-            # Detalhes do pacote
-            $txt = explode('|', str_replace("\"", "'", str_replace('==', '', str_replace('#', '|'
-                                            , explode('#####', explode('maintainer=', $file_desc)[1])[0]))));
-
-            $package->maintainer = trim(str_replace("'", '', explode('<', $txt[0])[0]));
-            foreach ($txt as $key => $value) {
-                if (strpos($value, 'license=') !== FALSE) {
-                    $package->license = trim(explode('license=', $txt[$key])[1]);
-                }
-                if (strpos($value, 'desc=') !== FALSE) {
-                    $package->desc = trim(explode("'", (explode('desc=', $txt[$key])[1]))[1]);
-                }
-                if (strpos($value, 'url=') !== FALSE) {
-                    $package->url = trim(explode("'", explode('url=', $txt[$key])[1])[1]);
-                }
-                if (strpos($value, 'dep=(') !== FALSE) {
-                    $package->deps = trim(str_replace(')', '', explode('dep=(', $value)[1]));
-                }
-            }
-        } //foreach packages
-
-        $_SESSION['packages'] = $packages;
-        if (count($packages) > 0) {
-            #require 'html/tabela.php';
-            echo 'pronto.';
+            <?php require_once './bin/sessao.php' ?>
+            <?php
+        } catch (Exception $exc) {
+            echo $exc->getTraceAsString();
         }
         ?>
-        <!--div id="mussum-ipsun" class="text-justify">
-            <img src="img/mussum-ipsun.png" class="float-left" alt="Cacildis">
-        <?php #require_once './bin/etc.php' ?>
-        </div-->
-
-        <?php require_once './bin/sessao.php' ?>
     </body>
 </html>
 <?php

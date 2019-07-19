@@ -1,0 +1,21 @@
+Na instalação local:
+-Dependencias:
+-- php7
+-- apache (testar com php -S
+-- php-dom
+-- curl
+
+-php.ini
+-- allow_url_fopen = On
+-- display_errors = Off
+
+-- Estrutura de pastas /var/lib
+
+/var/lib
+├── mz
+│   └── desc
+└── mzphp
+    └── desc
+
+
+
