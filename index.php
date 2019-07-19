@@ -1,6 +1,10 @@
 <?php
-//header('location: fora-do-ar.php');
+header('location: fora-do-ar.php');
 require_once './bin/sessao.php';
+$_SESSION['time'] = (object) [
+            'inicius' => date('Yjd-h:i:s'),
+            'fim' => NULL
+];
 //require_once './bin/Mirror.php';
 //require_once './bin/Dir.php';
 //require_once './bin/Package.php';
@@ -65,10 +69,7 @@ Finalidade: No início a terra era vazia e sem forma.
         foreach ($_SESSION['mirrors_urls'] as $mirror) {
 
             # filecsv
-            $filecsv = $mirror->filecsv;
-            if ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') {
-                $filecsv = 'csv' . $mirror->filecsv;
-            }
+            $filecsv = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($mirror->filecsv, 1) : $mirror->filecsv;
 
             if (file_exists($filecsv)) {
                 # Remove o .desc atual
@@ -82,6 +83,8 @@ Finalidade: No início a terra era vazia e sem forma.
             foreach ($tags as $tag) {
                 $url = (object) [
                             'mirror_name' => $mirror->name,
+                            'mirror_dirlib' => $mirror->dirlib,
+                            'mirror_filecsv' => $mirror->filecsv,
                             'mirror' => $mirror->url,
                             'folder' => ''
                 ];
@@ -100,9 +103,9 @@ Finalidade: No início a terra era vazia e sem forma.
             $tags = $doc->getElementsByTagName('a');
 
             foreach ($tags as $tag) {
-                if (count($packages) >= 1) {
-                    break;
-                }
+//                if (count($packages) >= 1) {
+//                    break;
+//                }
                 $txt = explode('-', $tag->nodeValue);
                 $len = strlen($tag->nodeValue);
 
@@ -112,6 +115,8 @@ Finalidade: No início a terra era vazia e sem forma.
                     $package = (object) [
                                 'repo' => $url->mirror_name,
                                 'mirror' => $url->mirror,
+                                'dirlib' => $url->mirror_dirlib,
+                                'filecsv' => $url->mirror_filecsv,
                                 'folder' => $url->folder,
                                 'name' => $txt[0],
                                 'version' => str_replace($package->name . '-', '', str_replace('.mz', '', $tag->nodeValue)),
@@ -131,8 +136,11 @@ Finalidade: No início a terra era vazia e sem forma.
                             . $package->file_desc . ','
                             . $package->file_sha256;
 
-                    //Variável $fp armazena a conexão com o arquivo e o tipo de ação.
+                    # filecsv
+                    $filecsv = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($package->filecsv, 1) : $package->filecsv;
 
+
+                    //Variável $fp armazena a conexão com o arquivo e o tipo de ação.
                     $fp = fopen($filecsv, 'a');
 
                     //Escreve no arquivo aberto.
@@ -150,7 +158,8 @@ Finalidade: No início a terra era vazia e sem forma.
 
             # Verifica se já existe .desc local/servidor
             $remote_file = $package->mirror . $package->folder . $package->file_desc;
-            $file = 'desc/' . $package->file_desc;
+            $dirlib = ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? substr($package->dirlib, 1) : $package->dirlib;
+            $file = $dirlib . $package->file_desc;
             if (!file_exists($file)) {
                 # Download do .desc
                 $curl = 'curl -o ' . $file . ' ' . $remote_file;
@@ -166,19 +175,19 @@ Finalidade: No início a terra era vazia e sem forma.
             $txt = explode('|', str_replace("\"", "'", str_replace('==', '', str_replace('#', '|'
                                             , explode('#####', explode('maintainer=', $file_desc)[1])[0]))));
 
-            $package->maintainer = '[' . trim(str_replace("'", '', explode('<', $txt[0])[0])) . ']';
+            $package->maintainer = trim(str_replace("'", '', explode('<', $txt[0])[0]));
             foreach ($txt as $key => $value) {
                 if (strpos($value, 'license=') !== FALSE) {
-                    $package->license = '[' . trim(explode('license=', $txt[$key])[1]) . ']';
+                    $package->license = trim(explode('license=', $txt[$key])[1]);
                 }
                 if (strpos($value, 'desc=') !== FALSE) {
-                    $package->desc = '[' . trim(explode("'", (explode('desc=', $txt[$key])[1]))[1]) . ']';
+                    $package->desc = trim(explode("'", (explode('desc=', $txt[$key])[1]))[1]);
                 }
                 if (strpos($value, 'url=') !== FALSE) {
-                    $package->url = '[' . trim(explode("'", explode('url=', $txt[$key])[1])[1]) . ']';
+                    $package->url = trim(explode("'", explode('url=', $txt[$key])[1])[1]);
                 }
                 if (strpos($value, 'dep=(') !== FALSE) {
-                    $package->deps = '[' . trim(str_replace(')', '', explode('dep=(', $value)[1])) . ']';
+                    $package->deps = trim(str_replace(')', '', explode('dep=(', $value)[1]));
                 }
             }
         } //foreach packages
@@ -189,11 +198,13 @@ Finalidade: No início a terra era vazia e sem forma.
             echo 'pronto.';
         }
         ?>
-        <!--            <div id="mussum-ipsun" class="text-justify">
-                        <img src="img/mussum-ipsun.png" class="float-left" alt="Cacildis">
-        <!--?php require_once './bin/etc.php' ?>
-    </div>-->
-    </div>
-    <?php require './html/scripts.php' ?>
-</body>
+        <!--div id="mussum-ipsun" class="text-justify">
+            <img src="img/mussum-ipsun.png" class="float-left" alt="Cacildis">
+        <?php #require_once './bin/etc.php' ?>
+        </div-->
+
+        <?php require_once './bin/sessao.php' ?>
+    </body>
 </html>
+<?php
+$_SESSION['time']->fim = date('Yjd-h:i:s');
