@@ -1,7 +1,9 @@
 Na instalação local:
+Local da aplicacao /opt/mzphp
+
 -Dependencias:
+-- sudo
 -- php7
--- apache (testar com php -S
 -- php-dom
 -- curl
 

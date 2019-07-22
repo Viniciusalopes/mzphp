@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+# Template orgulhosamente criado por (Shell-Base)
+#-----------HEADER-----------------------------------------------------------------|
+#AUTOR
+#  Vovolinux <suporte@vovolinux.com.br>
+#
+##DATA-DE-CRIAÇÃO
+#  20/07/2019 ás 14:30 
+#
+#PROGRAMA
+#  starthost
+#
+#PEQUENA-DESCRIÇÃO
+#  Inicia um serviço de hosting do php
+#
+#LICENÇA
+#  MIT
+#
+#HOMEPAGE
+#  https://vovolinux.com.br 
+#
+#CHANGELOG
+#
+#----------------------------------------------------------------------------------|
+
+
+#--------VÁRIAVEIS--------->
+pid=''
+
+#-------------------------->
+
+
+#--------FUNÇÕES----------->
+getPid()
+{
+    pid=$(ps -C "php -S `hostname`:9090" | grep php | cut -d' ' -f2)
+}
+
+
+#-------------------------->
+
+#------TESTES-------------->
+#-------------------------->
+
+
+# Programa começa aqui :)
+sudo sh starthost&
+echo 'Iniciando mzPhp...'
+exo-open --launch WebBrowser --new-window http://`hostname`:9090
+sleep 20s
+exit 0
+

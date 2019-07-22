@@ -31,6 +31,8 @@
  */
 
 require_once 'bin/sessao.php';
+session_unset();
 session_destroy();
 clearstatcache();
+
 header('location: _sessao.php');

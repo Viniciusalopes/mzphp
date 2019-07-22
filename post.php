@@ -1,4 +1,5 @@
 <?php
+
 /*
  * A licença MIT
  *
@@ -23,17 +24,11 @@
  * OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
  * ------------------------------------------------------------------------------------------
  * Projeto   : mzphp
- * Criado em : 18/07/2019
+ * Criado em : 19/07/2019
  * Autor     : Viniciusalopes (Vovolinux) <suporte@vovolinux.com.br>
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
-?>
-<div id="menu">
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <nav class="nav">
-            <a class="navbar-brand active" href="#" title="Home">mzPhp v0.2</a>
-            <a class="navbar-brand" href="_sessao.php" title="Variáveis de sessão"target="_blank">Sessão</a>
-        </nav>
-    </nav>
-</div>    
+require_once 'bin/sessao.php';
+$_SESSION['post'] = $_POST;
+header('location: _sessao.php#post');
