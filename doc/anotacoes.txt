@@ -6,6 +6,7 @@ Local da aplicacao /opt/mzphp
 -- php7
 -- php-dom
 -- curl
+-- zenity
 
 -php.ini
 -- allow_url_fopen = On

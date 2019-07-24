@@ -1,0 +1,15 @@
+[Desktop Entry]
+Version=0.2
+Name=mzPhp
+Name[pt_BR]=mzPhp
+GenericName=Gerenciador de Pacotes mzPhp
+Comment=Pesquisar e administrar pacotes de aplicativos
+Type=Application
+Exec=python3 /opt/mzphp/startphp 
+Icon=/opt/mzphp/img/mzphp-logo-icon.png
+Path=/opt/mzphp/
+Terminal=true
+StartupNotify=false
+Categories=System;Settings;
+Keywords=mz;mzPhp;
+

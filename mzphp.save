@@ -1,8 +1,0 @@
-#!/usr/bin/env python3
-import os
-comando = 'sudo php -S `hostname`:9090'
-os.system(comando)
-os.system('exo-open --launch WebBrowser --new-window http://`hostname`:9090')
-pid = os.system('ps -C \"" + comando + \"" | grep php | cut -d' ' -f1')
-print('PID: '+ pid)
-
