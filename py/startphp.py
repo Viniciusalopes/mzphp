@@ -1,29 +1,51 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import os, webbrowser, socket, time, threading, subprocess
+import os, webbrowser, socket, time, threading, subprocess, json
 from urllib.request import urlopen
 from tkinter import *
 from PIL import Image, ImageTk
 
+import funcoes
+
+#Para ativar o DEBUG, substituir "#print('[ DEBUG ]" por "print('[ DEBUG ]"
+
+
 hostname=socket.gethostname()
 porta = '9090'
-php = 'php -S ' + hostname + ':' + porta
 index = 'http://'+ hostname + ':' + porta
 nav = 'exo-open --launch WebBrowser '+ index
-
+pid = 0
+php = 'php -S ' + hostname + ':' + porta
 
 is_root = False
 
 root_dir_local = '/opt/mzphp/'
-
+pid_json = '/tmp/pid.json'
 frmLogin = None
 tbSenha = None
 frmErro = None
 ret = None
+
 txtErro = ''
-    
+sessao_root_valida = 'A última sessão como root ainda é válida.'
+
+def root_on():
+    try:
+        #print('[ DEBUG ] root_on()->inicio')
+        comando = 'echo belesma | sudo -S id'
+        #print('[ DEBUG ] root_on()->subprocess.check_output()')
+        subprocess.check_output(comando, stderr=subprocess.STDOUT, shell=True)
+        #print('[ DEBUG ] root_on()->subprocess.run()')
+        var = subprocess.run(comando.split(), stderr=subprocess.STDOUT, shell=True)
+        #print('[ DEBUG ] root_on()->return True->var' + str(var))
+        return True
+    except:
+        #print('[ DEBUG ] root_on()->return False')
+        return False
+
 def login():
     try:
+        print('Aguardando autenticação do root...')
         global frmLogin
         global tbSenha
 
@@ -55,7 +77,8 @@ def login():
         text = content.get()
         content.set(text)
         '''
-        frmLogin.mainloop()
+        frmLogin.wait_window()
+        print('Cancelado pelo usuário.')
         exit(0)
     except Exception as e:
         print('Erro-> ' + e)
@@ -63,7 +86,6 @@ def login():
 
 
 def valida_senha():
-
     try:
         global txtErro
         global tbSenha
@@ -76,28 +98,24 @@ def valida_senha():
             erro()
             exit(1)
         else:
-            pid = getPid()
-            print('pidPhp-> ' + str(pid))
             comando = 'echo '+ senha + ' | sudo -S id'
             subprocess.check_output(comando, stderr=subprocess.STDOUT, shell=True)
             subprocess.run(comando.split(), stderr=subprocess.STDOUT, shell=True)
-
             is_root = True
-            
-            print('Iniciando servidor Web...')
-            p = threading.Thread(target=phpHost, name='phpHost', daemon=True)
-            p.start()
+            startThreadPhpHost()
+            print('[ DEBUG ] valida_senha()->startThreadPhpHostOff()')
+            startThreadPhpHostOff()
             webBrowser()
+            print('The Fim! :)')
             exit(0)
-
     except Exception as e:
         txtErro = 'Opa!\nSenha inválida!'
         print(txtErro)
-        erro()
         print('---------------------------------------------------------------------')
         print('returncode-> ' + str(e.returncode))
         print(e.output.decode('utf-8'))
         print('---------------------------------------------------------------------')        
+        erro()
         exit(1)
     
 def erro():
@@ -106,7 +124,7 @@ def erro():
         
         frmErro = Tk()
         frmErro.title('mzPhp v0.2')
-        frmErro.geometry('200x120')
+        frmErro.geometry('210x120')
         frmErro.resizable(False, False)
 
         texto = txtErro
@@ -122,22 +140,94 @@ def erro():
         print('Erro-> ' + e)
         exit(1)
 
+
+# THREADS
 def phpHost():
-    print(str(is_root))
+    global is_root
+    print('[ DEBUG ] phpHost->is_root-> '+str(is_root))
     if is_root:
         os.system('sudo '+ php)
+        print('[ DEBUG ] phpHost->os.system()')
     else:
+        print('[ DEBUG ] phpHost->exit(1)')
         exit(1)
 
+#def phpHostOff():
+#    global is_root
+#    global pid_json
+#    global pid
+#    
+#    pid = getPid()
+#    
+#    i = 10
+#    while os.path.isfile(pid_json) and i > 0:
+#        i -= 1
+#        print('[ DEBUG ] O servidor web php será desligado em ' + str(i + 1) + ' segundos [ pid-> ' + str(pid) + ' ]')
+#        time.sleep(1)
+#        
+#    print('Desligando servidor Web...')
+#    print('[ DEBUG ] phpHostOff->os.system(sudo kill ' + str(pid) + ')')
+#    os.system('sudo kill ' + str(pid))
+#    print('Servidor Web desligado automaGicamente. =)')
+#    print('[ DEBUG ] phpHostOff->exit(0)')
+   
+
+# FIM-THREADS
+
+def startThreadPhpHost():
+    global pid
+    print('Iniciando servidor Web...')
+    p = threading.Thread(target=phpHost, name='phpHost', daemon=True)
+    p.start()
+    
+    i = 0;
+    pid = getPid()
+    
+    while pid == 0:
+        i += 1
+        print('Aguardando inicialização do host...[ ' + str(i) + 's ]')
+        pid = getPid()
+        time.sleep(1)
+        
+    print('Servidor web inicializado. [ pid-> ' + str(pid) + ' ]')
+
+def startThreadPhpHostOff():
+    #global pid_json
+    #global frmLogin
+    
+    print('Iniciando AutoPowerOff do servidor web...')
+    #p = threading.Thread(target=phpHostOff, name='phpHostOff')
+    #p.start()
+    os.system('sudo /usr/bin/env python3 /opt/mzphp/stopphp')
+    exit(0)
+    
 def getPid():
+    global is_root
+    global pid
     try:           
-        comando = "ps -C \"php \\-S studio-nb:9090\" | grep \\-v PID | cut \\-d \' \' \\-f1"
-        print('comando: ' + comando)
-        pid = subprocess.check_output(comando, shell=True).decode('utf-8')
+        comando = "ps -C \"php -S " + hostname + ":9090\" | grep -v PID | sed 's/?\|pts/_/g' | cut -d_ -f1"
+        #print('[ DEBUG ] comando-> ' + comando)
+        pid = subprocess.check_output(comando, shell=True)
+        #print('[ DEBUG ] type(pid)-> ' + str(type(pid)))
+        #print('[ DEBUG ] getPid_resultado->' + str(pid.decode('utf-8')).replace('  ',' ') + '---')
+        
         if len(pid) == 0:
-            return '0'
+            pid = 0
         else:
-            return pid
+            # Dispensa do login porque já tem servidor web php rodando como root
+            is_root = True
+
+        # a Python object (dict):
+        p = {
+          "pid": pid
+        }
+
+        f = open(pid_json, "w")
+        f.write(str(p))
+        f.close()
+
+        return int(pid)
+
     except Exception as e:
             txtErro = 'Opa!\nPid muito estranho... Oô'
             print(txtErro)
@@ -146,11 +236,12 @@ def getPid():
             print(str(e.output))
             print('---------------------------------------------------------------------')        
             exit(1)    
-        
+
 def webBrowser():
-    print(str(is_root))    
-    print('Servidor php inicializado.\nAbrindo o navegador...')        
-    getPid()
+    #print('[ DEBUG ] webBrowser->is_root-> ' + str(is_root))    
+    print(sessao_root_valida)
+    print('Abrindo o navegador...')        
+    #getPid()
 
 def limpa_tmp():
     for arquivo in arquivos_tmp:
@@ -166,15 +257,24 @@ def php_on():
 
 #---inicius-->
 try:
-    print('Aguardando autenticação do root...')
-    print(str(is_root))    
-
     pid = getPid()
-    print('pidPhp-> ' + pid)
-
-    #login()
-    
-    print('Saindo.')
+    #print('[ DEBUG ] pid-> ' + str(pid))
+    if pid == 0:
+        #print('[ DEBUG ] if pid:')
+        if root_on():
+            print(sessao_root_valida)
+            is_root = True
+            startThreadPhpHost()
+        else:
+            is_root = False
+            login() # [ ROTA ] login()-> valida_senha()-> startThreadPhpHost()-> webBrowser()
+    else:
+        pid = getPid()
+        
+    print('Servidor web já está inicializado. [ pid-> ' + str(pid) + ' ]')
+    startThreadPhpHostOff()
+    # Já tem php -S rodando como root
+    webBrowser()            
     exit(0)
     
 except KeyboardInterrupt:
@@ -185,3 +285,5 @@ except KeyboardInterrupt:
 except Exception as e:
     print('Erro-> ' + e)
     exit(1)
+    
+print('The Fim! ;)')
