@@ -1,3 +1,8 @@
+DEV:
+    Variavel log = textos para a saída padrão e para o log
+    Variavel dirLog = /var/log/mzphp/
+    Funcao gravaLog() >> dirLog
+
 Na instalação local:
 Local da aplicacao /opt/mzphp
 
