@@ -25,11 +25,16 @@ sessao_root_valida = 'O último login como root ainda é válido.'
 
 arg = ''
 
-# Arrays
-argumentos = [
-                '-s', '--start', 
-                '-k', '--kill',
-                '-o', '--off',
-                '-p', '--pid', 
-                '-h', '--help' 
-            ]
+# Dicionário de dados com as opções do menu
+argumentos = {
+        '-s': 'inicius',
+        '--start': 'inicius', 
+        '-k': 'opa',
+        '--kill': 'opa',
+        '-o': 'opa',
+        '--off': 'opa',
+        '-p': 'opa',
+        '--pid': 'opa', 
+        '-h': 'socorro',
+        '--help': 'socorro' 
+    }

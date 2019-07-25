@@ -7,6 +7,31 @@ from funcoes import *
 
 #Para ativar o DEBUG, substituir "#print('[ DEBUG ]" por "print('[ DEBUG ]"
 
+def socorro():
+    print('''-------------------------------------------------------------------------------
+\'mzPhp 0.2' é um gerenciador de pacotes que pesquisa e administra programas e
+    pacotes na distribuição GNU/Linux MazonOs.
+
+Uso:
+ mzphp [opções]     gerenciamento de pacotes
+    
+Opções:
+ -s, --start        inicia o servidor web php e abre o sistema no navegador
+                      (o servidor pode ser iniciado manualmente com o comando:
+                       $ sudo php -S php -S hostname:9090)
+ -k, --kill         encerra o servidor web php
+                      (o servidor pode ser encerrado manualmente com o comando:
+                       $ sudo kill 0000, onde 0000 deve ser o pid do serviço)
+ -o, --off          inicia o serviço de desligamento automático do servidor web
+ -p, --pid          fornece o pid de servidor web php
+  
+ -h, --help         exibe esta ajuda
+ 
+-------------------------------------------------------------------------------
+Página do gerenciador online: <https://vovlinux.com.br/vovomazon/packages/>
+Página do projeto mzPhp <https://github.com/Viniciusalopes/mzphp/>
+Página da distribuição GNU/Linux MazonOs: <http://mazonos.com/>
+-------------------------------------------------------------------------------''')
 def xdg():
     try:
         #print('[ DEBUG ] xdg()->inicio')
@@ -18,10 +43,10 @@ def xdg():
     except Exception as e:
         txtErro = 'Opa!\nXDG muito estranho... ôO'
         print(txtErro)
-        print('---------------------------------------------------------------------')
+        print('-------------------------------------------------------------------------------')
         print('returncode-> ' + str(e.returncode))
         print(str(e.output))
-        print('---------------------------------------------------------------------')        
+        print('-------------------------------------------------------------------------------')        
         exit(1)
 
 def root_on():
@@ -135,3 +160,8 @@ def php_on():
         return True
     except:
         return False
+        
+def opa():
+    print('Opa!\nEm desenvolvimento. Vovolinux workando...')
+    socorro()
+    exit(0)

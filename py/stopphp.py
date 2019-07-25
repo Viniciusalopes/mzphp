@@ -7,31 +7,6 @@ import os, sys
 
 # THREADS
 
-def help():
-    print(''' mzPhp 0.2
-
- 'mzPhp' é um gerenciador de pacotes que pesquisa e administra pacotes na
- distribuição GNU/Linux MazonOs.
-
-Uso:
- mzphp [opções]     gerenciamento de pacotes
-    
-Opções:
- -s, --start        inicia o servidor web php e abre o sistema no navegador
-                      (o servidor pode ser iniciado manualmente com o comando:
-                       $ sudo php -S php -S hostname:9090)
- -k, --kill         encerra o servidor web php
-                      (o servidor pode ser encerrado manualmente com o comando:
-                       $ sudo kill 0000, onde 0000 deve ser o pid do serviço)
- -o, --off          inicia o serviço de desligamento automático do servidor web
- -p, --pid          fornece o pid de servidor web php
-  
- -h, --help         exibe esta ajuda
-
-Página do gerenciador online: <https://vovlinux.com.br/vovomazon/packages/>
-Página do projeto mzPhp <https://github.com/Viniciusalopes/mzphp>
-
-''')
 
 def phpHostOff():
     global is_root

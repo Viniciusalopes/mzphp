@@ -11,6 +11,16 @@ from funcoes import *
 #Para ativar o DEBUG, substituir "#print('[ DEBUG ]" por "print('[ DEBUG ]"
 
 #---inicius()--->
+def main():
+    try:
+        sys.argv[1]
+    except IndexError:
+        inicius()
+        exit(0)
+    else:
+        global arg
+        arg = str(sys.argv[1])
+        
 def inicius():
     try:
         global pid
@@ -152,17 +162,17 @@ def erro():
 
 
 try:
-    inicius()
-    
+    main()
+    #print('[ DEBUG ] arg->'+ arg)
     if arg in argumentos:
+        funcao = argumentos[arg]
         functions = locals()
-        functions[arg]()
+        functions[funcao]()
     else:
-        help()
+        socorro()
         print('A opção \"' + arg + '\" é inválida!')
 
 except KeyboardInterrupt:
     print('\n')
     exit(0)        
-    
-    
+
