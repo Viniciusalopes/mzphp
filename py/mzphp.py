@@ -8,10 +8,11 @@ from PIL import Image, ImageTk
 from variaveis import *
 from funcoes import *
 
-#Para ativar o DEBUG, substituir "#print('[ DEBUG ]" por "print('[ DEBUG ]"
+#Para ativar o registro no mzphp.log, substituir "#log(" por "log("
 
 #---inicius()--->
 def main():
+    log('mzphp.py->main()-> executando')
     global arg
     try:
         sys.argv[1]
@@ -23,34 +24,43 @@ def main():
         arg = str(sys.argv[1])
         
 def inicius():
+    log('mzphp.py->inicius()-> executando')
     try:
         global pid
         pid = getPid()
         if xdg() == 'tty':
-           #print('[ DEBUG ] mzphp.py->xdg()->'+ xdg())
-            print('Opa!\nEste programa está disponível somente para ambiente gráfico.')
+            log('mzphp.py->xdg()->'+ xdg())
+            txt = 'Opa!\nEste programa está disponível somente para ambiente gráfico.'
+            log(txt)
+            print(txt)
             exit(1)
         else:
             global is_root
             is_root = root_on()
-            #print('[ DEBUG ] mzphp.py->inicius()->is_root->' + str(is_root))
-            #print('[ DEBUG ] mzphp.py->pid-> ' + str(pid))
+            log('mzphp.py->inicius()->is_root->' + str(is_root))
+            log('mzphp.py->pid-> ' + str(pid))
 
             if is_root:
-                print(sessao_root_valida)
+                txt = sessao_root_valida
+                log(txt)
+                print(txt)
+
                 if pid == 0:
                     startThreadPhpHost()
                 else:
-                    print('Servidor web já está inicializado. [ pid-> ' + str(pid) + ' ]')
+                    txt = 'Servidor web já está inicializado. [ pid-> ' + str(pid) + ' ]')
+                    log(txt)
+                    print(txt)
             else:
                 login() # [ ROTA ] login()-> valida_senha()-> startThreadPhpHost()-> webBrowser()
-                
             # Já tem php -S rodando como root... espero eu :|
             webBrowser()              
         exit(0)
             
     except KeyboardInterrupt:
-        print('\nProcesso cancelado.')
+        txt = '\nProcesso cancelado.'
+        log(txt)
+        print(txt)
         limpa_tmp()
         exit(1)
         
@@ -58,10 +68,8 @@ def inicius():
         print('Erro->inicius()-> ' + str(e))
         exit(1)
         
-    print('The Fim! ;)')
-    
-
 def login():
+    log('mzphp.py->login()-> executando')
     try:
         print('Aguardando autenticação do root...')
         global tbSenha
@@ -102,6 +110,7 @@ def login():
         exit(1)
 
 def valida_senha():
+    log('mzphp.py->valida_senha()-> executando')
     try:
         global txtErro
         global tbSenha
@@ -138,6 +147,7 @@ def valida_senha():
         exit(1)
     
 def erro():
+    log('mzphp.py->erro()-> executando')
     try:
         global txtErro
         
@@ -161,9 +171,11 @@ def erro():
 
 
 try:
+    log(linha)
+    log('mzphp.py-> executando')
     os.chdir(root_dir_local)
     main()
-    #print('[ DEBUG ] mzphp.py->arg->'+ arg)
+    log('mzphp.py->arg->'+ arg)
     if arg in argumentos:
         funcao = argumentos[arg]
         functions = locals()
@@ -171,8 +183,8 @@ try:
     else:
         socorro()
         print('A opção \"' + arg + '\" é inválida!')
-
+    log('The Fim! ;)')
 except KeyboardInterrupt:
     print('\n')
     exit(0)        
-
+    

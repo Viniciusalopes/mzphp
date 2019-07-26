@@ -7,7 +7,9 @@ DEV:
     Funcao gravaLog() >> dirLog
 
 Na instalação local:
-Local da aplicacao /opt/mzphp
+- Local da aplicacao /opt/mzphp
+- Link para o log
+    # ln -s /opt/mzphp/var/log/mzphp /var/log/mzphp
 
 -Dependencias:
 -- sudo

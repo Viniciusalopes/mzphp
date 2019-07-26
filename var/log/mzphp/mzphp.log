@@ -1,0 +1,44 @@
+# Registro de log do mzPhp.
+[ 2019-07-26 16:04:32 ] Log reiniciado
+[ 2019-07-26 16:05:00 ] -------------------------------------------------------------------------------
+[ 2019-07-26 16:05:00 ] mzphp.py-> executando
+[ 2019-07-26 16:05:00 ] mzphp.py->main()-> executando
+[ 2019-07-26 16:05:00 ] mzphp.py->inicius()-> executando
+[ 2019-07-26 16:05:00 ] funcoes.py->getPid()-> executando
+[ 2019-07-26 16:05:00 ] funcoes.py->comando-> ps -C "php -S VINICIUS-NB:9090" | grep -v PID | sed 's/?\|pts/_/g' | cut -d_ -f1
+[ 2019-07-26 16:05:00 ] funcoes.py->type(pid)-> <class 'bytes'>
+[ 2019-07-26 16:05:00 ] funcoes.py->getPid_resultado->b'26694 \n'
+[ 2019-07-26 16:05:00 ] funcoes.py->getPid->len(pid)-> 7
+[ 2019-07-26 16:05:00 ] funcoes.py->xdg()-> executando
+[ 2019-07-26 16:05:00 ] funcoes.py->xdg()->inicio
+[ 2019-07-26 16:05:00 ] funcoes.py->xdg()->subprocess.check_output()
+[ 2019-07-26 16:05:00 ] funcoes.py->root_on()-> executando
+[ 2019-07-26 16:05:00 ] funcoes.py->root_on()->inicio
+[ 2019-07-26 16:05:00 ] funcoes.py->root_on()->subprocess.check_output()
+[ 2019-07-26 16:05:00 ] funcoes.py->root_on()->subprocess.run()
+[ 2019-07-26 16:05:00 ] funcoes.py->root_on()->return True->var->CompletedProcess(args=['echo', 'belesma', '|', 'sudo', '-S', 'id'], returncode=0)
+[ 2019-07-26 16:05:00 ] mzphp.py->inicius()->is_root->True
+[ 2019-07-26 16:05:00 ] mzphp.py->pid-> 26694
+[ 2019-07-26 16:05:00 ] funcoes.py->webBrowser()-> executando
+[ 2019-07-26 16:05:00 ] funcoes.py->webBrowser->is_root-> True
+[ 2019-07-26 16:06:12 ] -------------------------------------------------------------------------------
+[ 2019-07-26 16:06:12 ] mzphp.py-> executando
+[ 2019-07-26 16:06:12 ] mzphp.py->main()-> executando
+[ 2019-07-26 16:06:12 ] mzphp.py->inicius()-> executando
+[ 2019-07-26 16:06:12 ] funcoes.py->getPid()-> executando
+[ 2019-07-26 16:06:12 ] funcoes.py->comando-> ps -C "php -S VINICIUS-NB:9090" | grep -v PID | sed 's/?\|pts/_/g' | cut -d_ -f1
+[ 2019-07-26 16:06:12 ] funcoes.py->type(pid)-> <class 'bytes'>
+[ 2019-07-26 16:06:12 ] funcoes.py->getPid_resultado->b'26694 \n'
+[ 2019-07-26 16:06:12 ] funcoes.py->getPid->len(pid)-> 7
+[ 2019-07-26 16:06:12 ] funcoes.py->xdg()-> executando
+[ 2019-07-26 16:06:12 ] funcoes.py->xdg()->inicio
+[ 2019-07-26 16:06:12 ] funcoes.py->xdg()->subprocess.check_output()
+[ 2019-07-26 16:06:12 ] funcoes.py->root_on()-> executando
+[ 2019-07-26 16:06:12 ] funcoes.py->root_on()->inicio
+[ 2019-07-26 16:06:12 ] funcoes.py->root_on()->subprocess.check_output()
+[ 2019-07-26 16:06:12 ] funcoes.py->root_on()->subprocess.run()
+[ 2019-07-26 16:06:12 ] funcoes.py->root_on()->return True->var->CompletedProcess(args=['echo', 'belesma', '|', 'sudo', '-S', 'id'], returncode=0)
+[ 2019-07-26 16:06:12 ] mzphp.py->inicius()->is_root->True
+[ 2019-07-26 16:06:12 ] mzphp.py->pid-> 26694
+[ 2019-07-26 16:06:12 ] funcoes.py->webBrowser()-> executando
+[ 2019-07-26 16:06:12 ] funcoes.py->webBrowser->is_root-> True
