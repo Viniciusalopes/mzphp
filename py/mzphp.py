@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-import os, webbrowser, json
+import os
 from urllib.request import urlopen
 from tkinter import *
 from PIL import Image, ImageTk
@@ -12,6 +12,7 @@ from funcoes import *
 
 #---inicius()--->
 def main():
+    global arg
     try:
         sys.argv[1]
     except IndexError:
@@ -24,40 +25,37 @@ def main():
 def inicius():
     try:
         global pid
-        
+        pid = getPid()
         if xdg() == 'tty':
-            print('[ DEBUG ] xdg()->'+ xdg())
+           #print('[ DEBUG ] mzphp.py->xdg()->'+ xdg())
             print('Opa!\nEste programa está disponível somente para ambiente gráfico.')
             exit(1)
         else:
             global is_root
             is_root = root_on()
-            #print('[ DEBUG ] inicius->is_root'+str(is_root))
-            #print('[ DEBUG ] pid-> ' + str(pid))
-            if pid == 0:
-                #print('[ DEBUG ] if pid:')
-                if root_on():
-                    print(sessao_root_valida)
-                    is_root = True
+            #print('[ DEBUG ] mzphp.py->inicius()->is_root->' + str(is_root))
+            #print('[ DEBUG ] mzphp.py->pid-> ' + str(pid))
+
+            if is_root:
+                print(sessao_root_valida)
+                if pid == 0:
                     startThreadPhpHost()
                 else:
-                    is_root = False
-                    login() # [ ROTA ] login()-> valida_senha()-> startThreadPhpHost()-> webBrowser()
+                    print('Servidor web já está inicializado. [ pid-> ' + str(pid) + ' ]')
             else:
-                pid = getPid()
-                print('Servidor web já está inicializado. [ pid-> ' + str(pid) + ' ]')
+                login() # [ ROTA ] login()-> valida_senha()-> startThreadPhpHost()-> webBrowser()
+                
+            # Já tem php -S rodando como root... espero eu :|
+            webBrowser()              
+        exit(0)
             
-            #startThreadPhpHostOff()
-            # Já tem php -S rodando como root
-            webBrowser()            
-        
     except KeyboardInterrupt:
         print('\nProcesso cancelado.')
         limpa_tmp()
         exit(1)
         
     except Exception as e:
-        print('Erro-> ' + str(e))
+        print('Erro->inicius()-> ' + str(e))
         exit(1)
         
     print('The Fim! ;)')
@@ -66,7 +64,6 @@ def inicius():
 def login():
     try:
         print('Aguardando autenticação do root...')
-        global frmLogin
         global tbSenha
 
         frmLogin = Tk()
@@ -97,11 +94,11 @@ def login():
         text = content.get()
         content.set(text)
         '''
-        frmLogin.wait_window()
+        frmLogin.mainloop()
         print('Cancelado pelo usuário.')
         exit(0)
     except Exception as e:
-        print('Erro-> ' + e)
+        print('Erro->login()-> ' + e)
         exit(1)
 
 def valida_senha():
@@ -109,6 +106,8 @@ def valida_senha():
         global txtErro
         global tbSenha
         global is_root
+        global pid
+        pid = getPid()
         
         senha = tbSenha.get()
         if len(senha) == 0:
@@ -121,13 +120,13 @@ def valida_senha():
             subprocess.check_output(comando, stderr=subprocess.STDOUT, shell=True)
             subprocess.run(comando.split(), stderr=subprocess.STDOUT, shell=True)
             is_root = True
-            frmLogin.destroy
-            startThreadPhpHost()
-            print('[ DEBUG ] valida_senha()->startThreadPhpHostOff()')
-            startThreadPhpHostOff()
-            webBrowser()
-            print('The Fim! :)')
-            exit(0)
+            
+            if pid == 0:
+                startThreadPhpHost()
+
+        webBrowser()
+        frmLogin.destroy
+        exit(0)
     except Exception as e:
         txtErro = 'Opa!\nSenha inválida!'
         print(txtErro)
@@ -157,13 +156,14 @@ def erro():
         frmErro.mainloop()
         exit(1)
     except Exception as e:
-        print('Erro-> ' + e)
+        print('Erro->erro()-> ' + e)
         exit(1)
 
 
 try:
+    os.chdir(root_dir_local)
     main()
-    #print('[ DEBUG ] arg->'+ arg)
+    #print('[ DEBUG ] mzphp.py->arg->'+ arg)
     if arg in argumentos:
         funcao = argumentos[arg]
         functions = locals()
