@@ -1,10 +1,14 @@
 ____URGENTE:____
 - CHANGELOG.md para o mzphp e para o mz =)
 
+Citar LICENÇAS para:
+- Imagens
+- bootstrap-material-design
+
+
+
+
 DEV:
-    Variavel log = textos para a saída padrão e para o log
-    Variavel dirLog = /var/log/mzphp/
-    Funcao gravaLog() >> dirLog
 
 Na instalação local:
 - Local da aplicacao /opt/mzphp
