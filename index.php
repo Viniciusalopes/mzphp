@@ -1,8 +1,8 @@
 <?php
-if ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') {
-    header('location: fora-do-ar.php');
-    return;
-}
+//if ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') {
+//    header('location: fora-do-ar.php');
+//    return;
+//}
 require_once './bin/sessao.php';
 $_SESSION['time'] = (object) [
             'inicius' => date('Yjd-h:i:s'),
