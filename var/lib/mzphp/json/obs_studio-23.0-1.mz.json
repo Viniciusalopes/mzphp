@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "obs_studio",
+    "version": "23.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "'GPL2+'",
+    "url": "https://github.com/obsproject/obs-studio",
+    "deps": "'ffmpeg'",
+    "file_mz": "obs_studio-23.0-1.mz",
+    "file_desc": "obs_studio-23.0-1.mz.desc",
+    "file_sha256": "obs_studio-23.0-1.mz.sha256",
+    "file_json": "obs_studio-23.0-1.mz.json",
+    "desc": "OBS Studio is software designed for capturing, compositing,\nencoding, recording, and streaming video content, efficiently."
+}

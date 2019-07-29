@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xorg_fonts",
+    "version": "7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://x.org",
+    "deps": "'xcursor_themes'",
+    "file_mz": "xorg_fonts-7-1.mz",
+    "file_desc": "xorg_fonts-7-1.mz.desc",
+    "file_sha256": "xorg_fonts-7-1.mz.sha256",
+    "file_json": "xorg_fonts-7-1.mz.json",
+    "desc": "The Xorg font packages provide some scalable fonts and \nsupporting packages for Xorg applications."
+}

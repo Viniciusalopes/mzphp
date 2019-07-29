@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base-devel/",
+    "name": "tk",
+    "version": "8.6.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/tk",
+    "deps": "'tcl' 'xorg_libraries'",
+    "file_mz": "tk-8.6.8-1.mz",
+    "file_desc": "tk-8.6.8-1.mz.desc",
+    "file_sha256": "tk-8.6.8-1.mz.sha256",
+    "file_json": "tk-8.6.8-1.mz.json",
+    "desc": "The Tk package contains a TCL GUI Toolkit."
+}

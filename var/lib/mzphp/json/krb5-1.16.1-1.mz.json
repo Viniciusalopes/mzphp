@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "network/",
+    "name": "krb5",
+    "version": "1.16.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://kerberos.org",
+    "deps": "'dejagnu' 'gnupg' 'keyutils' 'openldap' 'python2'",
+    "file_mz": "krb5-1.16.1-1.mz",
+    "file_desc": "krb5-1.16.1-1.mz.desc",
+    "file_sha256": "krb5-1.16.1-1.mz.sha256",
+    "file_json": "krb5-1.16.1-1.mz.json",
+    "desc": "MIT Kerberos V5 is a free implementation of Kerberos 5. \nKerberos is a network authentication protocol. It centralizes \nthe authentication database and uses kerberized applications \nto work with servers or services that support Kerberos allowing \nsingle logins and encrypted communication over internal networks \nor the Internet."
+}

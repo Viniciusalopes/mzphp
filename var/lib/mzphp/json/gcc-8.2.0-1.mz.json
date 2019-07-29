@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base-devel/",
+    "name": "gcc",
+    "version": "8.2.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.gnu.org/software/gcc/",
+    "deps": "''",
+    "file_mz": "gcc-8.2.0-1.mz",
+    "file_desc": "gcc-8.2.0-1.mz.desc",
+    "file_sha256": "gcc-8.2.0-1.mz.sha256",
+    "file_json": "gcc-8.2.0-1.mz.json",
+    "desc": "The GCC package contains the GNU Compiler Collection. \nThis page describes the installation of compilers for the following \nlanguages: C, C++, Fortran, Objective C, Objective C++, and Go"
+}

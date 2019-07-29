@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "usbutils",
+    "version": "010-1",
+    "maintainer": "Emerson Alves",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/usbutils.html",
+    "deps": "'ibusb-1.0.22'",
+    "file_mz": "usbutils-010-1.mz",
+    "file_desc": "usbutils-010-1.mz.desc",
+    "file_sha256": "usbutils-010-1.mz.sha256",
+    "file_json": "usbutils-010-1.mz.json",
+    "desc": "The USB Utils package contains utilities used to display \ninformation about USB buses in the system and the devices connected \nto them.This package is known to build and work properly using an\n LFS-8.3 platform."
+}

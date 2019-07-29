@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "iptables",
+    "version": "1.8.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://www.netfilter.org/projects/iptables",
+    "deps": "''",
+    "file_mz": "iptables-1.8.0-1.mz",
+    "file_desc": "iptables-1.8.0-1.mz.desc",
+    "file_sha256": "iptables-1.8.0-1.mz.sha256",
+    "file_json": "iptables-1.8.0-1.mz.json",
+    "desc": "The next part of this chapter deals with firewalls. \nThe principal firewall tool for Linux is Iptables. You will need to \ninstall Iptables if you intend on using any form of a firewall."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "fluxbox",
+    "version": "1.3.7-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'MIT'",
+    "url": "http://fluxbox.org/",
+    "deps": "''",
+    "file_mz": "fluxbox-1.3.7-1.mz",
+    "file_desc": "fluxbox-1.3.7-1.mz.desc",
+    "file_sha256": "fluxbox-1.3.7-1.mz.sha256",
+    "file_json": "fluxbox-1.3.7-1.mz.json",
+    "desc": "Fluxbox is a windowmanager for X that was based on the Blackbox\n0.61.1 code. It is very light on resources and easy to handle but yet\nfull of features to make an easy, and extremely fast, desktop\nexperience. It is built using C++ and licensed under the MIT-License."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "expect",
+    "version": "5.45.4-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/general/expect.html",
+    "deps": "'Tcl-8.6.9'",
+    "file_mz": "expect-5.45.4-1.mz",
+    "file_desc": "expect-5.45.4-1.mz.desc",
+    "file_sha256": "expect-5.45.4-1.mz.sha256",
+    "file_json": "expect-5.45.4-1.mz.json",
+    "desc": "The Expect package was installed in the LFS temporary tools\ndirectory for testing other packages. These procedures install it in a\npermanent location. It contains tools for automating interactive\napplications such as telnet, ftp, passwd, fsck, rlogin, tip, etc.\nExpect is also useful for testing these same applications as well as\neasing all sorts of tasks that are prohibitively difficult with\nanything else."
+}

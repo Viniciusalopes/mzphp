@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "wayland/",
+    "name": "wayland_protocols",
+    "version": "1.15-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'wayland'",
+    "file_mz": "wayland_protocols-1.15-1.mz",
+    "file_desc": "wayland_protocols-1.15-1.mz.desc",
+    "file_sha256": "wayland_protocols-1.15-1.mz.sha256",
+    "file_json": "wayland_protocols-1.15-1.mz.json",
+    "desc": "The Wayland-Protocols package contains additional Wayland \nprotocols that add functionality outside of protocols already \nin the Wayland core."
+}

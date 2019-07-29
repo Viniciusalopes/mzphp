@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "python_modules/",
+    "name": "python3_beaker",
+    "version": "1.10.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://pypi.org",
+    "deps": "'python3'",
+    "file_mz": "python3_beaker-1.10.0-1.mz",
+    "file_desc": "python3_beaker-1.10.0-1.mz.desc",
+    "file_sha256": "python3_beaker-1.10.0-1.mz.sha256",
+    "file_json": "python3_beaker-1.10.0-1.mz.json",
+    "desc": "Beaker is a Python module that implements caching and sessions \nWSGI middleware for use with web applications and stand-alone Python \nscripts and applications."
+}

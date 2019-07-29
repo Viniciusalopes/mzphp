@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "readline",
+    "version": "7.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://tiswww.case.edu/php/chet/readline/rltop.html",
+    "deps": "''",
+    "file_mz": "readline-7.0-1.mz",
+    "file_desc": "readline-7.0-1.mz.desc",
+    "file_sha256": "readline-7.0-1.mz.sha256",
+    "file_json": "readline-7.0-1.mz.json",
+    "desc": "The Readline package is a set of libraries that offers \ncommand-line editing and history capabilities."
+}

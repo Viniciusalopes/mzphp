@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "gjs",
+    "version": "1.52.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'cairo' 'dbus' 'gobject_introspection' 'mozjs'",
+    "file_mz": "gjs-1.52.3-1.mz",
+    "file_desc": "gjs-1.52.3-1.mz.desc",
+    "file_sha256": "gjs-1.52.3-1.mz.sha256",
+    "file_json": "gjs-1.52.3-1.mz.json",
+    "desc": "Gjs is a set of Javascript bindings for GNOME."
+}

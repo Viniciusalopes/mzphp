@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xorg_legacy",
+    "version": "7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.x.org",
+    "deps": "'xcursos_themes'",
+    "file_mz": "xorg_legacy-7-1.mz",
+    "file_desc": "xorg_legacy-7-1.mz.desc",
+    "file_sha256": "xorg_legacy-7-1.mz.sha256",
+    "file_json": "xorg_legacy-7-1.mz.json",
+    "desc": "Xorg"
+}

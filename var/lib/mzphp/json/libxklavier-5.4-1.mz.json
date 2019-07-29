@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libxklavier",
+    "version": "5.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'glib' 'iso_codes' 'libxml2' 'xorg_libraries' 'gobject_introspection' 'vala'",
+    "file_mz": "libxklavier-5.4-1.mz",
+    "file_desc": "libxklavier-5.4-1.mz.desc",
+    "file_sha256": "libxklavier-5.4-1.mz.sha256",
+    "file_json": "libxklavier-5.4-1.mz.json",
+    "desc": "The libxklavier package contains a utility library for X keyboard"
+}

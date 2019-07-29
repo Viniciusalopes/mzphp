@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libxslt",
+    "version": "1.1.33-1",
+    "maintainer": "Emerson Alves",
+    "license": "'none'",
+    "url": "http://www.linuxfromscratch.org/blfs/view/svn/general/libxslt.html",
+    "deps": "'libxml2-2.9.9'",
+    "file_mz": "libxslt-1.1.33-1.mz",
+    "file_desc": "libxslt-1.1.33-1.mz.desc",
+    "file_sha256": "libxslt-1.1.33-1.mz.sha256",
+    "file_json": "libxslt-1.1.33-1.mz.json",
+    "desc": "The libxslt package contains XSLT libraries used for extending \nlibxml2 libraries to support XSLT files."
+}

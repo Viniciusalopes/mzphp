@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "sdl2",
+    "version": "2.0.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://libsdl.org",
+    "deps": "'alsa_lib' 'ibus' 'nasm' 'pulseaudio' 'xorg_server'",
+    "file_mz": "sdl2-2.0.8-1.mz",
+    "file_desc": "sdl2-2.0.8-1.mz.desc",
+    "file_sha256": "sdl2-2.0.8-1.mz.sha256",
+    "file_json": "sdl2-2.0.8-1.mz.json",
+    "desc": "The Simple DirectMedia Layer Version 2 (SDL2 for short) is a \ncross-platform library designed to make it easy to write multimedia \nsoftware, such as games and emulators."
+}

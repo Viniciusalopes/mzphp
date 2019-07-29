@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "i3_gaps",
+    "version": "4.16.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "https://github.com/Airblader/i3",
+    "deps": "''",
+    "file_mz": "i3_gaps-4.16.1-1.mz",
+    "file_desc": "i3_gaps-4.16.1-1.mz.desc",
+    "file_sha256": "i3_gaps-4.16.1-1.mz.sha256",
+    "file_json": "i3_gaps-4.16.1-1.mz.json",
+    "desc": "This is a fork of i3wm, a tiling window manager for Linux.\nIt includes a few additional features which you can read up on below."
+}

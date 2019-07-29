@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "extra_cmake_modules",
+    "version": "5.49.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://kde.org",
+    "deps": "'cmake'",
+    "file_mz": "extra_cmake_modules-5.49.0-1.mz",
+    "file_desc": "extra_cmake_modules-5.49.0-1.mz.desc",
+    "file_sha256": "extra_cmake_modules-5.49.0-1.mz.sha256",
+    "file_json": "extra_cmake_modules-5.49.0-1.mz.json",
+    "desc": "The Extra Cmake Modules package contains extra CMake modules \nused by KDE Frameworks 5 and other packages."
+}

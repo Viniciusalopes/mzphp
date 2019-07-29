@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "rpcsvc_proto",
+    "version": "1.4-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/basicnet/rpcsvc-proto.html",
+    "deps": "''",
+    "file_mz": "rpcsvc_proto-1.4-1.mz",
+    "file_desc": "rpcsvc_proto-1.4-1.mz.desc",
+    "file_sha256": "rpcsvc_proto-1.4-1.mz.sha256",
+    "file_json": "rpcsvc_proto-1.4-1.mz.json",
+    "desc": "The rpcsvc-proto package contains the rcpsvc protocol.x files and\nheaders, formerly included with glibc, that are not included in\nreplacement libtirpc-1.0.3, along with the rpcgen program."
+}

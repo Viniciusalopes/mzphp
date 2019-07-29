@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "gobject_introspection",
+    "version": "1.56.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'python3' 'glib'",
+    "file_mz": "gobject_introspection-1.56.1-1.mz",
+    "file_desc": "gobject_introspection-1.56.1-1.mz.desc",
+    "file_sha256": "gobject_introspection-1.56.1-1.mz.sha256",
+    "file_json": "gobject_introspection-1.56.1-1.mz.json",
+    "desc": "The GObject Introspection is used to describe the program \nAPIs and collect them in a uniform, machine readable format."
+}

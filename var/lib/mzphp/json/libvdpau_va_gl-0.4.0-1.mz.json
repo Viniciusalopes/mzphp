@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg_drivers/",
+    "name": "libvdpau_va_gl",
+    "version": "0.4.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/i-rinat/libvdpau-va-gl",
+    "deps": "'ffmpeg' 'libvdpau' 'libva' 'mesa'",
+    "file_mz": "libvdpau_va_gl-0.4.0-1.mz",
+    "file_desc": "libvdpau_va_gl-0.4.0-1.mz.desc",
+    "file_sha256": "libvdpau_va_gl-0.4.0-1.mz.sha256",
+    "file_json": "libvdpau_va_gl-0.4.0-1.mz.json",
+    "desc": "The libvdpau-va-gl package contains a library which implements \nthe VDPAU library. Libvdpau_va_gl uses OpenGL under the hood to \naccelerate drawing and scaling and the VA-API (if available) to \naccelerate video decoding. For now VA-API is available on some \nIntel chips, and on some AMD video adapters with the help of \nthe libvdpau driver."
+}

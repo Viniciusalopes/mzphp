@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "guvcview",
+    "version": "2.0.6-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "'GPL'",
+    "url": "http://guvcview.sourceforge.net/",
+    "deps": "'portaudio' 'ffmpeg' 'SDL2'",
+    "file_mz": "guvcview-2.0.6-1.mz",
+    "file_desc": "guvcview-2.0.6-1.mz.desc",
+    "file_sha256": "guvcview-2.0.6-1.mz.sha256",
+    "file_json": "guvcview-2.0.6-1.mz.json",
+    "desc": "guvcview (GTK+ UVC Viewer)\nThis project aims at providing a simple GTK interface for capturing and\nviewing video from devices supported by the linux UVC driver, although\nit should also work with any v4l2 compatible device."
+}

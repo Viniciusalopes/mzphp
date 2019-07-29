@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libnfs",
+    "version": "4.0.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/sahlberg/libnfs/",
+    "deps": "''",
+    "file_mz": "libnfs-4.0.0-1.mz",
+    "file_desc": "libnfs-4.0.0-1.mz.desc",
+    "file_sha256": "libnfs-4.0.0-1.mz.sha256",
+    "file_json": "libnfs-4.0.0-1.mz.json",
+    "desc": "LIBNFS is a client library for accessing NFS shares over a network"
+}

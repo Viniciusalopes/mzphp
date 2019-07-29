@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "vala",
+    "version": "0.40.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib' 'dbus'",
+    "file_mz": "vala-0.40.8-1.mz",
+    "file_desc": "vala-0.40.8-1.mz.desc",
+    "file_sha256": "vala-0.40.8-1.mz.sha256",
+    "file_json": "vala-0.40.8-1.mz.json",
+    "desc": "Vala is a new programming language that aims to bring modern \nprogramming language features to GNOME developers without imposing any \nadditional runtime requirements and without using a different ABI \ncompared to applications and libraries written in C."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "x/",
+    "name": "ttf_dejavu",
+    "version": "2.37-1",
+    "maintainer": "Desconhecido",
+    "license": "Desconhecida",
+    "url": "N\u00e3o dispon\u00edvel",
+    "deps": "N\u00e3o dispon\u00edvel",
+    "file_mz": "ttf_dejavu-2.37-1.mz",
+    "file_desc": "ttf_dejavu-2.37-1.mz.desc",
+    "file_sha256": "ttf_dejavu-2.37-1.mz.sha256",
+    "file_json": "ttf_dejavu-2.37-1.mz.json",
+    "desc": "N\u00e3o dispon\u00edvel"
+}

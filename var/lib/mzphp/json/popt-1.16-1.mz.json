@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "popt",
+    "version": "1.16-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://directory.fsf.org/wiki/Popt",
+    "deps": "''",
+    "file_mz": "popt-1.16-1.mz",
+    "file_desc": "popt-1.16-1.mz.desc",
+    "file_sha256": "popt-1.16-1.mz.sha256",
+    "file_json": "popt-1.16-1.mz.json",
+    "desc": "The popt package contains the popt libraries which are used \nby some programs to parse command-line options"
+}

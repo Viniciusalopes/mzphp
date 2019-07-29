@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "jp2a",
+    "version": "1.0.6-1",
+    "maintainer": "Emerson Alves",
+    "license": "'GPL'",
+    "url": "https://csl.name/jp2a/",
+    "deps": "''",
+    "file_mz": "jp2a-1.0.6-1.mz",
+    "file_desc": "jp2a-1.0.6-1.mz.desc",
+    "file_sha256": "jp2a-1.0.6-1.mz.sha256",
+    "file_json": "jp2a-1.0.6-1.mz.json",
+    "desc": "Converso de imagens Jped em imagens Ancii"
+}

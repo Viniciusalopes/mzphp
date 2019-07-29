@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "networkmanager",
+    "version": "1.12.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'dbus_glib' 'libndp' 'libnl' 'nss' 'consolekit2' 'curl' 'dhcp' 'gobject_introspection' 'iptables' 'polkit' 'pygobject3' 'upower' 'vala' 'wpa_supplicant' 'bluez' 'qt5_base' 'modemmanager'",
+    "file_mz": "networkmanager-1.12.2-1.mz",
+    "file_desc": "networkmanager-1.12.2-1.mz.desc",
+    "file_sha256": "networkmanager-1.12.2-1.mz.sha256",
+    "file_json": "networkmanager-1.12.2-1.mz.json",
+    "desc": "NetworkManager is a set of co-operative tools that make networking\nsimple and straightforward. Whether WiFi, wired, 3G, or Bluetooth, \nNetworkManager allows you to quickly move from one network to another: \nOnce a network has been configured and joined once, it can be detected \nand re-joined automatically the next time it"
+}

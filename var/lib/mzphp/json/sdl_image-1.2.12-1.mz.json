@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "sdl_image",
+    "version": "1.2.12-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "''",
+    "url": "https://www.libsdl.org/projects/SDL_image/release-1.2.html",
+    "deps": "''",
+    "file_mz": "sdl_image-1.2.12-1.mz",
+    "file_desc": "sdl_image-1.2.12-1.mz.desc",
+    "file_sha256": "sdl_image-1.2.12-1.mz.sha256",
+    "file_json": "sdl_image-1.2.12-1.mz.json",
+    "desc": "SDL_image is an image file loading library. \nIt loads images as SDL surfaces, and supports the following formats:\nBMP, GIF, JPEG, LBM, PCX, PNG, PNM, TGA, TIFF, WEBP, XCF, XPM, XV"
+}

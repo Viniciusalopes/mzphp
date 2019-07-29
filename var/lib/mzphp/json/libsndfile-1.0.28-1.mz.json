@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libsndfile",
+    "version": "1.0.28-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://mega-nerd.com/libsndfile",
+    "deps": "'alsa_lib' 'flac' 'libogg' 'libvorbis' 'sqlite'",
+    "file_mz": "libsndfile-1.0.28-1.mz",
+    "file_desc": "libsndfile-1.0.28-1.mz.desc",
+    "file_sha256": "libsndfile-1.0.28-1.mz.sha256",
+    "file_json": "libsndfile-1.0.28-1.mz.json",
+    "desc": "Libsndfile is a library of C routines for reading and writing \nfiles containing sampled audio data."
+}

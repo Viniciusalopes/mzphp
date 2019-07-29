@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "mutt",
+    "version": "1.11.4-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "'GPL2'",
+    "url": "http://www.mutt.org/",
+    "deps": "''",
+    "file_mz": "mutt-1.11.4-1.mz",
+    "file_desc": "mutt-1.11.4-1.mz.desc",
+    "file_sha256": "mutt-1.11.4-1.mz.sha256",
+    "file_json": "mutt-1.11.4-1.mz.json",
+    "desc": "Mutt is a small but very powerful text-based mail client for Unix\noperating systems."
+}

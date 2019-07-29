@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "slang",
+    "version": "2.3.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://www.jedsoft.org",
+    "deps": "'libpng' 'pcre'",
+    "file_mz": "slang-2.3.2-1.mz",
+    "file_desc": "slang-2.3.2-1.mz.desc",
+    "file_sha256": "slang-2.3.2-1.mz.sha256",
+    "file_json": "slang-2.3.2-1.mz.json",
+    "desc": "S-Lang (slang) is an interpreted language that may be embedded \ninto an application to make the application extensible. It provides \nfacilities required by interactive applications such as display/screen \nmanagement, keyboard input and keymaps."
+}

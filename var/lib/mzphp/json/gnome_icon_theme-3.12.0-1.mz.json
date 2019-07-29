@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "gnome_icon_theme",
+    "version": "3.12.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gtk3' 'gtk2' 'hicolor_icon_theme' 'icon_naming_utils'",
+    "file_mz": "gnome_icon_theme-3.12.0-1.mz",
+    "file_desc": "gnome_icon_theme-3.12.0-1.mz.desc",
+    "file_sha256": "gnome_icon_theme-3.12.0-1.mz.sha256",
+    "file_json": "gnome_icon_theme-3.12.0-1.mz.json",
+    "desc": "The GNOME Icon Theme package contains an assortment of \nnon-scalable icons of different sizes and themes."
+}

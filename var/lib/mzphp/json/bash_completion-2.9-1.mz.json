@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "bash_completion",
+    "version": "2.9-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/scop/bash-completion/",
+    "deps": "'bash'",
+    "file_mz": "bash_completion-2.9-1.mz",
+    "file_desc": "bash_completion-2.9-1.mz.desc",
+    "file_sha256": "bash_completion-2.9-1.mz.sha256",
+    "file_json": "bash_completion-2.9-1.mz.json",
+    "desc": "Programmable completion functions for bash"
+}

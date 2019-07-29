@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "pciutils",
+    "version": "3.6.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.kernel.org/pub/software/utils/pciutils",
+    "deps": "''",
+    "file_mz": "pciutils-3.6.2-1.mz",
+    "file_desc": "pciutils-3.6.2-1.mz.desc",
+    "file_sha256": "pciutils-3.6.2-1.mz.sha256",
+    "file_json": "pciutils-3.6.2-1.mz.json",
+    "desc": "The PCI Utils package contains a set of programs for listing \nPCI devices, inspecting their status and setting their \nconfiguration registers."
+}

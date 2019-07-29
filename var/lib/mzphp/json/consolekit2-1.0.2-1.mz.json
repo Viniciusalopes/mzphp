@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "consolekit2",
+    "version": "1.0.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/ConsoleKit2/ConsoleKit2",
+    "deps": "'dbus_glib' 'xorg_libraries'",
+    "file_mz": "consolekit2-1.0.2-1.mz",
+    "file_desc": "consolekit2-1.0.2-1.mz.desc",
+    "file_sha256": "consolekit2-1.0.2-1.mz.sha256",
+    "file_json": "consolekit2-1.0.2-1.mz.json",
+    "desc": "The ConsoleKit package is a framework for keeping track of \nthe various users, sessions, and seats present on a system. \nIt provides a mechanism for software to react to changes of \nany of these items or of any of the metadata associated with them."
+}

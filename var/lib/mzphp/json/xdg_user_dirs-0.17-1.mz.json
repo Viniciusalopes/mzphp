@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "xdg_user_dirs",
+    "version": "0.17-1",
+    "maintainer": "Emerson Alves",
+    "license": "'GPL'",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/xdg-user-dirs.html",
+    "deps": "''",
+    "file_mz": "xdg_user_dirs-0.17-1.mz",
+    "file_desc": "xdg_user_dirs-0.17-1.mz.desc",
+    "file_sha256": "xdg_user_dirs-0.17-1.mz.sha256",
+    "file_json": "xdg_user_dirs-0.17-1.mz.json",
+    "desc": "Utilitario para a criacao de pastas padroes para o sistema\ncomo Imgens/ Videos/ Modelos/ etc..."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "p7zip",
+    "version": "16.02-1",
+    "maintainer": "Lincoln Lordello",
+    "license": "'LGPL'",
+    "url": "http://p7zip.sourceforge.net/",
+    "deps": "''",
+    "file_mz": "p7zip-16.02-1.mz",
+    "file_desc": "p7zip-16.02-1.mz.desc",
+    "file_sha256": "p7zip-16.02-1.mz.sha256",
+    "file_json": "p7zip-16.02-1.mz.json",
+    "desc": "p7zip is a port of the Windows program 7-zip.\n7-zip is a file archiver with the highest compression ratio."
+}

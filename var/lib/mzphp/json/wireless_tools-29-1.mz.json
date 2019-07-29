@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "wireless_tools",
+    "version": "29-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://hewlettpackard.github.io/",
+    "deps": "''",
+    "file_mz": "wireless_tools-29-1.mz",
+    "file_desc": "wireless_tools-29-1.mz.desc",
+    "file_sha256": "wireless_tools-29-1.mz.sha256",
+    "file_json": "wireless_tools-29-1.mz.json",
+    "desc": "The Wireless Extension (WE) is a generic API in the Linux kernel \nallowing a driver to expose configuration and statistics specific to \ncommon Wireless LANs to user space. A single set of tools can support \nall the variations of Wireless LANs, regardless of their type as long \nas the driver supports Wireless Extensions. WE parameters may also be \nchanged on the fly without restarting the driver (or Linux)."
+}

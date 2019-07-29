@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libusb_compat",
+    "version": "0.1.5-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/projects/libusb/",
+    "deps": "'libusb'",
+    "file_mz": "libusb_compat-0.1.5-1.mz",
+    "file_desc": "libusb_compat-0.1.5-1.mz.desc",
+    "file_sha256": "libusb_compat-0.1.5-1.mz.sha256",
+    "file_json": "libusb_compat-0.1.5-1.mz.json",
+    "desc": "The libusb-compat package aims to look, feel and behave exactly \nlike libusb-0.1. It is a compatibility layer needed by packages \nthat have not been upgraded to the libusb-1.0 API."
+}

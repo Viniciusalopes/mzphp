@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "glade",
+    "version": "3.20.4-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'LGPL'",
+    "url": "https://glade.gnome.org/",
+    "deps": "''",
+    "file_mz": "glade-3.20.4-1.mz",
+    "file_desc": "glade-3.20.4-1.mz.desc",
+    "file_sha256": "glade-3.20.4-1.mz.sha256",
+    "file_json": "glade-3.20.4-1.mz.json",
+    "desc": "Glade is a RAD tool to enable quick & easy development of user\ninterfaces for the GTK+ toolkit and the GNOME desktop environment. For\nGTK+3"
+}

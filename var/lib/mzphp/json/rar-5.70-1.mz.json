@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "rar",
+    "version": "5.70-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "https://www.rarlab.com/",
+    "deps": "''",
+    "file_mz": "rar-5.70-1.mz",
+    "file_desc": "rar-5.70-1.mz.desc",
+    "file_sha256": "rar-5.70-1.mz.sha256",
+    "file_json": "rar-5.70-1.mz.json",
+    "desc": "RAR is a console application allowing to manage archive files in \ncommand line mode. RAR provides compression, encryption, data recovery \nand many other functions."
+}

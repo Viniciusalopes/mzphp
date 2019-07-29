@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "firejail",
+    "version": "0.9.58.2-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "https://github.com/netblue30/firejail",
+    "deps": "''",
+    "file_mz": "firejail-0.9.58.2-1.mz",
+    "file_desc": "firejail-0.9.58.2-1.mz.desc",
+    "file_sha256": "firejail-0.9.58.2-1.mz.sha256",
+    "file_json": "firejail-0.9.58.2-1.mz.json",
+    "desc": "Firejail is a SUID sandbox program that reduces the risk of security\nbreaches by restricting the running environment of untrusted applications\nusing Linux namespaces, seccomp-bpf and Linux capabilities. It allows a\nprocess and all its descendants to have their own private view of the\nglobally shared kernel resources, such as the network stack, process\ntable, mount table. Firejail can work in a SELinux or AppArmor\nenvironment, and it is integrated with Linux Control Groups."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libidn",
+    "version": "1.35-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://gnu.org",
+    "deps": "''",
+    "file_mz": "libidn-1.35-1.mz",
+    "file_desc": "libidn-1.35-1.mz.desc",
+    "file_sha256": "libidn-1.35-1.mz.sha256",
+    "file_json": "libidn-1.35-1.mz.json",
+    "desc": "libidn is a package designed for internationalized string \nhandling based on the Stringprep, Punycode and IDNA specifications \ndefined by the Internet Engineering Task Force (IETF) Internationalized \nDomain Names (IDN) working group, used for \ninternationalized domain names."
+}

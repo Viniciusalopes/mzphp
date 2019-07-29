@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "net/",
+    "name": "netcat",
+    "version": "0.7.1-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "http://netcat.sourceforge.net/",
+    "deps": "''",
+    "file_mz": "netcat-0.7.1-1.mz",
+    "file_desc": "netcat-0.7.1-1.mz.desc",
+    "file_sha256": "netcat-0.7.1-1.mz.sha256",
+    "file_json": "netcat-0.7.1-1.mz.json",
+    "desc": "Netcat is a featured networking utility which reads and writes \ndata across network connections, using the TCP/IP protocol.\nIt is designed to be a reliable"
+}

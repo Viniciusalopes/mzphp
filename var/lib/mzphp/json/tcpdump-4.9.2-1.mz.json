@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "net/",
+    "name": "tcpdump",
+    "version": "4.9.2-1",
+    "maintainer": "Alan Ramalho",
+    "license": "",
+    "url": "https://www.tcpdump.org",
+    "deps": "'libpcap'",
+    "file_mz": "tcpdump-4.9.2-1.mz",
+    "file_desc": "tcpdump-4.9.2-1.mz.desc",
+    "file_sha256": "tcpdump-4.9.2-1.mz.sha256",
+    "file_json": "tcpdump-4.9.2-1.mz.json",
+    "desc": "Tcpdump is a tool used to monitor in a computer network. \nIt shows the packets that pass through the network interface."
+}

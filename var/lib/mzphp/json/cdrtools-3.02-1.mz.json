@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "cdrtools",
+    "version": "3.02-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/cdrtools",
+    "deps": "''",
+    "file_mz": "cdrtools-3.02-1.mz",
+    "file_desc": "cdrtools-3.02-1.mz.desc",
+    "file_sha256": "cdrtools-3.02-1.mz.sha256",
+    "file_json": "cdrtools-3.02-1.mz.json",
+    "desc": "The Cdrtools package contains CD recording utilities. These are \nuseful for reading, creating or writing (burning) CDs, DVDs, \nand Blu-ray discs."
+}

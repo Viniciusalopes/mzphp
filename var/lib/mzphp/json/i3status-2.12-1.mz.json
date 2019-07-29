@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "i3status",
+    "version": "2.12-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "''",
+    "url": "https://i3wm.org/i3status/",
+    "deps": "'libconfuse'",
+    "file_mz": "i3status-2.12-1.mz",
+    "file_desc": "i3status-2.12-1.mz.desc",
+    "file_sha256": "i3status-2.12-1.mz.sha256",
+    "file_json": "i3status-2.12-1.mz.json",
+    "desc": "i3status is a small program for generating a status bar for i3bar,\ndzen2, xmobar or similar programs. It is designed to be very efficient\nby issuing a very small number of system calls, as one generally wants\nto update such a status line every second. This ensures that even under\nhigh load, your status bar is updated correctly. Also, it saves a bit\nof energy by not hogging your CPU as much as spawning the corresponding\namount of shell commands would."
+}

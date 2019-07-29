@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "json_c",
+    "version": "0.13.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/json-c/json-c",
+    "deps": "''",
+    "file_mz": "json_c-0.13.1-1.mz",
+    "file_desc": "json_c-0.13.1-1.mz.desc",
+    "file_sha256": "json_c-0.13.1-1.mz.sha256",
+    "file_json": "json_c-0.13.1-1.mz.json",
+    "desc": "The JSON-C implements a reference counting object model that \nallows you to easily construct JSON objects in C, output them as JSON \nformatted strings and parse JSON formatted strings back into the \nC representation of JSON objects."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "pango",
+    "version": "1.42.3-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'GPLv2'",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/x/pango.html",
+    "deps": "'glib-2' 'fribidi' 'fontconfig' 'freetype' 'harfbuzz'",
+    "file_mz": "pango-1.42.3-1.mz",
+    "file_desc": "pango-1.42.3-1.mz.desc",
+    "file_sha256": "pango-1.42.3-1.mz.sha256",
+    "file_json": "pango-1.42.3-1.mz.json",
+    "desc": "Pango is a library for laying out and rendering of text, with an\nemphasis on internationalization. It can be used anywhere that text\nlayout is needed, though most of the work on Pango so far has been done\nin the context of the GTK+ widget toolkit."
+}

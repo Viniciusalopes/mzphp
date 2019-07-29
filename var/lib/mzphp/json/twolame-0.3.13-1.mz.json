@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "twolame",
+    "version": "0.3.13-1",
+    "maintainer": "Lincoln Lordello",
+    "license": "'LGPL'",
+    "url": "http://www.twolame.org/",
+    "deps": "''",
+    "file_mz": "twolame-0.3.13-1.mz",
+    "file_desc": "twolame-0.3.13-1.mz.desc",
+    "file_sha256": "twolame-0.3.13-1.mz.sha256",
+    "file_json": "twolame-0.3.13-1.mz.json",
+    "desc": "TwoLAME is an optimized MPEG Audio Layer 2 (MP2) encoder."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "tzdata",
+    "version": "2018e-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "http://www.iana.org/time-zones",
+    "deps": "'glibc'",
+    "file_mz": "tzdata-2018e-1.mz",
+    "file_desc": "tzdata-2018e-1.mz.desc",
+    "file_sha256": "tzdata-2018e-1.mz.sha256",
+    "file_json": "tzdata-2018e-1.mz.json",
+    "desc": "Sources for time zone and daylight saving time data"
+}

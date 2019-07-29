@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev/",
+    "name": "lua",
+    "version": "5.3.5-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "https://www.lua.org/",
+    "deps": "''",
+    "file_mz": "lua-5.3.5-1.mz",
+    "file_desc": "lua-5.3.5-1.mz.desc",
+    "file_sha256": "lua-5.3.5-1.mz.sha256",
+    "file_json": "lua-5.3.5-1.mz.json",
+    "desc": "Lua is a powerful light-weight programming language designed\nfor extending applications. It is also frequently used as a\ngeneral-purpose, stand-alone language."
+}

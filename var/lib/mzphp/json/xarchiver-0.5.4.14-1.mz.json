@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "xarchiver",
+    "version": "0.5.4.14-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://github.com/ib/xarchiver",
+    "deps": "'GTK+'",
+    "file_mz": "xarchiver-0.5.4.14-1.mz",
+    "file_desc": "xarchiver-0.5.4.14-1.mz.desc",
+    "file_sha256": "xarchiver-0.5.4.14-1.mz.sha256",
+    "file_json": "xarchiver-0.5.4.14-1.mz.json",
+    "desc": "Xarchiver is the ultimate solution for handling archives on Linux \nand FreeBSD. It"
+}

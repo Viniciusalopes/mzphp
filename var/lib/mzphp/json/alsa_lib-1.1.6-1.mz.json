@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "alsa_lib",
+    "version": "1.1.6-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "''",
+    "url": "https://www.alsa-project.org",
+    "deps": "'python2'",
+    "file_mz": "alsa_lib-1.1.6-1.mz",
+    "file_desc": "alsa_lib-1.1.6-1.mz.desc",
+    "file_sha256": "alsa_lib-1.1.6-1.mz.sha256",
+    "file_json": "alsa_lib-1.1.6-1.mz.json",
+    "desc": "he ALSA Library package contains the ALSA library used by programs\n (including ALSA Utilities) requiring access the ALSA sound interface."
+}

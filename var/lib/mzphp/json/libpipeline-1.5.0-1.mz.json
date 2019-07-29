@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "libpipeline",
+    "version": "1.5.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/libpipeline.html",
+    "deps": "''",
+    "file_mz": "libpipeline-1.5.0-1.mz",
+    "file_desc": "libpipeline-1.5.0-1.mz.desc",
+    "file_sha256": "libpipeline-1.5.0-1.mz.sha256",
+    "file_json": "libpipeline-1.5.0-1.mz.json",
+    "desc": "The Libpipeline package contains a library for manipulating\npipelines of subprocesses in a flexible and convenient way."
+}

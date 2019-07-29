@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "bzip2",
+    "version": "1.0.6-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/8.3/chapter06/bzip2.html",
+    "deps": "''",
+    "file_mz": "bzip2-1.0.6-1.mz",
+    "file_desc": "bzip2-1.0.6-1.mz.desc",
+    "file_sha256": "bzip2-1.0.6-1.mz.sha256",
+    "file_json": "bzip2-1.0.6-1.mz.json",
+    "desc": "The Bzip2 package contains programs for compressing and\ndecompressing files. Compressing text files with bzip2 yields a\nmuch better compression percentage than with the traditional gzip."
+}

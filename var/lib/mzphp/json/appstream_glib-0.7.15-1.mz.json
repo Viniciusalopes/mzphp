@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "appstream_glib",
+    "version": "0.7.15-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/hughsie/appstream-glib",
+    "deps": "'glib' 'gobject_introspection' 'gtk3' 'uuid' 'yaml' 'sqlite'",
+    "file_mz": "appstream_glib-0.7.15-1.mz",
+    "file_desc": "appstream_glib-0.7.15-1.mz.desc",
+    "file_sha256": "appstream_glib-0.7.15-1.mz.sha256",
+    "file_json": "appstream_glib-0.7.15-1.mz.json",
+    "desc": "This library provides GObjects and helper methods to make it easy \nto read and write AppStream metadata. It also provides a simple DOM \nimplementation that makes it easy to edit nodes and convert to and \nfrom the standardized XML representation."
+}

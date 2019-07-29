@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libconfuse",
+    "version": "3.2.2-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "'ISC'",
+    "url": "https://github.com/martinh/libconfuse",
+    "deps": "''",
+    "file_mz": "libconfuse-3.2.2-1.mz",
+    "file_desc": "libconfuse-3.2.2-1.mz.desc",
+    "file_sha256": "libconfuse-3.2.2-1.mz.sha256",
+    "file_json": "libconfuse-3.2.2-1.mz.json",
+    "desc": "libConfuse is a configuration file parser library, licensed under\nthe terms of the ISC license, and written in C. It supports sections\nand (lists of) values (strings, integers, floats, booleans or other\nsections), as well as some other features (such as single/double-quoted\nstrings, environment variable expansion, functions and nested include\nstatements). It makes it very easy to add configuration file capability\nto a program using a simple API."
+}

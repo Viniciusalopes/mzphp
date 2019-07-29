@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "eog",
+    "version": "3.28.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'exempi' 'gnome_desktop' 'itstool' 'libpeas' 'shared_mime_info' 'gobject_introspection' 'lcms' 'libexif' 'librsvg'",
+    "file_mz": "eog-3.28.3-1.mz",
+    "file_desc": "eog-3.28.3-1.mz.desc",
+    "file_sha256": "eog-3.28.3-1.mz.sha256",
+    "file_json": "eog-3.28.3-1.mz.json",
+    "desc": "EOG is an application used for viewing and cataloging image \nfiles on the GNOME Desktop. It has basic editing capabilites."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "lcms2",
+    "version": "2.9-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/lcms",
+    "deps": "'libjpeg_turbo' 'libtiff'",
+    "file_mz": "lcms2-2.9-1.mz",
+    "file_desc": "lcms2-2.9-1.mz.desc",
+    "file_sha256": "lcms2-2.9-1.mz.sha256",
+    "file_json": "lcms2-2.9-1.mz.json",
+    "desc": "The Little Color Management System is a small-footprint color \nmanagement engine, with special focus on accuracy and performance. \nIt uses the International Color Consortium standard (ICC), which \nis the modern standard for color management."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "fdk_aac",
+    "version": "0.1.6-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/fdk-aac.html",
+    "deps": "''",
+    "file_mz": "fdk_aac-0.1.6-1.mz",
+    "file_desc": "fdk_aac-0.1.6-1.mz.desc",
+    "file_sha256": "fdk_aac-0.1.6-1.mz.sha256",
+    "file_json": "fdk_aac-0.1.6-1.mz.json",
+    "desc": "fdk-aac package provides the Fraunhofer FDK AAC library, which is\npurported to be a high quality Advanced Audio Coding implementation."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "xfce4_screenshooter",
+    "version": "1.8.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://goodies.xfce.org/projects/applications/xfce4-screenshooter",
+    "deps": "'xfce4'",
+    "file_mz": "xfce4_screenshooter-1.8.2-1.mz",
+    "file_desc": "xfce4_screenshooter-1.8.2-1.mz.desc",
+    "file_sha256": "xfce4_screenshooter-1.8.2-1.mz.sha256",
+    "file_json": "xfce4_screenshooter-1.8.2-1.mz.json",
+    "desc": "A plugin for the Xfce for Screenshot."
+}

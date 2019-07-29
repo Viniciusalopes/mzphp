@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "mtdev",
+    "version": "1.1.5-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://bitmath.org",
+    "deps": "''",
+    "file_mz": "mtdev-1.1.5-1.mz",
+    "file_desc": "mtdev-1.1.5-1.mz.desc",
+    "file_sha256": "mtdev-1.1.5-1.mz.sha256",
+    "file_json": "mtdev-1.1.5-1.mz.json",
+    "desc": "The mtdev package contains Multitouch Protocol Translation \nLibrary which is used to transform all variants of kernel MT \n(Multitouch) events to the slotted type B protocol."
+}

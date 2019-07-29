@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libgsf",
+    "version": "1.14.44-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib' 'libxml2' 'gdk_pixbuf' 'gobject_introspection'",
+    "file_mz": "libgsf-1.14.44-1.mz",
+    "file_desc": "libgsf-1.14.44-1.mz.desc",
+    "file_sha256": "libgsf-1.14.44-1.mz.sha256",
+    "file_json": "libgsf-1.14.44-1.mz.json",
+    "desc": "The libgsf package contains a library used for providing an \nextensible input/output abstraction layer for structured file formats."
+}

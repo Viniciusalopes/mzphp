@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "unrar",
+    "version": "5.70-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "https://www.rarlab.com/",
+    "deps": "''",
+    "file_mz": "unrar-5.70-1.mz",
+    "file_desc": "unrar-5.70-1.mz.desc",
+    "file_sha256": "unrar-5.70-1.mz.sha256",
+    "file_json": "unrar-5.70-1.mz.json",
+    "desc": "Unrar can extract files from .rar archives. If you want to create\n.rar archives, install package rar."
+}

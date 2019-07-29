@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "nss",
+    "version": "3.38-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://mozila.org",
+    "deps": "'nspr' 'sqlite' 'p11_kit'",
+    "file_mz": "nss-3.38-1.mz",
+    "file_desc": "nss-3.38-1.mz.desc",
+    "file_sha256": "nss-3.38-1.mz.sha256",
+    "file_json": "nss-3.38-1.mz.json",
+    "desc": "The Network Security Services (NSS) package is a set of libraries \ndesigned to support cross-platform development of security-enabled \nclient and server applications. Applications built with NSS can support \nSSL v2 and v3, TLS, PKCS"
+}

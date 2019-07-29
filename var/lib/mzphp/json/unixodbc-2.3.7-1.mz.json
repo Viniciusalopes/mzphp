@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "unixodbc",
+    "version": "2.3.7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://unixodbc.org",
+    "deps": "'pth'",
+    "file_mz": "unixodbc-2.3.7-1.mz",
+    "file_desc": "unixodbc-2.3.7-1.mz.desc",
+    "file_sha256": "unixodbc-2.3.7-1.mz.sha256",
+    "file_json": "unixodbc-2.3.7-1.mz.json",
+    "desc": "The unixODBC package is an Open Source ODBC \n(Open DataBase Connectivity) sub-system and an ODBC SDK for Linux, \nMac OSX, and UNIX. ODBC is an open specification for providing \napplication developers with a predictable API with which to access \ndata sources. Data sources include optional SQL Servers and any data \nsource with an ODBC Driver. unixODBC contains the following components \nused to assist with the manipulation of ODBC data sources: a driver \nmanager, an installer library and command line tool, command line tools \nto help install a driver and work with SQL, drivers and driver \nsetup libraries."
+}

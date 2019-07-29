@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "acpid",
+    "version": "2.0.30-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://sourceforge.net/projects/acpid2/",
+    "deps": "'pm-utils'",
+    "file_mz": "acpid-2.0.30-1.mz",
+    "file_desc": "acpid-2.0.30-1.mz.desc",
+    "file_sha256": "acpid-2.0.30-1.mz.sha256",
+    "file_json": "acpid-2.0.30-1.mz.json",
+    "desc": "Acpid (Advanced Configuration and Power Interface event daemon) \nis a completely flexible, totally extensible daemon for delivering \nACPI events. It listens on netlink interface and when an event occurs, \nexecutes programs to handle the event. The programs it executes are \nconfigured through a set of configuration files, which can be dropped \ninto place by packages or by the user."
+}

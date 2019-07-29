@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "google_chrome",
+    "version": "71.0.3578.98-1",
+    "maintainer": "Diego Sarzi",
+    "license": "''",
+    "url": "https://www.google.com/chrome/",
+    "deps": "''",
+    "file_mz": "google_chrome-71.0.3578.98-1.mz",
+    "file_desc": "google_chrome-71.0.3578.98-1.mz.desc",
+    "file_sha256": "google_chrome-71.0.3578.98-1.mz.sha256",
+    "file_json": "google_chrome-71.0.3578.98-1.mz.json",
+    "desc": "Google Chrome Web Browser"
+}

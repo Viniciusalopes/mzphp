@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "x/",
+    "name": "freetype",
+    "version": "2.10.0-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'FTL'",
+    "url": "https://www.freetype.org",
+    "deps": "''",
+    "file_mz": "freetype-2.10.0-1.mz",
+    "file_desc": "freetype-2.10.0-1.mz.desc",
+    "file_sha256": "freetype-2.10.0-1.mz.sha256",
+    "file_json": "freetype-2.10.0-1.mz.json",
+    "desc": "FreeType is a freely available software library to render fonts.\n\nIt is written in C, designed to be small, efficient, highly\ncustomizable, and portable while capable of producing high-quality\noutput (glyph images) of most vector and bitmap font formats."
+}

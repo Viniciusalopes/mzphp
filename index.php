@@ -3,10 +3,6 @@ if ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') {
     header('location: fora-do-ar.php');
     return;
 }
-# else{
-#    header('location: packages.php');
-#    return;
-#}
 require_once './bin/sessao.php';
 $_SESSION['time'] = (object) [
             'inicius' => date('Yjd-h:i:s'),
@@ -52,41 +48,55 @@ Finalidade: No início a terra era vazia e sem forma.
         <?php require_once 'html/style.php' ?>
         <?php require_once 'html/menu.php' ?>
         <?php require_once 'html/subtitulo.php' ?>
-        <form class="form-inline"autocomplete="off" method="post" action="terminal.php">
-            <input type="hidden" name="persist_command_id" id="persist_command_id" />
-            <div class="form-group mx-sm-3 mb-2">
-                <label class="col-sm-2 col-form-label">root</label>
-                <label for="command" class="sr-only">Senha</label>
-                <input type="password" class="form-control" id="command" name="command" placeholder="Senha" autocomplete="off">
-            </div>
-            <button type="submit" class="btn btn-primary mb-2">OK</button>
-        </form>
-        <div>
-            <pre>
-                <?php
-                #comando("ps -C \"php -S `hostname`\" | grep php ");
-                #comando('/opt/mzphp/bin/starthost');
-                comando("whoami");
-                //exec('sudo php -S studio-nb:9091');
 
-                function comando($cmd) {
-                    exec($cmd . ' 2>&1', $response, $error_code);
-                    if ($error_code > 0 AND $response == array()) {
-                        $response = array($error_code);
-                    }
-                    echo "\n";
+        <?php
+        try {
+            $packages = [];
+            // Obter a listagem dos Arquivos do diretório
+            $local = $_SESSION['dirlib'] . 'json/';
 
-                    foreach ($response as $r) {
-                        #echo htmlentities($r), "\n";
-                        echo $r . "\n";
-                        #echo explode(' ', $r)[0];
+            if (is_dir($local)) {
+                $diretorio = dir($local);
+
+                while ($arquivo = $diretorio->read()) {
+                    $ext = pathinfo($local . $arquivo, PATHINFO_EXTENSION);
+                    if (is_file($local . $arquivo) && $ext == 'json') {
+                        $txt_file_json = file_get_contents($local . $arquivo);
+
+                        $pkg = json_decode($txt_file_json);
+
+                        $packages[] = $pkg;
                     }
-                    #print_r($response);
                 }
-                //header('location: http://studio-nb:9091');
+                $diretorio->close();
+            }
+            usort($packages, function( $a, $b ) {
+                if ($a->name == $b->name) {
+                    return 0;
+                }
+                return (( $a->name < $b->name ) ? -1 : 1 );
+            }
+            );
+
+
+            $_SESSION['packages'] = $packages;
+            ?>
+            <div class="m-4">
+                <?php
+                if (count($packages) > 0) {
+
+                    require 'html/tabela.php';
+                }
                 ?>
-            </pre>
-        </div>
+            </div>
+
+
+            <?php
+        } catch (Exception $exc) {
+            echo $exc->getTraceAsString();
+        }
+        ?>
+        <?php require './bin/../html/scripts.php' ?>
     </body>
 </html>
 <?php

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "x/",
+    "name": "windowmaker",
+    "version": "0.95.8-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'GPLv2'",
+    "url": "http://www.windowmaker.org/",
+    "deps": "'libxft-2'",
+    "file_mz": "windowmaker-0.95.8-1.mz",
+    "file_desc": "windowmaker-0.95.8-1.mz.desc",
+    "file_sha256": "windowmaker-0.95.8-1.mz.sha256",
+    "file_json": "windowmaker-0.95.8-1.mz.json",
+    "desc": "Window Maker is an X11 window manager originally designed to\nprovide integration support for the GNUstep Desktop Environment,\nalthough it can run stand alone. In every way possible, it reproduces\nthe elegant look and feel of the NEXTSTEP user interface."
+}

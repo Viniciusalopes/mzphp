@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "harfbuzz",
+    "version": "1.8.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'glib' 'icu' 'freetype' 'cairo' 'gobject_introspection'",
+    "file_mz": "harfbuzz-1.8.8-1.mz",
+    "file_desc": "harfbuzz-1.8.8-1.mz.desc",
+    "file_sha256": "harfbuzz-1.8.8-1.mz.sha256",
+    "file_json": "harfbuzz-1.8.8-1.mz.json",
+    "desc": "The HarfBuzz package contains an OpenType text shaping engine."
+}

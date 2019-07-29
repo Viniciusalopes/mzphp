@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "thunar_volman",
+    "version": "0.8.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'exo' 'libgudev' 'libxfce4ui' 'libnotify' 'startup_notification' 'gvfs' 'polkit_gnome'",
+    "file_mz": "thunar_volman-0.8.1-1.mz",
+    "file_desc": "thunar_volman-0.8.1-1.mz.desc",
+    "file_sha256": "thunar_volman-0.8.1-1.mz.sha256",
+    "file_json": "thunar_volman-0.8.1-1.mz.json",
+    "desc": "The Thunar Volume Manager is an extension for the Thunar \nfile manager, which enables automatic management of removable \ndrives and media."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "xmlto",
+    "version": "0.0.28-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://pagure.org/xmlto",
+    "deps": "'docbook_xml' 'docbook_xsl' 'libxslt'",
+    "file_mz": "xmlto-0.0.28-1.mz",
+    "file_desc": "xmlto-0.0.28-1.mz.desc",
+    "file_sha256": "xmlto-0.0.28-1.mz.sha256",
+    "file_json": "xmlto-0.0.28-1.mz.json",
+    "desc": "The xmlto package is a front-end to a XSL toolchain. It chooses \nan appropriate stylesheet for the conversion you want and applies \nit using an external XSLT processor."
+}

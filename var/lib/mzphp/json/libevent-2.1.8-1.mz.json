@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libevent",
+    "version": "2.1.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/libevent/libevent/",
+    "deps": "''",
+    "file_mz": "libevent-2.1.8-1.mz",
+    "file_desc": "libevent-2.1.8-1.mz.desc",
+    "file_sha256": "libevent-2.1.8-1.mz.sha256",
+    "file_json": "libevent-2.1.8-1.mz.json",
+    "desc": "libevent is an asynchronous event notification software library. \nThe libevent API provides a mechanism to execute a callback function \nwhen a specific event occurs on a file descriptor or after a timeout \nhas been reached. Furthermore, libevent also supports callbacks \ndue to signals or regular timeouts."
+}

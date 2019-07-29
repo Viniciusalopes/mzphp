@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "texinfo",
+    "version": "6.5-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/texinfo.html",
+    "deps": "''",
+    "file_mz": "texinfo-6.5-1.mz",
+    "file_desc": "texinfo-6.5-1.mz.desc",
+    "file_sha256": "texinfo-6.5-1.mz.sha256",
+    "file_json": "texinfo-6.5-1.mz.json",
+    "desc": "The Texinfo package contains programs for reading, writing,\nand converting info pages."
+}

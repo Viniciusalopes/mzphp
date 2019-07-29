@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "gettext",
+    "version": "0.19.8.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/gettext.html",
+    "deps": "''",
+    "file_mz": "gettext-0.19.8.1-1.mz",
+    "file_desc": "gettext-0.19.8.1-1.mz.desc",
+    "file_sha256": "gettext-0.19.8.1-1.mz.sha256",
+    "file_json": "gettext-0.19.8.1-1.mz.json",
+    "desc": "The Gettext package contains utilities for internationalization\nand localization. These allow programs to be compiled with NLS (Native\nLanguage Support), enabling them to output messages in the user"
+}

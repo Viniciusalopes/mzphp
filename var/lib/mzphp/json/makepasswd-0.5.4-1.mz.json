@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "sec/",
+    "name": "makepasswd",
+    "version": "0.5.4-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "'GPL-3'",
+    "url": "https://github.com/khorben/makepasswd",
+    "deps": "''",
+    "file_mz": "makepasswd-0.5.4-1.mz",
+    "file_desc": "makepasswd-0.5.4-1.mz.desc",
+    "file_sha256": "makepasswd-0.5.4-1.mz.sha256",
+    "file_json": "makepasswd-0.5.4-1.mz.json",
+    "desc": "Makepasswd generates (pseudo-)random passwords of a desired\nlength. It is able to generate its crypted equivalent."
+}

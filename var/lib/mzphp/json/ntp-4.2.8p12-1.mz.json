@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "net/",
+    "name": "ntp",
+    "version": "4.2.8p12-1",
+    "maintainer": "Alan Ramalho",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/basicnet/ntp.html",
+    "deps": "''",
+    "file_mz": "ntp-4.2.8p12-1.mz",
+    "file_desc": "ntp-4.2.8p12-1.mz.desc",
+    "file_sha256": "ntp-4.2.8p12-1.mz.sha256",
+    "file_json": "ntp-4.2.8p12-1.mz.json",
+    "desc": "The ntp package contains a client and server to keep the time \nsynchronized between various computers over a network. This package is \nthe official reference implementation of the NTP protocol."
+}

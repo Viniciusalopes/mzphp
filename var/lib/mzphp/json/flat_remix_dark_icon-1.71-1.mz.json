@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "theme/",
+    "name": "flat_remix_dark_icon",
+    "version": "1.71-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "https://drasite.com/flat-remix",
+    "deps": "''",
+    "file_mz": "flat_remix_dark_icon-1.71-1.mz",
+    "file_desc": "flat_remix_dark_icon-1.71-1.mz.desc",
+    "file_sha256": "flat_remix_dark_icon-1.71-1.mz.sha256",
+    "file_json": "flat_remix_dark_icon-1.71-1.mz.json",
+    "desc": "Flat Remix ICON theme is a pretty simple Linux icon theme,inspired\non material design."
+}

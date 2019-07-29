@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "sec/",
+    "name": "libgpg_erro",
+    "version": "1.32-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/libgpg-error.html",
+    "deps": "''",
+    "file_mz": "libgpg_erro-1.32-1.mz",
+    "file_desc": "libgpg_erro-1.32-1.mz.desc",
+    "file_sha256": "libgpg_erro-1.32-1.mz.sha256",
+    "file_json": "libgpg_erro-1.32-1.mz.json",
+    "desc": "The libgpg-error package contains a library that defines common\nerror values for all GnuPG components."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libtiff",
+    "version": "4.0.9-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'VARIOUS'",
+    "url": "https://osgeo.org/libtiffi",
+    "deps": "'freeglut' 'libjpeg_turbo'",
+    "file_mz": "libtiff-4.0.9-1.mz",
+    "file_desc": "libtiff-4.0.9-1.mz.desc",
+    "file_sha256": "libtiff-4.0.9-1.mz.sha256",
+    "file_json": "libtiff-4.0.9-1.mz.json",
+    "desc": "LibTIFF contains the TIFF libraries and associated utilities."
+}

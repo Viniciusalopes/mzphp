@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "evince",
+    "version": "3.28.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gsettings_desktop_schemas' 'gtk3' 'itstool' 'libxml2' 'gnome_keyring' 'goject_introspection' 'libsecret' 'poppler' 'gnome_desktop' 'gst_plugins_base'",
+    "file_mz": "evince-3.28.2-1.mz",
+    "file_desc": "evince-3.28.2-1.mz.desc",
+    "file_sha256": "evince-3.28.2-1.mz.sha256",
+    "file_json": "evince-3.28.2-1.mz.json",
+    "desc": "Evince is a document viewer for multiple document formats."
+}

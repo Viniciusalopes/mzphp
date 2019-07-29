@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "shadow",
+    "version": "4.6-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/shadow-maint/shadow",
+    "deps": "'linux_pam'",
+    "file_mz": "shadow-4.6-1.mz",
+    "file_desc": "shadow-4.6-1.mz.desc",
+    "file_sha256": "shadow-4.6-1.mz.sha256",
+    "file_json": "shadow-4.6-1.mz.json",
+    "desc": "Linux Login Package"
+}

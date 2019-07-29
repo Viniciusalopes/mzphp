@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libfilezilla",
+    "version": "0.15.1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "https://lib.filezilla-project.org/",
+    "deps": "''",
+    "file_mz": "libfilezilla-0.15.1.mz",
+    "file_desc": "libfilezilla-0.15.1.mz.desc",
+    "file_sha256": "libfilezilla-0.15.1.mz.sha256",
+    "file_json": "libfilezilla-0.15.1.mz.json",
+    "desc": "libfilezilla is a small and modern C++ library, offering some basic functionality to build high-performing, platform-independent programs."
+}

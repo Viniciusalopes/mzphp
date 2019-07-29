@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "pygobject",
+    "version": "2.28.7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'python2' 'glib' 'pycairo' 'libffi'",
+    "file_mz": "pygobject-2.28.7-1.mz",
+    "file_desc": "pygobject-2.28.7-1.mz.desc",
+    "file_sha256": "pygobject-2.28.7-1.mz.sha256",
+    "file_json": "pygobject-2.28.7-1.mz.json",
+    "desc": "Python 2 bindings to the GObject class from GLib"
+}

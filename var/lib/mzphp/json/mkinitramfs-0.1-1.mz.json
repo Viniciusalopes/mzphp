@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "mkinitramfs",
+    "version": "0.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "''",
+    "url": "http://www.linuxfromscratch.org/blfs/view/svn/postlfs/initramfs.html",
+    "deps": "''",
+    "file_mz": "mkinitramfs-0.1-1.mz",
+    "file_desc": "mkinitramfs-0.1-1.mz.desc",
+    "file_sha256": "mkinitramfs-0.1-1.mz.sha256",
+    "file_json": "mkinitramfs-0.1-1.mz.json",
+    "desc": "The only purpose of an initramfs is to mount the root filesystem.\nThe initramfs is a complete set of directories that you would find on a\nnormal root filesystem. It is bundled into a single cpio archive and\ncompressed with one of several compression algorithms.\n\nAt boot time, the boot loader loads the kernel and the initramfs image\ninto memory and starts the kernel. The kernel checks for the presence\nof the initramfs and, if found, mounts it as / and runs /init. The init\nprogram is typically a shell script. Note that the boot process takes\nlonger, possibly significantly longer, if an initramfs is used.\n\nFor most distributions, kernel modules are the biggest reason to have\nan initramfs. In a general distribution, there are many unknowns such\nas file system types and disk layouts. In a way, this is the opposite\nof LFS where the system capabilities and layout are known and a custom\nkernel is normally built. In this situation, an initramfs is rarely needed.\n\nThere are only four primary reasons to have an initramfs in the LFS\nenvironment: loading the rootfs from a network, loading it from an LVM\nlogical volume, having an encrypted rootfs where a password is required,\nor for the convenience of specifying the rootfs as a LABEL or UUID.\nAnything else usually means that the kernel was not configured properly."
+}

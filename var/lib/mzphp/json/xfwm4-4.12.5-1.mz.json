@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfwm4",
+    "version": "4.12.5-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'libwnck' 'libxfce4ui' 'lixfce4util' 'startup_notification'",
+    "file_mz": "xfwm4-4.12.5-1.mz",
+    "file_desc": "xfwm4-4.12.5-1.mz.desc",
+    "file_sha256": "xfwm4-4.12.5-1.mz.sha256",
+    "file_json": "xfwm4-4.12.5-1.mz.json",
+    "desc": "Xfwm4 is the window manager for Xfce."
+}

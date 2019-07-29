@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "gmime",
+    "version": "3.2.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib' 'libgpg_error' 'gobject_introspection' 'libidn' 'vala' 'gpgme'",
+    "file_mz": "gmime-3.2.0-1.mz",
+    "file_desc": "gmime-3.2.0-1.mz.desc",
+    "file_sha256": "gmime-3.2.0-1.mz.sha256",
+    "file_json": "gmime-3.2.0-1.mz.json",
+    "desc": "he GMime package contains a set of utilities for parsing and \ncreating messages using the Multipurpose Internet Mail Extension \n(MIME) as defined by the applicable RFCs."
+}

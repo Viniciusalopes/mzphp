@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "squashfs",
+    "version": "4.3-1",
+    "maintainer": "Diego Sarzi",
+    "license": "'GPL2'",
+    "url": "https://sourceforge.net/projects/squashfs/",
+    "deps": "''",
+    "file_mz": "squashfs-4.3-1.mz",
+    "file_desc": "squashfs-4.3-1.mz.desc",
+    "file_sha256": "squashfs-4.3-1.mz.sha256",
+    "file_json": "squashfs-4.3-1.mz.json",
+    "desc": "Squashfs is a compressed read-only file system for Linux. Squashfs\ncompresses files, inodes and directories, and supports block sizes from 4\nKiB up to 1 MiB for greater compression.\n\nSeveral compression algorithms are supported. Squashfs is also the name\nof free software, licensed under the GPL, for accessing Squashfs\nfilesystems."
+}

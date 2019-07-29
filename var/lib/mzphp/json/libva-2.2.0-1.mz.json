@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg_drivers/",
+    "name": "libva",
+    "version": "2.2.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/intel/libva",
+    "deps": "'libdrm' 'mesa' 'wayland'",
+    "file_mz": "libva-2.2.0-1.mz",
+    "file_desc": "libva-2.2.0-1.mz.desc",
+    "file_sha256": "libva-2.2.0-1.mz.sha256",
+    "file_json": "libva-2.2.0-1.mz.json",
+    "desc": "The libva package contains a library which provides access to \nhardware accelerated video processing, using hardware to accelerate \nvideo processing in order to offload the central processing unit \n(CPU) to decode and encode compressed digital video. The VA API \nvideo decode/encode interface is platform and window system \nindependent targeted at Direct Rendering Infrastructure (DRI) \nin the X Window System however it can potentially also be \nused with direct framebuffer and graphics sub-systems for \nvideo output. Accelerated processing includes support for \nvideo decoding, video encoding, subpicture blending, and rendering."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libunistring",
+    "version": "0.9.10-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnu.org",
+    "deps": "''",
+    "file_mz": "libunistring-0.9.10-1.mz",
+    "file_desc": "libunistring-0.9.10-1.mz.desc",
+    "file_sha256": "libunistring-0.9.10-1.mz.sha256",
+    "file_json": "libunistring-0.9.10-1.mz.json",
+    "desc": "libunistring is a library that provides functions for manipulating\nUnicode strings and for manipulating C strings according to the \nUnicode standard."
+}

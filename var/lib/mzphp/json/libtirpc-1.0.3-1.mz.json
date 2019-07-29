@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libtirpc",
+    "version": "1.0.3-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/basicnet/libtirpc.html",
+    "deps": "''",
+    "file_mz": "libtirpc-1.0.3-1.mz",
+    "file_desc": "libtirpc-1.0.3-1.mz.desc",
+    "file_sha256": "libtirpc-1.0.3-1.mz.sha256",
+    "file_json": "libtirpc-1.0.3-1.mz.json",
+    "desc": "The libtirpc package contains libraries that support programs that\nuse the Remote Procedure Call (RPC) API. It replaces the RPC, but not\nthe NIS library entries that used to be in glibc."
+}

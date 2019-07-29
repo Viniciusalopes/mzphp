@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "libxcb",
+    "version": "1.13-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'libxau' 'xcb_proto' 'libxdmcp'",
+    "file_mz": "libxcb-1.13-1.mz",
+    "file_desc": "libxcb-1.13-1.mz.desc",
+    "file_sha256": "libxcb-1.13-1.mz.sha256",
+    "file_json": "libxcb-1.13-1.mz.json",
+    "desc": "The libxcb package provides an interface to the X Window \nSystem protocol, which replaces the current Xlib interface. \nXlib can also use XCB as a transport layer, allowing software \nto make requests and receive responses with both."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "lame",
+    "version": "3.100-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/lame.html",
+    "deps": "''",
+    "file_mz": "lame-3.100-1.mz",
+    "file_desc": "lame-3.100-1.mz.desc",
+    "file_sha256": "lame-3.100-1.mz.sha256",
+    "file_json": "lame-3.100-1.mz.json",
+    "desc": "The LAME package contains an MP3 encoder and optionally, an MP3\nframe analyzer. This is useful for creating and analyzing compressed\naudio files."
+}

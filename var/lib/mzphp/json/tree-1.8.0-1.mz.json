@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "tree",
+    "version": "1.8.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/general/tree.html",
+    "deps": "''",
+    "file_mz": "tree-1.8.0-1.mz",
+    "file_desc": "tree-1.8.0-1.mz.desc",
+    "file_sha256": "tree-1.8.0-1.mz.sha256",
+    "file_json": "tree-1.8.0-1.mz.json",
+    "desc": "The tree application, as the name suggests, is useful to display,\nin a terminal, directory contents, including directories, files, links."
+}

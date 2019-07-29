@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "leafpad",
+    "version": "0.8.17-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "http://tarot.freeshell.org/leafpad/",
+    "deps": "''",
+    "file_mz": "leafpad-0.8.17-1.mz",
+    "file_desc": "leafpad-0.8.17-1.mz.desc",
+    "file_sha256": "leafpad-0.8.17-1.mz.sha256",
+    "file_json": "leafpad-0.8.17-1.mz.json",
+    "desc": "Leafpad is a simple GTK+ text editor that emphasizes simplicity.\nAs development focuses on keeping weight down to a minimum, only the\nmost essential features are implemented in the editor.\nLeafpad is simple to use, is easily compiled, requires few libraries,and\nstarts up quickly."
+}

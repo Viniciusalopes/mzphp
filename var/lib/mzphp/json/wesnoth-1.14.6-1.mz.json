@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "games/",
+    "name": "wesnoth",
+    "version": "1.14.6-1",
+    "maintainer": "Diego Sarzi",
+    "license": "'GPL2+'",
+    "url": "https://www.wesnoth.org/",
+    "deps": "'SDL2_image' 'SDL2_mixer' 'SDL2_tff' 'SDL2'",
+    "file_mz": "wesnoth-1.14.6-1.mz",
+    "file_desc": "wesnoth-1.14.6-1.mz.desc",
+    "file_sha256": "wesnoth-1.14.6-1.mz.sha256",
+    "file_json": "wesnoth-1.14.6-1.mz.json",
+    "desc": "The Battle for Wesnoth is an open source, turn-based strategy\ngame with a high fantasy theme. It features both singleplayer and\nonline/hotseat multiplayer combat."
+}

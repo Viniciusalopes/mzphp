@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "inkscape",
+    "version": "0.92.3-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/xsoft/inkscape.html",
+    "deps": "'Boost-1.68.0' 'GC-7.6.4' 'Gsl-2.5' 'Gtkmm-2.24.5' 'libxslt-1.1.32' 'Poppler-0.67.0' 'popt-1.16' 'Wget-1.19.5'",
+    "file_mz": "inkscape-0.92.3-1.mz",
+    "file_desc": "inkscape-0.92.3-1.mz.desc",
+    "file_sha256": "inkscape-0.92.3-1.mz.sha256",
+    "file_json": "inkscape-0.92.3-1.mz.json",
+    "desc": "Inkscape is a what you see is what you get Scalable Vector Graphics\neditor. It is useful for creating, viewing and changing SVG images."
+}

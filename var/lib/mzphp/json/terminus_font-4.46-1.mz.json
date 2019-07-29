@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "x/",
+    "name": "terminus_font",
+    "version": "4.46-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "http://terminus-font.sourceforge.net/",
+    "deps": "'bdftopcf'",
+    "file_mz": "terminus_font-4.46-1.mz",
+    "file_desc": "terminus_font-4.46-1.mz.desc",
+    "file_sha256": "terminus_font-4.46-1.mz.sha256",
+    "file_json": "terminus_font-4.46-1.mz.json",
+    "desc": "Terminus Font is a clean, fixed width bitmap font designed for\nlong (8 and more hours per day) work with computers."
+}

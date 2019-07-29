@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "cryptsetup",
+    "version": "2.0.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.kernel.org/pub/linux/utils/cryptsetup/",
+    "deps": "'json_c' 'libgcrypt' 'lvm' 'popt' 'python2'",
+    "file_mz": "cryptsetup-2.0.4-1.mz",
+    "file_desc": "cryptsetup-2.0.4-1.mz.desc",
+    "file_sha256": "cryptsetup-2.0.4-1.mz.sha256",
+    "file_json": "cryptsetup-2.0.4-1.mz.json",
+    "desc": "cryptsetup is used to set up transparent encryption of block \ndevices using the kernel crypto API."
+}

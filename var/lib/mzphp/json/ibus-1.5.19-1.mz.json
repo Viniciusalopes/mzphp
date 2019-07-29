@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "ibus",
+    "version": "1.5.19-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/ibus/ibus",
+    "deps": "'dconf' 'isocodes' 'vala' 'gobject_introspection' 'gtk2' 'libnotify' 'dbus_python' 'pygobject' 'libxkbcommon' 'wayland' 'ucd'",
+    "file_mz": "ibus-1.5.19-1.mz",
+    "file_desc": "ibus-1.5.19-1.mz.desc",
+    "file_sha256": "ibus-1.5.19-1.mz.sha256",
+    "file_json": "ibus-1.5.19-1.mz.json",
+    "desc": "ibus is an Intelligent Input Bus. It is a new input framework for \nLinux OS. It provides a full featured and user friendly input \nmethod user interface."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "libelf",
+    "version": "0.173-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/libelf.html",
+    "deps": "''",
+    "file_mz": "libelf-0.173-1.mz",
+    "file_desc": "libelf-0.173-1.mz.desc",
+    "file_sha256": "libelf-0.173-1.mz.sha256",
+    "file_json": "libelf-0.173-1.mz.json",
+    "desc": "Libelf is a library for handling ELF\n(Executable and Linkable Format) files."
+}

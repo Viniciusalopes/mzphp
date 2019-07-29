@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "htop",
+    "version": "3.0.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "https://github.com/hishamhm/htop",
+    "deps": "''",
+    "file_mz": "htop-3.0.0-1.mz",
+    "file_desc": "htop-3.0.0-1.mz.desc",
+    "file_sha256": "htop-3.0.0-1.mz.sha256",
+    "file_json": "htop-3.0.0-1.mz.json",
+    "desc": "This is htop, an interactive process viewer. It requires ncurses.\nIt is developed primarily on Linux, but we also have code for running\nunder FreeBSD and Mac OS X (help and testing are wanted for these platforms!)"
+}

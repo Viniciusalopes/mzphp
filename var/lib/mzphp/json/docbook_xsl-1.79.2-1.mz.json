@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "docbook_xsl",
+    "version": "1.79.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/docbook/xslt10-stylesheets",
+    "deps": "'libxml2' 'libxslt' 'zip' 'apache_ant'",
+    "file_mz": "docbook_xsl-1.79.2-1.mz",
+    "file_desc": "docbook_xsl-1.79.2-1.mz.desc",
+    "file_sha256": "docbook_xsl-1.79.2-1.mz.sha256",
+    "file_json": "docbook_xsl-1.79.2-1.mz.json",
+    "desc": "The DocBook XSL Stylesheets package contains XSL stylesheets. \nThese are useful for performing transformations on XML DocBook files."
+}

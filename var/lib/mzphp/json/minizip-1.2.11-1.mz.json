@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "minizip",
+    "version": "1.2.11-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/madler/zlib",
+    "deps": "'zlib'",
+    "file_mz": "minizip-1.2.11-1.mz",
+    "file_desc": "minizip-1.2.11-1.mz.desc",
+    "file_sha256": "minizip-1.2.11-1.mz.sha256",
+    "file_json": "minizip-1.2.11-1.mz.json",
+    "desc": "complement for zlib"
+}

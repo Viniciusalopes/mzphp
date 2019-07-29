@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "linux_firmware",
+    "version": "20190514-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'VARIOUS'",
+    "url": "http://git.kernel.org/?p=linux/kernel/git/firmware/linux-firmware.git;a=summary",
+    "deps": "'linux'",
+    "file_mz": "linux_firmware-20190514-1.mz",
+    "file_desc": "linux_firmware-20190514-1.mz.desc",
+    "file_sha256": "linux_firmware-20190514-1.mz.sha256",
+    "file_json": "linux_firmware-20190514-1.mz.json",
+    "desc": "Firmware files for Linux"
+}

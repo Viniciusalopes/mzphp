@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "faac",
+    "version": "1.29.9.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/faac",
+    "deps": "''",
+    "file_mz": "faac-1.29.9.2-1.mz",
+    "file_desc": "faac-1.29.9.2-1.mz.desc",
+    "file_sha256": "faac-1.29.9.2-1.mz.sha256",
+    "file_json": "faac-1.29.9.2-1.mz.json",
+    "desc": "iFAAC is an encoder for a lossy sound compression scheme specified\nin MPEG-2 Part 7 and MPEG-4 Part 3 standards and known as Advanced \nAudio Coding (AAC). This encoder is useful for producing files that \ncan be played back on iPod. Moreover, iPod does not understand \nother sound compression schemes in video files."
+}

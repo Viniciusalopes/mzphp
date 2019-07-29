@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "polkit",
+    "version": "0.114-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.freedesktop.org/software/polkit/docs/latest/polkit.8.html",
+    "deps": "'glib' 'mozjs'",
+    "file_mz": "polkit-0.114-1.mz",
+    "file_desc": "polkit-0.114-1.mz.desc",
+    "file_sha256": "polkit-0.114-1.mz.sha256",
+    "file_json": "polkit-0.114-1.mz.json",
+    "desc": "Polkit is a toolkit for defining and handling authorizations. \nIt is used for allowing unprivileged processes to communicate \nwith privileged processes."
+}

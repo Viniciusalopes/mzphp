@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "libffi",
+    "version": "3.2.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/libffi.html",
+    "deps": "''",
+    "file_mz": "libffi-3.2.1-1.mz",
+    "file_desc": "libffi-3.2.1-1.mz.desc",
+    "file_sha256": "libffi-3.2.1-1.mz.sha256",
+    "file_json": "libffi-3.2.1-1.mz.json",
+    "desc": "The Libffi library provides a portable, high level programming\ninterface to various calling conventions. This allows a programmer to\ncall any function specified by a call interface description at run time."
+}

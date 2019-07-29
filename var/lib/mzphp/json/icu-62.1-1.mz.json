@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "icu",
+    "version": "62.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'ICU'",
+    "url": "http://site.icu-project.org/home",
+    "deps": "''",
+    "file_mz": "icu-62.1-1.mz",
+    "file_desc": "icu-62.1-1.mz.desc",
+    "file_sha256": "icu-62.1-1.mz.sha256",
+    "file_json": "icu-62.1-1.mz.json",
+    "desc": "The International Components for Unicode (ICU) package \nis a mature, widely used set of C/C++ libraries providing Unicode and \nGlobalization support for software applications. ICU is widely portable\n and gives applications the same results on all platforms."
+}

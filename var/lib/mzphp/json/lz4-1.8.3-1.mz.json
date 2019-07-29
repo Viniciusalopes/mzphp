@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "lz4",
+    "version": "1.8.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "http://www.lz4.org/",
+    "deps": "'glibc'",
+    "file_mz": "lz4-1.8.3-1.mz",
+    "file_desc": "lz4-1.8.3-1.mz.desc",
+    "file_sha256": "lz4-1.8.3-1.mz.sha256",
+    "file_json": "lz4-1.8.3-1.mz.json",
+    "desc": "LZ4 is lossless compression algorithm"
+}

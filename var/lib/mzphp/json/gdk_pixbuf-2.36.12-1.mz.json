@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "gdk_pixbuf",
+    "version": "2.36.12-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib' 'libjpeg_turbo' 'libpng' 'shared_mime_info' 'libsvg' 'libtiff' 'corg_libraries'",
+    "file_mz": "gdk_pixbuf-2.36.12-1.mz",
+    "file_desc": "gdk_pixbuf-2.36.12-1.mz.desc",
+    "file_sha256": "gdk_pixbuf-2.36.12-1.mz.sha256",
+    "file_json": "gdk_pixbuf-2.36.12-1.mz.json",
+    "desc": "The Gdk Pixbuf package is a toolkit for image loading and pixel \nbuffer manipulation. It is used by GTK+ 2 and GTK+ 3 to load and \nmanipulate images. In the past it was distributed as part of GTK+ 2 \nbut it was split off into a separate package in preparation \nfor the change to GTK+ 3."
+}

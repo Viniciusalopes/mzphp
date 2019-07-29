@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "make",
+    "version": "4.2.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/make.html",
+    "deps": "''",
+    "file_mz": "make-4.2.1-1.mz",
+    "file_desc": "make-4.2.1-1.mz.desc",
+    "file_sha256": "make-4.2.1-1.mz.sha256",
+    "file_json": "make-4.2.1-1.mz.json",
+    "desc": "The Make package contains a program for compiling packages"
+}

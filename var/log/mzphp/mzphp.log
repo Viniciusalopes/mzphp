@@ -1,284 +1,174 @@
-[ 2019-07-27 16:20:22 ] # Registro de log do mzPhp.
-[ 2019-07-27 16:20:22 ] Log reiniciado.
-[ 2019-07-27 16:20:37 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:20:37 ] pid: 0
-[ 2019-07-27 16:20:37 ] login()-> executando
-[ 2019-07-27 16:20:37 ] Aguardando autenticação do r00t...
-[ 2019-07-27 16:20:44 ] Cancelado pelo usuário.
-[ 2019-07-27 16:20:47 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:20:47 ] pid: 0
-[ 2019-07-27 16:20:47 ] login()-> executando
-[ 2019-07-27 16:20:47 ] Aguardando autenticação do r00t...
-[ 2019-07-27 16:20:49 ] valida_senha()-> executando
-[ 2019-07-27 16:20:49 ] Opa! Senha em branco não vale...
-[ 2019-07-27 16:20:49 ] erro(txtErro)-> executando
-[ 2019-07-27 16:20:57 ] valida_senha()-> executando
-[ 2019-07-27 16:20:59 ] Opa! Senha inválida!
-[ 2019-07-27 16:20:59 ] returncode->(b) 1
-[ 2019-07-27 16:20:59 ] [sudo] senha para vovostudio: Sinto muito, tente novamente.
-[sudo] senha para vovostudio: 
-sudo: no password was provided
-sudo: 1 tentativa de senha incorreta
-
-[ 2019-07-27 16:20:59 ] erro(txtErro)-> executando
-[ 2019-07-27 16:21:15 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:21:15 ] pid: 0
-[ 2019-07-27 16:21:15 ] login()-> executando
-[ 2019-07-27 16:21:15 ] Aguardando autenticação do r00t...
-[ 2019-07-27 16:21:18 ] valida_senha()-> executando
-[ 2019-07-27 16:21:18 ] inicius()-> executando
-[ 2019-07-27 16:21:18 ] tty()-> executando
-[ 2019-07-27 16:21:18 ] root_on()-> executando
-[ 2019-07-27 16:21:18 ] getPid()-> executando
-[ 2019-07-27 16:21:18 ] Usuário r00t autenticado.
-[ 2019-07-27 16:21:18 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:21:18 ] pid: 0
-[ 2019-07-27 16:21:18 ] Iniciando servidor web...
-[ 2019-07-27 16:21:18 ] Aguardando inicialização do host...[ 1s ]
-[ 2019-07-27 16:21:18 ] phpHost()-> executando
-[ 2019-07-27 16:21:18 ] getPid()-> executando
-[ 2019-07-27 16:21:19 ] Aguardando inicialização do host...[ 2s ]
-[ 2019-07-27 16:21:19 ] getPid()-> executando
-[ 2019-07-27 16:21:20 ] Servidor web inicializado. [ pid-> 2313 ]
-[ 2019-07-27 16:22:06 ] getPid()-> executando
-[ 2019-07-27 16:22:06 ] O pid do servidor atual é: 2313
-[ 2019-07-27 16:22:15 ] phpHostOff()-> executando
-[ 2019-07-27 16:22:15 ] Iniciando AutoPowerOff do servidor web...
-[ 2019-07-27 16:22:16 ] O servidor web php será desligado em 2 segundos [ pid-> 2313 ]
-[ 2019-07-27 16:22:17 ] O servidor web php será desligado em 1 segundos [ pid-> 2313 ]
-[ 2019-07-27 16:22:17 ] Desligando servidor Web...
-[ 2019-07-27 16:22:17 ] getPid()-> executando
-[ 2019-07-27 16:22:17 ] Servidor Web desligado automaGicamente. =)
-[ 2019-07-27 16:23:36 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:23:36 ] pid: 0
-[ 2019-07-27 16:23:36 ] login()-> executando
-[ 2019-07-27 16:23:36 ] Aguardando autenticação do r00t...
-[ 2019-07-27 16:23:38 ] valida_senha()-> executando
-[ 2019-07-27 16:23:38 ] inicius()-> executando
-[ 2019-07-27 16:23:38 ] tty()-> executando
-[ 2019-07-27 16:23:38 ] root_on()-> executando
-[ 2019-07-27 16:23:38 ] getPid()-> executando
-[ 2019-07-27 16:23:38 ] Usuário r00t autenticado.
-[ 2019-07-27 16:23:38 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:23:38 ] pid: 0
-[ 2019-07-27 16:23:38 ] Iniciando servidor web...
-[ 2019-07-27 16:23:38 ] phpHost()-> executando
-[ 2019-07-27 16:23:38 ] Aguardando inicialização do host...[ 1s ]
-[ 2019-07-27 16:23:38 ] getPid()-> executando
-[ 2019-07-27 16:23:39 ] Aguardando inicialização do host...[ 2s ]
-[ 2019-07-27 16:23:39 ] getPid()-> executando
-[ 2019-07-27 16:23:40 ] Servidor web inicializado. [ pid-> 2612 ]
-[ 2019-07-27 16:24:16 ] inicius()-> executando
-[ 2019-07-27 16:24:16 ] tty()-> executando
-[ 2019-07-27 16:24:16 ] root_on()-> executando
-[ 2019-07-27 16:24:16 ] getPid()-> executando
-[ 2019-07-27 16:24:16 ] Usuário r00t autenticado.
-[ 2019-07-27 16:24:16 ] Servidor web inicializado. [ pid-> 2612 ]
-[ 2019-07-27 16:24:16 ] webBrowser()-> executando
-[ 2019-07-27 16:24:16 ] Abrindo o navegador...
-[ 2019-07-27 16:24:17 ] startThreadPhpHostOff()-> executando
-[ 2019-07-27 16:24:17 ] sudo /usr/bin/env python3 /opt/mzphp/mzphp -o
-[ 2019-07-27 16:24:17 ] phpHostOff()-> executando
-[ 2019-07-27 16:24:17 ] Iniciando AutoPowerOff do servidor web...
-[ 2019-07-27 16:24:18 ] O servidor web php será desligado em 2 segundos [ pid-> 2612 ]
-[ 2019-07-27 16:24:19 ] O servidor web php será desligado em 1 segundos [ pid-> 2612 ]
-[ 2019-07-27 16:24:19 ] Desligando servidor Web...
-[ 2019-07-27 16:24:19 ] getPid()-> executando
-[ 2019-07-27 16:24:19 ] Servidor Web desligado automaGicamente. =)
-[ 2019-07-27 16:24:48 ] inicius()-> executando
-[ 2019-07-27 16:24:48 ] tty()-> executando
-[ 2019-07-27 16:24:48 ] root_on()-> executando
-[ 2019-07-27 16:24:48 ] getPid()-> executando
-[ 2019-07-27 16:24:48 ] Usuário r00t autenticado.
-[ 2019-07-27 16:24:48 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:24:48 ] pid: 0
-[ 2019-07-27 16:24:48 ] Iniciando servidor web...
-[ 2019-07-27 16:24:48 ] Aguardando inicialização do host...[ 1s ]
-[ 2019-07-27 16:24:48 ] phpHost()-> executando
-[ 2019-07-27 16:24:48 ] getPid()-> executando
-[ 2019-07-27 16:24:50 ] Aguardando inicialização do host...[ 2s ]
-[ 2019-07-27 16:24:50 ] getPid()-> executando
-[ 2019-07-27 16:24:51 ] Servidor web inicializado. [ pid-> 2799 ]
-[ 2019-07-27 16:24:51 ] webBrowser()-> executando
-[ 2019-07-27 16:24:51 ] Abrindo o navegador...
-[ 2019-07-27 16:24:51 ] startThreadPhpHostOff()-> executando
-[ 2019-07-27 16:24:51 ] sudo /usr/bin/env python3 /opt/mzphp/mzphp -o
-[ 2019-07-27 16:24:52 ] phpHostOff()-> executando
-[ 2019-07-27 16:24:52 ] Iniciando AutoPowerOff do servidor web...
-[ 2019-07-27 16:24:53 ] O servidor web php será desligado em 14 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:24:54 ] O servidor web php será desligado em 13 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:24:55 ] O servidor web php será desligado em 12 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:24:56 ] O servidor web php será desligado em 11 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:24:57 ] O servidor web php será desligado em 10 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:24:58 ] O servidor web php será desligado em 9 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:24:59 ] O servidor web php será desligado em 8 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:25:00 ] O servidor web php será desligado em 7 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:25:01 ] O servidor web php será desligado em 6 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:25:02 ] O servidor web php será desligado em 5 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:25:03 ] O servidor web php será desligado em 4 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:25:04 ] O servidor web php será desligado em 3 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:25:05 ] O servidor web php será desligado em 2 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:25:06 ] O servidor web php será desligado em 1 segundos [ pid-> 2799 ]
-[ 2019-07-27 16:25:06 ] Desligando servidor Web...
-[ 2019-07-27 16:25:06 ] getPid()-> executando
-[ 2019-07-27 16:25:06 ] Servidor Web desligado automaGicamente. =)
-[ 2019-07-27 16:25:18 ] inicius()-> executando
-[ 2019-07-27 16:25:18 ] tty()-> executando
-[ 2019-07-27 16:25:18 ] root_on()-> executando
-[ 2019-07-27 16:25:18 ] getPid()-> executando
-[ 2019-07-27 16:25:18 ] Usuário r00t autenticado.
-[ 2019-07-27 16:25:18 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:25:18 ] pid: 0
-[ 2019-07-27 16:25:18 ] Iniciando servidor web...
-[ 2019-07-27 16:25:18 ] Aguardando inicialização do host...[ 1s ]
-[ 2019-07-27 16:25:18 ] phpHost()-> executando
-[ 2019-07-27 16:25:18 ] getPid()-> executando
-[ 2019-07-27 16:25:19 ] Aguardando inicialização do host...[ 2s ]
-[ 2019-07-27 16:25:19 ] getPid()-> executando
-[ 2019-07-27 16:25:20 ] Servidor web inicializado. [ pid-> 2934 ]
-[ 2019-07-27 16:25:20 ] webBrowser()-> executando
-[ 2019-07-27 16:25:20 ] Abrindo o navegador...
-[ 2019-07-27 16:25:21 ] startThreadPhpHostOff()-> executando
-[ 2019-07-27 16:25:21 ] sudo /usr/bin/env python3 /opt/mzphp/mzphp -o
-[ 2019-07-27 16:25:21 ] phpHostOff()-> executando
-[ 2019-07-27 16:25:21 ] Iniciando AutoPowerOff do servidor web...
-[ 2019-07-27 16:25:22 ] O servidor web php será desligado em 14 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:23 ] O servidor web php será desligado em 13 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:24 ] O servidor web php será desligado em 12 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:25 ] O servidor web php será desligado em 11 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:26 ] O servidor web php será desligado em 10 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:27 ] O servidor web php será desligado em 9 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:28 ] O servidor web php será desligado em 8 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:29 ] O servidor web php será desligado em 7 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:30 ] O servidor web php será desligado em 6 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:31 ] O servidor web php será desligado em 5 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:32 ] O servidor web php será desligado em 4 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:33 ] O servidor web php será desligado em 3 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:34 ] O servidor web php será desligado em 2 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:35 ] O servidor web php será desligado em 1 segundos [ pid-> 2934 ]
-[ 2019-07-27 16:25:35 ] Desligando servidor Web...
-[ 2019-07-27 16:25:35 ] getPid()-> executando
-[ 2019-07-27 16:25:35 ] Servidor Web desligado automaGicamente. =)
-[ 2019-07-27 16:26:07 ] inicius()-> executando
-[ 2019-07-27 16:26:07 ] tty()-> executando
-[ 2019-07-27 16:26:07 ] root_on()-> executando
-[ 2019-07-27 16:26:09 ] getPid()-> executando
-[ 2019-07-27 16:26:09 ] login()-> executando
-[ 2019-07-27 16:26:09 ] Aguardando autenticação do r00t...
-[ 2019-07-27 16:26:16 ] valida_senha()-> executando
-[ 2019-07-27 16:26:16 ] inicius()-> executando
-[ 2019-07-27 16:26:16 ] tty()-> executando
-[ 2019-07-27 16:26:16 ] root_on()-> executando
-[ 2019-07-27 16:26:16 ] getPid()-> executando
-[ 2019-07-27 16:26:16 ] Usuário r00t autenticado.
-[ 2019-07-27 16:26:16 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:26:16 ] pid: 0
-[ 2019-07-27 16:26:16 ] Iniciando servidor web...
-[ 2019-07-27 16:26:16 ] phpHost()-> executando
-[ 2019-07-27 16:26:16 ] Aguardando inicialização do host...[ 1s ]
-[ 2019-07-27 16:26:16 ] getPid()-> executando
-[ 2019-07-27 16:26:17 ] Aguardando inicialização do host...[ 2s ]
-[ 2019-07-27 16:26:17 ] getPid()-> executando
-[ 2019-07-27 16:26:18 ] Servidor web inicializado. [ pid-> 3236 ]
-[ 2019-07-27 16:26:18 ] webBrowser()-> executando
-[ 2019-07-27 16:26:18 ] Abrindo o navegador...
-[ 2019-07-27 16:26:19 ] startThreadPhpHostOff()-> executando
-[ 2019-07-27 16:26:19 ] sudo /usr/bin/env python3 /opt/mzphp/mzphp -o
-[ 2019-07-27 16:26:19 ] phpHostOff()-> executando
-[ 2019-07-27 16:26:19 ] Iniciando AutoPowerOff do servidor web...
-[ 2019-07-27 16:26:20 ] O servidor web php será desligado em 14 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:21 ] O servidor web php será desligado em 13 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:22 ] O servidor web php será desligado em 12 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:23 ] O servidor web php será desligado em 11 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:24 ] O servidor web php será desligado em 10 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:25 ] O servidor web php será desligado em 9 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:26 ] O servidor web php será desligado em 8 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:27 ] O servidor web php será desligado em 7 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:28 ] O servidor web php será desligado em 6 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:29 ] O servidor web php será desligado em 5 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:30 ] O servidor web php será desligado em 4 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:31 ] O servidor web php será desligado em 3 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:32 ] O servidor web php será desligado em 2 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:33 ] O servidor web php será desligado em 1 segundos [ pid-> 3236 ]
-[ 2019-07-27 16:26:33 ] Desligando servidor Web...
-[ 2019-07-27 16:26:33 ] getPid()-> executando
-[ 2019-07-27 16:26:33 ] Servidor Web desligado automaGicamente. =)
-[ 2019-07-27 16:27:02 ] inicius()-> executando
-[ 2019-07-27 16:27:02 ] tty()-> executando
-[ 2019-07-27 16:27:02 ] root_on()-> executando
-[ 2019-07-27 16:27:02 ] getPid()-> executando
-[ 2019-07-27 16:27:02 ] Usuário r00t autenticado.
-[ 2019-07-27 16:27:02 ] startThreadPhpHost()-> executando
-[ 2019-07-27 16:27:02 ] pid: 0
-[ 2019-07-27 16:27:02 ] Iniciando servidor web...
-[ 2019-07-27 16:27:02 ] Aguardando inicialização do host...[ 1s ]
-[ 2019-07-27 16:27:02 ] phpHost()-> executando
-[ 2019-07-27 16:27:02 ] getPid()-> executando
-[ 2019-07-27 16:27:03 ] Aguardando inicialização do host...[ 2s ]
-[ 2019-07-27 16:27:03 ] getPid()-> executando
-[ 2019-07-27 16:27:04 ] Servidor web inicializado. [ pid-> 3451 ]
-[ 2019-07-27 16:27:04 ] webBrowser()-> executando
-[ 2019-07-27 16:27:04 ] Abrindo o navegador...
-[ 2019-07-27 16:27:05 ] startThreadPhpHostOff()-> executando
-[ 2019-07-27 16:27:05 ] sudo /usr/bin/env python3 /opt/mzphp/mzphp -o
-[ 2019-07-27 16:27:05 ] phpHostOff()-> executando
-[ 2019-07-27 16:27:05 ] Iniciando AutoPowerOff do servidor web...
-[ 2019-07-27 16:27:06 ] O servidor web php será desligado em 14 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:07 ] O servidor web php será desligado em 13 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:08 ] O servidor web php será desligado em 12 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:09 ] O servidor web php será desligado em 11 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:10 ] O servidor web php será desligado em 10 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:11 ] O servidor web php será desligado em 9 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:12 ] O servidor web php será desligado em 8 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:13 ] O servidor web php será desligado em 7 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:14 ] O servidor web php será desligado em 6 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:15 ] O servidor web php será desligado em 5 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:16 ] O servidor web php será desligado em 4 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:17 ] O servidor web php será desligado em 3 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:18 ] O servidor web php será desligado em 2 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:19 ] O servidor web php será desligado em 1 segundos [ pid-> 3451 ]
-[ 2019-07-27 16:27:19 ] Desligando servidor Web...
-[ 2019-07-27 16:27:19 ] getPid()-> executando
-[ 2019-07-27 16:27:19 ] Servidor Web desligado automaGicamente. =)
-[ 2019-07-27 17:40:08 ] inicius()-> executando
-[ 2019-07-27 17:40:08 ] tty()-> executando
-[ 2019-07-27 17:40:08 ] root_on()-> executando
-[ 2019-07-27 17:40:11 ] getPid()-> executando
-[ 2019-07-27 17:40:11 ] login()-> executando
-[ 2019-07-27 17:40:11 ] Aguardando autenticação do r00t...
-[ 2019-07-27 17:40:13 ] valida_senha()-> executando
-[ 2019-07-27 17:40:13 ] inicius()-> executando
-[ 2019-07-27 17:40:13 ] tty()-> executando
-[ 2019-07-27 17:40:13 ] root_on()-> executando
-[ 2019-07-27 17:40:13 ] getPid()-> executando
-[ 2019-07-27 17:40:13 ] Usuário r00t autenticado.
-[ 2019-07-27 17:40:13 ] startThreadPhpHost()-> executando
-[ 2019-07-27 17:40:13 ] pid: 0
-[ 2019-07-27 17:40:13 ] Iniciando servidor web...
-[ 2019-07-27 17:40:13 ] phpHost()-> executando
-[ 2019-07-27 17:40:13 ] Aguardando inicialização do host...[ 1s ]
-[ 2019-07-27 17:40:13 ] getPid()-> executando
-[ 2019-07-27 17:40:14 ] Aguardando inicialização do host...[ 2s ]
-[ 2019-07-27 17:40:14 ] getPid()-> executando
-[ 2019-07-27 17:40:15 ] Servidor web inicializado. [ pid-> 4606 ]
-[ 2019-07-27 17:40:15 ] webBrowser()-> executando
-[ 2019-07-27 17:40:15 ] Abrindo o navegador...
-[ 2019-07-27 17:40:20 ] startThreadPhpHostOff()-> executando
-[ 2019-07-27 17:40:20 ] sudo /usr/bin/env python3 /opt/mzphp/mzphp -o
-[ 2019-07-27 18:50:57 ] inicius()-> executando
-[ 2019-07-27 18:50:57 ] tty()-> executando
-[ 2019-07-27 18:50:57 ] root_on()-> executando
-[ 2019-07-27 18:50:58 ] getPid()-> executando
-[ 2019-07-27 18:50:58 ] login()-> executando
-[ 2019-07-27 18:50:58 ] Aguardando autenticação do r00t...
-[ 2019-07-27 18:51:01 ] valida_senha()-> executando
-[ 2019-07-27 18:51:01 ] inicius()-> executando
-[ 2019-07-27 18:51:01 ] tty()-> executando
-[ 2019-07-27 18:51:01 ] root_on()-> executando
-[ 2019-07-27 18:51:01 ] getPid()-> executando
-[ 2019-07-27 18:51:01 ] Usuário r00t autenticado.
-[ 2019-07-27 18:51:01 ] Servidor web inicializado. [ pid-> 4606 ]
-[ 2019-07-27 18:51:01 ] webBrowser()-> executando
-[ 2019-07-27 18:51:01 ] Abrindo o navegador...
-[ 2019-07-27 18:51:05 ] startThreadPhpHostOff()-> executando
-[ 2019-07-27 18:51:05 ] sudo /usr/bin/env python3 /opt/mzphp/mzphp -o
+[ 2019-07-29 03:43:25 ] -------------------------------------------------------------------------------
+[ 2019-07-29 03:43:25 ] /opt/mzphp/mzphp
+[ 2019-07-29 03:43:25 ] root_on()-> executando
+[ 2019-07-29 03:43:27 ] login()-> executando
+[ 2019-07-29 03:43:27 ] Aguardando autenticação do r00t...
+[ 2019-07-29 03:43:30 ] valida_senha()-> executando
+[ 2019-07-29 03:43:30 ] root_on()-> executando
+[ 2019-07-29 03:43:30 ] bora()-> executando
+[ 2019-07-29 03:43:30 ] inicius()-> executando
+[ 2019-07-29 03:43:30 ] startThreadPhpHost()-> executando
+[ 2019-07-29 03:43:30 ] getPid()-> executando
+[ 2019-07-29 03:43:30 ] Servidor web inicializado. [ pid-> 27866 ]
+[ 2019-07-29 03:43:30 ] webBrowser()-> executando
+[ 2019-07-29 03:43:30 ] Abrindo o navegador...
+[ 2019-07-29 03:43:37 ] -------------------------------------------------------------------------------
+[ 2019-07-29 03:43:37 ] /opt/mzphp/mzphp
+[ 2019-07-29 03:43:37 ] root_on()-> executando
+[ 2019-07-29 03:43:39 ] login()-> executando
+[ 2019-07-29 03:43:39 ] Aguardando autenticação do r00t...
+[ 2019-07-29 03:43:41 ] valida_senha()-> executando
+[ 2019-07-29 03:43:41 ] root_on()-> executando
+[ 2019-07-29 03:43:41 ] bora()-> executando
+[ 2019-07-29 03:43:41 ] inicius()-> executando
+[ 2019-07-29 03:43:41 ] startThreadPhpHost()-> executando
+[ 2019-07-29 03:43:41 ] getPid()-> executando
+[ 2019-07-29 03:43:41 ] Servidor web inicializado. [ pid-> 27866 ]
+[ 2019-07-29 03:43:41 ] webBrowser()-> executando
+[ 2019-07-29 03:43:41 ] Abrindo o navegador...
+[ 2019-07-29 03:43:57 ] -------------------------------------------------------------------------------
+[ 2019-07-29 03:43:57 ] /usr/bin/mzphp -p
+[ 2019-07-29 03:43:57 ] root_on()-> executando
+[ 2019-07-29 03:43:59 ] login()-> executando
+[ 2019-07-29 03:43:59 ] Aguardando autenticação do r00t...
+[ 2019-07-29 03:44:01 ] valida_senha()-> executando
+[ 2019-07-29 03:44:01 ] root_on()-> executando
+[ 2019-07-29 03:44:01 ] bora()-> executando
+[ 2019-07-29 03:44:01 ] qualPid()-> executando
+[ 2019-07-29 03:44:01 ] getPid()-> executando
+[ 2019-07-29 03:44:01 ] O pid do servidor atual é: 27866
+[ 2019-07-29 03:44:05 ] -------------------------------------------------------------------------------
+[ 2019-07-29 03:44:05 ] /usr/bin/mzphp -p
+[ 2019-07-29 03:44:05 ] root_on()-> executando
+[ 2019-07-29 03:44:05 ] bora()-> executando
+[ 2019-07-29 03:44:05 ] qualPid()-> executando
+[ 2019-07-29 03:44:05 ] getPid()-> executando
+[ 2019-07-29 03:44:05 ] O pid do servidor atual é: 27866
+[ 2019-07-29 03:44:16 ] -------------------------------------------------------------------------------
+[ 2019-07-29 03:44:16 ] /usr/bin/mzphp -p
+[ 2019-07-29 03:44:16 ] root_on()-> executando
+[ 2019-07-29 03:44:17 ] login()-> executando
+[ 2019-07-29 03:44:17 ] Aguardando autenticação do r00t...
+[ 2019-07-29 03:44:19 ] Cancelado pelo usuário.
+[ 2019-07-29 03:49:29 ] -------------------------------------------------------------------------------
+[ 2019-07-29 03:49:29 ] /opt/mzphp/mzphp
+[ 2019-07-29 03:49:29 ] root_on()-> executando
+[ 2019-07-29 03:49:31 ] login()-> executando
+[ 2019-07-29 03:49:31 ] Aguardando autenticação do r00t...
+[ 2019-07-29 03:49:33 ] valida_senha()-> executando
+[ 2019-07-29 03:49:33 ] root_on()-> executando
+[ 2019-07-29 03:49:33 ] bora()-> executando
+[ 2019-07-29 03:49:33 ] inicius()-> executando
+[ 2019-07-29 03:49:33 ] startThreadPhpHost()-> executando
+[ 2019-07-29 03:49:33 ] getPid()-> executando
+[ 2019-07-29 03:49:33 ] Servidor web inicializado. [ pid-> 27866 ]
+[ 2019-07-29 03:49:33 ] webBrowser()-> executando
+[ 2019-07-29 03:49:33 ] Abrindo o navegador...
+[ 2019-07-29 03:55:35 ] -------------------------------------------------------------------------------
+[ 2019-07-29 03:55:35 ] /usr/bin/mzphp -o
+[ 2019-07-29 03:55:35 ] root_on()-> executando
+[ 2019-07-29 03:55:37 ] login()-> executando
+[ 2019-07-29 03:55:37 ] Aguardando autenticação do r00t...
+[ 2019-07-29 03:55:38 ] valida_senha()-> executando
+[ 2019-07-29 03:55:38 ] root_on()-> executando
+[ 2019-07-29 03:55:38 ] bora()-> executando
+[ 2019-07-29 03:55:38 ] startThreadPhpHostOff()-> executando
+[ 2019-07-29 03:55:38 ] phpHostOff()-> executando
+[ 2019-07-29 03:55:38 ] Iniciando AutoPowerOff do servidor web...
+[ 2019-07-29 03:55:38 ] O servidor web php será desligado em 5 segundos [ pid-> 27866 ]
+[ 2019-07-29 03:55:39 ] O servidor web php será desligado em 4 segundos [ pid-> 27866 ]
+[ 2019-07-29 03:55:40 ] O servidor web php será desligado em 3 segundos [ pid-> 27866 ]
+[ 2019-07-29 03:55:41 ] O servidor web php será desligado em 2 segundos [ pid-> 27866 ]
+[ 2019-07-29 03:55:42 ] Desligando servidor Web...
+[ 2019-07-29 03:55:42 ] getPid()-> executando
+[ 2019-07-29 03:55:42 ] Servidor Web desligado automaGicamente. =)
+[ 2019-07-29 03:55:45 ] -------------------------------------------------------------------------------
+[ 2019-07-29 03:55:45 ] /usr/bin/mzphp
+[ 2019-07-29 03:55:45 ] root_on()-> executando
+[ 2019-07-29 03:55:45 ] bora()-> executando
+[ 2019-07-29 03:55:45 ] inicius()-> executando
+[ 2019-07-29 03:55:45 ] startThreadPhpHost()-> executando
+[ 2019-07-29 03:55:45 ] getPid()-> executando
+[ 2019-07-29 03:55:45 ] Iniciando servidor web...
+[ 2019-07-29 03:55:45 ] Aguardando inicialização do host...[ 1s ]
+[ 2019-07-29 03:55:45 ] phpHost()-> executando
+[ 2019-07-29 03:55:45 ] getPid()-> executando
+[ 2019-07-29 03:55:46 ] Aguardando inicialização do host...[ 2s ]
+[ 2019-07-29 03:55:46 ] getPid()-> executando
+[ 2019-07-29 03:55:47 ] Servidor web inicializado. [ pid-> 2027 ]
+[ 2019-07-29 03:55:47 ] webBrowser()-> executando
+[ 2019-07-29 03:55:47 ] Abrindo o navegador...
+[ 2019-07-29 04:05:17 ] -------------------------------------------------------------------------------
+[ 2019-07-29 04:05:17 ] /opt/mzphp/mzphp
+[ 2019-07-29 04:05:17 ] root_on()-> executando
+[ 2019-07-29 04:05:17 ] -------------------------------------------------------------------------------
+[ 2019-07-29 04:05:17 ] /opt/mzphp/mzphp
+[ 2019-07-29 04:05:17 ] root_on()-> executando
+[ 2019-07-29 04:05:19 ] login()-> executando
+[ 2019-07-29 04:05:19 ] Aguardando autenticação do r00t...
+[ 2019-07-29 04:05:19 ] login()-> executando
+[ 2019-07-29 04:05:19 ] Aguardando autenticação do r00t...
+[ 2019-07-29 04:05:21 ] valida_senha()-> executando
+[ 2019-07-29 04:05:21 ] root_on()-> executando
+[ 2019-07-29 04:05:21 ] bora()-> executando
+[ 2019-07-29 04:05:21 ] inicius()-> executando
+[ 2019-07-29 04:05:21 ] startThreadPhpHost()-> executando
+[ 2019-07-29 04:05:21 ] getPid()-> executando
+[ 2019-07-29 04:05:21 ] Servidor web inicializado. [ pid-> 2027 ]
+[ 2019-07-29 04:05:21 ] webBrowser()-> executando
+[ 2019-07-29 04:05:21 ] Abrindo o navegador...
+[ 2019-07-29 04:05:36 ] Cancelado pelo usuário.
+[ 2019-07-29 08:44:34 ] -------------------------------------------------------------------------------
+[ 2019-07-29 08:44:34 ] /opt/mzphp/mzphp
+[ 2019-07-29 08:44:34 ] root_on()-> executando
+[ 2019-07-29 08:44:36 ] login()-> executando
+[ 2019-07-29 08:44:36 ] Aguardando autenticação do r00t...
+[ 2019-07-29 08:44:41 ] valida_senha()-> executando
+[ 2019-07-29 08:44:41 ] root_on()-> executando
+[ 2019-07-29 08:44:41 ] bora()-> executando
+[ 2019-07-29 08:44:41 ] inicius()-> executando
+[ 2019-07-29 08:44:41 ] startThreadPhpHost()-> executando
+[ 2019-07-29 08:44:41 ] getPid()-> executando
+[ 2019-07-29 08:44:41 ] Servidor web inicializado. [ pid-> 2027 ]
+[ 2019-07-29 08:44:41 ] webBrowser()-> executando
+[ 2019-07-29 08:44:41 ] Abrindo o navegador...
+[ 2019-07-29 10:00:17 ] -------------------------------------------------------------------------------
+[ 2019-07-29 10:00:17 ] /opt/mzphp/mzphp
+[ 2019-07-29 10:00:17 ] root_on()-> executando
+[ 2019-07-29 10:00:17 ] -------------------------------------------------------------------------------
+[ 2019-07-29 10:00:17 ] /opt/mzphp/mzphp
+[ 2019-07-29 10:00:17 ] root_on()-> executando
+[ 2019-07-29 10:00:18 ] login()-> executando
+[ 2019-07-29 10:00:18 ] Aguardando autenticação do r00t...
+[ 2019-07-29 10:00:19 ] login()-> executando
+[ 2019-07-29 10:00:19 ] Aguardando autenticação do r00t...
+[ 2019-07-29 10:00:20 ] valida_senha()-> executando
+[ 2019-07-29 10:00:20 ] root_on()-> executando
+[ 2019-07-29 10:00:20 ] bora()-> executando
+[ 2019-07-29 10:00:20 ] inicius()-> executando
+[ 2019-07-29 10:00:20 ] startThreadPhpHost()-> executando
+[ 2019-07-29 10:00:20 ] getPid()-> executando
+[ 2019-07-29 10:00:20 ] Servidor web inicializado. [ pid-> 2027 ]
+[ 2019-07-29 10:00:20 ] webBrowser()-> executando
+[ 2019-07-29 10:00:20 ] Abrindo o navegador...
+[ 2019-07-29 10:30:45 ] Cancelado pelo usuário.
+[ 2019-07-29 10:53:06 ] -------------------------------------------------------------------------------
+[ 2019-07-29 10:53:06 ] /opt/mzphp/mzphp
+[ 2019-07-29 10:53:06 ] root_on()-> executando
+[ 2019-07-29 10:53:08 ] login()-> executando
+[ 2019-07-29 10:53:08 ] Aguardando autenticação do r00t...
+[ 2019-07-29 10:53:11 ] Cancelado pelo usuário.
+[ 2019-07-29 11:05:27 ] -------------------------------------------------------------------------------
+[ 2019-07-29 11:05:27 ] /opt/mzphp/mzphp
+[ 2019-07-29 11:05:27 ] root_on()-> executando
+[ 2019-07-29 11:05:29 ] login()-> executando
+[ 2019-07-29 11:05:29 ] Aguardando autenticação do r00t...
+[ 2019-07-29 11:05:33 ] valida_senha()-> executando
+[ 2019-07-29 11:05:33 ] root_on()-> executando
+[ 2019-07-29 11:05:33 ] bora()-> executando
+[ 2019-07-29 11:05:33 ] inicius()-> executando
+[ 2019-07-29 11:05:33 ] startThreadPhpHost()-> executando
+[ 2019-07-29 11:05:33 ] getPid()-> executando
+[ 2019-07-29 11:05:33 ] Servidor web inicializado. [ pid-> 2027 ]
+[ 2019-07-29 11:05:33 ] webBrowser()-> executando
+[ 2019-07-29 11:05:33 ] Abrindo o navegador...

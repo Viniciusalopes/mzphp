@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libpcap",
+    "version": "1.9.0-1",
+    "maintainer": "Alan Ramalho",
+    "license": "",
+    "url": "https://www.tcpdump.org/",
+    "deps": "''",
+    "file_mz": "libpcap-1.9.0-1.mz",
+    "file_desc": "libpcap-1.9.0-1.mz.desc",
+    "file_sha256": "libpcap-1.9.0-1.mz.sha256",
+    "file_json": "libpcap-1.9.0-1.mz.json",
+    "desc": "the LIBpcap interface to various kernel packet capture mechanism"
+}

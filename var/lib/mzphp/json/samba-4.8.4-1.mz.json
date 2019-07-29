@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "network/",
+    "name": "samba",
+    "version": "4.8.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://samba.org",
+    "deps": "'libtirpc' 'python2' 'rpcsvc_proto' 'gpgme' 'libxsl' 'python2_pycripto' 'python3_pycripto' 'openldap_client' 'avahi' 'cyrus_sasl' 'gnupg' 'gnutls' 'libarchive' 'libcap' 'libgcrypt' 'libnsl' 'krb5' 'nss' 'popt' 'talloc' 'vala' 'xfsprogs'",
+    "file_mz": "samba-4.8.4-1.mz",
+    "file_desc": "samba-4.8.4-1.mz.desc",
+    "file_sha256": "samba-4.8.4-1.mz.sha256",
+    "file_json": "samba-4.8.4-1.mz.json",
+    "desc": "The Samba package provides file and print services to SMB/CIFS \nclients and Windows networking to Linux clients. Samba can also be \nconfigured as a Windows Domain Controller replacement, a file/print \nserver acting as a member of a Windows Active Directory domain and \na NetBIOS (rfc1001/1002) nameserver (which among other things provides \nLAN browsing support)."
+}

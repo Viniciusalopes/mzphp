@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libnsl",
+    "version": "1.2.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/thkukuk/libnsl",
+    "deps": "'rpcsvc_proto' 'libtirrpc'",
+    "file_mz": "libnsl-1.2.0-1.mz",
+    "file_desc": "libnsl-1.2.0-1.mz.desc",
+    "file_sha256": "libnsl-1.2.0-1.mz.sha256",
+    "file_json": "libnsl-1.2.0-1.mz.json",
+    "desc": "The libnsl package contains the public client interface for \nNIS(YP) and NIS+. It replaces the NIS library that used to be in glibc."
+}

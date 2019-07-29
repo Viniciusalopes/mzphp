@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "asciidoc",
+    "version": "8.6.9-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://sourceforge.net/asciidoc",
+    "deps": "'python2'",
+    "file_mz": "asciidoc-8.6.9-1.mz",
+    "file_desc": "asciidoc-8.6.9-1.mz.desc",
+    "file_sha256": "asciidoc-8.6.9-1.mz.sha256",
+    "file_json": "asciidoc-8.6.9-1.mz.json",
+    "desc": "The Asciidoc package is a text document format for writing notes, \ndocumentation, articles, books, ebooks, slideshows, web pages, man \npages and blogs. AsciiDoc files can be translated to many formats \nincluding HTML, PDF, EPUB, and man page."
+}

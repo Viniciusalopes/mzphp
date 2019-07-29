@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "apr_util",
+    "version": "1.6.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/apr-util.html",
+    "deps": "'Apr-1.6.3'",
+    "file_mz": "apr_util-1.6.1-1.mz",
+    "file_desc": "apr_util-1.6.1-1.mz.desc",
+    "file_sha256": "apr_util-1.6.1-1.mz.sha256",
+    "file_json": "apr_util-1.6.1-1.mz.json",
+    "desc": "The Apache Portable Runtime Utility Library provides a\npredictable and consistent interface to underlying client library\ninterfaces. This application programming interface assures predictable\nif not identical behaviour regardless of which libraries are\navailable on a given platform."
+}

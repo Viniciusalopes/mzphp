@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xcb_util_renderutil",
+    "version": "0.3.9-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'libxcb'",
+    "file_mz": "xcb_util_renderutil-0.3.9-1.mz",
+    "file_desc": "xcb_util_renderutil-0.3.9-1.mz.desc",
+    "file_sha256": "xcb_util_renderutil-0.3.9-1.mz.sha256",
+    "file_json": "xcb_util_renderutil-0.3.9-1.mz.json",
+    "desc": "The xcb-util-renderutil package provides additional \nextensions to the XCB library."
+}

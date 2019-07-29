@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "ffmpeg",
+    "version": "4.1.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://ffmpeg.org",
+    "deps": "''",
+    "file_mz": "ffmpeg-4.1.2-1.mz",
+    "file_desc": "ffmpeg-4.1.2-1.mz.desc",
+    "file_sha256": "ffmpeg-4.1.2-1.mz.sha256",
+    "file_json": "ffmpeg-4.1.2-1.mz.json",
+    "desc": "FFmpeg is a solution to record, convert and stream audio and video.\nIt is a very fast video and audio converter and it can also acquire from\na live audio/video source. Designed to be intuitive, the command-line \ninterface (ffmpeg) tries to figure out all the parameters, when possible.\nFFmpeg can also convert from any sample rate to any other, and resize \nvideo on the fly with a high quality polyphase filter. FFmpeg can use a\nVideo4Linux compatible video source and any Open Sound System \naudio source."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "parted",
+    "version": "3.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnu.org",
+    "deps": "'lvm' 'pth'",
+    "file_mz": "parted-3.2-1.mz",
+    "file_desc": "parted-3.2-1.mz.desc",
+    "file_sha256": "parted-3.2-1.mz.sha256",
+    "file_json": "parted-3.2-1.mz.json",
+    "desc": "The Parted package is a disk partitioning and partition \nresizing tool."
+}

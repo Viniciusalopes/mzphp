@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "lightdm_gtk_greeter",
+    "version": "2.0.5-1",
+    "maintainer": "Diego Sarzi",
+    "license": "'GPL3'",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/x/lightdm.html",
+    "deps": "'lightdm-1.28.0'",
+    "file_mz": "lightdm_gtk_greeter-2.0.5-1.mz",
+    "file_desc": "lightdm_gtk_greeter-2.0.5-1.mz.desc",
+    "file_sha256": "lightdm_gtk_greeter-2.0.5-1.mz.sha256",
+    "file_json": "lightdm_gtk_greeter-2.0.5-1.mz.json",
+    "desc": "The lightdm package contains a lightweight display manager based\nupon GTK."
+}

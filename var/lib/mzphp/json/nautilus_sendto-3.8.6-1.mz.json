@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "nautilus_sendto",
+    "version": "3.8.6-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib' 'nautilus' 'gtk3'",
+    "file_mz": "nautilus_sendto-3.8.6-1.mz",
+    "file_desc": "nautilus_sendto-3.8.6-1.mz.desc",
+    "file_sha256": "nautilus_sendto-3.8.6-1.mz.sha256",
+    "file_json": "nautilus_sendto-3.8.6-1.mz.json",
+    "desc": "In order to be able to use of libsocialweb and share your files\n(videos or images) using other social sharing technologies"
+}

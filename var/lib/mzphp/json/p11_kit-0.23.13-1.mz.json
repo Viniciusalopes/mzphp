@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "p11_kit",
+    "version": "0.23.13-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/p11-glue/p11-kit",
+    "deps": "'make_ca' 'libtasn1'",
+    "file_mz": "p11_kit-0.23.13-1.mz",
+    "file_desc": "p11_kit-0.23.13-1.mz.desc",
+    "file_sha256": "p11_kit-0.23.13-1.mz.sha256",
+    "file_json": "p11_kit-0.23.13-1.mz.json",
+    "desc": "The p11-kit package provides a way to load and enumerate PKCS"
+}

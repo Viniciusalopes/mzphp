@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "network/",
+    "name": "avahi",
+    "version": "0.7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/lathiat/avahi",
+    "deps": "'glib' 'gobject_introspection' 'gtk2' 'gtk3' 'libdaemon' 'libglade' 'dbus_python' 'pygtk'",
+    "file_mz": "avahi-0.7-1.mz",
+    "file_desc": "avahi-0.7-1.mz.desc",
+    "file_sha256": "avahi-0.7-1.mz.sha256",
+    "file_json": "avahi-0.7-1.mz.json",
+    "desc": "The Avahi package is a system which facilitates service \ndiscovery on a local network."
+}

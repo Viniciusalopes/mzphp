@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "net/",
+    "name": "rsync",
+    "version": "3.1.3-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "https://rsync.samba.org/",
+    "deps": "''",
+    "file_mz": "rsync-3.1.3-1.mz",
+    "file_desc": "rsync-3.1.3-1.mz.desc",
+    "file_sha256": "rsync-3.1.3-1.mz.sha256",
+    "file_json": "rsync-3.1.3-1.mz.json",
+    "desc": "Welcome to the rsync web pages rsync is an open source utility\nthat provides fast incremental file transfer."
+}

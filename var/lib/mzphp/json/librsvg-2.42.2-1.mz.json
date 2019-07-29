@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "librsvg",
+    "version": "2.42.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gdk_pixbuf' 'libcroco' 'pango' 'gobject_introspection' 'gtk3' 'vala'",
+    "file_mz": "librsvg-2.42.2-1.mz",
+    "file_desc": "librsvg-2.42.2-1.mz.desc",
+    "file_sha256": "librsvg-2.42.2-1.mz.sha256",
+    "file_json": "librsvg-2.42.2-1.mz.json",
+    "desc": "The librsvg package contains a library and tools used \nto manipulate, convert and view Scalable Vector Graphic (SVG) images."
+}

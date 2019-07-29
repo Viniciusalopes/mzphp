@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "cyrus_sasl",
+    "version": "2.1.26-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://cyrusimap.org",
+    "deps": "'json_c' 'libgcrypt' 'lvm' 'popt' 'python2'",
+    "file_mz": "cyrus_sasl-2.1.26-1.mz",
+    "file_desc": "cyrus_sasl-2.1.26-1.mz.desc",
+    "file_sha256": "cyrus_sasl-2.1.26-1.mz.sha256",
+    "file_json": "cyrus_sasl-2.1.26-1.mz.json",
+    "desc": "The Cyrus SASL package contains a Simple Authentication and \nSecurity Layer, a method for adding authentication support to \nconnection-based protocols. To use SASL, a protocol includes a command \nfor identifying and authenticating a user to a server and for optionally\nnegotiating protection of subsequent protocol interactions. If its use \nis negotiated, a security layer is inserted between the \nprotocol and the connection."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "theme/",
+    "name": "blackbird_theme",
+    "version": "1.0-1",
+    "maintainer": "Desconhecido",
+    "license": "Desconhecida",
+    "url": "N\u00e3o dispon\u00edvel",
+    "deps": "N\u00e3o dispon\u00edvel",
+    "file_mz": "blackbird_theme-1.0-1.mz",
+    "file_desc": "blackbird_theme-1.0-1.mz.desc",
+    "file_sha256": "blackbird_theme-1.0-1.mz.sha256",
+    "file_json": "blackbird_theme-1.0-1.mz.json",
+    "desc": "N\u00e3o dispon\u00edvel"
+}

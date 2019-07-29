@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libglade",
+    "version": "2.6.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'libxml2' 'gtk2' 'python2'",
+    "file_mz": "libglade-2.6.4-1.mz",
+    "file_desc": "libglade-2.6.4-1.mz.desc",
+    "file_sha256": "libglade-2.6.4-1.mz.sha256",
+    "file_json": "libglade-2.6.4-1.mz.json",
+    "desc": "The libglade package contains libglade libraries. These are \nuseful for loading Glade interface files in a program at runtime."
+}

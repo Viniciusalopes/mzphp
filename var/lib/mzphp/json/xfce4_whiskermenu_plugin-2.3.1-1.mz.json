@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "xfce4_whiskermenu_plugin",
+    "version": "2.3.1-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "https://goodies.xfce.org/projects/panel-plugins/xfce4-whiskermenu-plugin",
+    "deps": "''",
+    "file_mz": "xfce4_whiskermenu_plugin-2.3.1-1.mz",
+    "file_desc": "xfce4_whiskermenu_plugin-2.3.1-1.mz.desc",
+    "file_sha256": "xfce4_whiskermenu_plugin-2.3.1-1.mz.sha256",
+    "file_json": "xfce4_whiskermenu_plugin-2.3.1-1.mz.json",
+    "desc": "Whisker Menu is an alternate application launcher for Xfce. \nWhen you open it you are shown a list of applications you have marked \nas favorites. You can browse through all of your installed applications\nby clicking on the category buttons on the side. Top level categories\nmake browsing fast, and simple to switch between.\nAdditionally, Whisker Menu keeps a list of the last ten applications\nthat you\u2019ve launched from it."
+}

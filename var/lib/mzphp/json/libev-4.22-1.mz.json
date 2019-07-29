@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libev",
+    "version": "4.22-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "https://manpages.debian.org/testing/libev-dev/ev.3.en.html",
+    "deps": "''",
+    "file_mz": "libev-4.22-1.mz",
+    "file_desc": "libev-4.22-1.mz.desc",
+    "file_sha256": "libev-4.22-1.mz.sha256",
+    "file_json": "libev-4.22-1.mz.json",
+    "desc": "libev - a high performance full-featured event loop written in C"
+}

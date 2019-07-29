@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "udisks",
+    "version": "2.8.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/storaged-project/udisks",
+    "deps": "'libatasmart' 'libblockdev' 'libgudev' 'polkit' 'btrfs_progs' 'dosfstools' 'gptfdisk' 'mdadm' 'xfsprogs' 'gobject_introspection' 'lvm2' 'ntfs_3g'",
+    "file_mz": "udisks-2.8.0-1.mz",
+    "file_desc": "udisks-2.8.0-1.mz.desc",
+    "file_sha256": "udisks-2.8.0-1.mz.sha256",
+    "file_json": "udisks-2.8.0-1.mz.json",
+    "desc": "The UDisks package provides a daemon, tools and libraries to \naccess and manipulate disks and storage devices."
+}

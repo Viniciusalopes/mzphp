@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "theme/",
+    "name": "sweet_dark_theme",
+    "version": "2018.02.01-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "https://github.com/EliverLara/Sweet/",
+    "deps": "''",
+    "file_mz": "sweet_dark_theme-2018.02.01-1.mz",
+    "file_desc": "sweet_dark_theme-2018.02.01-1.mz.desc",
+    "file_sha256": "sweet_dark_theme-2018.02.01-1.mz.sha256",
+    "file_json": "sweet_dark_theme-2018.02.01-1.mz.json",
+    "desc": "Colorful Gtk3.20+ themes"
+}

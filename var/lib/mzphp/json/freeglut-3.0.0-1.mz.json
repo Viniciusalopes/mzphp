@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "freeglut",
+    "version": "3.0.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https/;//sourceforge.net/freeglut",
+    "deps": "'mesa' 'glu'",
+    "file_mz": "freeglut-3.0.0-1.mz",
+    "file_desc": "freeglut-3.0.0-1.mz.desc",
+    "file_sha256": "freeglut-3.0.0-1.mz.sha256",
+    "file_json": "freeglut-3.0.0-1.mz.json",
+    "desc": "Freeglut is intended to be a 100% compatible, completely \nopensourced clone of the GLUT library."
+}

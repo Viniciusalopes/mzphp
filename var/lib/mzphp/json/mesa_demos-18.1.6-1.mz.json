@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "mesa_demos",
+    "version": "18.1.6-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'mesa'",
+    "file_mz": "mesa_demos-18.1.6-1.mz",
+    "file_desc": "mesa_demos-18.1.6-1.mz.desc",
+    "file_sha256": "mesa_demos-18.1.6-1.mz.sha256",
+    "file_json": "mesa_demos-18.1.6-1.mz.json",
+    "desc": "Mesa Demos"
+}

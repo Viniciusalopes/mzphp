@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "desktop_file_utils",
+    "version": "0.23-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'glib'",
+    "file_mz": "desktop_file_utils-0.23-1.mz",
+    "file_desc": "desktop_file_utils-0.23-1.mz.desc",
+    "file_sha256": "desktop_file_utils-0.23-1.mz.sha256",
+    "file_json": "desktop_file_utils-0.23-1.mz.json",
+    "desc": "The Desktop File Utils package contains command line utilities \nfor working with Desktop entries. These utilities are used by Desktop \nEnvironments and other applications to manipulate the MIME-types \napplication databases and help adhere to the Desktop \nEntry Specification."
+}

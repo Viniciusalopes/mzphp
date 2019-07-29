@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libopenraw",
+    "version": "0.1.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://libopenraw.freedesktop.org/libopenraw/",
+    "deps": "'glib' 'libgpeg_turbo' 'libpng' 'gdk_pixbuf' 'gobject'",
+    "file_mz": "libopenraw-0.1.3-1.mz",
+    "file_desc": "libopenraw-0.1.3-1.mz.desc",
+    "file_sha256": "libopenraw-0.1.3-1.mz.sha256",
+    "file_json": "libopenraw-0.1.3-1.mz.json",
+    "desc": "libopenraw is an ongoing project to provide a free software \nimplementation for camera RAW files decoding."
+}

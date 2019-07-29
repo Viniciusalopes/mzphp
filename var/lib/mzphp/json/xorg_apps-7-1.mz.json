@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xorg_apps",
+    "version": "7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'VARIOUS'",
+    "url": "https://x.org",
+    "deps": "'libpng' 'mesa' 'xbitmaps' 'xcb_util' 'linux_pam'",
+    "file_mz": "xorg_apps-7-1.mz",
+    "file_desc": "xorg_apps-7-1.mz.desc",
+    "file_sha256": "xorg_apps-7-1.mz.sha256",
+    "file_json": "xorg_apps-7-1.mz.json",
+    "desc": "The Xorg applications provide the expected applications available \nin previous X Window implementations."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "gst_plugins_bad",
+    "version": "1.14.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gstreamer.org",
+    "deps": "'gst_plugin_base' 'libdvdread' 'libdvdnav' 'llvm' 'soundtouch' 'bluez' 'clutter' 'curl' 'faac' 'faad2' 'gnutls' 'gtk2' 'gtk3' 'lcms' 'libass' 'libexif' 'libgcrypt' 'libgudev' 'libusb' 'libvdpau' 'libwebp' 'nettle' 'opus' 'qt5_base' 'sdl' 'wayland' 'x256' 'xorg_libraries'",
+    "file_mz": "gst_plugins_bad-1.14.2-1.mz",
+    "file_desc": "gst_plugins_bad-1.14.2-1.mz.desc",
+    "file_sha256": "gst_plugins_bad-1.14.2-1.mz.sha256",
+    "file_json": "gst_plugins_bad-1.14.2-1.mz.json",
+    "desc": "The GStreamer Bad Plug-ins package contains a set of plug-ins \nthat aren"
+}

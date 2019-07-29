@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libsoup",
+    "version": "2.62.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib_networking' 'libxml2' 'sqlite' 'gobject_introspection' 'vala' 'curl'",
+    "file_mz": "libsoup-2.62.3-1.mz",
+    "file_desc": "libsoup-2.62.3-1.mz.desc",
+    "file_sha256": "libsoup-2.62.3-1.mz.sha256",
+    "file_json": "libsoup-2.62.3-1.mz.json",
+    "desc": "The libsoup is a HTTP client/server library for GNOME. It uses \nGObject and the GLib main loop to integrate with GNOME applications a\nnd it also has an asynchronous API for use in threaded applications."
+}

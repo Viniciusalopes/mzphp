@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "clutter",
+    "version": "1.26.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'atk' 'cogl' 'json_glib' 'gobject_introspection' 'gtk3' 'libgudev' 'libinput' 'libxkbcommon' 'tslib' 'wayland'",
+    "file_mz": "clutter-1.26.2-1.mz",
+    "file_desc": "clutter-1.26.2-1.mz.desc",
+    "file_sha256": "clutter-1.26.2-1.mz.sha256",
+    "file_json": "clutter-1.26.2-1.mz.json",
+    "desc": "The Clutter package contains an open source software library used \nfor creating fast, visually rich and animated graphical user interfaces."
+}

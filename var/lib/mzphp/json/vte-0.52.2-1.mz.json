@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "vte",
+    "version": "0.52.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gtk3' 'libxml2' 'pcre2' 'gobject_introspection' 'gnutls' 'vala'",
+    "file_mz": "vte-0.52.2-1.mz",
+    "file_desc": "vte-0.52.2-1.mz.desc",
+    "file_sha256": "vte-0.52.2-1.mz.sha256",
+    "file_json": "vte-0.52.2-1.mz.json",
+    "desc": "The VTE package contains a termcap file implementation \nfor terminal emulators."
+}

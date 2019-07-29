@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "v4l_utils",
+    "version": "1.14.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://linuxtv.org",
+    "deps": "'alsa_lib' 'glu' 'libjpeg_turbo' 'qt5_base' 'sdl2'",
+    "file_mz": "v4l_utils-1.14.2-1.mz",
+    "file_desc": "v4l_utils-1.14.2-1.mz.desc",
+    "file_sha256": "v4l_utils-1.14.2-1.mz.sha256",
+    "file_json": "v4l_utils-1.14.2-1.mz.json",
+    "desc": "v4l-utils provides a series of utilities for media devices, \nallowing to handle the proprietary formats available at most webcams \n(libv4l), and providing tools to test V4L devices."
+}

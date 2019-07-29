@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "util_macros",
+    "version": "1.19.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "''",
+    "file_mz": "util_macros-1.19.2-1.mz",
+    "file_desc": "util_macros-1.19.2-1.mz.desc",
+    "file_sha256": "util_macros-1.19.2-1.mz.sha256",
+    "file_json": "util_macros-1.19.2-1.mz.json",
+    "desc": "The xorgproto package provides the header files required to build \nthe X Window system, and to allow other applications to build against \nthe installed X Window system."
+}

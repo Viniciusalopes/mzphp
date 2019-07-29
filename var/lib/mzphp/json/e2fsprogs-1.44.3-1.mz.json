@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "e2fsprogs",
+    "version": "1.44.3-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/e2fsprogs.html",
+    "deps": "''",
+    "file_mz": "e2fsprogs-1.44.3-1.mz",
+    "file_desc": "e2fsprogs-1.44.3-1.mz.desc",
+    "file_sha256": "e2fsprogs-1.44.3-1.mz.sha256",
+    "file_json": "e2fsprogs-1.44.3-1.mz.json",
+    "desc": "The E2fsprogs package contains the utilities for handling the\next2 file system. It also supports the ext3 and ext4 journaling file\nsystems."
+}

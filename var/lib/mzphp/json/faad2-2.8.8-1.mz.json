@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "faad2",
+    "version": "2.8.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/faac",
+    "deps": "''",
+    "file_mz": "faad2-2.8.8-1.mz",
+    "file_desc": "faad2-2.8.8-1.mz.desc",
+    "file_sha256": "faad2-2.8.8-1.mz.sha256",
+    "file_json": "faad2-2.8.8-1.mz.json",
+    "desc": "FAAD2 is a decoder for a lossy sound compression scheme specified \nin MPEG-2 Part 7 and MPEG-4 Part 3 standards and known as \nAdvanced Audio Coding (AAC)."
+}

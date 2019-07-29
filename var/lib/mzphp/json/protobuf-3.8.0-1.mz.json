@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "protobuf",
+    "version": "3.8.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'BSD'",
+    "url": "https://developers.google.com/protocol-buffers/",
+    "deps": "'zlib'",
+    "file_mz": "protobuf-3.8.0-1.mz",
+    "file_desc": "protobuf-3.8.0-1.mz.desc",
+    "file_sha256": "protobuf-3.8.0-1.mz.sha256",
+    "file_json": "protobuf-3.8.0-1.mz.json",
+    "desc": "Protocol Buffers - Google"
+}

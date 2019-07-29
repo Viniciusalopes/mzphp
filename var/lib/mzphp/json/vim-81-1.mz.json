@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "vim",
+    "version": "81-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/vim.html",
+    "deps": "''",
+    "file_mz": "vim-81-1.mz",
+    "file_desc": "vim-81-1.mz.desc",
+    "file_sha256": "vim-81-1.mz.sha256",
+    "file_json": "vim-81-1.mz.json",
+    "desc": "The Vim package, which is an abbreviation for VI IMproved,\ncontains a vi clone with extra features as compared to the original vi."
+}

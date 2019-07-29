@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "gnutls",
+    "version": "3.5.19-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/gnutls.html",
+    "deps": "''",
+    "file_mz": "gnutls-3.5.19-1.mz",
+    "file_desc": "gnutls-3.5.19-1.mz.desc",
+    "file_sha256": "gnutls-3.5.19-1.mz.sha256",
+    "file_json": "gnutls-3.5.19-1.mz.json",
+    "desc": "The GnuTLS package contains libraries and userspace tools which\nprovide a secure layer over a reliable transport layer. Currently the\nGnuTLS library implements the proposed standards by the IETF"
+}

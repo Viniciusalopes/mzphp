@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "gzip",
+    "version": "1.9-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/gzip.html",
+    "deps": "''",
+    "file_mz": "gzip-1.9-1.mz",
+    "file_desc": "gzip-1.9-1.mz.desc",
+    "file_sha256": "gzip-1.9-1.mz.sha256",
+    "file_json": "gzip-1.9-1.mz.json",
+    "desc": "The Gzip package contains programs for compressing and\ndecompressing files."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "giflib",
+    "version": "5.1.4-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "https://downloads.sourceforge.net/giflib",
+    "deps": "''",
+    "file_mz": "giflib-5.1.4-1.mz",
+    "file_desc": "giflib-5.1.4-1.mz.desc",
+    "file_sha256": "giflib-5.1.4-1.mz.sha256",
+    "file_json": "giflib-5.1.4-1.mz.json",
+    "desc": "The GIFLIB project maintains the giflib service library, which has\nbeen pulling images out of GIFs since 1989. It is deployed everywhere\nyou can think of and some places you probably can"
+}

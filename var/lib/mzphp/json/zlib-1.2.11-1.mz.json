@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "zlib",
+    "version": "1.2.11-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://www.zlib.net/",
+    "deps": "''",
+    "file_mz": "zlib-1.2.11-1.mz",
+    "file_desc": "zlib-1.2.11-1.mz.desc",
+    "file_sha256": "zlib-1.2.11-1.mz.sha256",
+    "file_json": "zlib-1.2.11-1.mz.json",
+    "desc": "The Zlib package contains compression and decompression \nroutines used by some programs."
+}

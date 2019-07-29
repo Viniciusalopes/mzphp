@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libssh2",
+    "version": "1.8.0-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/libssh2.html",
+    "deps": "''",
+    "file_mz": "libssh2-1.8.0-1.mz",
+    "file_desc": "libssh2-1.8.0-1.mz.desc",
+    "file_sha256": "libssh2-1.8.0-1.mz.sha256",
+    "file_json": "libssh2-1.8.0-1.mz.json",
+    "desc": "Libssh2 package is a client-side C library implementing the SSH2\nprotocol."
+}

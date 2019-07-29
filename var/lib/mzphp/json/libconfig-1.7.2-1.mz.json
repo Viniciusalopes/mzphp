@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libconfig",
+    "version": "1.7.2-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "https://hyperrealm.github.io/libconfig/",
+    "deps": "''",
+    "file_mz": "libconfig-1.7.2-1.mz",
+    "file_desc": "libconfig-1.7.2-1.mz.desc",
+    "file_sha256": "libconfig-1.7.2-1.mz.sha256",
+    "file_json": "libconfig-1.7.2-1.mz.json",
+    "desc": "Libconfig is a simple library for processing structured\nconfiguration files, like this one. This file format is more compact\nand more readable than XML. And unlike XML, it is type-aware,\nso it is not necessary to do string parsing in application code."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "dbus",
+    "version": "1.12.10-2",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://dbus.freedesktop.org/",
+    "deps": "'xorg_libraries'",
+    "file_mz": "dbus-1.12.10-2.mz",
+    "file_desc": "dbus-1.12.10-2.mz.desc",
+    "file_sha256": "dbus-1.12.10-2.mz.sha256",
+    "file_json": "dbus-1.12.10-2.mz.json",
+    "desc": "D-Bus is a message bus system, a simple way for applications \nto talk to one another. D-Bus supplies both a system daemon \n(for events such as \u201cnew hardware device added\u201d \nor \u201cprinter queue changed\u201d) and a per-user-login-session daemon \n(for general IPC needs among user applications). \nAlso, the message bus is built on top of a general one-to-one \nmessage passing framework, which can be used by any two applications \nto communicate directly (without going through the message bus daemon)."
+}

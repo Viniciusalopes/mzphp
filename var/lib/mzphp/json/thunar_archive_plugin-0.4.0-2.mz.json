@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "thunar_archive_plugin",
+    "version": "0.4.0-2",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://goodies.xfce.org/projects/thunar-plugins",
+    "deps": "'thunar,xarchiver'",
+    "file_mz": "thunar_archive_plugin-0.4.0-2.mz",
+    "file_desc": "thunar_archive_plugin-0.4.0-2.mz.desc",
+    "file_sha256": "thunar_archive_plugin-0.4.0-2.mz.sha256",
+    "file_json": "thunar_archive_plugin-0.4.0-2.mz.json",
+    "desc": "The Thunar Archive Plugin allows you to create and extract \narchive files using the file context menus in the Thunar file manager. \nFor example, to create a new archive, just right click on the files and \nfolders you want to add to the archive, right click on one of the \nselected files and select Create Archive\u2026 from the context menu."
+}

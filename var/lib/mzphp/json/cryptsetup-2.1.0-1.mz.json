@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "sec/",
+    "name": "cryptsetup",
+    "version": "2.1.0-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "https://gitlab.com/cryptsetup/cryptsetup",
+    "deps": "''",
+    "file_mz": "cryptsetup-2.1.0-1.mz",
+    "file_desc": "cryptsetup-2.1.0-1.mz.desc",
+    "file_sha256": "cryptsetup-2.1.0-1.mz.sha256",
+    "file_json": "cryptsetup-2.1.0-1.mz.json",
+    "desc": "Cryptsetup is utility used to conveniently setup disk encryption\nbased on DMCrypt kernel module.\nThese include plain dm-crypt volumes, LUKS volumes, loop-AES and\nTrueCrypt (including VeraCrypt extension) format.\nProject also includes veritysetup utility used to conveniently setup\nDMVerity block integrity checking kernel module and, since version 2.0,\nintegritysetup to setup DMIntegrity block integrity kernel module."
+}

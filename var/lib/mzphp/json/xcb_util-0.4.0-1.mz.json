@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xcb_util",
+    "version": "0.4.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'libxcb'",
+    "file_mz": "xcb_util-0.4.0-1.mz",
+    "file_desc": "xcb_util-0.4.0-1.mz.desc",
+    "file_sha256": "xcb_util-0.4.0-1.mz.sha256",
+    "file_json": "xcb_util-0.4.0-1.mz.json",
+    "desc": "The xcb-util package provides additional extensions to \nthe XCB library, many that were previously found in Xlib, but are \nnot part of core X protocol."
+}

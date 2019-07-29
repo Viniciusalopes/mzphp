@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg_drivers/",
+    "name": "libinput",
+    "version": "1.11.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'libevdev' 'mtdev'",
+    "file_mz": "libinput-1.11.3-1.mz",
+    "file_desc": "libinput-1.11.3-1.mz.desc",
+    "file_sha256": "libinput-1.11.3-1.mz.sha256",
+    "file_json": "libinput-1.11.3-1.mz.json",
+    "desc": "libinput is a library that handles input devices for display \nservers and other applications that need to directly deal with \ninput devices."
+}

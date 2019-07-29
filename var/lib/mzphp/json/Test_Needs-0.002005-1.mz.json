@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "perl_modules/",
+    "name": "Test_Needs",
+    "version": "0.002005-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://cpan.org",
+    "deps": "'perl'",
+    "file_mz": "Test_Needs-0.002005-1.mz",
+    "file_desc": "Test_Needs-0.002005-1.mz.desc",
+    "file_sha256": "Test_Needs-0.002005-1.mz.sha256",
+    "file_json": "Test_Needs-0.002005-1.mz.json",
+    "desc": "Perl Test Modules"
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "ntfs_3g",
+    "version": "3.23-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://tuxera.com/",
+    "deps": "''",
+    "file_mz": "ntfs_3g-3.23-1.mz",
+    "file_desc": "ntfs_3g-3.23-1.mz.desc",
+    "file_sha256": "ntfs_3g-3.23-1.mz.sha256",
+    "file_json": "ntfs_3g-3.23-1.mz.json",
+    "desc": "The Ntfs-3g package contains a stable, read-write open source \ndriver for NTFS partitions. NTFS partitions are used by most \nMicrosoft operating systems. Ntfs-3g allows you to mount NTFS partitions\nin read-write mode from your Linux system. It uses the FUSE kernel \nmodule to be able to implement NTFS support in user space. The \npackage also contains various utilities useful for \nmanipulating NTFS partitions."
+}

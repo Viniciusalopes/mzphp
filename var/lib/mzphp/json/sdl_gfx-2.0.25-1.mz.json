@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "sdl_gfx",
+    "version": "2.0.25-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "''",
+    "url": "http://www.ferzkopp.net/joomla/content/view/19/14/",
+    "deps": "''",
+    "file_mz": "sdl_gfx-2.0.25-1.mz",
+    "file_desc": "sdl_gfx-2.0.25-1.mz.desc",
+    "file_sha256": "sdl_gfx-2.0.25-1.mz.sha256",
+    "file_json": "sdl_gfx-2.0.25-1.mz.json",
+    "desc": "SDL graphics drawing  primitives  and other support functions.\nThe SDL_gfx  library  evolved  out of the SDL_gfxPrimitives code which\nprovided basic drawing routines such as lines, circles or polygons\nand SDL_rotozoom which  implemented a interpolating rotozoomer for\nSDL surfaces."
+}

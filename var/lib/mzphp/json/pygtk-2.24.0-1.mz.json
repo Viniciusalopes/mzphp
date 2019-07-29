@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "pygtk",
+    "version": "2.24.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'python2' 'gtk2' 'libglade' 'pygobject' 'atk' 'pango' 'pycairo'",
+    "file_mz": "pygtk-2.24.0-1.mz",
+    "file_desc": "pygtk-2.24.0-1.mz.desc",
+    "file_sha256": "pygtk-2.24.0-1.mz.sha256",
+    "file_json": "pygtk-2.24.0-1.mz.json",
+    "desc": "PyGTK lets you to easily create programs with a graphical user \ninterface using the Python programming language."
+}

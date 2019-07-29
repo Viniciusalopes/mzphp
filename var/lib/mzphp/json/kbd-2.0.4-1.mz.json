@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "kbd",
+    "version": "2.0.4-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/kbd.html",
+    "deps": "''",
+    "file_mz": "kbd-2.0.4-1.mz",
+    "file_desc": "kbd-2.0.4-1.mz.desc",
+    "file_sha256": "kbd-2.0.4-1.mz.sha256",
+    "file_json": "kbd-2.0.4-1.mz.json",
+    "desc": "The Kbd package contains key-table files, console fonts,\nand keyboard utilities."
+}

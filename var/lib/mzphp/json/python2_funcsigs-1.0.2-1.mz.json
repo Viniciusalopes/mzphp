@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "python_modules/",
+    "name": "python2_funcsigs",
+    "version": "1.0.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://pypi.org",
+    "deps": "'python2'",
+    "file_mz": "python2_funcsigs-1.0.2-1.mz",
+    "file_desc": "python2_funcsigs-1.0.2-1.mz.desc",
+    "file_sha256": "python2_funcsigs-1.0.2-1.mz.sha256",
+    "file_json": "python2_funcsigs-1.0.2-1.mz.json",
+    "desc": "funcsigs is a is a backport of the PEP 362 function signature \nfeatures from Python 3.3"
+}

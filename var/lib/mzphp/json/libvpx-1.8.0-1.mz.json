@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libvpx",
+    "version": "1.8.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/webmproject/libvpx",
+    "deps": "'yasm' 'nasm'",
+    "file_mz": "libvpx-1.8.0-1.mz",
+    "file_desc": "libvpx-1.8.0-1.mz.desc",
+    "file_sha256": "libvpx-1.8.0-1.mz.sha256",
+    "file_json": "libvpx-1.8.0-1.mz.json",
+    "desc": "This package, from the WebM project, provides the reference \nimplementations of the VP8 Codec, used in most current html5 video \nand of the next-generation VP9 Codec."
+}

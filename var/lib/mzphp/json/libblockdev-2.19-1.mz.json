@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libblockdev",
+    "version": "2.19-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/storaged-project/libblockdev",
+    "deps": "'gobject_introspection' 'libbytesize' 'parted' 'volume_key' 'yaml' 'btrfs_progs' 'mdadm'",
+    "file_mz": "libblockdev-2.19-1.mz",
+    "file_desc": "libblockdev-2.19-1.mz.desc",
+    "file_sha256": "libblockdev-2.19-1.mz.sha256",
+    "file_json": "libblockdev-2.19-1.mz.json",
+    "desc": "libblockdev is a C library supporting GObject Introspection \nfor manipulation of block devices. It has a plugin-based architecture \nwhere each technology (like LVM, Btrfs, MD RAID, Swap,...) is \nimplemented in a separate plugin, possibly with multiple implementations\n (e.g. using LVM CLI or the new LVM DBus API)."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "cogl",
+    "version": "1.22.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'cairo' 'gdk_pixbuf' 'glu' 'mesa' 'pango' 'gobject_introspection' 'gst_plugins_base' 'sdl' 'wayland'",
+    "file_mz": "cogl-1.22.2-1.mz",
+    "file_desc": "cogl-1.22.2-1.mz.desc",
+    "file_sha256": "cogl-1.22.2-1.mz.sha256",
+    "file_json": "cogl-1.22.2-1.mz.json",
+    "desc": "Cogl is a modern 3D graphics API with associated utility APIs \ndesigned to expose the features of 3D graphics hardware using a direct \nstate access API design, as opposed to the state-machine \nstyle of OpenGL."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "icon_naming_utils",
+    "version": "0.8.90-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'XML_Simple'",
+    "file_mz": "icon_naming_utils-0.8.90-1.mz",
+    "file_desc": "icon_naming_utils-0.8.90-1.mz.desc",
+    "file_sha256": "icon_naming_utils-0.8.90-1.mz.sha256",
+    "file_json": "icon_naming_utils-0.8.90-1.mz.json",
+    "desc": "The icon-naming-utils package contains a Perl script used for \nmaintaining backwards compatibility with current desktop icon themes"
+}

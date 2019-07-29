@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libogg",
+    "version": "1.3.3-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/libogg.html",
+    "deps": "''",
+    "file_mz": "libogg-1.3.3-1.mz",
+    "file_desc": "libogg-1.3.3-1.mz.desc",
+    "file_sha256": "libogg-1.3.3-1.mz.sha256",
+    "file_json": "libogg-1.3.3-1.mz.json",
+    "desc": "The libogg package contains the Ogg file structure. This is useful\nfor creating (encoding) or playing (decoding) a single physical bit stream."
+}

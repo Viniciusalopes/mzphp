@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "zsh",
+    "version": "5.7.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'CUSTOM'",
+    "url": "https://zsh.org",
+    "deps": "'pcre' 'libcap' 'gdbm'",
+    "file_mz": "zsh-5.7.1-1.mz",
+    "file_desc": "zsh-5.7.1-1.mz.desc",
+    "file_sha256": "zsh-5.7.1-1.mz.sha256",
+    "file_json": "zsh-5.7.1-1.mz.json",
+    "desc": "The zsh package contains a command interpreter (shell) usable as \nan interactive login shell and as a shell script command processor"
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "nasm",
+    "version": "2.13.03-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://nasm.us",
+    "deps": "''",
+    "file_mz": "nasm-2.13.03-1.mz",
+    "file_desc": "nasm-2.13.03-1.mz.desc",
+    "file_sha256": "nasm-2.13.03-1.mz.sha256",
+    "file_json": "nasm-2.13.03-1.mz.json",
+    "desc": "NASM (Netwide Assembler) is an 80x86 assembler designed for \nportability and modularity. It includes a disassembler as well."
+}

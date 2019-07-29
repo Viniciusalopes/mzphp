@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "ranger",
+    "version": "1.9.2-1",
+    "maintainer": "Diego Sarzi",
+    "license": "'GPL3'",
+    "url": "https://github.com/ranger/ranger",
+    "deps": "''",
+    "file_mz": "ranger-1.9.2-1.mz",
+    "file_desc": "ranger-1.9.2-1.mz.desc",
+    "file_sha256": "ranger-1.9.2-1.mz.sha256",
+    "file_json": "ranger-1.9.2-1.mz.json",
+    "desc": "ranger is a console file manager with VI key bindings. It provides\na minimalistic and nice curses interface with a view on the directory\nhierarchy. It ships with rifle, a file launcher that is good at\nautomatically finding out which program to use for what file type."
+}

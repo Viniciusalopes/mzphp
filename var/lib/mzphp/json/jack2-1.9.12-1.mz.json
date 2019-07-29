@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "jack2",
+    "version": "1.9.12-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://jackaudio.org/",
+    "deps": "''",
+    "file_mz": "jack2-1.9.12-1.mz",
+    "file_desc": "jack2-1.9.12-1.mz.desc",
+    "file_sha256": "jack2-1.9.12-1.mz.sha256",
+    "file_json": "jack2-1.9.12-1.mz.json",
+    "desc": "Have you ever wanted to take the audio output of one piece of\nsoftware and send it to another? How about taking the output of that\nsame program and send it to two others, then record the result in the\nfirst program? Or maybe you\u2019re a programmer who writes real-time audio\nand music applications and who is looking for a cross-platform API\nthat enables not only device sharing but also inter-application audio\nrouting, and is incredibly easy to learn and use? If so, JACK may be\nwhat you\u2019ve been looking for."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "cdrdao",
+    "version": "1.2.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https/;//sourceforge.net/cdrdao",
+    "deps": "'libao' 'libvorbis' 'libmad' 'lame'",
+    "file_mz": "cdrdao-1.2.4-1.mz",
+    "file_desc": "cdrdao-1.2.4-1.mz.desc",
+    "file_sha256": "cdrdao-1.2.4-1.mz.sha256",
+    "file_json": "cdrdao-1.2.4-1.mz.json",
+    "desc": "The Cdrdao package contains CD recording utilities. These are \nuseful for burning a CD in disk-at-once mode."
+}

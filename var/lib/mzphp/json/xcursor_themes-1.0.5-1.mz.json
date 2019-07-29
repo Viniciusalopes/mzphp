@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xcursor_themes",
+    "version": "1.0.5-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://x.org",
+    "deps": "'xorg_apps'",
+    "file_mz": "xcursor_themes-1.0.5-1.mz",
+    "file_desc": "xcursor_themes-1.0.5-1.mz.desc",
+    "file_sha256": "xcursor_themes-1.0.5-1.mz.sha256",
+    "file_json": "xcursor_themes-1.0.5-1.mz.json",
+    "desc": "The xcursor-themes package contains the redglass and \nwhiteglass animated cursor themes."
+}

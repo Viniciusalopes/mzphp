@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "fuse",
+    "version": "2.9.7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/libfuse/libfuse",
+    "deps": "''",
+    "file_mz": "fuse-2.9.7-1.mz",
+    "file_desc": "fuse-2.9.7-1.mz.desc",
+    "file_sha256": "fuse-2.9.7-1.mz.sha256",
+    "file_json": "fuse-2.9.7-1.mz.json",
+    "desc": "FUSE (Filesystem in Userspace) is a simple interface for userspace\nprograms to export a virtual filesystem to the Linux kernel. \nFuse also aims to provide a secure method for non privileged users \nto create and mount their own filesystem implementations."
+}

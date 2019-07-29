@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfdesktop",
+    "version": "4.12.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https;//xfce.org",
+    "deps": "'exo' 'libwnck' 'libxfceui' 'libnotify' 'startup_notification' 'thunar'",
+    "file_mz": "xfdesktop-4.12.4-1.mz",
+    "file_desc": "xfdesktop-4.12.4-1.mz.desc",
+    "file_sha256": "xfdesktop-4.12.4-1.mz.sha256",
+    "file_json": "xfdesktop-4.12.4-1.mz.json",
+    "desc": "Xfdesktop is a desktop manager for the Xfce Desktop Environment. \nXfdesktop sets the background image / color, creates the right click \nmenu and window list and displays the file icons on the desktop \nusing Thunar libraries."
+}

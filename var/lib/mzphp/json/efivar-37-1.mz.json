@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "efivar",
+    "version": "37-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://github.com/rhboot/efivar",
+    "deps": "'popt'",
+    "file_mz": "efivar-37-1.mz",
+    "file_desc": "efivar-37-1.mz.desc",
+    "file_sha256": "efivar-37-1.mz.sha256",
+    "file_json": "efivar-37-1.mz.json",
+    "desc": "Tools and libraries to manipulate EFI variables"
+}

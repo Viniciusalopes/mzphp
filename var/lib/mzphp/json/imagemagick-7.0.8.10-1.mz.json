@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "imagemagick",
+    "version": "7.0.8.10-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "https://imagemagick.org",
+    "deps": "''",
+    "file_mz": "imagemagick-7.0.8.10-1.mz",
+    "file_desc": "imagemagick-7.0.8.10-1.mz.desc",
+    "file_sha256": "imagemagick-7.0.8.10-1.mz.sha256",
+    "file_json": "imagemagick-7.0.8.10-1.mz.json",
+    "desc": "ImageMagick is a collection of tools and libraries to read, write, and manipulate an image in various image formats."
+}

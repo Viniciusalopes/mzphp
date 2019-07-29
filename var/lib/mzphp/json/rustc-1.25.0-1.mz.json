@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "rustc",
+    "version": "1.25.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://rustc-lang.org",
+    "deps": "'curl' 'libssh2' 'python2' 'llvm'",
+    "file_mz": "rustc-1.25.0-1.mz",
+    "file_desc": "rustc-1.25.0-1.mz.desc",
+    "file_sha256": "rustc-1.25.0-1.mz.sha256",
+    "file_json": "rustc-1.25.0-1.mz.json",
+    "desc": "The Rust programming language is designed to be a safe, \nconcurrent, practical language."
+}

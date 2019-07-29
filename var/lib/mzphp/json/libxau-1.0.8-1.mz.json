@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "libxau",
+    "version": "1.0.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.x.org",
+    "deps": "'xorgproto'",
+    "file_mz": "libxau-1.0.8-1.mz",
+    "file_desc": "libxau-1.0.8-1.mz.desc",
+    "file_sha256": "libxau-1.0.8-1.mz.sha256",
+    "file_json": "libxau-1.0.8-1.mz.json",
+    "desc": "The libXau package contains a library implementing the \nX11 Authorization Protocol. This is useful for restricting \nclient access to the display."
+}

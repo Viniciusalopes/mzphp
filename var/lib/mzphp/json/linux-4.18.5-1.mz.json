@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "linux",
+    "version": "4.18.5-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://www.kernel.org",
+    "deps": "''",
+    "file_mz": "linux-4.18.5-1.mz",
+    "file_desc": "linux-4.18.5-1.mz.desc",
+    "file_sha256": "linux-4.18.5-1.mz.sha256",
+    "file_json": "linux-4.18.5-1.mz.json",
+    "desc": "The Kernel Linux."
+}

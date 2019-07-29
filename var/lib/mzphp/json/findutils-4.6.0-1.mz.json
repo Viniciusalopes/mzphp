@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "findutils",
+    "version": "4.6.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/findutils.html",
+    "deps": "''",
+    "file_mz": "findutils-4.6.0-1.mz",
+    "file_desc": "findutils-4.6.0-1.mz.desc",
+    "file_sha256": "findutils-4.6.0-1.mz.sha256",
+    "file_json": "findutils-4.6.0-1.mz.json",
+    "desc": "The Findutils package contains programs to find files. These\nprograms are provided to recursively search through a directory tree\nand to create, maintain, and search a database (often faster than\nthe recursive find, but unreliable if the database has not been\nrecently updated)."
+}

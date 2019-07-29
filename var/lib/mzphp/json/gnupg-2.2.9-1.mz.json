@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "gnupg",
+    "version": "2.2.9-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnupg.org",
+    "deps": "'libassuan' 'libgcrypt' 'libgpg_error' 'libksba' 'npth' 'curl' 'gnutls' 'sqlite' 'openldap_client'",
+    "file_mz": "gnupg-2.2.9-1.mz",
+    "file_desc": "gnupg-2.2.9-1.mz.desc",
+    "file_sha256": "gnupg-2.2.9-1.mz.sha256",
+    "file_json": "gnupg-2.2.9-1.mz.json",
+    "desc": "The GnuPG package is GNU"
+}

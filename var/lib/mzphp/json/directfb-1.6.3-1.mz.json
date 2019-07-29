@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "directfb",
+    "version": "1.6.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://www.directfb.org/",
+    "deps": "'sdl' 'xorg_server' 'freetype'",
+    "file_mz": "directfb-1.6.3-1.mz",
+    "file_desc": "directfb-1.6.3-1.mz.desc",
+    "file_sha256": "directfb-1.6.3-1.mz.sha256",
+    "file_json": "directfb-1.6.3-1.mz.json",
+    "desc": "DirectFB is a graphics library which was designed with embedded\n   systems in mind. It offers maximum hardware accelerated performance\n   at a minimum of resource usage and overhead."
+}

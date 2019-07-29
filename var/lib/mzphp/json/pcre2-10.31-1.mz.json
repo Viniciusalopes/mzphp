@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "pcre2",
+    "version": "10.31-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://pcre.org",
+    "deps": "''",
+    "file_mz": "pcre2-10.31-1.mz",
+    "file_desc": "pcre2-10.31-1.mz.desc",
+    "file_sha256": "pcre2-10.31-1.mz.sha256",
+    "file_json": "pcre2-10.31-1.mz.json",
+    "desc": "The PCRE package contains Perl Compatible Regular Expression \nlibraries. These are useful for implementing regular expression \npattern matching using the same syntax and semantics as Perl 5."
+}

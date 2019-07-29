@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "npth",
+    "version": "1.6-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnupg.org",
+    "deps": "''",
+    "file_mz": "npth-1.6-1.mz",
+    "file_desc": "npth-1.6-1.mz.desc",
+    "file_sha256": "npth-1.6-1.mz.sha256",
+    "file_json": "npth-1.6-1.mz.json",
+    "desc": "The NPth package contains a very portable POSIX/ANSI-C based \nlibrary for Unix platforms which provides non-preemptive priority-based \nscheduling for multiple threads of execution (multithreading) inside \nevent-driven applications. All threads run in the same address space \nof the server application, but each thread has its own individual\nprogram-counter, run-time stack, signal mask and errno variable."
+}

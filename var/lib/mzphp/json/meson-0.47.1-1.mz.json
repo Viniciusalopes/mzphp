@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "meson",
+    "version": "0.47.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/meson.html",
+    "deps": "'Python3'",
+    "file_mz": "meson-0.47.1-1.mz",
+    "file_desc": "meson-0.47.1-1.mz.desc",
+    "file_sha256": "meson-0.47.1-1.mz.sha256",
+    "file_json": "meson-0.47.1-1.mz.json",
+    "desc": "Meson is an open source build system meant to be both extremely\nfast, and, even more importantly, as user friendly as possible."
+}

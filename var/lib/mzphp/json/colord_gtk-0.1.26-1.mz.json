@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "colord_gtk",
+    "version": "0.1.26-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'colord' 'gtk3' 'gobject_introspection' 'vala' 'gtk2'",
+    "file_mz": "colord_gtk-0.1.26-1.mz",
+    "file_desc": "colord_gtk-0.1.26-1.mz.desc",
+    "file_sha256": "colord_gtk-0.1.26-1.mz.sha256",
+    "file_json": "colord_gtk-0.1.26-1.mz.json",
+    "desc": "The Colord GTK package contains GTK+ bindings for Colord."
+}

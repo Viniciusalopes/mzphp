@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "mpfr",
+    "version": "4.0.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://www.mpfr.org/",
+    "deps": "'glibc'",
+    "file_mz": "mpfr-4.0.1-1.mz",
+    "file_desc": "mpfr-4.0.1-1.mz.desc",
+    "file_sha256": "mpfr-4.0.1-1.mz.sha256",
+    "file_json": "mpfr-4.0.1-1.mz.json",
+    "desc": "The MPFR package contains functions for multiple precision math."
+}

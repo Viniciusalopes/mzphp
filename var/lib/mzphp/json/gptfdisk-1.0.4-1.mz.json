@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "gptfdisk",
+    "version": "1.0.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/gptfdisk",
+    "deps": "'popt' 'icu'",
+    "file_mz": "gptfdisk-1.0.4-1.mz",
+    "file_desc": "gptfdisk-1.0.4-1.mz.desc",
+    "file_sha256": "gptfdisk-1.0.4-1.mz.sha256",
+    "file_json": "gptfdisk-1.0.4-1.mz.json",
+    "desc": "The gptfdisk package is a set of programs for creation and \nmaintenance of GUID Partition Table (GPT) disk drives. A GPT partitioned\n disk is required for drives greater than 2 TB and is a modern \nreplacement for legacy PC-BIOS partitioned disk drives that use\na Master Boot Record (MBR). The main program, gdisk, has an \ninteface similar to the classic fdisk program."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "xcb_util_xrm",
+    "version": "1.3-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "https://github.com/Airblader/xcb-util-xrm",
+    "deps": "''",
+    "file_mz": "xcb_util_xrm-1.3-1.mz",
+    "file_desc": "xcb_util_xrm-1.3-1.mz.desc",
+    "file_sha256": "xcb_util_xrm-1.3-1.mz.sha256",
+    "file_json": "xcb_util_xrm-1.3-1.mz.json",
+    "desc": "The XCB util modules provides a number of libraries which sit on\ntop of libxcb, the core X protocol library, and some of the extension\nlibraries. These experimental libraries provide convenience functions\nand interfaces which make the raw X protocol more usable. Some of the\nlibraries also provide client-side code which is not strictly part of\nthe X protocol but which have traditionally been provided by Xlib."
+}

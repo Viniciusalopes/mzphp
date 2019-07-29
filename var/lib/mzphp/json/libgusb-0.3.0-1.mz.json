@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libgusb",
+    "version": "0.3.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'libusb' 'usbutils' 'gobject_introspection'",
+    "file_mz": "libgusb-0.3.0-1.mz",
+    "file_desc": "libgusb-0.3.0-1.mz.desc",
+    "file_sha256": "libgusb-0.3.0-1.mz.sha256",
+    "file_json": "libgusb-0.3.0-1.mz.json",
+    "desc": "The libgusb package contains the GObject wrappers for libusb-1.0 \nthat makes it easy to do asynchronous control, bulk and interrupt \ntransfers with proper cancellation and integration into a mainloop."
+}

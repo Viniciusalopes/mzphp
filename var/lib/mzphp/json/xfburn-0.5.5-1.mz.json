@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfburn",
+    "version": "0.5.5-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "''",
+    "url": "https://xfce.org",
+    "deps": "'exo' 'libburn' 'libisofs' 'libxfce4ui' 'gst_plugins_base' 'cdrdao'",
+    "file_mz": "xfburn-0.5.5-1.mz",
+    "file_desc": "xfburn-0.5.5-1.mz.desc",
+    "file_sha256": "xfburn-0.5.5-1.mz.sha256",
+    "file_json": "xfburn-0.5.5-1.mz.json",
+    "desc": "Xfburn is a GTK+ 2 GUI frontend for Libisoburn. This is useful \nfor creating CDs and DVDs from files on your computer or ISO images\ndownloaded from elsewhere."
+}

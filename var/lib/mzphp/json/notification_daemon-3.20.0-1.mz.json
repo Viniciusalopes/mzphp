@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "notification_daemon",
+    "version": "3.20.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gtk3' 'libcanberra'",
+    "file_mz": "notification_daemon-3.20.0-1.mz",
+    "file_desc": "notification_daemon-3.20.0-1.mz.desc",
+    "file_sha256": "notification_daemon-3.20.0-1.mz.sha256",
+    "file_json": "notification_daemon-3.20.0-1.mz.json",
+    "desc": "The Notification Daemon package contains a daemon that displays \npassive pop-up notifications."
+}

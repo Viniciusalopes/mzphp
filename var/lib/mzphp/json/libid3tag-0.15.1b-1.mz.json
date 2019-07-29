@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libid3tag",
+    "version": "0.15.1b-1",
+    "maintainer": "Lincoln Lordello",
+    "license": "'GPL'",
+    "url": "http://www.underbit.com/products/mad/",
+    "deps": "''",
+    "file_mz": "libid3tag-0.15.1b-1.mz",
+    "file_desc": "libid3tag-0.15.1b-1.mz.desc",
+    "file_sha256": "libid3tag-0.15.1b-1.mz.sha256",
+    "file_json": "libid3tag-0.15.1b-1.mz.json",
+    "desc": "Library for id3 tagging."
+}

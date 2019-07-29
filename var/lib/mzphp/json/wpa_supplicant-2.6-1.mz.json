@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "wpa_supplicant",
+    "version": "2.6-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://w1.fi/",
+    "deps": "'libnl' 'dbus' 'libxml2' 'qt5_base'",
+    "file_mz": "wpa_supplicant-2.6-1.mz",
+    "file_desc": "wpa_supplicant-2.6-1.mz.desc",
+    "file_sha256": "wpa_supplicant-2.6-1.mz.sha256",
+    "file_json": "wpa_supplicant-2.6-1.mz.json",
+    "desc": "WPA Supplicant is a Wi-Fi Protected Access (WPA) client and IEEE \n802.1X supplicant. It implements WPA key negotiation with a WPA \nAuthenticator and Extensible Authentication Protocol (EAP) \nauthentication with an Authentication Server. In addition, it controls \nthe roaming and IEEE 802.11 authentication/association of the wireless \nLAN driver. This is useful for connecting to a password protected \nwireless access point."
+}

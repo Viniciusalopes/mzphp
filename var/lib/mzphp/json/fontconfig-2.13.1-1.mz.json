@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "x/",
+    "name": "fontconfig",
+    "version": "2.13.1-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'COPYING'",
+    "url": "https://www.freedesktop.org/wiki/Software/fontconfig/",
+    "deps": "''",
+    "file_mz": "fontconfig-2.13.1-1.mz",
+    "file_desc": "fontconfig-2.13.1-1.mz.desc",
+    "file_sha256": "fontconfig-2.13.1-1.mz.sha256",
+    "file_json": "fontconfig-2.13.1-1.mz.json",
+    "desc": "Fontconfig is a library for configuring and customizing font\naccess."
+}

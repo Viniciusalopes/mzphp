@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "dejagnu",
+    "version": "1.6.2-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/general/dejagnu.html",
+    "deps": "'Expect-5.45.4'",
+    "file_mz": "dejagnu-1.6.2-1.mz",
+    "file_desc": "dejagnu-1.6.2-1.mz.desc",
+    "file_sha256": "dejagnu-1.6.2-1.mz.sha256",
+    "file_json": "dejagnu-1.6.2-1.mz.json",
+    "desc": "DejaGnu is a framework for running test suites on GNU tools. It\nis written in expect, which uses Tcl (Tool command language). It was\ninstalled by LFS in the temporary /tools directory. These instructions\ninstall it permanently."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libdvdread",
+    "version": "6.0.1-1",
+    "maintainer": "Vovolinux",
+    "license": "'GPL'",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.4/multimedia/libdvdread.html",
+    "deps": "''",
+    "file_mz": "libdvdread-6.0.1-1.mz",
+    "file_desc": "libdvdread-6.0.1-1.mz.desc",
+    "file_sha256": "libdvdread-6.0.1-1.mz.sha256",
+    "file_json": "libdvdread-6.0.1-1.mz.json",
+    "desc": "libdvdread is a library which provides a simple foundation for \nreading DVDs.\n\nThis package is known to build and work properly using \nan LFS-8.4 platform."
+}

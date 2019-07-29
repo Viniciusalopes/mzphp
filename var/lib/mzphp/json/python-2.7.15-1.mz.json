@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "python",
+    "version": "2.7.15-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.python.org",
+    "deps": "''",
+    "file_mz": "python-2.7.15-1.mz",
+    "file_desc": "python-2.7.15-1.mz.desc",
+    "file_sha256": "python-2.7.15-1.mz.sha256",
+    "file_json": "python-2.7.15-1.mz.json",
+    "desc": "The Python 2 package contains the Python development environment. \nIt is useful for object-oriented programming, writing scripts, \nprototyping large programs or developing entire applications. \nThis version is for backward compatibility with \nother dependent packages."
+}

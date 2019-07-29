@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "sdl_ttf",
+    "version": "2.0.11-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "''",
+    "url": "https://www.libsdl.org/projects/SDL_ttf/release-1.2.html",
+    "deps": "''",
+    "file_mz": "sdl_ttf-2.0.11-1.mz",
+    "file_desc": "sdl_ttf-2.0.11-1.mz.desc",
+    "file_sha256": "sdl_ttf-2.0.11-1.mz.sha256",
+    "file_json": "sdl_ttf-2.0.11-1.mz.json",
+    "desc": "This is a sample library which allows you to use TrueType fonts in\nyour SDL applications. It comes with an example program"
+}

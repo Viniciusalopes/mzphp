@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "mozjs",
+    "version": "52.2.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'MOZILA'",
+    "url": "https://developer.mozilla.org/pt-PT/docs/Mozilla/Projects/SpiderMonkey",
+    "deps": "'icu' 'nspr' 'python2' 'xorg_libraries' 'yasm' 'zip'",
+    "file_mz": "mozjs-52.2.1-1.mz",
+    "file_desc": "mozjs-52.2.1-1.mz.desc",
+    "file_sha256": "mozjs-52.2.1-1.mz.sha256",
+    "file_json": "mozjs-52.2.1-1.mz.json",
+    "desc": "JS is Mozilla"
+}

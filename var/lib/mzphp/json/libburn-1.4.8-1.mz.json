@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libburn",
+    "version": "1.4.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://libburnia-project.org",
+    "deps": "''",
+    "file_mz": "libburn-1.4.8-1.mz",
+    "file_desc": "libburn-1.4.8-1.mz.desc",
+    "file_sha256": "libburn-1.4.8-1.mz.sha256",
+    "file_json": "libburn-1.4.8-1.mz.json",
+    "desc": "libburn is a library for writing preformatted data onto optical\nmedia: CD, DVD and BD (Blu-Ray)."
+}

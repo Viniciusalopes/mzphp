@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xcb_proto",
+    "version": "1.13-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "''",
+    "file_mz": "xcb_proto-1.13-1.mz",
+    "file_desc": "xcb_proto-1.13-1.mz.desc",
+    "file_sha256": "xcb_proto-1.13-1.mz.sha256",
+    "file_json": "xcb_proto-1.13-1.mz.json",
+    "desc": "The xcb-proto package provides the XML-XCB protocol descriptions \nthat libxcb uses to generate the majority of its code and API."
+}

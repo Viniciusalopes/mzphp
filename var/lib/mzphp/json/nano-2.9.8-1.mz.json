@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "nano",
+    "version": "2.9.8-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/nano.html",
+    "deps": "''",
+    "file_mz": "nano-2.9.8-1.mz",
+    "file_desc": "nano-2.9.8-1.mz.desc",
+    "file_sha256": "nano-2.9.8-1.mz.sha256",
+    "file_json": "nano-2.9.8-1.mz.json",
+    "desc": "The Nano package contains a small, simple text editor which aims\nto replace Pico, the default editor in the Pine package."
+}

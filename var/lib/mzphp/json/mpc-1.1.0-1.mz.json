@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "mpc",
+    "version": "1.1.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "http://www.multiprecision.org/mpc/",
+    "deps": "''",
+    "file_mz": "mpc-1.1.0-1.mz",
+    "file_desc": "mpc-1.1.0-1.mz.desc",
+    "file_sha256": "mpc-1.1.0-1.mz.sha256",
+    "file_json": "mpc-1.1.0-1.mz.json",
+    "desc": "The MPC package contains a library for the arithmetic of complex \nnumbers with arbitrarily high precision and correct \nrounding of the result."
+}

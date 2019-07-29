@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "gtk_xfce_engine",
+    "version": "3.2.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'gtk2' 'gtk3'",
+    "file_mz": "gtk_xfce_engine-3.2.0-1.mz",
+    "file_desc": "gtk_xfce_engine-3.2.0-1.mz.desc",
+    "file_sha256": "gtk_xfce_engine-3.2.0-1.mz.sha256",
+    "file_json": "gtk_xfce_engine-3.2.0-1.mz.json",
+    "desc": "The GTK Xfce Engine package contains several GTK+ 2 and \nGTK+ 3 themes and libraries needed to display them. This is useful \nfor customising the appearance of your Xfce desktop."
+}

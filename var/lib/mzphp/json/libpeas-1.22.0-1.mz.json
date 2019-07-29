@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libpeas",
+    "version": "1.22.0-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "http://ftp.gnome.org/pub/gnome/sources/libpeas/",
+    "deps": "''",
+    "file_mz": "libpeas-1.22.0-1.mz",
+    "file_desc": "libpeas-1.22.0-1.mz.desc",
+    "file_sha256": "libpeas-1.22.0-1.mz.sha256",
+    "file_json": "libpeas-1.22.0-1.mz.json",
+    "desc": "libpeas is a GObject based plugins engine, and is targeted at\ngiving every application the chance to assume its own extensibility."
+}

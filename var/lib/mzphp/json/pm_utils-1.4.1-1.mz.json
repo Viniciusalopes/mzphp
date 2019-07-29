@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "pm_utils",
+    "version": "1.4.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://pm-utils.freedesktop.org/wiki/",
+    "deps": "''",
+    "file_mz": "pm_utils-1.4.1-1.mz",
+    "file_desc": "pm_utils-1.4.1-1.mz.desc",
+    "file_sha256": "pm_utils-1.4.1-1.mz.sha256",
+    "file_json": "pm_utils-1.4.1-1.mz.json",
+    "desc": "pm-utils is a small collection of scripts that handle suspend \nand resume on behalf of HAL."
+}

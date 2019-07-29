@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfce4_terminal",
+    "version": "0.8.7.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'libxfce4ui' 'vte'",
+    "file_mz": "xfce4_terminal-0.8.7.4-1.mz",
+    "file_desc": "xfce4_terminal-0.8.7.4-1.mz.desc",
+    "file_sha256": "xfce4_terminal-0.8.7.4-1.mz.sha256",
+    "file_json": "xfce4_terminal-0.8.7.4-1.mz.json",
+    "desc": "Xfce4 Terminal is a GTK+3 terminal emulator. This is useful for \nrunning commands or programs in the comfort of an Xorg window; you \ncan drag and drop files into the Xfce4 Terminal or copy and paste \ntext with your mouse."
+}

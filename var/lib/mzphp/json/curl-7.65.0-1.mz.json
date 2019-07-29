@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "curl",
+    "version": "7.65.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://curl.haxx.se",
+    "deps": "'make_ca'",
+    "file_mz": "curl-7.65.0-1.mz",
+    "file_desc": "curl-7.65.0-1.mz.desc",
+    "file_sha256": "curl-7.65.0-1.mz.sha256",
+    "file_json": "curl-7.65.0-1.mz.json",
+    "desc": "The cURL package contains an utility and a library used for \ntransferring files with URL syntax to any of the following protocols: \nFTP, FTPS, HTTP, HTTPS, SCP, SFTP, TFTP, TELNET, DICT, LDAP, LDAPS \nand FILE. Its ability to both download and upload files can be \nincorporated into other programs to support functions \nlike streaming media."
+}

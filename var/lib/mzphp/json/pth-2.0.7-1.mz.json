@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "pth",
+    "version": "2.0.7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnu.org",
+    "deps": "''",
+    "file_mz": "pth-2.0.7-1.mz",
+    "file_desc": "pth-2.0.7-1.mz.desc",
+    "file_sha256": "pth-2.0.7-1.mz.sha256",
+    "file_json": "pth-2.0.7-1.mz.json",
+    "desc": "The Pth package contains a very portable POSIX/ANSI-C based \nlibrary for Unix platforms which provides non-preemptive priority-based \nscheduling for multiple threads of execution (multithreading) inside \nevent-driven applications. All threads run in the same address space \nof the server application, but each thread has its own individual \nprogram-counter, run-time stack, signal mask and errno variable."
+}

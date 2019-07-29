@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libdvdcss",
+    "version": "1.4.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://videolan.org",
+    "deps": "''",
+    "file_mz": "libdvdcss-1.4.2-1.mz",
+    "file_desc": "libdvdcss-1.4.2-1.mz.desc",
+    "file_sha256": "libdvdcss-1.4.2-1.mz.sha256",
+    "file_json": "libdvdcss-1.4.2-1.mz.json",
+    "desc": "libdvdcss is a simple library designed for accessing DVDs as a \nblock device without having to bother about the decryption."
+}

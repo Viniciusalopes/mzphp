@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "dmenu",
+    "version": "4.2.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "dmenu is an efficient dynamic menu for X.",
+    "deps": "''",
+    "file_mz": "dmenu-4.2.1-1.mz",
+    "file_desc": "dmenu-4.2.1-1.mz.desc",
+    "file_sha256": "dmenu-4.2.1-1.mz.sha256",
+    "file_json": "dmenu-4.2.1-1.mz.json",
+    "desc": "dmenu is an efficient dynamic menu for X."
+}

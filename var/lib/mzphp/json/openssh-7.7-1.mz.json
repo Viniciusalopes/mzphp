@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "network/",
+    "name": "openssh",
+    "version": "7.7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'BSD'",
+    "url": "https://openbsd.org",
+    "deps": "'linux_pam' 'libedit'",
+    "file_mz": "openssh-7.7-1.mz",
+    "file_desc": "openssh-7.7-1.mz.desc",
+    "file_sha256": "openssh-7.7-1.mz.sha256",
+    "file_json": "openssh-7.7-1.mz.json",
+    "desc": "The OpenSSH package contains ssh clients and the sshd daemon. \nThis is useful for encrypting authentication and subsequent traffic \nover a network. The ssh and scp commands are secure implementations \nof telnet and rcp respectively."
+}

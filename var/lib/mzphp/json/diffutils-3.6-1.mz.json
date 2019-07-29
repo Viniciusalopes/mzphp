@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "diffutils",
+    "version": "3.6-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/diffutils.html",
+    "deps": "''",
+    "file_mz": "diffutils-3.6-1.mz",
+    "file_desc": "diffutils-3.6-1.mz.desc",
+    "file_sha256": "diffutils-3.6-1.mz.sha256",
+    "file_json": "diffutils-3.6-1.mz.json",
+    "desc": "The Diffutils package contains programs that show the differences\nbetween files or directories."
+}

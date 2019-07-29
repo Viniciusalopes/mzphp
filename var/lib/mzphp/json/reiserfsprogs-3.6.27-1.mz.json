@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "reiserfsprogs",
+    "version": "3.6.27-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.kernel.org/pub/linux/kernel/people/jeffm/reiserfsprogs",
+    "deps": "''",
+    "file_mz": "reiserfsprogs-3.6.27-1.mz",
+    "file_desc": "reiserfsprogs-3.6.27-1.mz.desc",
+    "file_sha256": "reiserfsprogs-3.6.27-1.mz.sha256",
+    "file_json": "reiserfsprogs-3.6.27-1.mz.json",
+    "desc": "The reiserfsprogs package contains various utilities for use \nwith the Reiser file system."
+}

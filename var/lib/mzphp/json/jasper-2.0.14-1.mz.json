@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "jasper",
+    "version": "2.0.14-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://www.ece.uvic.ca",
+    "deps": "'libjpg_turbo' 'freeglut'",
+    "file_mz": "jasper-2.0.14-1.mz",
+    "file_desc": "jasper-2.0.14-1.mz.desc",
+    "file_sha256": "jasper-2.0.14-1.mz.sha256",
+    "file_json": "jasper-2.0.14-1.mz.json",
+    "desc": "The JasPer Project is an open-source initiative to provide a \nfree software-based reference implementation of the JPEG-2000 codec."
+}

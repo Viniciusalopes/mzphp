@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "x264",
+    "version": "2245-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/x264.html",
+    "deps": "''",
+    "file_mz": "x264-2245-1.mz",
+    "file_desc": "x264-2245-1.mz.desc",
+    "file_sha256": "x264-2245-1.mz.sha256",
+    "file_json": "x264-2245-1.mz.json",
+    "desc": "x264 package provides a library for encoding video streams into\nthe H.264/MPEG-4 AVC format."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "qtkeychain",
+    "version": "0.9.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'BSD'",
+    "url": "https://github.com/frankosterfeld/qtkeychain",
+    "deps": "'qt5_base' 'gnome_keyring' 'kwallet' 'libsecret'",
+    "file_mz": "qtkeychain-0.9.1-1.mz",
+    "file_desc": "qtkeychain-0.9.1-1.mz.desc",
+    "file_sha256": "qtkeychain-0.9.1-1.mz.sha256",
+    "file_json": "qtkeychain-0.9.1-1.mz.json",
+    "desc": "QtKeychain is a Qt API to store passwords and other secret \ndata securely."
+}

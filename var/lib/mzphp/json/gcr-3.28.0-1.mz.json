@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "gcr",
+    "version": "3.28.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib' 'libgcrypt' 'libtasn1' 'p11_kit' 'gnupg' 'gobject_introspection' 'gtk3' 'libxslt' 'vala'",
+    "file_mz": "gcr-3.28.0-1.mz",
+    "file_desc": "gcr-3.28.0-1.mz.desc",
+    "file_sha256": "gcr-3.28.0-1.mz.sha256",
+    "file_json": "gcr-3.28.0-1.mz.json",
+    "desc": "The Gcr package contains libraries used for displaying \ncertificates and accessing key stores. It also provides the \nviewer for crypto files on the GNOME Desktop."
+}

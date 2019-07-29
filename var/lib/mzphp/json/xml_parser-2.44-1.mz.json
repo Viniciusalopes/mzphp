@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "xml_parser",
+    "version": "2.44-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/xml-parser.html",
+    "deps": "''",
+    "file_mz": "xml_parser-2.44-1.mz",
+    "file_desc": "xml_parser-2.44-1.mz.desc",
+    "file_sha256": "xml_parser-2.44-1.mz.sha256",
+    "file_json": "xml_parser-2.44-1.mz.json",
+    "desc": "The XML::Parser module is a Perl interface to James Clark"
+}

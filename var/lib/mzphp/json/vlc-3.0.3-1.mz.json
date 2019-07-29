@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "vlc",
+    "version": "3.0.3-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/vlc.html",
+    "deps": "'alsa-lib-1.1.6' 'FFmpeg-4.0.2' 'liba52-0.7.4' 'libgcrypt-1.8.3' 'libmad-0.15.1b' 'Lua-5.3.5' 'X'",
+    "file_mz": "vlc-3.0.3-1.mz",
+    "file_desc": "vlc-3.0.3-1.mz.desc",
+    "file_sha256": "vlc-3.0.3-1.mz.sha256",
+    "file_json": "vlc-3.0.3-1.mz.json",
+    "desc": "VLC is a media player, streamer, and encoder. It can play from\nmany inputs, such as files, network streams, capture devices, desktops,\nor DVD, SVCD, VCD, and audio CD. It can use most audio and video codecs\n(MPEG 1/2/4, H264, VC-1, DivX, WMV, Vorbis, AC3, AAC, etc.), and it can\nalso convert to different formats and/or send streams through the network."
+}

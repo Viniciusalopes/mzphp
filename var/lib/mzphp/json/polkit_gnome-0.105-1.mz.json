@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "polkit_gnome",
+    "version": "0.105-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gtk3' 'polkit'",
+    "file_mz": "polkit_gnome-0.105-1.mz",
+    "file_desc": "polkit_gnome-0.105-1.mz.desc",
+    "file_sha256": "polkit_gnome-0.105-1.mz.sha256",
+    "file_json": "polkit_gnome-0.105-1.mz.json",
+    "desc": "The Polkit GNOME package provides an Authentication Agent \nfor Polkit that integrates well with the GNOME Desktop environment."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libpwquality",
+    "version": "1.4.0-1",
+    "maintainer": "Desconhecido",
+    "license": "Desconhecida",
+    "url": "N\u00e3o dispon\u00edvel",
+    "deps": "N\u00e3o dispon\u00edvel",
+    "file_mz": "libpwquality-1.4.0-1.mz",
+    "file_desc": "libpwquality-1.4.0-1.mz.desc",
+    "file_sha256": "libpwquality-1.4.0-1.mz.sha256",
+    "file_json": "libpwquality-1.4.0-1.mz.json",
+    "desc": "N\u00e3o dispon\u00edvel"
+}

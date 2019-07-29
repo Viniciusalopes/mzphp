@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "dconf",
+    "version": "0.26.1-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "http://ftp.gnome.org/pub/gnome/sources/dconf/",
+    "deps": "''",
+    "file_mz": "dconf-0.26.1-1.mz",
+    "file_desc": "dconf-0.26.1-1.mz.desc",
+    "file_sha256": "dconf-0.26.1-1.mz.sha256",
+    "file_json": "dconf-0.26.1-1.mz.json",
+    "desc": "The DConf package contains a low-level configuration system.\nIts main purpose is to provide a backend to GSettings on platforms that\ndont already have configuration storage systems."
+}

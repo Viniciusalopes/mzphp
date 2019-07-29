@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "gpm",
+    "version": "1.20.7-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/gpm.html",
+    "deps": "''",
+    "file_mz": "gpm-1.20.7-1.mz",
+    "file_desc": "gpm-1.20.7-1.mz.desc",
+    "file_sha256": "gpm-1.20.7-1.mz.sha256",
+    "file_json": "gpm-1.20.7-1.mz.json",
+    "desc": "The GPM (General Purpose Mouse daemon) package contains a mouse\nserver for the console and xterm. It not only provides cut and paste\nsupport generally, but its library component is used by various software\nsuch as Links to provide mouse support to the application. It is useful\non desktops, especially if following (Beyond) Linux From Scratch\ninstructions; it"
+}

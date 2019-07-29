@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "portaudio",
+    "version": "190600_20161030-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "'V19'",
+    "url": "http://www.portaudio.com",
+    "deps": "''",
+    "file_mz": "portaudio-190600_20161030-1.mz",
+    "file_desc": "portaudio-190600_20161030-1.mz.desc",
+    "file_sha256": "portaudio-190600_20161030-1.mz.sha256",
+    "file_json": "portaudio-190600_20161030-1.mz.json",
+    "desc": "PortAudio is a free, cross-platform, open-source, audio I/O\nlibrary"
+}

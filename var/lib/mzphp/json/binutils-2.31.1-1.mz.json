@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "binutils",
+    "version": "2.31.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://www.gnu.org/software/binutils/",
+    "deps": "''",
+    "file_mz": "binutils-2.31.1-1.mz",
+    "file_desc": "binutils-2.31.1-1.mz.desc",
+    "file_sha256": "binutils-2.31.1-1.mz.sha256",
+    "file_json": "binutils-2.31.1-1.mz.json",
+    "desc": "The Binutils package contains a linker, an assembler, \nand other tools for handling object files."
+}

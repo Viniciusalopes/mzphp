@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "tilix",
+    "version": "1.8.9-1",
+    "maintainer": "Lincoln Lordello",
+    "license": "''",
+    "url": "https://gnunn1.github.io/tilix-web/",
+    "deps": "''",
+    "file_mz": "tilix-1.8.9-1.mz",
+    "file_desc": "tilix-1.8.9-1.mz.desc",
+    "file_sha256": "tilix-1.8.9-1.mz.sha256",
+    "file_json": "tilix-1.8.9-1.mz.json",
+    "desc": "Tilix is an advanced GTK3 tiling terminal emulator that follows\nthe Gnome Human Interface Guidelines."
+}

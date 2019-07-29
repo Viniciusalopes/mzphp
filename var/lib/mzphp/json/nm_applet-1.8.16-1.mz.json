@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "nm_applet",
+    "version": "1.8.16-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gtk3' 'libsecret' 'libnotify' 'networkmanager' 'gobject_introspection' 'modemmanager' 'polkit_gnome'",
+    "file_mz": "nm_applet-1.8.16-1.mz",
+    "file_desc": "nm_applet-1.8.16-1.mz.desc",
+    "file_sha256": "nm_applet-1.8.16-1.mz.sha256",
+    "file_json": "nm_applet-1.8.16-1.mz.json",
+    "desc": "The NetworkManager Applet provides a tool and a panel applet used \nto configure wired and wireless network connections through GUI. It"
+}

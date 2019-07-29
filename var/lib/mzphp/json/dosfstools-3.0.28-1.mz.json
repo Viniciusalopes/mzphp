@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "dosfstools",
+    "version": "3.0.28-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://github.com/dosfstools/dosfstools",
+    "deps": "''",
+    "file_mz": "dosfstools-3.0.28-1.mz",
+    "file_desc": "dosfstools-3.0.28-1.mz.desc",
+    "file_sha256": "dosfstools-3.0.28-1.mz.sha256",
+    "file_json": "dosfstools-3.0.28-1.mz.json",
+    "desc": "dosfstools consists of the programs mkfs.fat, fsck.fat \nand fatlabel to create, check and label file systems of the FAT family."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "gstreamer",
+    "version": "1.14.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'glib' 'gobject_introspection' 'gtk3'",
+    "file_mz": "gstreamer-1.14.2-1.mz",
+    "file_desc": "gstreamer-1.14.2-1.mz.desc",
+    "file_sha256": "gstreamer-1.14.2-1.mz.sha256",
+    "file_json": "gstreamer-1.14.2-1.mz.json",
+    "desc": "gstreamer is a streaming media framework that enables applications\n to share a common set of plugins for things like video encoding and \ndecoding, audio encoding and decoding, audio and video filters, audio \nvisualisation, web streaming and anything else that streams in real-time\n or otherwise. This package only provides base functionality and \nlibraries. You may need at least gst-plugins-base-1.14.2 \nand one of Good, Bad, Ugly or Libav plugins."
+}

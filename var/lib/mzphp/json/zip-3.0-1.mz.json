@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "zip",
+    "version": "3.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'Info-ZIP'",
+    "url": "https://sourceforge.net/infozip",
+    "deps": "''",
+    "file_mz": "zip-3.0-1.mz",
+    "file_desc": "zip-3.0-1.mz.desc",
+    "file_sha256": "zip-3.0-1.mz.sha256",
+    "file_json": "zip-3.0-1.mz.json",
+    "desc": "The Zip package contains Zip utilities. These are useful for \ncompressing files into ZIP archives."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "terminator",
+    "version": "1.91-2",
+    "maintainer": "Desconhecido",
+    "license": "Desconhecida",
+    "url": "N\u00e3o dispon\u00edvel",
+    "deps": "N\u00e3o dispon\u00edvel",
+    "file_mz": "terminator-1.91-2.mz",
+    "file_desc": "terminator-1.91-2.mz.desc",
+    "file_sha256": "terminator-1.91-2.mz.sha256",
+    "file_json": "terminator-1.91-2.mz.json",
+    "desc": "N\u00e3o dispon\u00edvel"
+}

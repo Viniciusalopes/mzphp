@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "garcon",
+    "version": "0.6.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'gtk2' 'gtk3' 'libxfceui'",
+    "file_mz": "garcon-0.6.1-1.mz",
+    "file_desc": "garcon-0.6.1-1.mz.desc",
+    "file_sha256": "garcon-0.6.1-1.mz.sha256",
+    "file_json": "garcon-0.6.1-1.mz.json",
+    "desc": "The Garcon package contains a freedesktop.org compliant \nmenu implementation based on GLib and GIO."
+}

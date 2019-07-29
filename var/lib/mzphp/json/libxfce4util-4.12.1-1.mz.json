@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "libxfce4util",
+    "version": "4.12.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'glib'",
+    "file_mz": "libxfce4util-4.12.1-1.mz",
+    "file_desc": "libxfce4util-4.12.1-1.mz.desc",
+    "file_sha256": "libxfce4util-4.12.1-1.mz.sha256",
+    "file_json": "libxfce4util-4.12.1-1.mz.json",
+    "desc": "The libxfce4util package is a basic utility library for the \nXfce desktop environment."
+}

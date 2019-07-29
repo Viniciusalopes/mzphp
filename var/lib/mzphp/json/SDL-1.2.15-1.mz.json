@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "SDL",
+    "version": "1.2.15-1",
+    "maintainer": "Diego Sarzi",
+    "license": "'zlib license'",
+    "url": "http://www.linuxfromscratch.org/blfs/view/stable/multimedia/sdl.html",
+    "deps": "''",
+    "file_mz": "SDL-1.2.15-1.mz",
+    "file_desc": "SDL-1.2.15-1.mz.desc",
+    "file_sha256": "SDL-1.2.15-1.mz.sha256",
+    "file_json": "SDL-1.2.15-1.mz.json",
+    "desc": "The Simple DirectMedia Layer (SDL for short) is a cross-platform\nlibrary designed to make it easy to write multimedia software, such as\ngames and emulators."
+}

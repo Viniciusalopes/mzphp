@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "linux",
+    "version": "5.1.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://kernel.org",
+    "deps": "'linux_modules' 'coreutils' 'kmod' 'mkinitramfs'",
+    "file_mz": "linux-5.1.3-1.mz",
+    "file_desc": "linux-5.1.3-1.mz.desc",
+    "file_sha256": "linux-5.1.3-1.mz.sha256",
+    "file_json": "linux-5.1.3-1.mz.json",
+    "desc": "The Linux Kernel"
+}

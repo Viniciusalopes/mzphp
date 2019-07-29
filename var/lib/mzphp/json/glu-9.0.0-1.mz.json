@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "glu",
+    "version": "9.0.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/x/glu.html",
+    "deps": "'Mesa-18.3.3'",
+    "file_mz": "glu-9.0.0-1.mz",
+    "file_desc": "glu-9.0.0-1.mz.desc",
+    "file_sha256": "glu-9.0.0-1.mz.sha256",
+    "file_json": "glu-9.0.0-1.mz.json",
+    "desc": "This package provides the Mesa OpenGL Utility library."
+}

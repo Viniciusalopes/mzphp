@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libdv",
+    "version": "1.0.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/libdv",
+    "deps": "'popt' 'sdl'",
+    "file_mz": "libdv-1.0.0-1.mz",
+    "file_desc": "libdv-1.0.0-1.mz.desc",
+    "file_sha256": "libdv-1.0.0-1.mz.sha256",
+    "file_json": "libdv-1.0.0-1.mz.json",
+    "desc": "The Quasar DV Codec (libdv) is a software CODEC for DV video, \nthe encoding format used by most digital camcorders. It can be used \nto copy videos from camcorders using a firewire (IEEE 1394) connection."
+}

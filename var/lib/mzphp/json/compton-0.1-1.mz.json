@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "compton",
+    "version": "0.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "''",
+    "url": "https://github.com/chjj/compton",
+    "deps": "''",
+    "file_mz": "compton-0.1-1.mz",
+    "file_desc": "compton-0.1-1.mz.desc",
+    "file_sha256": "compton-0.1-1.mz.sha256",
+    "file_json": "compton-0.1-1.mz.json",
+    "desc": "I was frustrated by the low amount of standalone lightweight\ncompositors. Compton was forked from Dana Jansens"
+}

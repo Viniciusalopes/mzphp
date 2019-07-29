@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "keybinder",
+    "version": "3.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/kupferlauncher/keybinder",
+    "deps": "'glib' 'gtk+3' 'gobject_introspection'",
+    "file_mz": "keybinder-3.0-1.mz",
+    "file_desc": "keybinder-3.0-1.mz.desc",
+    "file_sha256": "keybinder-3.0-1.mz.sha256",
+    "file_json": "keybinder-3.0-1.mz.json",
+    "desc": "is a library for registering global key bindings, for gtk-based \napplications in X11. With gir bindings"
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "nspr",
+    "version": "4.19-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'Mozila'",
+    "url": "https://developer.mozilla.org/pt-BR/docs/NSPR",
+    "deps": "''",
+    "file_mz": "nspr-4.19-1.mz",
+    "file_desc": "nspr-4.19-1.mz.desc",
+    "file_sha256": "nspr-4.19-1.mz.sha256",
+    "file_json": "nspr-4.19-1.mz.json",
+    "desc": "Netscape Portable Runtime (NSPR) provides a platform-neutral API \nfor system level and libc like functions."
+}

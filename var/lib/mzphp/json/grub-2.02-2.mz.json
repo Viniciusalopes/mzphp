@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "grub",
+    "version": "2.02-2",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://www.gnu.org/software/grub/",
+    "deps": "'freetype2,efibootmgr,efivar'",
+    "file_mz": "grub-2.02-2.mz",
+    "file_desc": "grub-2.02-2.mz.desc",
+    "file_sha256": "grub-2.02-2.mz.sha256",
+    "file_json": "grub-2.02-2.mz.json",
+    "desc": "The GRUB package contains the GRand Unified Bootloader."
+}

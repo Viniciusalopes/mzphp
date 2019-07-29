@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "lvm",
+    "version": "2.02.177-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://sourceware.org/lvm2/",
+    "deps": "'mdadm' 'reiserfsprogs' 'which' 'xfsprogs'",
+    "file_mz": "lvm-2.02.177-1.mz",
+    "file_desc": "lvm-2.02.177-1.mz.desc",
+    "file_sha256": "lvm-2.02.177-1.mz.sha256",
+    "file_json": "lvm-2.02.177-1.mz.json",
+    "desc": "The LVM2 package is a set of tools that manage logical partitions.\nIt allows spanning of file systems across multiple physical disks and \ndisk partitions and provides for dynamic growing or shrinking of logical\npartitions, mirroring and low storage footprint snapshots."
+}

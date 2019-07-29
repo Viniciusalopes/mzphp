@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "brasero",
+    "version": "3.12.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gst_plugin_base' 'itstool' 'libcanberra' 'libnotify' 'gobject_introspection' 'libburn' 'libisofs' 'totem_pl_parser' 'traker' 'dvd+rw_tools' 'gvfs' 'cdrdao' 'libdvdcss' 'cdrtools'",
+    "file_mz": "brasero-3.12.2-1.mz",
+    "file_desc": "brasero-3.12.2-1.mz.desc",
+    "file_sha256": "brasero-3.12.2-1.mz.sha256",
+    "file_json": "brasero-3.12.2-1.mz.json",
+    "desc": "Brasero is an application used to burn CD/DVD on the GNOME \nDesktop. It is designed to be as simple as possible and has some \nunique features that enable users to create their discs easily \nand quickly."
+}

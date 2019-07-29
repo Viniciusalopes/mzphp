@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfce4_pulseaudio_plugin",
+    "version": "0.4.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'gtk3' 'gobject_introspection' 'keybinder' 'xfce4ui'",
+    "file_mz": "xfce4_pulseaudio_plugin-0.4.0-1.mz",
+    "file_desc": "xfce4_pulseaudio_plugin-0.4.0-1.mz.desc",
+    "file_sha256": "xfce4_pulseaudio_plugin-0.4.0-1.mz.sha256",
+    "file_json": "xfce4_pulseaudio_plugin-0.4.0-1.mz.json",
+    "desc": "The Xfce PulseAudio Plugin is a plugin for the Xfce panel which \nprovides a convenient way to adjust the audio volume \nof the [PulseAudio sound system]"
+}

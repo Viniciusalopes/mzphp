@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "SDL2_mixer",
+    "version": "2.0.4-1",
+    "maintainer": "Diego Sarzi",
+    "license": "'zlib license'",
+    "url": "https://www.libsdl.org/projects/SDL_mixer/",
+    "deps": "'SDL2-2.0.9'",
+    "file_mz": "SDL2_mixer-2.0.4-1.mz",
+    "file_desc": "SDL2_mixer-2.0.4-1.mz.desc",
+    "file_sha256": "SDL2_mixer-2.0.4-1.mz.sha256",
+    "file_json": "SDL2_mixer-2.0.4-1.mz.json",
+    "desc": "SDL_mixer is a sample multi-channel audio mixer library. \nIt supports any number of simultaneously playing channels of 16 bit stereo\naudio, plus a single channel of music, mixed by the popular FLAC, MikMod\nMOD, Timidity MIDI, Ogg Vorbis, and SMPEG MP3 libraries.\n\nAs of SDL_mixer 1.2.7, FLAC, MikMod, Ogg Vorbis and MP3 loading libraries\nare dynamically loaded, so if you don"
+}

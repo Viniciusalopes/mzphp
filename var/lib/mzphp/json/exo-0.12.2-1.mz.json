@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "exo",
+    "version": "0.12.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'gtk3' 'libxfce4ui' 'libxfce4util' 'URI'",
+    "file_mz": "exo-0.12.2-1.mz",
+    "file_desc": "exo-0.12.2-1.mz.desc",
+    "file_sha256": "exo-0.12.2-1.mz.sha256",
+    "file_json": "exo-0.12.2-1.mz.json",
+    "desc": "Exo is a support library used in the Xfce desktop. It also has \nsome helper applications that are used throughout Xfce."
+}

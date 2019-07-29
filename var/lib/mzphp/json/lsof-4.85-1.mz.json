@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "lsof",
+    "version": "4.85-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://people.freebsd.org/~abe/",
+    "deps": "''",
+    "file_mz": "lsof-4.85-1.mz",
+    "file_desc": "lsof-4.85-1.mz.desc",
+    "file_sha256": "lsof-4.85-1.mz.sha256",
+    "file_json": "lsof-4.85-1.mz.json",
+    "desc": "lsof is a command meaning \\"
+}

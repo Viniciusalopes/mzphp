@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg_drivers/",
+    "name": "libvdpau",
+    "version": "1.1.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'xorg_libraries'",
+    "file_mz": "libvdpau-1.1.1-1.mz",
+    "file_desc": "libvdpau-1.1.1-1.mz.desc",
+    "file_sha256": "libvdpau-1.1.1-1.mz.sha256",
+    "file_json": "libvdpau-1.1.1-1.mz.json",
+    "desc": "The libvdpau package contains a library which implements \nthe VDPAU library."
+}

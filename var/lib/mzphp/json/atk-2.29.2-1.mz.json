@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "atk",
+    "version": "2.29.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib' 'gobject_introspection'",
+    "file_mz": "atk-2.29.2-1.mz",
+    "file_desc": "atk-2.29.2-1.mz.desc",
+    "file_sha256": "atk-2.29.2-1.mz.sha256",
+    "file_json": "atk-2.29.2-1.mz.json",
+    "desc": "ATK provides the set of accessibility interfaces that are \nimplemented by other toolkits and applications. Using the \nATK interfaces, accessibility tools have full access to view \nand control running applications."
+}

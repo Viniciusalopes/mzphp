@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "games/",
+    "name": "manaplus",
+    "version": "1.9.3.23-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "''",
+    "url": "http://evolonline.org/manaplus/",
+    "deps": "'sdl_gfx' 'sdl_image' 'sdl_mixe' 'sdl_net' 'sdl_ttf' 'sdl2_image'",
+    "file_mz": "manaplus-1.9.3.23-1.mz",
+    "file_desc": "manaplus-1.9.3.23-1.mz.desc",
+    "file_sha256": "manaplus-1.9.3.23-1.mz.sha256",
+    "file_json": "manaplus-1.9.3.23-1.mz.json",
+    "desc": "The Mana World (TMW) is a serious effort to create an innovative\nfree and open source MMORPG. TMW uses 2D graphics and aims to create a\nlarge and diverse interactive world. It is licensed under the GPL,\nmaking sure this game can"
+}

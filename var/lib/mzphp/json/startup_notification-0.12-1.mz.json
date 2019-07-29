@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "startup_notification",
+    "version": "0.12-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'xorg_libraries' 'xcb_util'",
+    "file_mz": "startup_notification-0.12-1.mz",
+    "file_desc": "startup_notification-0.12-1.mz.desc",
+    "file_sha256": "startup_notification-0.12-1.mz.sha256",
+    "file_json": "startup_notification-0.12-1.mz.json",
+    "desc": "The startup-notification package contains startup-notification \nlibraries. These are useful for building a consistent manner to notify \nthe user through the cursor that the application is loading."
+}

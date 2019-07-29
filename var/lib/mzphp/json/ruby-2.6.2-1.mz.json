@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev/",
+    "name": "ruby",
+    "version": "2.6.2-1",
+    "maintainer": "Emerson Alves",
+    "license": "'MIT License'",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/general/ruby.html",
+    "deps": "''",
+    "file_mz": "ruby-2.6.2-1.mz",
+    "file_desc": "ruby-2.6.2-1.mz.desc",
+    "file_sha256": "ruby-2.6.2-1.mz.sha256",
+    "file_json": "ruby-2.6.2-1.mz.json",
+    "desc": "The Ruby package contains the Ruby development environment. \nThis is useful for object-oriented scripting."
+}

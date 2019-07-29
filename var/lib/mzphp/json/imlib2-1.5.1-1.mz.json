@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "imlib2",
+    "version": "1.5.1-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "https://downloads.sourceforge.net/enlightenment/",
+    "deps": "''",
+    "file_mz": "imlib2-1.5.1-1.mz",
+    "file_desc": "imlib2-1.5.1-1.mz.desc",
+    "file_sha256": "imlib2-1.5.1-1.mz.sha256",
+    "file_json": "imlib2-1.5.1-1.mz.json",
+    "desc": "imlib2 is a graphics library for fast file loading, saving,\nrendering and manipulation."
+}

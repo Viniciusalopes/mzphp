@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "glibc",
+    "version": "2.28-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://www.gnu.org/software/libc/",
+    "deps": "''",
+    "file_mz": "glibc-2.28-1.mz",
+    "file_desc": "glibc-2.28-1.mz.desc",
+    "file_sha256": "glibc-2.28-1.mz.sha256",
+    "file_json": "glibc-2.28-1.mz.json",
+    "desc": "The Glibc package contains the main C library. This library \nprovides the basic routines for allocating memory, searching directories\nopening and closing files, reading and writing files string handling \npattern matching, arithmetic, and so on."
+}

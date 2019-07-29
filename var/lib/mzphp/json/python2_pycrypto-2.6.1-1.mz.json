@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "python_modules/",
+    "name": "python2_pycrypto",
+    "version": "2.6.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://pypi.org",
+    "deps": "'python2'",
+    "file_mz": "python2_pycrypto-2.6.1-1.mz",
+    "file_desc": "python2_pycrypto-2.6.1-1.mz.desc",
+    "file_sha256": "python2_pycrypto-2.6.1-1.mz.sha256",
+    "file_json": "python2_pycrypto-2.6.1-1.mz.json",
+    "desc": "yCrypto is a collection of both secure hash functions \n(such as SHA256 and RIPEMD160), and various encryption algorithms \n(AES, DES, RSA, ElGamal, etc.)."
+}

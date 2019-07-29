@@ -22,9 +22,9 @@ root_dir_local = '/opt/mzphp/'
 # arquivos
 log_file = '/var/log/mzphp/mzphp.log'
 pid_json = '/tmp/pid.json'
-arquivos_tmp = [pid_json]
 
 # bool
+arg_ok = False
 is_root = False
 
 # obj
@@ -34,15 +34,17 @@ is_root = False
 #frmErro = None
 
 # int
+args = 0
 pid = 0
-timeOff = 15
+timeOff = 5
 
 # dic
 argumentos = {
+        '-i': 'inicius',
         '-s': 'startThreadPhpHost',
         '--start': 'startThreadPhpHost', 
-        '-o': 'phpHostOff',
-        '--off': 'phpHostOff',
+        '-o': 'startThreadPhpHostOff',
+        '--off': 'startThreadPhpHostOff',
         '-p': 'qualPid',
         '--pid': 'qualPid', 
         '-c': 'limpa_log',
@@ -53,8 +55,13 @@ argumentos = {
         '--help': 'socorro' 
     }
 
+# array
+arquivos_tmp = [pid_json]
+
+
 # str
 arg = ''
+funcao = ''
 senha = ''
 txtErro = ''
 sessao_root_valida = 'O último login como r00t ainda é válido.'
@@ -88,6 +95,7 @@ Página da distribuição GNU/Linux MazonOs: <http://mazonos.com/>
 def login():
     out(False, 'login()-> executando')
     out(True, 'Aguardando autenticação do r00t...')
+    global frmLogin 
     global tbSenha
 
     frmLogin = Tk()
@@ -144,8 +152,8 @@ def erro(txtErro):
 #|--- FUNÇÕES --->
 def socorro():
     sys.stdout.write(txtHelp)
+    
 def tty():
-    out(False, 'tty()-> executando')
     comando = "echo ${XDG_SESSION_TYPE}"
     xdg = subprocess.check_output(comando, shell=True).decode('utf-8').replace('\n','')
     if xdg == 'tty':
@@ -154,39 +162,8 @@ def tty():
     
     return False
 
-def inicius():
-    out(False, 'inicius()-> executando')
-    if tty():
-        out(True, 'Opa! Este programa está disponível somente para ambiente gráfico.')
-        exit(1)
-    else:
-        global is_root
-        global pid
-        is_root = root_on()
-        pid = getPid()
-
-        if is_root:
-            out(True, 'Usuário r00t autenticado.')
-            if pid == 0:
-                startThreadPhpHost()
-            else:
-                out(True, 'Servidor web inicializado. [ pid-> ' + str(pid) + ' ]')
-
-            # Encerra se a chamada foi 'mzphp -s'
-            if len(sys.argv) == 2:
-                if sys.argv[1] == '-s' or sys.argv[1] == '--start':
-                    exit(0)
-                            
-            webBrowser()                
-        else:
-            login()
-            frmLogin.quit
-            inicius()
-    
 def root_on():
     out(False, 'root_on()-> executando')
-    global is_root
-    
     try:
         comando = 'echo '+ senha + ' | sudo -S id'
         subprocess.check_output(comando, stderr=subprocess.STDOUT, shell=True)
@@ -197,8 +174,10 @@ def root_on():
 def valida_senha():
     out(False, 'valida_senha()-> executando')
     try:
+        global is_root
         global tbSenha
         global senha
+
         senha = tbSenha.get()
         
         if len(senha) == 0:
@@ -207,73 +186,96 @@ def valida_senha():
             erro(txtErro.replace('! ', '!\n'))
             exit(1)
         else:
-            comando = 'echo '+ senha + ' | sudo -S id'
-            ret = subprocess.check_output(comando, stderr=subprocess.STDOUT, shell=True)
-            #subprocess.run(comando.split(), stderr=subprocess.STDOUT, shell=True)
-            is_root = True
-            inicius()
+            is_root = root_on()
+            
+        if is_root:
+            frmLogin.destroy
+            bora()
+
+        else:
+            txtErro = 'Opa! Senha inválida!'
+            out(True, txtErro)
+            erro(txtErro)
+            exit(1)    
             
     except Exception as e:
-        txtErro = 'Opa! Senha inválida!'
+        txtErro = str(e)
         out(True, txtErro)
-        out(True, 'returncode->(b) ' + str(e.returncode))
-        out(True, e.output.decode('utf-8'))
+        #out(True, 'returncode->(b) ' + str(e.returncode))
+        #out(True, e.output.decode('utf-8'))
         erro(txtErro)
         exit(1)    
         
 def phpHost():
     out(False, 'phpHost()-> executando')
-    global pid
     global senha
-    global is_root
-
-    if pid == 0:
-        if is_root:
-            try:
-                comando = 'echo ' + senha + ' | sudo -S ' + php
-                subprocess.check_output(comando, stderr=subprocess.STDOUT, shell=True)
-                var = subprocess.run(comando.split(), stderr=subprocess.STDOUT, shell=True)
-                out(False, 'phpHost->var' + str(var))
-            except Exception as e:
-                if e.returncode != 143:
-                    out(False, 'phpHost()->except-> '+ str(e))
-                    out(True, 'returncode->(c) ' + str(e.returncode))
-                    out(True, str(e.output))
-                    exit(e.returncode)
-                exit(1)
-        else:
-            login()
-    else:
-        out(True, 'Servidor web inicializado. [ pid-> ' + str(pid) + ' ]')
+    global php
+    try:
+        comando = 'echo ' + senha + ' | sudo -S ' + php
+        subprocess.check_output(comando, stderr=subprocess.STDOUT, shell=True)
+        var = subprocess.run(comando.split(), stderr=subprocess.STDOUT, shell=True)
+        out(False, 'phpHost->var' + str(var))
+    except Exception as e:
+        if e.returncode != 143:
+            out(False, 'phpHost()->except-> '+ str(e))
+            out(True, 'returncode->(c) ' + str(e.returncode))
+            out(True, str(e.output))
+            exit(e.returncode)
+        exit(1)
         
 def startThreadPhpHost():
     out(False, 'startThreadPhpHost()-> executando')
-    global is_root
     global pid
-    out(False, 'pid: ' + str(pid))    
+    pid = getPid()
     if pid == 0:
-        if is_root:
-            out(True, 'Iniciando servidor web...')
-            p = threading.Thread(target=phpHost, name='phpHost', daemon=True)
-            p.start()
-            
-            i = 0;
-            while pid == 0:
-                i += 1
-                out(True, 'Aguardando inicialização do host...[ ' + str(i) + 's ]')
-                pid = getPid()
-                time.sleep(1)
+        out(True, 'Iniciando servidor web...')
+        p = threading.Thread(target=phpHost, name='phpHost', daemon=True)
+        p.start()
+        
+        i = 0;
+        while pid == 0:
+            i += 1
+            out(True, 'Aguardando inicialização do host...[ ' + str(i) + 's ]')
+            pid = getPid()
+            time.sleep(1)
 
-                if i == 5:
-                    out(True, 'Não foi possível iniciar o servidor web.')
-                    exit(1)
-            
-            out(True, 'Servidor web inicializado. [ pid-> ' + str(pid) + ' ]')
-        else:
-            login()
-
+            if i == 5:
+                out(True, 'Não foi possível iniciar o servidor web.')
+                exit(1)
+    
+    out(True, 'Servidor web inicializado. [ pid-> ' + str(pid) + ' ]')
+        
 def phpHostOff():
     out(False, 'phpHostOff()-> executando')
+    global senha
+    global pid
+    global pid_json
+    global timeOff
+    
+    if pid == 0:
+        out(True, 'Não existe servidor web php ativo.')
+        exit(1)
+    else:
+        out(True, 'Iniciando AutoPowerOff do servidor web...')
+        
+        i = timeOff
+        while i > 1:
+            out(True, 'O servidor web php será desligado em ' + str(i) + ' segundos [ pid-> ' + str(pid) + ' ]')
+            i -= 1
+            time.sleep(1)
+            
+        out(True, 'Desligando servidor Web...')
+        os.system('echo '+ senha + ' | sudo -S kill ' + str(pid))
+        
+        while getPid() > 0:
+            time.sleep(1)
+
+        os.remove(pid_json)        
+        out(True, 'Servidor Web desligado automaGicamente. =)')
+        exit(0)    
+    
+def startThreadPhpHostOff():
+    out(False, 'startThreadPhpHostOff()-> executando')
     global senha
     global pid
     global pid_json
@@ -286,41 +288,17 @@ def phpHostOff():
             timeOff = p['timeOff']
     else:
         pid = getPid()
-        
-        
-    if pid > 0:
-        out(True, 'Iniciando AutoPowerOff do servidor web...')
-        
-        i = timeOff
-        while os.path.isfile(pid_json) and i > 1:
-            i -= 1
-            time.sleep(1)
-            out(True, 'O servidor web php será desligado em ' + str(i) + ' segundos [ pid-> ' + str(pid) + ' ]')
-            
-        out(True, 'Desligando servidor Web...')
-        os.system('echo '+ senha + ' | sudo -S kill ' + str(pid))
-        
-        while getPid() > 0:
-            time.sleep(1)
-        
-        out(True, 'Servidor Web desligado automaGicamente. =)')
-        exit(0)    
-    else:
-        out(True, 'Não existe servidor web php ativo.')
+
+    if pid == 0:
+        out(True, 'Não foi possível identificar o servidor web.')
         exit(1)
-    
-def startThreadPhpHostOff():
-    out(False, 'startThreadPhpHostOff()-> executando')
-    # startThreadPhpHostOff() é para a chamada interna da
-    # instância principal chamar uma nova
-    # instância (acima) do mesmo programa (mzphp -o) e deixar o serviço rodando.
-    # O site local vai renovar o tempo para desligamento automaGico
-    comando = 'sudo /usr/bin/env python3 /opt/mzphp/mzphp -o'
-    out(False, comando)
-    os.system(comando)        
-    exit(0)
+    else:
+        po = threading.Thread(target=phpHostOff, name='phpHostOff')
+        po.start()
+        exit(0)
 
 def qualPid():
+    out(False, 'qualPid()-> executando')
     pid = getPid()
     if pid == 0:
         out(True, 'Servidor web php não encontrado.')
@@ -367,7 +345,6 @@ def webBrowser():
     out(False, 'webBrowser()-> executando')
     out(True, 'Abrindo o navegador...') 
     webbrowser.open(index, new=1, autoraise=True)       
-    startThreadPhpHostOff()
     exit(0)
                 
 #|--- LOG --->
@@ -378,16 +355,18 @@ def limpa_log():
     exit(0)
 
 def ver_log():
-    #out(False, 'ver_log()-> executando')
-    os.system('cat ' + log_file)
-    exit(0)
+    out(False, 'ver log')
 
 def out(saidaPadrao, txt):
+    
     now = '[ ' + datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S") + ' ] '
     
     if txt == 'limpa log':
         texto = '# Registro de log do mzPhp.\n' + now + 'Log reiniciado.'
         p = 'w'
+    elif txt == 'ver log':
+        os.system('cat ' + log_file)
+        exit(0)
     else:
         texto = txt
         p = 'a'
@@ -404,39 +383,95 @@ def out(saidaPadrao, txt):
     
 #<--- FUNÇÕES ---|
 
-#out(False, ' executando')
-try:
-    os.chdir(root_dir_local)
-    if len(sys.argv) == 1:
-        inicius()
-    elif len(sys.argv) == 2:
-        arg = sys.argv[1]
 
-        if arg in argumentos:
-            funcao = argumentos[arg]
-            functions = locals()
-            functions[funcao]()
-        else:
-            out(True, 'A opção \"' + arg + '\" é inválida!')
-            time.sleep(2)
-            print(txtHelp)
-            exit(1)
+def inicius():
+    out(False, 'inicius()-> executando')
+    global pid
+    
+    if pid == 0:
+        startThreadPhpHost()
+                
+    webBrowser()    
+
+def bora():
+    out(False, 'bora()-> executando')
+    global funcao
+
+    if funcao == 'inicius':
+        inicius()
+    elif funcao == 'startThreadPhpHost':
+        startThreadPhpHost() 
+    elif funcao == 'startThreadPhpHostOff':
+        startThreadPhpHostOff()
+    elif funcao == 'qualPid':
+        qualPid() 
+    elif funcao == 'limpa_log':
+        limpa_log() 
+    elif funcao == 'ver_log':
+        ver_log()
     else:
-        txt = 'Excesso de argumentos! [ '
-        for a in sys.argv:
-            txt += '\'' + a + '\' '
-            
-        out(True, txt + ']')
-        time.sleep(2)
-        print(txtHelp)
+        out(True, 'Não deu.')
         exit(1)
 
     out(True, 'The Fim! ;)')
     out(False, separa)
     exit(0)
 
+try:
+    out(False, separa)
+    out(False, str(sys.argv).replace('[\'', '').replace('\', \'',' ').replace('\']',''))
+    # Não executa sem X
+    if tty():
+        out(True, 'Opa! Este programa está disponível somente para ambiente gráfico.')
+        exit(1)
+        
+    args = len(sys.argv)
+
+    if args == 1:
+        arg_ok = True
+        
+    elif args == 2:
+        arg = sys.argv[1]
+        if arg in argumentos:
+            arg_ok = True
+        else:
+            txtErro = 'A opção \"' + arg + '\" é inválida!'
+            
+    else: # args > 2
+        txtErro = 'Excesso de argumentos! [ '
+        for a in sys.argv:
+            txtErro += '\'' + a + '\' '
+        
+        txtErro += ']'
+        
+    if not arg_ok:
+        out(True, txtErro)
+        time.sleep(1.5)
+        socorro()
+        exit(1)
+
+    if args == 1:
+        arg = '-i'
+    else:
+        arg = str(sys.argv[1])
+
+    if arg in argumentos:
+        funcao = argumentos[arg]
+        
+    os.chdir(root_dir_local)
+
+    if funcao == 'socorro':
+        socorro()
+    else:
+        is_root = root_on()
+
+        if is_root:
+            bora()
+        else:
+            login()
+    
 except KeyboardInterrupt:
-        out(True, '\nProcesso cancelado.')
+        out(True, 'Processo cancelado.')
         limpa_tmp()
         exit(1)
             

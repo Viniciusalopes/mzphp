@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "aalib",
+    "version": "1.4.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/aa-project",
+    "deps": "'xorg_server' 'slang'",
+    "file_mz": "aalib-1.4.0-1.mz",
+    "file_desc": "aalib-1.4.0-1.mz.desc",
+    "file_sha256": "aalib-1.4.0-1.mz.sha256",
+    "file_json": "aalib-1.4.0-1.mz.json",
+    "desc": "AAlib is a library to render any graphic into ASCII Art."
+}

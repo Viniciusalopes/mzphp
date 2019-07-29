@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "gnome_video_effects",
+    "version": "0.4.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "''",
+    "file_mz": "gnome_video_effects-0.4.3-1.mz",
+    "file_desc": "gnome_video_effects-0.4.3-1.mz.desc",
+    "file_sha256": "gnome_video_effects-0.4.3-1.mz.sha256",
+    "file_json": "gnome_video_effects-0.4.3-1.mz.json",
+    "desc": "The GNOME Video Effects package contains a collection of \nGStreamer effects."
+}

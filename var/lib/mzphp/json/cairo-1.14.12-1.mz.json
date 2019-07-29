@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "cairo",
+    "version": "1.14.12-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.cairographics.org",
+    "deps": "'libpng' 'pixman' 'fontconfig' 'glib' 'xorg_libraries' 'gtk3' 'gtk2' 'libdrm' 'librsvg' 'mesa' 'poppler'",
+    "file_mz": "cairo-1.14.12-1.mz",
+    "file_desc": "cairo-1.14.12-1.mz.desc",
+    "file_sha256": "cairo-1.14.12-1.mz.sha256",
+    "file_json": "cairo-1.14.12-1.mz.json",
+    "desc": "Cairo is a 2D graphics library with support for multiple output \ndevices. Currently supported output targets include the X Window System,\n win32, image buffers, PostScript, PDF and SVG. Experimental backends \ninclude OpenGL, Quartz and XCB file output. Cairo is designed to produce\n consistent output on all output media while taking advantage of display\n hardware acceleration when available \n(e.g., through the X Render Extension). The Cairo API provides \noperations similar to the drawing operators of PostScript and PDF. \nOperations in Cairo include stroking and filling cubic B\u00e9zier splines, \ntransforming and compositing translucent images, and antialiased text \nrendering. All drawing operations can be transformed by any affine \ntransformation (scale, rotation, shear, etc.)."
+}

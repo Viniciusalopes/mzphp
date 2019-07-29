@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "gmp",
+    "version": "6.1.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://www.gnu.org/software/gmp/",
+    "deps": "'glibc,linux_headers'",
+    "file_mz": "gmp-6.1.2-1.mz",
+    "file_desc": "gmp-6.1.2-1.mz.desc",
+    "file_sha256": "gmp-6.1.2-1.mz.sha256",
+    "file_json": "gmp-6.1.2-1.mz.json",
+    "desc": "The GMP package contains math libraries. These have useful \nfunctions for arbitrary precision arithmetic."
+}

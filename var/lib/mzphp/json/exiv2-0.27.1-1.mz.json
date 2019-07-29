@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "exiv2",
+    "version": "0.27.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://exiv2.org",
+    "deps": "'curl'",
+    "file_mz": "exiv2-0.27.1-1.mz",
+    "file_desc": "exiv2-0.27.1-1.mz.desc",
+    "file_sha256": "exiv2-0.27.1-1.mz.sha256",
+    "file_json": "exiv2-0.27.1-1.mz.json",
+    "desc": "Exiv2 is a C++ library and a command line utility for \nmanaging image and video metadata."
+}

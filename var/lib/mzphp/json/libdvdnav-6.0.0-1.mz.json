@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libdvdnav",
+    "version": "6.0.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://videolan.org",
+    "deps": "'libdvdread'",
+    "file_mz": "libdvdnav-6.0.0-1.mz",
+    "file_desc": "libdvdnav-6.0.0-1.mz.desc",
+    "file_sha256": "libdvdnav-6.0.0-1.mz.sha256",
+    "file_json": "libdvdnav-6.0.0-1.mz.json",
+    "desc": "libdvdnav is a library that allows easy use of sophisticated \nDVD navigation features such as DVD menus, multiangle playback and \neven interactive DVD games."
+}

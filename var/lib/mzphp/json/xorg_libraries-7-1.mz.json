@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xorg_libraries",
+    "version": "7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'VARIOUS'",
+    "url": "https://www.x.org/wiki/",
+    "deps": "'fontconfig' 'libxcb'",
+    "file_mz": "xorg_libraries-7-1.mz",
+    "file_desc": "xorg_libraries-7-1.mz.desc",
+    "file_sha256": "xorg_libraries-7-1.mz.sha256",
+    "file_json": "xorg_libraries-7-1.mz.json",
+    "desc": "The Xorg libraries provide library routines that are used \nwithin all X Window applications."
+}

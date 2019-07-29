@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "x/",
+    "name": "harfbuzz",
+    "version": "2.4.0-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'Old MIT'",
+    "url": "https://www.freedesktop.org/wiki/Software/HarfBuzz/",
+    "deps": "''",
+    "file_mz": "harfbuzz-2.4.0-1.mz",
+    "file_desc": "harfbuzz-2.4.0-1.mz.desc",
+    "file_sha256": "harfbuzz-2.4.0-1.mz.sha256",
+    "file_json": "harfbuzz-2.4.0-1.mz.json",
+    "desc": "HarfBuzz is a text shaping engine. It primarily supports OpenType,\nbut also [Apple Advanced Typography"
+}

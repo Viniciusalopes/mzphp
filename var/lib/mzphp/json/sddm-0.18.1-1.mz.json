@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "sddm",
+    "version": "0.18.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/sddm/sddm",
+    "deps": "'cmake' 'pam' 'upower' 'qt5_base'",
+    "file_mz": "sddm-0.18.1-1.mz",
+    "file_desc": "sddm-0.18.1-1.mz.desc",
+    "file_sha256": "sddm-0.18.1-1.mz.sha256",
+    "file_json": "sddm-0.18.1-1.mz.json",
+    "desc": "he SDDM package contains a lightweight display manager based \nupon Qt and QML."
+}

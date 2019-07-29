@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "volume_key",
+    "version": "0.3.11-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://pagure.org",
+    "deps": "'cryptsetup' 'glib' 'gpgme' 'python2'",
+    "file_mz": "volume_key-0.3.11-1.mz",
+    "file_desc": "volume_key-0.3.11-1.mz.desc",
+    "file_sha256": "volume_key-0.3.11-1.mz.sha256",
+    "file_json": "volume_key-0.3.11-1.mz.json",
+    "desc": "The volume_key package provides a library for manipulating \nstorage volume encryption keys and storing them separately from volumes\nto handle forgotten passphrases."
+}

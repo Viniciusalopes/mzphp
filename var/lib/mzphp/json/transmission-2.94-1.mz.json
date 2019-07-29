@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "network/",
+    "name": "transmission",
+    "version": "2.94-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/xsoft/transmission.html",
+    "deps": "'curl-7.64.0' ' libevent-2.1.8' 'GTK+-3.24.5'",
+    "file_mz": "transmission-2.94-1.mz",
+    "file_desc": "transmission-2.94-1.mz.desc",
+    "file_sha256": "transmission-2.94-1.mz.sha256",
+    "file_json": "transmission-2.94-1.mz.json",
+    "desc": "Transmission is a cross-platform, open source BitTorrent client.\nThis is useful for downloading large files (such as Linux ISOs) and\nreduces the need for the distributors to provide server bandwidth."
+}

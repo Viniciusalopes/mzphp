@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "qt5/",
+    "name": "qt5_webengine",
+    "version": "5.12.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'VARIOUS'",
+    "url": "https://qt.io",
+    "deps": "'xorg_libraries' 'qt5_webchanel' 'qt5_location' 'pciutils' 'libevent' 'snappy' 'nss' 'libxslt' 'minizip' 'ffmpeg' 're2'",
+    "file_mz": "qt5_webengine-5.12.3-1.mz",
+    "file_desc": "qt5_webengine-5.12.3-1.mz.desc",
+    "file_sha256": "qt5_webengine-5.12.3-1.mz.sha256",
+    "file_json": "qt5_webengine-5.12.3-1.mz.json",
+    "desc": "Provides support for web applications using the Chromium \nbrowser project"
+}

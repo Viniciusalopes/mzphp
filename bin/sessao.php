@@ -32,21 +32,18 @@
 
 session_start();
 
-require_once 'bin/Mirror.php';
-if (!isset($_SESSION['mirrors_urls'])) {
-    
-    $_SESSION['mirrors_urls'] = [
+if (!isset($_SESSION['repositorios'])) {
+    $_SESSION['dirlib'] = $dirlib =(($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : '/') . 'var/lib/mzphp/';
+    $_SESSION['repositorios'] = [
         (object) [
             'name' => 'oficial',
-            'dirlib' => (($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : '/') . 'var/lib/mzphp/', 
-            'filecsv' => (($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : '/') . '/var/lib/mz/mz_base.csv',
+            'dirlib' => $dirlib, 
             'url' => 'http://mazonos.com/packages/'
         ],
         (object) [
-            'name' => 'rumbler',
-            'dirlib' => (($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : '/') . 'var/lib/mzphp/',
-            'filecsv' => (($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : '/') . 'var/lib/mzphp/mzphp_base.csv',
-            'url' => 'http://mazonos.com/rumbler/Packages-for-Mazon/'
+            'name' => 'vovolinux',
+            'dirlib' => $dirlib,
+            'url' => 'https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/'
         ]
     ];
 }

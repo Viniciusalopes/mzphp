@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "glib",
+    "version": "2.56.1-2",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "https://github.com/GNOME/glib",
+    "deps": "'pcre'",
+    "file_mz": "glib-2.56.1-2.mz",
+    "file_desc": "glib-2.56.1-2.mz.desc",
+    "file_sha256": "glib-2.56.1-2.mz.sha256",
+    "file_json": "glib-2.56.1-2.mz.json",
+    "desc": "The GLib package contains low-level libraries useful for providing\ndata structure handling for C, portability wrappers and interfaces for\nsuch runtime functionality as an event loop, threads, dynamic loading\nand an object system."
+}

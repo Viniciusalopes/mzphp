@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "freetype",
+    "version": "2.9.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/freetype",
+    "deps": "'harfbuzz' 'libpng' 'which'",
+    "file_mz": "freetype-2.9.1-1.mz",
+    "file_desc": "freetype-2.9.1-1.mz.desc",
+    "file_sha256": "freetype-2.9.1-1.mz.sha256",
+    "file_json": "freetype-2.9.1-1.mz.json",
+    "desc": "The FreeType2 package contains a library which allows \napplications to properly render TrueType fonts."
+}

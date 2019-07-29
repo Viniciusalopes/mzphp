@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libgcrypt",
+    "version": "1.8.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnupg.org",
+    "deps": "'libgpg_error'",
+    "file_mz": "libgcrypt-1.8.3-1.mz",
+    "file_desc": "libgcrypt-1.8.3-1.mz.desc",
+    "file_sha256": "libgcrypt-1.8.3-1.mz.sha256",
+    "file_json": "libgcrypt-1.8.3-1.mz.json",
+    "desc": "The libgcrypt package contains a general purpose crypto library \nbased on the code used in GnuPG. The library provides a high level \ninterface to cryptographic building blocks using an extendable \nand flexible API."
+}

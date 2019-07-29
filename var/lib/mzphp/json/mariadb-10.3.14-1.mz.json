@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "mariadb",
+    "version": "10.3.14-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL2'",
+    "url": "https://mariadb.org/",
+    "deps": "'cmake,libevent'",
+    "file_mz": "mariadb-10.3.14-1.mz",
+    "file_desc": "mariadb-10.3.14-1.mz.desc",
+    "file_sha256": "mariadb-10.3.14-1.mz.sha256",
+    "file_json": "mariadb-10.3.14-1.mz.json",
+    "desc": "MariaDB is a community-developed fork and a drop-in replacement \nfor the MySQL relational database management system."
+}

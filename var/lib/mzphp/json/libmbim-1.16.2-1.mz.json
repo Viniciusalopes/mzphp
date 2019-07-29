@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libmbim",
+    "version": "1.16.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.net/libmbim",
+    "deps": "'libgudev'",
+    "file_mz": "libmbim-1.16.2-1.mz",
+    "file_desc": "libmbim-1.16.2-1.mz.desc",
+    "file_sha256": "libmbim-1.16.2-1.mz.sha256",
+    "file_json": "libmbim-1.16.2-1.mz.json",
+    "desc": "The libmbim package contains a GLib-based library for talking to \nWWAN modems and devices which speak the Mobile Interface Broadband \nModel (MBIM) protocol."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libxft",
+    "version": "2.3.3-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "''",
+    "url": "https://gitlab.freedesktop.org/xorg/lib/libxft",
+    "deps": "'freetype' 'fontconfig' 'libX11' 'libXext' 'libXrender'",
+    "file_mz": "libxft-2.3.3-1.mz",
+    "file_desc": "libxft-2.3.3-1.mz.desc",
+    "file_sha256": "libxft-2.3.3-1.mz.sha256",
+    "file_json": "libxft-2.3.3-1.mz.json",
+    "desc": "libXft is the client side font rendering library, using\nlibfreetype, libX11, and the X Render extension to display anti-aliased\ntext.\nXft version 2.1 was the first stand alone release of Xft, a library\nthat connects X applications with the FreeType font rasterization\nlibrary. Xft uses fontconfig to locate fonts so it has no configuration\nfil"
+}

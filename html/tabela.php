@@ -28,46 +28,59 @@
  * Finalidade: 
  * ------------------------------------------------------------------------------------------
  */
-require_once '../bin/sessao.php';
+require_once './bin/sessao.php';
 ?>
 <hr>
 <table id="table-packages" class="table table-sm table-hover">
     <thead class="thead-dark text-left">
         <tr>
-            <th scope="col">Instalado</th>
-            <th>Repositório</th>
-            <th>Espelho</th>
-            <th>Diretório</th>
+            <?php echo ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : "<th scope=\"col\">Instalado</th>" ?>
             <th>Nome</th>
             <th>Versão</th>
-            <th>Build</th>
+            <th>Licença</th>
+            <th>Repositório</th>
             <th>Mantenedor</th>
-            <th>Descrição</th>
+            <th>Dependências</th>
+<!--            <th>Url</th>
+            <th>Descrição</th>-->
         </tr>
     </thead>
     <tbody>
         <?php
         /**
-         * ObjPackage
-          $pkgs[] = (object) [
-          'repo' => $pkg[0],
-          'mirror' => $pkg[1],
-          'folder' => $pkg[2],
-          'name' => $pkg[3],
-          'version' => $pkg[4],
-          'build' => $pkg[5]
-          ];
+          [1] => stdClass Object
+          (
+          [repo_name] => oficial
+          [repo_url] => http://mazonos.com/packages/
+          [repo_dirlib] => /var/lib/mzphp/
+          [folder] => base/
+          [name] => automake
+          [version] => 1.16.1-1
+          [maintainer] => Diego Sarzi
+          [license] =>
+          [url] => http://www.linuxfromscratch.org/lfs/view/stable/chapter06/automake.html
+          [deps] => ''
+          [file_mz] => automake-1.16.1-1.mz
+          [file_desc] => automake-1.16.1-1.mz.desc
+          [file_sha256] => automake-1.16.1-1.mz.sha256
+          [file_json] => automake-1.16.1-1.mz.json
+          [desc] => The Automake package contains programs for generating Makefiles
+          for use with Autoconf.
+          )
          */
         foreach ($packages as $package) {
+            $deps = (strlen($package->deps) > 50) ? substr($package->deps, 0, 50) . ' (...)' : $package->deps;
             ?>
             <tr scope="row">
-                <td><!--?php echo $Os->instalado($pkgname) ?--></td>
-                <td><?php echo $package->pkgname ?></td>
+                <?php echo ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : "<th scope=\"col\">???</th>" ?>
+                <td><?php echo $package->name ?></td>
                 <td><?php echo $package->version ?></td>
-                <td><?php echo '( ' . $package->mirror_name . ' )' . $package->mirror ?></td>
-                <td><?php echo $package->dir ?></td>
-                <td></td>
-                <td><?php echo $package->desc ?></td>
+                <td><?php echo $package->license ?></td>
+                <td><?php echo $package->repo_name ?></td>
+                <td><?php echo $package->maintainer ?></td>
+                <td><?php echo $deps ?></td>
+    <!--                <td>< ?php echo $package->url ?></td>
+                <td>< ?php echo $package->desc ?></td>-->
             </tr>
             <?php
         }

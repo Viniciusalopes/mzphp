@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "soundtouch",
+    "version": "2.1.2-1",
+    "maintainer": "Lincoln Lordello",
+    "license": "'LGPL'",
+    "url": "http://www.surina.net/soundtouch/",
+    "deps": "''",
+    "file_mz": "soundtouch-2.1.2-1.mz",
+    "file_desc": "soundtouch-2.1.2-1.mz.desc",
+    "file_sha256": "soundtouch-2.1.2-1.mz.sha256",
+    "file_json": "soundtouch-2.1.2-1.mz.json",
+    "desc": "SoundTouch is an open-source audio processing library for changing\nthe Tempo, Pitch and Playback Rates of audio streams or audio files."
+}

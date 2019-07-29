@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "fribidi",
+    "version": "1.0.5-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'GPLv2'",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/fribidi.html",
+    "deps": "''",
+    "file_mz": "fribidi-1.0.5-1.mz",
+    "file_desc": "fribidi-1.0.5-1.mz.desc",
+    "file_sha256": "fribidi-1.0.5-1.mz.sha256",
+    "file_json": "fribidi-1.0.5-1.mz.json",
+    "desc": "The FriBidi package is an implementation of the Unicode\nBidirectional Algorithm (BIDI). This is useful for supporting Arabic and\nHebrew alphabets in other packages.\n\nThis package is known to build and work properly using an LFS-8.3\nplatform."
+}

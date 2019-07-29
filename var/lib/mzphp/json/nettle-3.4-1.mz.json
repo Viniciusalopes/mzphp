@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "nettle",
+    "version": "3.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnu.org",
+    "deps": "''",
+    "file_mz": "nettle-3.4-1.mz",
+    "file_desc": "nettle-3.4-1.mz.desc",
+    "file_sha256": "nettle-3.4-1.mz.sha256",
+    "file_json": "nettle-3.4-1.mz.json",
+    "desc": "The Nettle package contains a low-level cryptographic library \nthat is designed to fit easily in many contexts."
+}

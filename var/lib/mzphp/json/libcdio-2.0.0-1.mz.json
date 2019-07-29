@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libcdio",
+    "version": "2.0.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnu.org",
+    "deps": "'libcddb'",
+    "file_mz": "libcdio-2.0.0-1.mz",
+    "file_desc": "libcdio-2.0.0-1.mz.desc",
+    "file_sha256": "libcdio-2.0.0-1.mz.sha256",
+    "file_json": "libcdio-2.0.0-1.mz.json",
+    "desc": "The libcdio is a library for CD-ROM and CD image access. \nThe associated libcdio-cdparanoia library reads audio from the \nCD-ROM directly as data, with no analog step between, and writes \nthe data to a file or pipe as .wav, .aifc or as raw 16 bit linear PCM."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libcap",
+    "version": "2.25-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.kernel.org/pub/linux/libs/security/linux-privs/libcap2",
+    "deps": "'pam'",
+    "file_mz": "libcap-2.25-1.mz",
+    "file_desc": "libcap-2.25-1.mz.desc",
+    "file_sha256": "libcap-2.25-1.mz.sha256",
+    "file_json": "libcap-2.25-1.mz.json",
+    "desc": "the PAM module"
+}

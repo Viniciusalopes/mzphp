@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "patch",
+    "version": "2.7.6-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/patch.html",
+    "deps": "''",
+    "file_mz": "patch-2.7.6-1.mz",
+    "file_desc": "patch-2.7.6-1.mz.desc",
+    "file_sha256": "patch-2.7.6-1.mz.sha256",
+    "file_json": "patch-2.7.6-1.mz.json",
+    "desc": "The Patch package contains a program for modifying or creating\nfiles by applying a \u201cpatch\u201d file typically created by the diff program."
+}

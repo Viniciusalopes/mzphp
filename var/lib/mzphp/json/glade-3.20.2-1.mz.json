@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "glade",
+    "version": "3.20.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gtk3' 'libxml'",
+    "file_mz": "glade-3.20.2-1.mz",
+    "file_desc": "glade-3.20.2-1.mz.desc",
+    "file_sha256": "glade-3.20.2-1.mz.sha256",
+    "file_json": "glade-3.20.2-1.mz.json",
+    "desc": "Glade is a RAD tool to enable quick & easy development of user \ninterfaces for the GTK+ toolkit and the GNOME desktop environment."
+}

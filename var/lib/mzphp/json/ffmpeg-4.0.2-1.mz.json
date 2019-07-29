@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "ffmpeg",
+    "version": "4.0.2-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/ffmpeg.html",
+    "deps": "''",
+    "file_mz": "ffmpeg-4.0.2-1.mz",
+    "file_desc": "ffmpeg-4.0.2-1.mz.desc",
+    "file_sha256": "ffmpeg-4.0.2-1.mz.sha256",
+    "file_json": "ffmpeg-4.0.2-1.mz.json",
+    "desc": "FFmpeg is a solution to record, convert and stream audio and video.\nIt is a very fast video and audio converter and it can also acquire from\na live audio/video source. Designed to be intuitive, the command-line\ninterface (ffmpeg) tries to figure out all the parameters, when possible.\nFFmpeg can also convert from any sample rate to any other, and resize\nvideo on the fly with a high quality polyphase filter. FFmpeg can use a\nVideo4Linux compatible video source and any Open Sound System audio\nsource."
+}

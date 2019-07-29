@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "dhcp",
+    "version": "4.4.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://www.isc.org/isc/dhcp",
+    "deps": "''",
+    "file_mz": "dhcp-4.4.1-1.mz",
+    "file_desc": "dhcp-4.4.1-1.mz.desc",
+    "file_sha256": "dhcp-4.4.1-1.mz.sha256",
+    "file_json": "dhcp-4.4.1-1.mz.json",
+    "desc": "The ISC DHCP package contains both the client and server \nprograms for DHCP. dhclient (the client) is used for connecting \nto a network which uses DHCP to assign network addresses. dhcpd \n(the server) is used for assigning network addresses on private \nnetworks."
+}

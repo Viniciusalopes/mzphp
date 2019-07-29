@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libatomic_ops",
+    "version": "7.6.6-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/libatomic_ops.html",
+    "deps": "''",
+    "file_mz": "libatomic_ops-7.6.6-1.mz",
+    "file_desc": "libatomic_ops-7.6.6-1.mz.desc",
+    "file_sha256": "libatomic_ops-7.6.6-1.mz.sha256",
+    "file_json": "libatomic_ops-7.6.6-1.mz.json",
+    "desc": "libatomic_ops provides implementations for atomic memory update\noperations on a number of architectures. This allows direct use of these\nin reasonably portable code. Unlike earlier similar packages, this one\nexplicitly considers memory barrier semantics, and allows the construction\nof code that involves minimum overhead across a variety of architectures."
+}

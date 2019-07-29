@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "efibootmgr",
+    "version": "16-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://github.com/rhboot/efibootmgr",
+    "deps": "'pciutils,efivar,zlib,dosfstools'",
+    "file_mz": "efibootmgr-16-1.mz",
+    "file_desc": "efibootmgr-16-1.mz.desc",
+    "file_sha256": "efibootmgr-16-1.mz.sha256",
+    "file_json": "efibootmgr-16-1.mz.json",
+    "desc": "This is efibootmgr, a Linux user-space application to modify \nthe Intel Extensible Firmware Interface (EFI) Boot Manager. \nThis application can create and destroy boot entries, change the \nboot order, change the next running boot option, and more."
+}

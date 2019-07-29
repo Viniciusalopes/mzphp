@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "pinentry",
+    "version": "1.1.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://gnupg.org",
+    "deps": "'libassuan' 'libgpg_error' 'gcr' 'gtk2' 'gtk3' 'libsecret' 'qt5_base'",
+    "file_mz": "pinentry-1.1.0-1.mz",
+    "file_desc": "pinentry-1.1.0-1.mz.desc",
+    "file_sha256": "pinentry-1.1.0-1.mz.sha256",
+    "file_json": "pinentry-1.1.0-1.mz.json",
+    "desc": "The PIN-Entry package contains a collection of simple PIN or \npass-phrase entry dialogs which utilize the Assuan protocol as described\nby the \u00c4gypten project. PIN-Entry programs are usually invoked by the \ngpg-agent daemon, but can be run from the command line as well. There \nare programs for various text-based and GUI environments, including \ninterfaces designed for Ncurses (text-based), and for the common \nGTK and Qt toolkits."
+}

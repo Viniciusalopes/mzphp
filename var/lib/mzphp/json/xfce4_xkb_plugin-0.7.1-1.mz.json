@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfce4_xkb_plugin",
+    "version": "0.7.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'librsvg' 'libxklavier' 'xfce4_painel'",
+    "file_mz": "xfce4_xkb_plugin-0.7.1-1.mz",
+    "file_desc": "xfce4_xkb_plugin-0.7.1-1.mz.desc",
+    "file_sha256": "xfce4_xkb_plugin-0.7.1-1.mz.sha256",
+    "file_json": "xfce4_xkb_plugin-0.7.1-1.mz.json",
+    "desc": "The Xfce4 Keyboard Plugin package contains a very customizable \nand useful Xfce4 Panel plugin to setup and use multiple \n(currently up to 4 due to X11 protocol limitation) keyboard layouts and \nswitch between them, individually by application, individually \nby window, or globally for the desktop and all applications and windows."
+}

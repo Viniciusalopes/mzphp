@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "yad",
+    "version": "0.38.2-1",
+    "maintainer": "Diego Sarzi",
+    "license": "''",
+    "url": "https://sourceforge.net/projects/yad-dialog/",
+    "deps": "''",
+    "file_mz": "yad-0.38.2-1.mz",
+    "file_desc": "yad-0.38.2-1.mz.desc",
+    "file_sha256": "yad-0.38.2-1.mz.sha256",
+    "file_json": "yad-0.38.2-1.mz.json",
+    "desc": "YAD (yet another dialog) is a tool for create graphical dialogs\nfrom shell scripts"
+}

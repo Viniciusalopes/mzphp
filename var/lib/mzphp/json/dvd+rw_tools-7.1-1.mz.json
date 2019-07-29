@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "dvd+rw_tools",
+    "version": "7.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://fy.chalmers.se/~appro/linux/DVD+RW/tools/",
+    "deps": "'cdrtools'",
+    "file_mz": "dvd+rw_tools-7.1-1.mz",
+    "file_desc": "dvd+rw_tools-7.1-1.mz.desc",
+    "file_sha256": "dvd+rw_tools-7.1-1.mz.sha256",
+    "file_json": "dvd+rw_tools-7.1-1.mz.json",
+    "desc": "The dvd+rw-tools package contains several utilities to master \nthe DVD media, both +RW/+R and -R[W]. The principle tool is growisofs \nwhich provides a way to both lay down and grow an ISO9660 file system \non (as well as to burn an arbitrary pre-mastered image to) all \nsupported DVD media. This is useful for creating a new DVD or \nadding to an existing image on a partially burned DVD."
+}

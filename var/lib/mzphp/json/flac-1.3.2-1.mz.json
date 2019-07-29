@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "flac",
+    "version": "1.3.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xiph.org",
+    "deps": "'libogg' 'nasm'",
+    "file_mz": "flac-1.3.2-1.mz",
+    "file_desc": "flac-1.3.2-1.mz.desc",
+    "file_sha256": "flac-1.3.2-1.mz.sha256",
+    "file_json": "flac-1.3.2-1.mz.json",
+    "desc": "FLAC is an audio CODEC similar to MP3, but lossless, meaning \nthat audio is compressed without losing any information."
+}

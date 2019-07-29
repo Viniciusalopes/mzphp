@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "dconf",
+    "version": "0.28.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'dbus' 'glib' 'gtk3' 'libxml2' 'libxslt' 'vala'",
+    "file_mz": "dconf-0.28.0-1.mz",
+    "file_desc": "dconf-0.28.0-1.mz.desc",
+    "file_sha256": "dconf-0.28.0-1.mz.sha256",
+    "file_json": "dconf-0.28.0-1.mz.json",
+    "desc": "The DConf package contains a low-level configuration system. \nIts main purpose is to provide a backend to GSettings on platforms \nthat don"
+}

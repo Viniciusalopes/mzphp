@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "fftw",
+    "version": "3.3.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://www.fftw.org",
+    "deps": "''",
+    "file_mz": "fftw-3.3.8-1.mz",
+    "file_desc": "fftw-3.3.8-1.mz.desc",
+    "file_sha256": "fftw-3.3.8-1.mz.sha256",
+    "file_json": "fftw-3.3.8-1.mz.json",
+    "desc": "FFTW is a C subroutine library for computing the discrete \nFourier transform (DFT) in one or more dimensions, of arbitrary \ninput size, and of both real and complex data (as well as of even/odd \ndata, i.e. the discrete cosine/sine transforms or DCT/DST)."
+}

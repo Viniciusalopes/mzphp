@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "pulseaudio",
+    "version": "12.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.freedesktop.org",
+    "deps": "'libsndfile' 'alsa_lib' 'dbus' 'glib' 'libcap' 'speex' 'xorg_libraries' 'avahi' 'bluez' 'consolekit' 'gconf' 'gtk3' 'libsamplerate' 'sbc' 'gsettings'",
+    "file_mz": "pulseaudio-12.2-1.mz",
+    "file_desc": "pulseaudio-12.2-1.mz.desc",
+    "file_sha256": "pulseaudio-12.2-1.mz.sha256",
+    "file_json": "pulseaudio-12.2-1.mz.json",
+    "desc": "PulseAudio is a sound system for POSIX OSes, meaning that it is \na proxy for sound applications. It allows you to do advanced operations\non your sound data as it passes between your application \nand your hardware. Things like transferring the audio to a different \nmachine, changing the sample format or channel count and mixing several\nsounds into one are easily achieved using a sound server."
+}

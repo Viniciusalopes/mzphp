@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfce4_power_manager",
+    "version": "1.6.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'libnotify' 'upower' 'xfce4_panel'",
+    "file_mz": "xfce4_power_manager-1.6.1-1.mz",
+    "file_desc": "xfce4_power_manager-1.6.1-1.mz.desc",
+    "file_sha256": "xfce4_power_manager-1.6.1-1.mz.sha256",
+    "file_json": "xfce4_power_manager-1.6.1-1.mz.json",
+    "desc": "The Xfce4 Power Manager is a power manager for the Xfce desktop, \nXfce power manager manages the power sources on the computer and the \ndevices that can be controlled to reduce their power consumption \n(such as LCD brightness level, monitor sleep, CPU frequency scaling). \nIn addition, Xfce4 Power Manager provides a set of freedesktop-compliant\nDBus interfaces to inform other applications about current power \nlevel so that they can adjust their power consumption."
+}

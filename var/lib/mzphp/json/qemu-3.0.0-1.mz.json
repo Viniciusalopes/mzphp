@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "qemu",
+    "version": "3.0.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/qemu.html",
+    "deps": "'GLib-2.56.1' 'Python-2.7.1' 'X'",
+    "file_mz": "qemu-3.0.0-1.mz",
+    "file_desc": "qemu-3.0.0-1.mz.desc",
+    "file_sha256": "qemu-3.0.0-1.mz.sha256",
+    "file_json": "qemu-3.0.0-1.mz.json",
+    "desc": "qemu is a full virtualization solution for Linux on x86 hardware\ncontaining virtualization extensions (Intel VT or AMD-V)."
+}

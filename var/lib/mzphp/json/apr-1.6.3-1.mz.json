@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "apr",
+    "version": "1.6.3-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/apr.html",
+    "deps": "''",
+    "file_mz": "apr-1.6.3-1.mz",
+    "file_desc": "apr-1.6.3-1.mz.desc",
+    "file_sha256": "apr-1.6.3-1.mz.sha256",
+    "file_json": "apr-1.6.3-1.mz.json",
+    "desc": "The Apache Portable Runtime (APR) is a supporting library for\nthe Apache web server. It provides a set of application programming\ninterfaces (APIs) that map to the underlying Operating System (OS).\nWhere the OS doesn"
+}

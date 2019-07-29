@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libpng",
+    "version": "1.6.35-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/libpng",
+    "deps": "''",
+    "file_mz": "libpng-1.6.35-1.mz",
+    "file_desc": "libpng-1.6.35-1.mz.desc",
+    "file_sha256": "libpng-1.6.35-1.mz.sha256",
+    "file_json": "libpng-1.6.35-1.mz.json",
+    "desc": "The libpng package contains libraries used by other programs \nfor reading and writing PNG files. The PNG format was designed as a \nreplacement for GIF and, to a lesser extent, TIFF, with many \nimprovements and extensions and lack of patent problems."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "db_doc",
+    "version": "5.3.28-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.aosabook.org/en/bdb.html",
+    "deps": "'db'",
+    "file_mz": "db_doc-5.3.28-1.mz",
+    "file_desc": "db_doc-5.3.28-1.mz.desc",
+    "file_sha256": "db_doc-5.3.28-1.mz.sha256",
+    "file_json": "db_doc-5.3.28-1.mz.json",
+    "desc": "Doc for  Berkeley DB package"
+}

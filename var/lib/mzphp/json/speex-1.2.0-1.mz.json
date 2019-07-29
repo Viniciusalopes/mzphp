@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "speex",
+    "version": "1.2.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xiph.org/speex",
+    "deps": "'libogg'",
+    "file_mz": "speex-1.2.0-1.mz",
+    "file_desc": "speex-1.2.0-1.mz.desc",
+    "file_sha256": "speex-1.2.0-1.mz.sha256",
+    "file_json": "speex-1.2.0-1.mz.json",
+    "desc": "Speex is an audio compression format designed especially \nfor speech. It is well-adapted to internet applications and provides \nuseful features that are not present in most other CODECs."
+}

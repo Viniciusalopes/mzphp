@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "multimedia/",
+    "name": "gst_plugins_base",
+    "version": "1.14.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.net/gst-plugins-base",
+    "deps": "'gstreamer' 'alsa_lib' 'cdparanoia' 'gobject_introspection' 'isocodes' 'libogg' 'libtheora' 'libvorbis' 'xorg_libraries' 'gtk3' 'opus' 'qt5_base' 'sdl'",
+    "file_mz": "gst_plugins_base-1.14.2-1.mz",
+    "file_desc": "gst_plugins_base-1.14.2-1.mz.desc",
+    "file_sha256": "gst_plugins_base-1.14.2-1.mz.sha256",
+    "file_json": "gst_plugins_base-1.14.2-1.mz.json",
+    "desc": "The GStreamer Base Plug-ins is a well-groomed and well-maintained \ncollection of GStreamer plug-ins and elements, spanning the range of \npossible types of elements one would want to write for GStreamer. \nYou will need at least one of Good, Bad, Ugly or Libav plugins for \nGStreamer applications to function properly."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "make_ca",
+    "version": "0.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/djlucas/make-ca/",
+    "deps": "'nss' 'p11_kit'",
+    "file_mz": "make_ca-0.8-1.mz",
+    "file_desc": "make_ca-0.8-1.mz.desc",
+    "file_sha256": "make_ca-0.8-1.mz.sha256",
+    "file_json": "make_ca-0.8-1.mz.json",
+    "desc": "Public Key Infrastructure (PKI) is a method to validate the \nauthenticity of an otherwise unknown entity across untrusted networks. \nPKI works by establishing a chain of trust, rather than trusting each \nindividual host or entity explicitly. In order for a certificate \npresented by a remote entity to be trusted, that certificate must \npresent a complete chain of certificates that can be validated using \nthe root certificate of a Certificate Authority (CA) that is trusted \nby the local machine."
+}

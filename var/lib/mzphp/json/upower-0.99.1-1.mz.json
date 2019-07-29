@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "upower",
+    "version": "0.99.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org/upower",
+    "deps": "'dbus_lib' 'libgudev' 'libusb' 'polkit'",
+    "file_mz": "upower-0.99.1-1.mz",
+    "file_desc": "upower-0.99.1-1.mz.desc",
+    "file_sha256": "upower-0.99.1-1.mz.sha256",
+    "file_json": "upower-0.99.1-1.mz.json",
+    "desc": "The UPower package provides an interface to enumerating \npower devices, listening to device events and querying \nhistory and statistics. Any application or service on the system \ncan access the org.freedesktop.\nUPower service via the system message bus."
+}

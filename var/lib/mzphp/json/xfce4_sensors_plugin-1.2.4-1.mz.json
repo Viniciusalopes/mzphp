@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "xfce4_sensors_plugin",
+    "version": "1.2.4-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "''",
+    "url": "https://goodies.xfce.org/projects/panel-plugins/xfce4-sensors-plugin",
+    "deps": "''",
+    "file_mz": "xfce4_sensors_plugin-1.2.4-1.mz",
+    "file_desc": "xfce4_sensors_plugin-1.2.4-1.mz.desc",
+    "file_sha256": "xfce4_sensors_plugin-1.2.4-1.mz.sha256",
+    "file_json": "xfce4_sensors_plugin-1.2.4-1.mz.json",
+    "desc": "this is a hardware sensors plugin for the panel. For now, it\nonly works on Linux and requires libsensors to display your mainboard\nsensors and fan speeds. Furthermore, it supports hddtemp to surveil\nyour hard disk"
+}

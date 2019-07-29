@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "exempi",
+    "version": "2.4.5-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://libopenraw.freedesktop.org/exempi/",
+    "deps": "'boost'",
+    "file_mz": "exempi-2.4.5-1.mz",
+    "file_desc": "exempi-2.4.5-1.mz.desc",
+    "file_sha256": "exempi-2.4.5-1.mz.sha256",
+    "file_json": "exempi-2.4.5-1.mz.json",
+    "desc": "Exempi is an implementation of XMP (Adobe"
+}

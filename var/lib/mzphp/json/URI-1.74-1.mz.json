@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "perl_modules/",
+    "name": "URI",
+    "version": "1.74-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://cpan.org",
+    "deps": "'perl'",
+    "file_mz": "URI-1.74-1.mz",
+    "file_desc": "URI-1.74-1.mz.desc",
+    "file_sha256": "URI-1.74-1.mz.sha256",
+    "file_json": "URI-1.74-1.mz.json",
+    "desc": "Perl Module"
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "murrine",
+    "version": "0.98.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gtk2'",
+    "file_mz": "murrine-0.98.1-1.mz",
+    "file_desc": "murrine-0.98.1-1.mz.desc",
+    "file_sha256": "murrine-0.98.1-1.mz.sha256",
+    "file_json": "murrine-0.98.1-1.mz.json",
+    "desc": "This is Murrine GTK+ engine theme"
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "ssr",
+    "version": "0.3.11-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "https://www.maartenbaert.be/simplescreenrecorder/",
+    "deps": "'glu-9.0.0' 'jack2'",
+    "file_mz": "ssr-0.3.11-1.mz",
+    "file_desc": "ssr-0.3.11-1.mz.desc",
+    "file_sha256": "ssr-0.3.11-1.mz.sha256",
+    "file_json": "ssr-0.3.11-1.mz.json",
+    "desc": "SimpleScreenRecorder is a Linux program that I"
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "dbus_python",
+    "version": "1.2.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://dbus.freedesktop.org",
+    "deps": "'python2' 'python3' 'dbus' 'glib'",
+    "file_mz": "dbus_python-1.2.8-1.mz",
+    "file_desc": "dbus_python-1.2.8-1.mz.desc",
+    "file_sha256": "dbus_python-1.2.8-1.mz.sha256",
+    "file_json": "dbus_python-1.2.8-1.mz.json",
+    "desc": "D-Bus Python provides Python bindings to the D-Bus."
+}

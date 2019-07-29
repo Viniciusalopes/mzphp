@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "mpv",
+    "version": "0.29.0-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "'GPLv2'",
+    "url": "https://mpv.io/",
+    "deps": "'ffmpeg'",
+    "file_mz": "mpv-0.29.0-1.mz",
+    "file_desc": "mpv-0.29.0-1.mz.desc",
+    "file_sha256": "mpv-0.29.0-1.mz.sha256",
+    "file_json": "mpv-0.29.0-1.mz.json",
+    "desc": "mpv is a media player based on MPlayer and mplayer2. It supports a\nwide variety of video file formats, audio and video codecs, and subtitle\ntypes."
+}

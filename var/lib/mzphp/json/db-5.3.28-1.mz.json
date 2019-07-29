@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "db",
+    "version": "5.3.28-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.aosabook.org/en/bdb.html",
+    "deps": "'tcl' 'sharutils'",
+    "file_mz": "db-5.3.28-1.mz",
+    "file_desc": "db-5.3.28-1.mz.desc",
+    "file_sha256": "db-5.3.28-1.mz.sha256",
+    "file_json": "db-5.3.28-1.mz.json",
+    "desc": "The Berkeley DB package contains programs and utilities \nused by many other applications for database related functions."
+}

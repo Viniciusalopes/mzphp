@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "pygobject3",
+    "version": "3.28.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gobject_introspection' 'pycairo'",
+    "file_mz": "pygobject3-3.28.3-1.mz",
+    "file_desc": "pygobject3-3.28.3-1.mz.desc",
+    "file_sha256": "pygobject3-3.28.3-1.mz.sha256",
+    "file_json": "pygobject3-3.28.3-1.mz.json",
+    "desc": "PyGObject3 provides Python bindings to the GObject \nclass from GLib."
+}

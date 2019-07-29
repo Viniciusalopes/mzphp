@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "intltool",
+    "version": "0.51.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/intltool.html",
+    "deps": "''",
+    "file_mz": "intltool-0.51.0-1.mz",
+    "file_desc": "intltool-0.51.0-1.mz.desc",
+    "file_sha256": "intltool-0.51.0-1.mz.sha256",
+    "file_json": "intltool-0.51.0-1.mz.json",
+    "desc": "The Intltool is an internationalization tool used for extracting\ntranslatable strings from source files."
+}

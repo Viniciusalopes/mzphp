@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libxml2",
+    "version": "2.9.8-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xmlsoft.org",
+    "deps": "'python3' 'icu'",
+    "file_mz": "libxml2-2.9.8-1.mz",
+    "file_desc": "libxml2-2.9.8-1.mz.desc",
+    "file_sha256": "libxml2-2.9.8-1.mz.sha256",
+    "file_json": "libxml2-2.9.8-1.mz.json",
+    "desc": "The libxml2 package contains libraries and utilities \nused for parsing XML files."
+}

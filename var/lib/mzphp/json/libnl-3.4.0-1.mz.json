@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libnl",
+    "version": "3.4.0-1",
+    "maintainer": "Alan Ramalho",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/basicnet/libnl.html",
+    "deps": "''",
+    "file_mz": "libnl-3.4.0-1.mz",
+    "file_desc": "libnl-3.4.0-1.mz.desc",
+    "file_sha256": "libnl-3.4.0-1.mz.sha256",
+    "file_json": "libnl-3.4.0-1.mz.json",
+    "desc": "The libnl suite is a collection of libraries providing APIs to \nnetlink protocol based Linux kernel interfaces."
+}

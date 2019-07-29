@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "wayland/",
+    "name": "wayland",
+    "version": "1.15.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'libxml2'",
+    "file_mz": "wayland-1.15.0-1.mz",
+    "file_desc": "wayland-1.15.0-1.mz.desc",
+    "file_sha256": "wayland-1.15.0-1.mz.sha256",
+    "file_json": "wayland-1.15.0-1.mz.json",
+    "desc": "Wayland is a project to define a protocol for a compositor to \ntalk to its clients as well as a library implementation of the protocol."
+}

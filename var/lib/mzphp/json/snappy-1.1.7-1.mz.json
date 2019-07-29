@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "snappy",
+    "version": "1.1.7-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'BSD'",
+    "url": "https://google.github.io/snappy/",
+    "deps": "''",
+    "file_mz": "snappy-1.1.7-1.mz",
+    "file_desc": "snappy-1.1.7-1.mz.desc",
+    "file_sha256": "snappy-1.1.7-1.mz.sha256",
+    "file_json": "snappy-1.1.7-1.mz.json",
+    "desc": "Snappy is a compression/decompression library."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "talloc",
+    "version": "2.1.14-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.samba.org",
+    "deps": "'python2' 'python3' 'xfsprogs' 'libtirpc'",
+    "file_mz": "talloc-2.1.14-1.mz",
+    "file_desc": "talloc-2.1.14-1.mz.desc",
+    "file_sha256": "talloc-2.1.14-1.mz.sha256",
+    "file_json": "talloc-2.1.14-1.mz.json",
+    "desc": "Talloc provides a hierarchical, reference counted memory pool \nsystem with destructors. It is the core memory allocator used in Samba."
+}

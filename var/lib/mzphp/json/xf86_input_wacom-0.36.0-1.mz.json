@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg_drivers/",
+    "name": "xf86_input_wacom",
+    "version": "0.36.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/linuxwacom",
+    "deps": "'xorg_server'",
+    "file_mz": "xf86_input_wacom-0.36.0-1.mz",
+    "file_desc": "xf86_input_wacom-0.36.0-1.mz.desc",
+    "file_sha256": "xf86_input_wacom-0.36.0-1.mz.sha256",
+    "file_json": "xf86_input_wacom-0.36.0-1.mz.json",
+    "desc": "The Xorg Wacom Driver package contains the X.Org X11 driver \nand SDK for Wacom and Wacom-like tablets."
+}

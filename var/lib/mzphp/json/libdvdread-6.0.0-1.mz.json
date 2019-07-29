@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libdvdread",
+    "version": "6.0.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://videolan.org",
+    "deps": "''",
+    "file_mz": "libdvdread-6.0.0-1.mz",
+    "file_desc": "libdvdread-6.0.0-1.mz.desc",
+    "file_sha256": "libdvdread-6.0.0-1.mz.sha256",
+    "file_json": "libdvdread-6.0.0-1.mz.json",
+    "desc": "libdvdread is a library which provides a simple foundation \nfor reading DVDs."
+}

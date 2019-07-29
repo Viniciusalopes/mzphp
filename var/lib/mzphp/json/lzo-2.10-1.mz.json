@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "lzo",
+    "version": "2.10-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "http://www.oberhumer.com/opensource/lzo/",
+    "deps": "'glibc'",
+    "file_mz": "lzo-2.10-1.mz",
+    "file_desc": "lzo-2.10-1.mz.desc",
+    "file_sha256": "lzo-2.10-1.mz.sha256",
+    "file_json": "lzo-2.10-1.mz.json",
+    "desc": "LZO -- a real-time data compression library"
+}

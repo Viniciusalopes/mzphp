@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev-tools/",
+    "name": "re2",
+    "version": "20190401-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'BSD'",
+    "url": "https://github.com/google/re2",
+    "deps": "''",
+    "file_mz": "re2-20190401-1.mz",
+    "file_desc": "re2-20190401-1.mz.desc",
+    "file_sha256": "re2-20190401-1.mz.sha256",
+    "file_json": "re2-20190401-1.mz.json",
+    "desc": "Fast, safe, thread-friendly regular expression engine"
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "xfce_dev_tools",
+    "version": "4.12.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "",
+    "url": "https://www.xfce.org/",
+    "deps": "''",
+    "file_mz": "xfce_dev_tools-4.12.0-1.mz",
+    "file_desc": "xfce_dev_tools-4.12.0-1.mz.desc",
+    "file_sha256": "xfce_dev_tools-4.12.0-1.mz.sha256",
+    "file_json": "xfce_dev_tools-4.12.0-1.mz.json",
+    "desc": "The Xfce development tools are a collection of tools and macros \nfor Xfce developers and people that want to build Xfce from Git In \naddition it contains the Xfce developer"
+}

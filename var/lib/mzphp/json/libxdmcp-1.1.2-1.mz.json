@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "libxdmcp",
+    "version": "1.1.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.x.org",
+    "deps": "'xorgproto'",
+    "file_mz": "libxdmcp-1.1.2-1.mz",
+    "file_desc": "libxdmcp-1.1.2-1.mz.desc",
+    "file_sha256": "libxdmcp-1.1.2-1.mz.sha256",
+    "file_json": "libxdmcp-1.1.2-1.mz.json",
+    "desc": "The libXdmcp package contains a library implementing the X Display\n Manager Control Protocol. This is useful for allowing clients \nto interact with the X Display Manager."
+}

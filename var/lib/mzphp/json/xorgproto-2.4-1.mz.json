@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xorg/",
+    "name": "xorgproto",
+    "version": "2.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'util_macros'",
+    "file_mz": "xorgproto-2.4-1.mz",
+    "file_desc": "xorgproto-2.4-1.mz.desc",
+    "file_sha256": "xorgproto-2.4-1.mz.sha256",
+    "file_json": "xorgproto-2.4-1.mz.json",
+    "desc": "The xorgproto package provides the header files required \nto build the X Window system, and to allow other applications \nto build against the installed X Window system"
+}

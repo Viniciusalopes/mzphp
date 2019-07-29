@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libtasn1",
+    "version": "4.13-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnu.org",
+    "deps": "'six'",
+    "file_mz": "libtasn1-4.13-1.mz",
+    "file_desc": "libtasn1-4.13-1.mz.desc",
+    "file_sha256": "libtasn1-4.13-1.mz.sha256",
+    "file_json": "libtasn1-4.13-1.mz.json",
+    "desc": "libtasn1 is a highly portable C library that encodes and decodes \nDER/BER data following an ASN.1 schema."
+}

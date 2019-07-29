@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "murrine",
+    "version": "0.98.2-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "https://www.gnome-look.org/content/show.php?content=42755",
+    "deps": "''",
+    "file_mz": "murrine-0.98.2-1.mz",
+    "file_desc": "murrine-0.98.2-1.mz.desc",
+    "file_sha256": "murrine-0.98.2-1.mz.sha256",
+    "file_json": "murrine-0.98.2-1.mz.json",
+    "desc": "GTK2 engine to make your desktop look like a"
+}

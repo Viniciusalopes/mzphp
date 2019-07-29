@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "gc",
+    "version": "7.6.4-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/gc.html",
+    "deps": "'libatomic_ops-7.6.6'",
+    "file_mz": "gc-7.6.4-1.mz",
+    "file_desc": "gc-7.6.4-1.mz.desc",
+    "file_sha256": "gc-7.6.4-1.mz.sha256",
+    "file_json": "gc-7.6.4-1.mz.json",
+    "desc": "The GC package contains the Boehm-Demers-Weiser conservative\ngarbage collector, which can be used as a garbage collecting replacement\nfor the C malloc function or C++ new operator. It allows you to allocate\nmemory basically as you normally would, without explicitly deallocating\nmemory that is no longer useful.\n\nThe collector automatically recycles memory when it determines that it\ncan no longer be otherwise accessed. The collector is also used by a\nnumber of programming language implementations that either use C as\nintermediate code, want to facilitate easier interoperation with C\nlibraries, or just prefer the simple collector interface. Alternatively,\nthe garbage collector may be used as a leak detector for C or C++\nprograms, though that is not its primary goal."
+}

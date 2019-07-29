@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "gnome_desktop",
+    "version": "3.28.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gsettings_dektop_shemas' 'gtk3' 'isocodes' 'itstool' 'libseccomp' 'libxml2' 'xkeyboard_config' 'gobject_introspection'",
+    "file_mz": "gnome_desktop-3.28.2-1.mz",
+    "file_desc": "gnome_desktop-3.28.2-1.mz.desc",
+    "file_sha256": "gnome_desktop-3.28.2-1.mz.sha256",
+    "file_json": "gnome_desktop-3.28.2-1.mz.json",
+    "desc": "The GNOME Desktop package contains a library that provides an \nAPI shared by several applications on the GNOME Desktop."
+}

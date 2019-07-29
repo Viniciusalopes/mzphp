@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "qt5/",
+    "name": "qt5_base",
+    "version": "5.12.3-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'VARIOUS'",
+    "url": "https://qt.io",
+    "deps": "'openssl' 'xorg_libraries' 'libjpg_turbo' 'icu' 'fontconfig' 'dbus' 'make_ca' 'libmng' 'libpng' 'libtiffi' 'libxkbcommon' 'mesa' 'mtdev' 'pcre' 'sqlite' 'wayland' 'xcb_util_image' 'xcb_util_keysyms' 'xcb_util_renderutil' 'xcb_util' 'qm' 'libinput' 'pciutils'",
+    "file_mz": "qt5_base-5.12.3-1.mz",
+    "file_desc": "qt5_base-5.12.3-1.mz.desc",
+    "file_sha256": "qt5_base-5.12.3-1.mz.sha256",
+    "file_json": "qt5_base-5.12.3-1.mz.json",
+    "desc": "Qt5 is a cross-platform application framework that is widely used \nfor developing application software with a graphical user interface \n(GUI) (in which cases Qt5 is classified as a widget toolkit), and also \nused for developing non-GUI programs such as command-line tools and consoles for servers."
+}

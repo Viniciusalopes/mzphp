@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfce4_settings",
+    "version": "4.12.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'exo' 'garcon' 'libxfce4ui' 'libcanberra' 'libnotify' 'libxklavier' 'libinput'",
+    "file_mz": "xfce4_settings-4.12.4-1.mz",
+    "file_desc": "xfce4_settings-4.12.4-1.mz.desc",
+    "file_sha256": "xfce4_settings-4.12.4-1.mz.sha256",
+    "file_json": "xfce4_settings-4.12.4-1.mz.json",
+    "desc": "The Xfce4 Settings package contains a collection of programs \nthat are useful for adjusting your Xfce preferences."
+}

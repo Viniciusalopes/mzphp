@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "nautilus",
+    "version": "3.28.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gexiv2' 'gnome_autoar' 'gnome_desktop' 'tracker' 'libnotify' 'exempi' 'gobject_introspection' 'libexif' 'gvfs' 'appstream_glib'",
+    "file_mz": "nautilus-3.28.1-1.mz",
+    "file_desc": "nautilus-3.28.1-1.mz.desc",
+    "file_sha256": "nautilus-3.28.1-1.mz.sha256",
+    "file_json": "nautilus-3.28.1-1.mz.json",
+    "desc": "The Nautilus package contains the GNOME file manager."
+}

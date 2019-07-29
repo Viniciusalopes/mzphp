@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "gparted",
+    "version": "0.33.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "''",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.4/xsoft/gparted.html",
+    "deps": "''",
+    "file_mz": "gparted-0.33.0-1.mz",
+    "file_desc": "gparted-0.33.0-1.mz.desc",
+    "file_sha256": "gparted-0.33.0-1.mz.sha256",
+    "file_json": "gparted-0.33.0-1.mz.json",
+    "desc": "Gparted is the Gnome Partition Editor, a Gtk 2 GUI for other\ncommand line tools that can create, reorganise or delete disk partitions"
+}

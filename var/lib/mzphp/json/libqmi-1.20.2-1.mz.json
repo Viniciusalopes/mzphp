@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libqmi",
+    "version": "1.20.2-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org/libqmi",
+    "deps": "'glib' 'libmbim'",
+    "file_mz": "libqmi-1.20.2-1.mz",
+    "file_desc": "libqmi-1.20.2-1.mz.desc",
+    "file_sha256": "libqmi-1.20.2-1.mz.sha256",
+    "file_json": "libqmi-1.20.2-1.mz.json",
+    "desc": "The libqmi package contains a GLib-based library for talking \nto WWAN modems and devices which speak the Qualcomm MSM \nInterface (QMI) protocol."
+}

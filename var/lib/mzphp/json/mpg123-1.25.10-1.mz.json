@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "mpg123",
+    "version": "1.25.10-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/mpg123",
+    "deps": "'alsa_lib' 'pulseaudio' 'sdl'",
+    "file_mz": "mpg123-1.25.10-1.mz",
+    "file_desc": "mpg123-1.25.10-1.mz.desc",
+    "file_sha256": "mpg123-1.25.10-1.mz.sha256",
+    "file_json": "mpg123-1.25.10-1.mz.json",
+    "desc": "The mpg123 package contains a console-based MP3 player. \nIt claims to be the fastest MP3 decoder for Unix."
+}

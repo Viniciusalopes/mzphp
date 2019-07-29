@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "btrfs_progs",
+    "version": "4.17.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.kernel.org/pub/linux/kernel/people/kdave/btrfs-progs",
+    "deps": "'lzo' 'lvm'",
+    "file_mz": "btrfs_progs-4.17.1-1.mz",
+    "file_desc": "btrfs_progs-4.17.1-1.mz.desc",
+    "file_sha256": "btrfs_progs-4.17.1-1.mz.sha256",
+    "file_json": "btrfs_progs-4.17.1-1.mz.json",
+    "desc": "The btrfs-progs package contains administration and debugging \ntools for the B-tree file system (btrfs)."
+}

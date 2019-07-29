@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "baobab",
+    "version": "3.28.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'gtk3' 'itstool' 'vala'",
+    "file_mz": "baobab-3.28.0-1.mz",
+    "file_desc": "baobab-3.28.0-1.mz.desc",
+    "file_sha256": "baobab-3.28.0-1.mz.sha256",
+    "file_json": "baobab-3.28.0-1.mz.json",
+    "desc": "The Baobab package contains a graphical directory tree analyzer."
+}

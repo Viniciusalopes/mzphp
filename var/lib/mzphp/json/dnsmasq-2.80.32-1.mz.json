@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "net/",
+    "name": "dnsmasq",
+    "version": "2.80.32-1",
+    "maintainer": "Vilmar Catafesta",
+    "license": "",
+    "url": "http://www.thekelleys.org.uk/dnsmasq/",
+    "deps": "''",
+    "file_mz": "dnsmasq-2.80.32-1.mz",
+    "file_desc": "dnsmasq-2.80.32-1.mz.desc",
+    "file_sha256": "dnsmasq-2.80.32-1.mz.sha256",
+    "file_json": "dnsmasq-2.80.32-1.mz.json",
+    "desc": "Dnsmasq provides network infrastructure for small networks: DNS, \nDHCP, router advertisement and network boot. It is designed to be \nlightweight and have a small footprint, suitable for resource \nconstrained routers and firewalls. It has also been widely used \nfor tethering on smartphones and portable hotspots, and to support \nvirtual networking in virtualisation frameworks. Supported platforms \ninclude Linux (with glibc and uclibc), Android, *BSD, and Mac OS X. \nDnsmasq is included in most Linux distributions and the \nports systems of FreeBSD, OpenBSD and NetBSD. Dnsmasq provides full \nIPv6 support."
+}

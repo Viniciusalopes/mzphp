@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base-devel/",
+    "name": "autoconf",
+    "version": "2.13-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://www.gnu.org/software/autoconf/",
+    "deps": "''",
+    "file_mz": "autoconf-2.13-1.mz",
+    "file_desc": "autoconf-2.13-1.mz.desc",
+    "file_sha256": "autoconf-2.13-1.mz.sha256",
+    "file_json": "autoconf-2.13-1.mz.json",
+    "desc": "Autoconf2.13 is an old version of Autoconf . This old version \naccepts switches which are not valid in more recent versions. \nNow that firefox has started to use python2 for configuring, this old \nversion is required even if configure files have not been changed."
+}

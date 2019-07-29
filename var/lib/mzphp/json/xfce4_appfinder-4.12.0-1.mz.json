@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xfce4/",
+    "name": "xfce4_appfinder",
+    "version": "4.12.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://xfce.org",
+    "deps": "'garcon' 'libxfce4ui'",
+    "file_mz": "xfce4_appfinder-4.12.0-1.mz",
+    "file_desc": "xfce4_appfinder-4.12.0-1.mz.desc",
+    "file_sha256": "xfce4_appfinder-4.12.0-1.mz.sha256",
+    "file_json": "xfce4_appfinder-4.12.0-1.mz.json",
+    "desc": "Xfce4 Appfinder is a tool to find and launch installed \napplications by searching the .desktop files installed on your system."
+}

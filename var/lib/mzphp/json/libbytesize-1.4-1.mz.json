@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libbytesize",
+    "version": "1.4-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com/storaged-project/libbytesize",
+    "deps": "'pcre' 'python2' 'six'",
+    "file_mz": "libbytesize-1.4-1.mz",
+    "file_desc": "libbytesize-1.4-1.mz.desc",
+    "file_sha256": "libbytesize-1.4-1.mz.sha256",
+    "file_json": "libbytesize-1.4-1.mz.json",
+    "desc": "The libbytesize package is a library facilitates the common \noperations with sizes in bytes."
+}

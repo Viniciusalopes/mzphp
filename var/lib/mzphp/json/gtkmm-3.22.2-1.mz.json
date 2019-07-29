@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "gtkmm",
+    "version": "3.22.2-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/x/gtkmm3.html",
+    "deps": "'Atkmm-2.24.2' 'GTK+-3.22.30' 'Pangomm-2.40.1'",
+    "file_mz": "gtkmm-3.22.2-1.mz",
+    "file_desc": "gtkmm-3.22.2-1.mz.desc",
+    "file_sha256": "gtkmm-3.22.2-1.mz.sha256",
+    "file_json": "gtkmm-3.22.2-1.mz.json",
+    "desc": "The Gtkmm package provides a C++ interface to GTK+ 3."
+}

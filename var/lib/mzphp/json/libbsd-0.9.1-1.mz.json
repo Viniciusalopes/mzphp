@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "libbsd",
+    "version": "0.9.1-1",
+    "maintainer": "Hugo Torres de Lima",
+    "license": "",
+    "url": "https://libbsd.freedesktop.org/wiki/",
+    "deps": "''",
+    "file_mz": "libbsd-0.9.1-1.mz",
+    "file_desc": "libbsd-0.9.1-1.mz.desc",
+    "file_sha256": "libbsd-0.9.1-1.mz.sha256",
+    "file_json": "libbsd-0.9.1-1.mz.json",
+    "desc": "This library provides useful functions commonly found on BSD \nsystems, and lacking on others like GNU systems, thus making it easier \nto port projects with strong BSD origins, without needing to embed the \nsame code over and over again on each project."
+}

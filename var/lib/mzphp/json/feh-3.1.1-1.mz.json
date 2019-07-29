@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "feh",
+    "version": "3.1.1-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "http://feh.finalrewind.org",
+    "deps": "'giflib' 'imlib2'",
+    "file_mz": "feh-3.1.1-1.mz",
+    "file_desc": "feh-3.1.1-1.mz.desc",
+    "file_sha256": "feh-3.1.1-1.mz.sha256",
+    "file_json": "feh-3.1.1-1.mz.json",
+    "desc": "feh is a fast, lightweight image viewer which uses Imlib2.\nIt is commandline-driven and supports multiple images through slideshows,\nthumbnail browsing or multiple windows, and montages or index prints (using\nTrueType fonts to display file info). Advanced features include fast dynamic\nzooming, progressive loading, loading via HTTP (with reload support for\nwatching webcams), recursive file opening (slideshow of a directory \nhierarchy), and mouse wheel/keyboard control."
+}

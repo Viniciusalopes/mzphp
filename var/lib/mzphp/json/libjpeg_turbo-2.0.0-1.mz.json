@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libjpeg_turbo",
+    "version": "2.0.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://sourceforge.net/libjpeg-turbo",
+    "deps": "'nasm' 'yasm'",
+    "file_mz": "libjpeg_turbo-2.0.0-1.mz",
+    "file_desc": "libjpeg_turbo-2.0.0-1.mz.desc",
+    "file_sha256": "libjpeg_turbo-2.0.0-1.mz.sha256",
+    "file_json": "libjpeg_turbo-2.0.0-1.mz.json",
+    "desc": "libjpeg-turbo is a fork of the original IJG libjpeg which uses \nSIMD to accelerate baseline JPEG compression and decompression. \nlibjpeg is a library that implements JPEG image encoding, \ndecoding and transcoding."
+}

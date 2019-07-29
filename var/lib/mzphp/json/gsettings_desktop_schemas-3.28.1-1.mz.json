@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "lib/",
+    "name": "gsettings_desktop_schemas",
+    "version": "3.28.1-1",
+    "maintainer": "Jefferson Rocha",
+    "license": "",
+    "url": "http://ftp.gnome.org/pub/gnome/sources/gsettings-desktop-schemas/",
+    "deps": "'gobject-introspection'",
+    "file_mz": "gsettings_desktop_schemas-3.28.1-1.mz",
+    "file_desc": "gsettings_desktop_schemas-3.28.1-1.mz.desc",
+    "file_sha256": "gsettings_desktop_schemas-3.28.1-1.mz.sha256",
+    "file_json": "gsettings_desktop_schemas-3.28.1-1.mz.json",
+    "desc": "The GSettings Desktop Schemas package contains a collection of\nGSettings schemas for settings shared by various components of a GNOME\nDesktop."
+}

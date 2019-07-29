@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "dbus_glib",
+    "version": "0.110-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org/dbus-glib",
+    "deps": "'dbus' 'glib'",
+    "file_mz": "dbus_glib-0.110-1.mz",
+    "file_desc": "dbus_glib-0.110-1.mz.desc",
+    "file_sha256": "dbus_glib-0.110-1.mz.sha256",
+    "file_json": "dbus_glib-0.110-1.mz.json",
+    "desc": "The D-Bus GLib package contains GLib interfaces to the D-Bus API."
+}

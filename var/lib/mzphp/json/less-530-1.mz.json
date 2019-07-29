@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "less",
+    "version": "530-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/less.html",
+    "deps": "''",
+    "file_mz": "less-530-1.mz",
+    "file_desc": "less-530-1.mz.desc",
+    "file_sha256": "less-530-1.mz.sha256",
+    "file_json": "less-530-1.mz.json",
+    "desc": "The Less package contains a text file viewer."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "glib_networking",
+    "version": "2.56.1-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://gnome.org",
+    "deps": "'glib' 'gnutls' 'gsettings_desktop_shemas' 'make_ca' 'p11_kit'",
+    "file_mz": "glib_networking-2.56.1-1.mz",
+    "file_desc": "glib_networking-2.56.1-1.mz.desc",
+    "file_sha256": "glib_networking-2.56.1-1.mz.sha256",
+    "file_json": "glib_networking-2.56.1-1.mz.json",
+    "desc": "The GLib Networking package contains Network related gio \nmodules for GLib."
+}

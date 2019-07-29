@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "dev/",
+    "name": "perl",
+    "version": "5.28.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/perl.html",
+    "deps": "''",
+    "file_mz": "perl-5.28.0-1.mz",
+    "file_desc": "perl-5.28.0-1.mz.desc",
+    "file_sha256": "perl-5.28.0-1.mz.sha256",
+    "file_json": "perl-5.28.0-1.mz.json",
+    "desc": "The Perl package contains the Practical Extraction and\nReport Language."
+}

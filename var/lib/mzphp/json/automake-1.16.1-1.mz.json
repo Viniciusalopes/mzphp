@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "automake",
+    "version": "1.16.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/automake.html",
+    "deps": "''",
+    "file_mz": "automake-1.16.1-1.mz",
+    "file_desc": "automake-1.16.1-1.mz.desc",
+    "file_sha256": "automake-1.16.1-1.mz.sha256",
+    "file_json": "automake-1.16.1-1.mz.json",
+    "desc": "The Automake package contains programs for generating Makefiles\nfor use with Autoconf."
+}

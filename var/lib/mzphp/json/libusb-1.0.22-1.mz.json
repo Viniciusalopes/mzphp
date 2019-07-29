@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libusb",
+    "version": "1.0.22-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://github.com//libusb/libusb",
+    "deps": "''",
+    "file_mz": "libusb-1.0.22-1.mz",
+    "file_desc": "libusb-1.0.22-1.mz.desc",
+    "file_sha256": "libusb-1.0.22-1.mz.sha256",
+    "file_json": "libusb-1.0.22-1.mz.json",
+    "desc": "he libusb package contains a library used by some \napplications for USB device access."
+}

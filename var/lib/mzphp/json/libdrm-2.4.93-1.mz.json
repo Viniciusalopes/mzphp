@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libdrm",
+    "version": "2.4.93-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "https://freedesktop.org",
+    "deps": "'xorg_libraries'",
+    "file_mz": "libdrm-2.4.93-1.mz",
+    "file_desc": "libdrm-2.4.93-1.mz.desc",
+    "file_sha256": "libdrm-2.4.93-1.mz.sha256",
+    "file_json": "libdrm-2.4.93-1.mz.json",
+    "desc": "libdrm provides a user space library for accessing the DRM, direct\nrendering manager, on operating systems that support the \nioctl interface. libdrm is a low-level library, typically\nused by graphics drivers such as the Mesa DRI drivers, \nthe X drivers, libva and similar projects."
+}

@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "xapp/",
+    "name": "mousepad",
+    "version": "0.4.1-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/mousepad.html",
+    "deps": "'gtksourceview-3.24.8'",
+    "file_mz": "mousepad-0.4.1-1.mz",
+    "file_desc": "mousepad-0.4.1-1.mz.desc",
+    "file_sha256": "mousepad-0.4.1-1.mz.sha256",
+    "file_json": "mousepad-0.4.1-1.mz.json",
+    "desc": "Mousepad is a simple GTK+ 2 text editor for the Xfce desktop\nenvironment."
+}

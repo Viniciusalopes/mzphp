@@ -1,0 +1,17 @@
+{
+    "repo_name": "oficial",
+    "repo_url": "http://mazonos.com/packages/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "base/",
+    "name": "xz",
+    "version": "5.2.4-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/xz.html",
+    "deps": "''",
+    "file_mz": "xz-5.2.4-1.mz",
+    "file_desc": "xz-5.2.4-1.mz.desc",
+    "file_sha256": "xz-5.2.4-1.mz.sha256",
+    "file_json": "xz-5.2.4-1.mz.json",
+    "desc": "The Xz package contains programs for compressing and decompressing\nfiles. It provides capabilities for the lzma and the newer xz compression\nformats. Compressing text files with xz yields a better compression\npercentage than with the traditional gzip or bzip2 commands."
+}

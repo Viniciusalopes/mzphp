@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "qt5/",
+    "name": "qt5_webkit",
+    "version": "5.212.0-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'VARIOUS'",
+    "url": "https://qt.io",
+    "deps": "'qt5_location' 'qt5_sensors' 'qt5_webchannel' 'libwebp' 'libxslt' 'xorg_libraries' 'gst_plugins_base' 'gst_plugins_good'",
+    "file_mz": "qt5_webkit-5.212.0-1.mz",
+    "file_desc": "qt5_webkit-5.212.0-1.mz.desc",
+    "file_sha256": "qt5_webkit-5.212.0-1.mz.sha256",
+    "file_json": "qt5_webkit-5.212.0-1.mz.json",
+    "desc": "Classes for a WebKit2 based implementation and a new QML API"
+}

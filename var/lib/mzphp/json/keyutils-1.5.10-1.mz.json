@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "extra/",
+    "name": "keyutils",
+    "version": "1.5.10-1",
+    "maintainer": "Rumbler Soppa",
+    "license": "'GPL'",
+    "url": "http://people.redhat.com/~dhowells/keyutils",
+    "deps": "''",
+    "file_mz": "keyutils-1.5.10-1.mz",
+    "file_desc": "keyutils-1.5.10-1.mz.desc",
+    "file_sha256": "keyutils-1.5.10-1.mz.sha256",
+    "file_json": "keyutils-1.5.10-1.mz.json",
+    "desc": "Keyutils is a set of utilities for managing the key retention \nfacility in the kernel, which can be used by filesystems, block devices \nand more to gain and retain the authorization and encryption keys\nrequired to perform secure operations."
+}

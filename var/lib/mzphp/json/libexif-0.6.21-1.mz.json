@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libexif",
+    "version": "0.6.21-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/stable/general/libexif.html",
+    "deps": "''",
+    "file_mz": "libexif-0.6.21-1.mz",
+    "file_desc": "libexif-0.6.21-1.mz.desc",
+    "file_sha256": "libexif-0.6.21-1.mz.sha256",
+    "file_json": "libexif-0.6.21-1.mz.json",
+    "desc": "The libexif package contains a library for parsing, editing, and\nsaving EXIF data. Most digital cameras produce EXIF files, which are\nJPEG files with extra tags that contain information about the image.\nAll EXIF tags described in EXIF standard 2.1 are supported."
+}

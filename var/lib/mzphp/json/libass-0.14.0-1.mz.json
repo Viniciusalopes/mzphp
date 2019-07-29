@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovolinux",
+    "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "libraries/",
+    "name": "libass",
+    "version": "0.14.0-1",
+    "maintainer": "Diego Sarzi",
+    "license": "",
+    "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/libass.html",
+    "deps": "'FreeType-2.9.1' 'FriBidi-1.0.5' 'NASM-2.13.03'",
+    "file_mz": "libass-0.14.0-1.mz",
+    "file_desc": "libass-0.14.0-1.mz.desc",
+    "file_sha256": "libass-0.14.0-1.mz.sha256",
+    "file_json": "libass-0.14.0-1.mz.json",
+    "desc": "libass is a portable subtitle renderer for the ASS/SSA (Advanced\nSubstation Alpha/Substation Alpha) subtitle format that allows for more\nadvanced subtitles than the conventional SRT and similar formats."
+}
