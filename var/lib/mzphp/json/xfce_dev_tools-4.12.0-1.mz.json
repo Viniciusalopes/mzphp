@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://www.xfce.org/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "xfce_dev_tools-4.12.0-1.mz",
     "file_desc": "xfce_dev_tools-4.12.0-1.mz.desc",
     "file_sha256": "xfce_dev_tools-4.12.0-1.mz.sha256",

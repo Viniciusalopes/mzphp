@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/cvs/general/tree.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "tree-1.8.0-1.mz",
     "file_desc": "tree-1.8.0-1.mz.desc",
     "file_sha256": "tree-1.8.0-1.mz.sha256",

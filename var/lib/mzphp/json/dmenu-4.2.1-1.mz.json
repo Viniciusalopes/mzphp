@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "dmenu is an efficient dynamic menu for X.",
-    "deps": "''",
+    "deps": "",
     "file_mz": "dmenu-4.2.1-1.mz",
     "file_desc": "dmenu-4.2.1-1.mz.desc",
     "file_sha256": "dmenu-4.2.1-1.mz.sha256",

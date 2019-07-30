@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://www.mpfr.org/",
-    "deps": "'glibc'",
+    "deps": "glibc",
     "file_mz": "mpfr-4.0.1-1.mz",
     "file_desc": "mpfr-4.0.1-1.mz.desc",
     "file_sha256": "mpfr-4.0.1-1.mz.sha256",

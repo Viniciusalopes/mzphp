@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://goodies.xfce.org/projects/thunar-plugins",
-    "deps": "'thunar,xarchiver'",
+    "deps": "thunar, xarchiver",
     "file_mz": "thunar_archive_plugin-0.4.0-2.mz",
     "file_desc": "thunar_archive_plugin-0.4.0-2.mz.desc",
     "file_sha256": "thunar_archive_plugin-0.4.0-2.mz.sha256",

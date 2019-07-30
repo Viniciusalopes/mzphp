@@ -70,13 +70,6 @@ Finalidade: No início a terra era vazia e sem forma.
                 }
                 $diretorio->close();
             }
-            usort($packages, function( $a, $b ) {
-                if ($a->name == $b->name) {
-                    return 0;
-                }
-                return (( $a->name < $b->name ) ? -1 : 1 );
-            }
-            );
 
 
             $_SESSION['packages'] = $packages;

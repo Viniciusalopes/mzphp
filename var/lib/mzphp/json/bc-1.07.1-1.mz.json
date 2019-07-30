@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://www.gnu.org/software/bc/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "bc-1.07.1-1.mz",
     "file_desc": "bc-1.07.1-1.mz.desc",
     "file_sha256": "bc-1.07.1-1.mz.sha256",

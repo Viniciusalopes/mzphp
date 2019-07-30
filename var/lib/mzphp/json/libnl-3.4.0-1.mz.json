@@ -8,7 +8,7 @@
     "maintainer": "Alan Ramalho",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/cvs/basicnet/libnl.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "libnl-3.4.0-1.mz",
     "file_desc": "libnl-3.4.0-1.mz.desc",
     "file_sha256": "libnl-3.4.0-1.mz.sha256",

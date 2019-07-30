@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/libass.html",
-    "deps": "'FreeType-2.9.1' 'FriBidi-1.0.5' 'NASM-2.13.03'",
+    "deps": "FreeType-2.9.1, FriBidi-1.0.5, NASM-2.13.03",
     "file_mz": "libass-0.14.0-1.mz",
     "file_desc": "libass-0.14.0-1.mz.desc",
     "file_sha256": "libass-0.14.0-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/cvs/xsoft/transmission.html",
-    "deps": "'curl-7.64.0' ' libevent-2.1.8' 'GTK+-3.24.5'",
+    "deps": "curl-7.64.0,  libevent-2.1.8, GTK+-3.24.5",
     "file_mz": "transmission-2.94-1.mz",
     "file_desc": "transmission-2.94-1.mz.desc",
     "file_sha256": "transmission-2.94-1.mz.sha256",

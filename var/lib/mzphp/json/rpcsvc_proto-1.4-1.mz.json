@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/basicnet/rpcsvc-proto.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "rpcsvc_proto-1.4-1.mz",
     "file_desc": "rpcsvc_proto-1.4-1.mz.desc",
     "file_sha256": "rpcsvc_proto-1.4-1.mz.sha256",

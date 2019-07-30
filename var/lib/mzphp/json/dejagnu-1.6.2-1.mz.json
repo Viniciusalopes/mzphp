@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/cvs/general/dejagnu.html",
-    "deps": "'Expect-5.45.4'",
+    "deps": "Expect-5.45.4",
     "file_mz": "dejagnu-1.6.2-1.mz",
     "file_desc": "dejagnu-1.6.2-1.mz.desc",
     "file_sha256": "dejagnu-1.6.2-1.mz.sha256",

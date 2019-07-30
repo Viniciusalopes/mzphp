@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/x264.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "x264-2245-1.mz",
     "file_desc": "x264-2245-1.mz.desc",
     "file_sha256": "x264-2245-1.mz.sha256",

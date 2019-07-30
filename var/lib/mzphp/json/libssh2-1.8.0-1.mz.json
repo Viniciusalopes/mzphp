@@ -8,7 +8,7 @@
     "maintainer": "Hugo Torres de Lima",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/libssh2.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "libssh2-1.8.0-1.mz",
     "file_desc": "libssh2-1.8.0-1.mz.desc",
     "file_sha256": "libssh2-1.8.0-1.mz.sha256",

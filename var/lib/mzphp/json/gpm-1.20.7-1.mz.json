@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/gpm.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "gpm-1.20.7-1.mz",
     "file_desc": "gpm-1.20.7-1.mz.desc",
     "file_sha256": "gpm-1.20.7-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://www.kernel.org",
-    "deps": "''",
+    "deps": "",
     "file_mz": "linux_modules-4.18.5-1.mz",
     "file_desc": "linux_modules-4.18.5-1.mz.desc",
     "file_sha256": "linux_modules-4.18.5-1.mz.sha256",

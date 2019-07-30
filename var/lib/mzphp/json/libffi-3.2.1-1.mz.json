@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/libffi.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "libffi-3.2.1-1.mz",
     "file_desc": "libffi-3.2.1-1.mz.desc",
     "file_sha256": "libffi-3.2.1-1.mz.sha256",

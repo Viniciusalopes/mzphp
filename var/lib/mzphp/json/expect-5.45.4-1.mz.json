@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/cvs/general/expect.html",
-    "deps": "'Tcl-8.6.9'",
+    "deps": "Tcl-8.6.9",
     "file_mz": "expect-5.45.4-1.mz",
     "file_desc": "expect-5.45.4-1.mz.desc",
     "file_sha256": "expect-5.45.4-1.mz.sha256",

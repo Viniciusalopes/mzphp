@@ -8,7 +8,7 @@
     "maintainer": "Alan Ramalho",
     "license": "",
     "url": "https://www.geany.org",
-    "deps": "''",
+    "deps": "",
     "file_mz": "geany-1.34.1-1.mz",
     "file_desc": "geany-1.34.1-1.mz.desc",
     "file_sha256": "geany-1.34.1-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "https://downloads.sourceforge.net/enlightenment/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "imlib2-1.5.1-1.mz",
     "file_desc": "imlib2-1.5.1-1.mz.desc",
     "file_sha256": "imlib2-1.5.1-1.mz.sha256",

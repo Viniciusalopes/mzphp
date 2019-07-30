@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/qemu.html",
-    "deps": "'GLib-2.56.1' 'Python-2.7.1' 'X'",
+    "deps": "GLib-2.56.1, Python-2.7.1, X",
     "file_mz": "qemu-3.0.0-1.mz",
     "file_desc": "qemu-3.0.0-1.mz.desc",
     "file_sha256": "qemu-3.0.0-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/procps-ng.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "procps_ng-3.3.15-1.mz",
     "file_desc": "procps_ng-3.3.15-1.mz.desc",
     "file_sha256": "procps_ng-3.3.15-1.mz.sha256",

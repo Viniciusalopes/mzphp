@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/ffmpeg.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "ffmpeg-4.0.2-1.mz",
     "file_desc": "ffmpeg-4.0.2-1.mz.desc",
     "file_sha256": "ffmpeg-4.0.2-1.mz.sha256",

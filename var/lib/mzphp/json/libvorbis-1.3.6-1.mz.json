@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/libvorbis.html",
-    "deps": "'libogg-1.3.3'",
+    "deps": "libogg-1.3.3",
     "file_mz": "libvorbis-1.3.6-1.mz",
     "file_desc": "libvorbis-1.3.6-1.mz.desc",
     "file_sha256": "libvorbis-1.3.6-1.mz.sha256",

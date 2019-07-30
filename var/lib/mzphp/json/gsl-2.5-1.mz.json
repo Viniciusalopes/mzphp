@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/gsl.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "gsl-2.5-1.mz",
     "file_desc": "gsl-2.5-1.mz.desc",
     "file_sha256": "gsl-2.5-1.mz.sha256",

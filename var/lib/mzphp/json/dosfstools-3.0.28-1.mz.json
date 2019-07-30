@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://github.com/dosfstools/dosfstools",
-    "deps": "''",
+    "deps": "",
     "file_mz": "dosfstools-3.0.28-1.mz",
     "file_desc": "dosfstools-3.0.28-1.mz.desc",
     "file_sha256": "dosfstools-3.0.28-1.mz.sha256",

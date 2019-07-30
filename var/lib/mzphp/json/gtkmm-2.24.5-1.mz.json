@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/x/gtkmm2.html",
-    "deps": "'Atkmm-2.24.2' 'GTK+-2.24.32' 'Pangomm-2.40.1'",
+    "deps": "Atkmm-2.24.2, GTK+-2.24.32, Pangomm-2.40.1",
     "file_mz": "gtkmm-2.24.5-1.mz",
     "file_desc": "gtkmm-2.24.5-1.mz.desc",
     "file_sha256": "gtkmm-2.24.5-1.mz.sha256",

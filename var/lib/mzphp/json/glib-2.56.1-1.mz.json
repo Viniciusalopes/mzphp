@@ -8,7 +8,7 @@
     "maintainer": "Hugo Torres de Lima",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/glib2.html",
-    "deps": "'pcre'",
+    "deps": "pcre",
     "file_mz": "glib-2.56.1-1.mz",
     "file_desc": "glib-2.56.1-1.mz.desc",
     "file_sha256": "glib-2.56.1-1.mz.sha256",

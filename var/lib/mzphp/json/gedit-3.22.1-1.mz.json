@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "https://wiki.gnome.org/Apps/Gedit",
-    "deps": "'gsettings-desktop-schemas' 'libpeas' 'dconf'",
+    "deps": "gsettings-desktop-schemas, libpeas, dconf",
     "file_mz": "gedit-3.22.1-1.mz",
     "file_desc": "gedit-3.22.1-1.mz.desc",
     "file_sha256": "gedit-3.22.1-1.mz.sha256",

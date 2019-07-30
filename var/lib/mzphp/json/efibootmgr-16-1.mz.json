@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://github.com/rhboot/efibootmgr",
-    "deps": "'pciutils,efivar,zlib,dosfstools'",
+    "deps": "pciutils, efivar, zlib, dosfstools",
     "file_mz": "efibootmgr-16-1.mz",
     "file_desc": "efibootmgr-16-1.mz.desc",
     "file_sha256": "efibootmgr-16-1.mz.sha256",

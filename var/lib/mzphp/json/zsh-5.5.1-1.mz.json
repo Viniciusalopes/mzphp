@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/zsh.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "zsh-5.5.1-1.mz",
     "file_desc": "zsh-5.5.1-1.mz.desc",
     "file_sha256": "zsh-5.5.1-1.mz.sha256",

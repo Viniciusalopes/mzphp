@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/vlc.html",
-    "deps": "'alsa-lib-1.1.6' 'FFmpeg-4.0.2' 'liba52-0.7.4' 'libgcrypt-1.8.3' 'libmad-0.15.1b' 'Lua-5.3.5' 'X'",
+    "deps": "alsa-lib-1.1.6, FFmpeg-4.0.2, liba52-0.7.4, libgcrypt-1.8.3, libmad-0.15.1b, Lua-5.3.5, X",
     "file_mz": "vlc-3.0.3-1.mz",
     "file_desc": "vlc-3.0.3-1.mz.desc",
     "file_sha256": "vlc-3.0.3-1.mz.sha256",

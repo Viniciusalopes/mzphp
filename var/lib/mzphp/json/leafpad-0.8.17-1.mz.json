@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "http://tarot.freeshell.org/leafpad/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "leafpad-0.8.17-1.mz",
     "file_desc": "leafpad-0.8.17-1.mz.desc",
     "file_sha256": "leafpad-0.8.17-1.mz.sha256",

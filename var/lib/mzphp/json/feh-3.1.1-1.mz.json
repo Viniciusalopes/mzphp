@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "http://feh.finalrewind.org",
-    "deps": "'giflib' 'imlib2'",
+    "deps": "giflib, imlib2",
     "file_mz": "feh-3.1.1-1.mz",
     "file_desc": "feh-3.1.1-1.mz.desc",
     "file_sha256": "feh-3.1.1-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Hugo Torres de Lima",
     "license": "",
     "url": "https://gitlab.com/cryptsetup/cryptsetup",
-    "deps": "''",
+    "deps": "",
     "file_mz": "cryptsetup-2.1.0-1.mz",
     "file_desc": "cryptsetup-2.1.0-1.mz.desc",
     "file_sha256": "cryptsetup-2.1.0-1.mz.sha256",

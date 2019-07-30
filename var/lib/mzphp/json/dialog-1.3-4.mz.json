@@ -8,7 +8,7 @@
     "maintainer": "Emerson Alves",
     "license": "",
     "url": "https://invisible-island.net/dialog/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "dialog-1.3-4.mz",
     "file_desc": "dialog-1.3-4.mz.desc",
     "file_sha256": "dialog-1.3-4.mz.sha256",

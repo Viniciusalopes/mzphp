@@ -8,7 +8,7 @@
     "maintainer": "Vilmar Catafesta",
     "license": "",
     "url": "http://www.thekelleys.org.uk/dnsmasq/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "dnsmasq-2.80.32-1.mz",
     "file_desc": "dnsmasq-2.80.32-1.mz.desc",
     "file_sha256": "dnsmasq-2.80.32-1.mz.sha256",

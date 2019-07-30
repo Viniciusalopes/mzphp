@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://tiswww.case.edu/php/chet/readline/rltop.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "readline-7.0-1.mz",
     "file_desc": "readline-7.0-1.mz.desc",
     "file_sha256": "readline-7.0-1.mz.sha256",

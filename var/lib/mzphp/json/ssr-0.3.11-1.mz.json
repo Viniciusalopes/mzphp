@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "https://www.maartenbaert.be/simplescreenrecorder/",
-    "deps": "'glu-9.0.0' 'jack2'",
+    "deps": "glu-9.0.0, jack2",
     "file_mz": "ssr-0.3.11-1.mz",
     "file_desc": "ssr-0.3.11-1.mz.desc",
     "file_sha256": "ssr-0.3.11-1.mz.sha256",

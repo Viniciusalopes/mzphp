@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://jackaudio.org/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "jack2-1.9.12-1.mz",
     "file_desc": "jack2-1.9.12-1.mz.desc",
     "file_sha256": "jack2-1.9.12-1.mz.sha256",

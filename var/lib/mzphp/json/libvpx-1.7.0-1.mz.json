@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/libvpx.html",
-    "deps": "'yasm-1.3.0' 'NASM-2.13.03' 'Which-2.21'",
+    "deps": "yasm-1.3.0, NASM-2.13.03, Which-2.21",
     "file_mz": "libvpx-1.7.0-1.mz",
     "file_desc": "libvpx-1.7.0-1.mz.desc",
     "file_sha256": "libvpx-1.7.0-1.mz.sha256",

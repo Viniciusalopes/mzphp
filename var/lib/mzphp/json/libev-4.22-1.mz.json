@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "https://manpages.debian.org/testing/libev-dev/ev.3.en.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "libev-4.22-1.mz",
     "file_desc": "libev-4.22-1.mz.desc",
     "file_sha256": "libev-4.22-1.mz.sha256",

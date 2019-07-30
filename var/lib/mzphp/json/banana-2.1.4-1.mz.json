@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "http://bananapkg.github.io",
-    "deps": "''",
+    "deps": "",
     "file_mz": "banana-2.1.4-1.mz",
     "file_desc": "banana-2.1.4-1.mz.desc",
     "file_sha256": "banana-2.1.4-1.mz.sha256",

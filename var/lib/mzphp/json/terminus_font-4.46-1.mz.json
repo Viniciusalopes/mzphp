@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "http://terminus-font.sourceforge.net/",
-    "deps": "'bdftopcf'",
+    "deps": "bdftopcf",
     "file_mz": "terminus_font-4.46-1.mz",
     "file_desc": "terminus_font-4.46-1.mz.desc",
     "file_sha256": "terminus_font-4.46-1.mz.sha256",

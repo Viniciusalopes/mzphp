@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/server/apache.html",
-    "deps": "'Apr-Util-1.6.1' 'PCRE-8.42'",
+    "deps": "Apr-Util-1.6.1, PCRE-8.42",
     "file_mz": "apache-2.4.34-3.mz",
     "file_desc": "apache-2.4.34-3.mz.desc",
     "file_sha256": "apache-2.4.34-3.mz.sha256",

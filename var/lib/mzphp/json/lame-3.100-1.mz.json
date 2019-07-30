@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/lame.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "lame-3.100-1.mz",
     "file_desc": "lame-3.100-1.mz.desc",
     "file_sha256": "lame-3.100-1.mz.sha256",

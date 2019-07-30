@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://people.freebsd.org/~abe/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "lsof-4.85-1.mz",
     "file_desc": "lsof-4.85-1.mz.desc",
     "file_sha256": "lsof-4.85-1.mz.sha256",

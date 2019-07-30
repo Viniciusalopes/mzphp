@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "https://downloads.sourceforge.net/giflib",
-    "deps": "''",
+    "deps": "",
     "file_mz": "giflib-5.1.4-1.mz",
     "file_desc": "giflib-5.1.4-1.mz.desc",
     "file_sha256": "giflib-5.1.4-1.mz.sha256",

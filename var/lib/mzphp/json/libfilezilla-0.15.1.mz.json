@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "https://lib.filezilla-project.org/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "libfilezilla-0.15.1.mz",
     "file_desc": "libfilezilla-0.15.1.mz.desc",
     "file_sha256": "libfilezilla-0.15.1.mz.sha256",

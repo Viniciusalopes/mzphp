@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "http://ftp.gnome.org/pub/gnome/sources/gsettings-desktop-schemas/",
-    "deps": "'gobject-introspection'",
+    "deps": "gobject-introspection",
     "file_mz": "gsettings_desktop_schemas-3.28.1-1.mz",
     "file_desc": "gsettings_desktop_schemas-3.28.1-1.mz.desc",
     "file_sha256": "gsettings_desktop_schemas-3.28.1-1.mz.sha256",

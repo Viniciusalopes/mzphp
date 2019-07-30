@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/stable/xfce/ristretto.html",
-    "deps": "'libexif-0.6.21' 'libxfce4ui-4.12.1'",
+    "deps": "libexif-0.6.21, libxfce4ui-4.12.1",
     "file_mz": "ristretto-0.8.3-1.mz",
     "file_desc": "ristretto-0.8.3-1.mz.desc",
     "file_sha256": "ristretto-0.8.3-1.mz.sha256",

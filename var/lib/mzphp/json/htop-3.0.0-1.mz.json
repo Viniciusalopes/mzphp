@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "https://github.com/hishamhm/htop",
-    "deps": "''",
+    "deps": "",
     "file_mz": "htop-3.0.0-1.mz",
     "file_desc": "htop-3.0.0-1.mz.desc",
     "file_sha256": "htop-3.0.0-1.mz.sha256",

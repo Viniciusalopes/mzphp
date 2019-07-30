@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "https://goodies.xfce.org/projects/panel-plugins/xfce4-whiskermenu-plugin",
-    "deps": "''",
+    "deps": "",
     "file_mz": "xfce4_whiskermenu_plugin-2.3.1-1.mz",
     "file_desc": "xfce4_whiskermenu_plugin-2.3.1-1.mz.desc",
     "file_sha256": "xfce4_whiskermenu_plugin-2.3.1-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "https://hexchat.github.io/",
-    "deps": "'lua'",
+    "deps": "lua",
     "file_mz": "hexchat-2.14.2-1.mz",
     "file_desc": "hexchat-2.14.2-1.mz.desc",
     "file_sha256": "hexchat-2.14.2-1.mz.sha256",

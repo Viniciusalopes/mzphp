@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/svn/general/which.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "which-2.21-1.mz",
     "file_desc": "which-2.21-1.mz.desc",
     "file_sha256": "which-2.21-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Alan Ramalho",
     "license": "",
     "url": "https://nmap.org/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "nmap-7.70-1.mz",
     "file_desc": "nmap-7.70-1.mz.desc",
     "file_sha256": "nmap-7.70-1.mz.sha256",

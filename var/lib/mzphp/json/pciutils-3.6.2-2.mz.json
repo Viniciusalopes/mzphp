@@ -8,7 +8,7 @@
     "maintainer": "Emerson Alves",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/svn/general/pciutils.html",
-    "deps": "'cURL-7.64.0''Wget-1.20.1''Lynx-2.8.9rel.1'",
+    "deps": "cURL-7.64.0Wget-1.20.1Lynx-2.8.9rel.1",
     "file_mz": "pciutils-3.6.2-2.mz",
     "file_desc": "pciutils-3.6.2-2.mz.desc",
     "file_sha256": "pciutils-3.6.2-2.mz.sha256",

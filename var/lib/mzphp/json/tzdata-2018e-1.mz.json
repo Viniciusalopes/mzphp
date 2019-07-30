@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "http://www.iana.org/time-zones",
-    "deps": "'glibc'",
+    "deps": "glibc",
     "file_mz": "tzdata-2018e-1.mz",
     "file_desc": "tzdata-2018e-1.mz.desc",
     "file_sha256": "tzdata-2018e-1.mz.sha256",

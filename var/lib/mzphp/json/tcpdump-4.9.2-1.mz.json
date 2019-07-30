@@ -8,7 +8,7 @@
     "maintainer": "Alan Ramalho",
     "license": "",
     "url": "https://www.tcpdump.org",
-    "deps": "'libpcap'",
+    "deps": "libpcap",
     "file_mz": "tcpdump-4.9.2-1.mz",
     "file_desc": "tcpdump-4.9.2-1.mz.desc",
     "file_sha256": "tcpdump-4.9.2-1.mz.sha256",

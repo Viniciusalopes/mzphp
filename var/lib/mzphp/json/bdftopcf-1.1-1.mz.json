@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "https://www.x.org/archive/current/doc/man/man1/bdftopcf.1.xhtml",
-    "deps": "''",
+    "deps": "",
     "file_mz": "bdftopcf-1.1-1.mz",
     "file_desc": "bdftopcf-1.1-1.mz.desc",
     "file_sha256": "bdftopcf-1.1-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "https://www.mozilla.org",
-    "deps": "''",
+    "deps": "",
     "file_mz": "firefox-66.0.2-2.mz",
     "file_desc": "firefox-66.0.2-2.mz.desc",
     "file_sha256": "firefox-66.0.2-2.mz.sha256",

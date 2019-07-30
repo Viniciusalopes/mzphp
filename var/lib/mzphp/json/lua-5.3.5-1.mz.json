@@ -8,7 +8,7 @@
     "maintainer": "Jefferson Rocha",
     "license": "",
     "url": "https://www.lua.org/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "lua-5.3.5-1.mz",
     "file_desc": "lua-5.3.5-1.mz.desc",
     "file_sha256": "lua-5.3.5-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Alan Ramalho",
     "license": "",
     "url": "https://www.aircrack-ng.org/index.html",
-    "deps": "''libnl' 'ethtool''",
+    "deps": "libnl, ethtool",
     "file_mz": "aircrack_ng-1.5.2-1.mz",
     "file_desc": "aircrack_ng-1.5.2-1.mz.desc",
     "file_sha256": "aircrack_ng-1.5.2-1.mz.sha256",

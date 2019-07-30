@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/lfs/view/8.3/chapter06/bzip2.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "bzip2-1.0.6-1.mz",
     "file_desc": "bzip2-1.0.6-1.mz.desc",
     "file_sha256": "bzip2-1.0.6-1.mz.sha256",

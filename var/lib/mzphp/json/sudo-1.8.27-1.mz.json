@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/svn/postlfs/sudo.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "sudo-1.8.27-1.mz",
     "file_desc": "sudo-1.8.27-1.mz.desc",
     "file_sha256": "sudo-1.8.27-1.mz.sha256",

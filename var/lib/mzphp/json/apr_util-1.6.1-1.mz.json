@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/apr-util.html",
-    "deps": "'Apr-1.6.3'",
+    "deps": "Apr-1.6.3",
     "file_mz": "apr_util-1.6.1-1.mz",
     "file_desc": "apr_util-1.6.1-1.mz.desc",
     "file_sha256": "apr_util-1.6.1-1.mz.sha256",

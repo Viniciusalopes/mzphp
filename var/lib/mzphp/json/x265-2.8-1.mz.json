@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/x265.html",
-    "deps": "'CMake-3.12.1'",
+    "deps": "CMake-3.12.1",
     "file_mz": "x265-2.8-1.mz",
     "file_desc": "x265-2.8-1.mz.desc",
     "file_sha256": "x265-2.8-1.mz.sha256",

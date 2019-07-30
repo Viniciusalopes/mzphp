@@ -8,7 +8,7 @@
     "maintainer": "Emerson Alves",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/usbutils.html",
-    "deps": "'ibusb-1.0.22'",
+    "deps": "ibusb-1.0.22",
     "file_mz": "usbutils-010-1.mz",
     "file_desc": "usbutils-010-1.mz.desc",
     "file_sha256": "usbutils-010-1.mz.sha256",

@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://diego.sarzi.com.br/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "bubblegum-1.0-1.mz",
     "file_desc": "bubblegum-1.0-1.mz.desc",
     "file_sha256": "bubblegum-1.0-1.mz.sha256",

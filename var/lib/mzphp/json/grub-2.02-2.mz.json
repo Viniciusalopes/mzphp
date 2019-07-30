@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://www.gnu.org/software/grub/",
-    "deps": "'freetype2,efibootmgr,efivar'",
+    "deps": "freetype2, efibootmgr, efivar",
     "file_mz": "grub-2.02-2.mz",
     "file_desc": "grub-2.02-2.mz.desc",
     "file_sha256": "grub-2.02-2.mz.sha256",

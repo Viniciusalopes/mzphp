@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/vim.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "vim-81-1.mz",
     "file_desc": "vim-81-1.mz.desc",
     "file_sha256": "vim-81-1.mz.sha256",

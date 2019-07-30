@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "http://www.oberhumer.com/opensource/lzo/",
-    "deps": "'glibc'",
+    "deps": "glibc",
     "file_mz": "lzo-2.10-1.mz",
     "file_desc": "lzo-2.10-1.mz.desc",
     "file_sha256": "lzo-2.10-1.mz.sha256",

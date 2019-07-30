@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://sourceforge.net/projects/acpid2/",
-    "deps": "'pm-utils'",
+    "deps": "pm-utils",
     "file_mz": "acpid-2.0.30-1.mz",
     "file_desc": "acpid-2.0.30-1.mz.desc",
     "file_sha256": "acpid-2.0.30-1.mz.sha256",

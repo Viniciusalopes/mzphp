@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/libatomic_ops.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "libatomic_ops-7.6.6-1.mz",
     "file_desc": "libatomic_ops-7.6.6-1.mz.desc",
     "file_sha256": "libatomic_ops-7.6.6-1.mz.sha256",

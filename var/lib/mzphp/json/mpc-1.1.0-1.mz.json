@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "http://www.multiprecision.org/mpc/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "mpc-1.1.0-1.mz",
     "file_desc": "mpc-1.1.0-1.mz.desc",
     "file_sha256": "mpc-1.1.0-1.mz.sha256",

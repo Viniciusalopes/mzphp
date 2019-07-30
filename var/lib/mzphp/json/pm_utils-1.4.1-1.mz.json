@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://pm-utils.freedesktop.org/wiki/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "pm_utils-1.4.1-1.mz",
     "file_desc": "pm_utils-1.4.1-1.mz.desc",
     "file_sha256": "pm_utils-1.4.1-1.mz.sha256",

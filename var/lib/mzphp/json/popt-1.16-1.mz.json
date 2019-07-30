@@ -8,7 +8,7 @@
     "maintainer": "Rumbler Soppa",
     "license": "",
     "url": "https://directory.fsf.org/wiki/Popt",
-    "deps": "''",
+    "deps": "",
     "file_mz": "popt-1.16-1.mz",
     "file_desc": "popt-1.16-1.mz.desc",
     "file_sha256": "popt-1.16-1.mz.sha256",

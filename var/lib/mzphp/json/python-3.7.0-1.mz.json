@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/Python.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "python-3.7.0-1.mz",
     "file_desc": "python-3.7.0-1.mz.desc",
     "file_sha256": "python-3.7.0-1.mz.sha256",

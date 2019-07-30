@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "https://github.com/Airblader/i3",
-    "deps": "''",
+    "deps": "",
     "file_mz": "i3_gaps-4.16.1-1.mz",
     "file_desc": "i3_gaps-4.16.1-1.mz.desc",
     "file_sha256": "i3_gaps-4.16.1-1.mz.sha256",

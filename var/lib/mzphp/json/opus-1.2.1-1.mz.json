@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/multimedia/opus.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "opus-1.2.1-1.mz",
     "file_desc": "opus-1.2.1-1.mz.desc",
     "file_sha256": "opus-1.2.1-1.mz.sha256",

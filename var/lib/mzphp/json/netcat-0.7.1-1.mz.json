@@ -8,7 +8,7 @@
     "maintainer": "Hugo Torres de Lima",
     "license": "",
     "url": "http://netcat.sourceforge.net/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "netcat-0.7.1-1.mz",
     "file_desc": "netcat-0.7.1-1.mz.desc",
     "file_sha256": "netcat-0.7.1-1.mz.sha256",

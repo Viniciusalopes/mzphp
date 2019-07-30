@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/cvs/x/glu.html",
-    "deps": "'Mesa-18.3.3'",
+    "deps": "Mesa-18.3.3",
     "file_mz": "glu-9.0.0-1.mz",
     "file_desc": "glu-9.0.0-1.mz.desc",
     "file_sha256": "glu-9.0.0-1.mz.sha256",

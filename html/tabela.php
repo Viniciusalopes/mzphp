@@ -30,22 +30,35 @@
  */
 require_once './bin/sessao.php';
 ?>
+<style type="text/css">
+    tr.detalhes{
+        cursor: pointer !important;
+    }
+    div.modal-body > p{
+        margin: 0 !important;
+    }
+    div.modal-body > p > a{
+        margin-right: 1em !important;
+
+    }
+
+</style>
 <hr>
 <table id="table-packages" class="table table-sm table-hover">
     <thead class="thead-dark text-left">
         <tr>
-            <?php echo ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : "<th scope=\"col\">Instalado</th>" ?>
-            <th>Nome</th>
-            <th>Versão</th>
-            <th>Licença</th>
-            <th>Repositório</th>
-            <th>Mantenedor</th>
-            <th>Dependências</th>
-<!--            <th>Url</th>
-            <th>Descrição</th>-->
+            <th scope="col">Nome</th>
+            <th scope="col">Versão</th>
+            <th scope="col">Licença</th>
+            <th scope="col">Repositório</th>
+            <th scope="col">Mantenedor</th>
+
+<!--            <th>Versão</th>
+            <th>Licença</th>-->
         </tr>
     </thead>
     <tbody>
+
         <?php
         /**
           [1] => stdClass Object
@@ -70,20 +83,46 @@ require_once './bin/sessao.php';
          */
         foreach ($packages as $package) {
             $deps = (strlen($package->deps) > 50) ? substr($package->deps, 0, 50) . ' (...)' : $package->deps;
+            $id = str_replace('.', '_', $package->name . $package->version);
             ?>
-            <tr scope="row">
-                <?php echo ($_SERVER['HTTP_HOST'] == 'vovolinux.com.br') ? '' : "<th scope=\"col\">???</th>" ?>
-                <td><?php echo $package->name ?></td>
-                <td><?php echo $package->version ?></td>
-                <td><?php echo $package->license ?></td>
-                <td><?php echo $package->repo_name ?></td>
-                <td><?php echo $package->maintainer ?></td>
-                <td><?php echo $deps ?></td>
-    <!--                <td>< ?php echo $package->url ?></td>
-                <td>< ?php echo $package->desc ?></td>-->
+
+            <tr scope="row" id="<?php echo $id ?>"class="detalhes" onclick="setModal('<?php echo $id ?>')">
+                <td>
+                    <?php echo $package->name ?>
+                </td>
+                <td>
+                    <?php echo $package->version ?>
+                </td>
+                <td>
+                    <?php echo $package->license ?>
+                </td>
+                <td>
+                    <?php echo ucfirst($package->repo_name) ?>
+                </td>
+                <td>
+                    <?php echo $package->maintainer ?>
+                </td>
             </tr>
             <?php
         }
         ?>
+
     </tbody>
 </table>
+<!-- Modal -->
+<div class="modal fade" id="ModalDetalhes" tabindex="-1" role="dialog" aria-labelledby="TituloModalDetalhes" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div id="modal-content" class="modal-content">
+
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    function setModal(id) {
+        $('#modal-content').load('./html/modal_content.php?id=' + id);
+        $('#ModalDetalhes').modal('show');
+    }
+</script>

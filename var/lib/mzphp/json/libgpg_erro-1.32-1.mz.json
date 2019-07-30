@@ -8,7 +8,7 @@
     "maintainer": "Hugo Torres de Lima",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/general/libgpg-error.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "libgpg_erro-1.32-1.mz",
     "file_desc": "libgpg_erro-1.32-1.mz.desc",
     "file_sha256": "libgpg_erro-1.32-1.mz.sha256",

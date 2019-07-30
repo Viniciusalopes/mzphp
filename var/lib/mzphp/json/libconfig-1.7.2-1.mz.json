@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "https://hyperrealm.github.io/libconfig/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "libconfig-1.7.2-1.mz",
     "file_desc": "libconfig-1.7.2-1.mz.desc",
     "file_sha256": "libconfig-1.7.2-1.mz.sha256",

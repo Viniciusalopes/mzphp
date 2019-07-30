@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/lfs/view/stable/chapter06/ninja.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "ninja-1.8.2-1.mz",
     "file_desc": "ninja-1.8.2-1.mz.desc",
     "file_sha256": "ninja-1.8.2-1.mz.sha256",

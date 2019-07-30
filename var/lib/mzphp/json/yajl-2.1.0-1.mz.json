@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "https://lloyd.github.io/yajl/",
-    "deps": "''",
+    "deps": "",
     "file_mz": "yajl-2.1.0-1.mz",
     "file_desc": "yajl-2.1.0-1.mz.desc",
     "file_sha256": "yajl-2.1.0-1.mz.sha256",

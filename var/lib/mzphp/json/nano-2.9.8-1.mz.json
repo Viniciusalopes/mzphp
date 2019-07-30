@@ -8,7 +8,7 @@
     "maintainer": "Diego Sarzi",
     "license": "",
     "url": "http://www.linuxfromscratch.org/blfs/view/8.3/postlfs/nano.html",
-    "deps": "''",
+    "deps": "",
     "file_mz": "nano-2.9.8-1.mz",
     "file_desc": "nano-2.9.8-1.mz.desc",
     "file_sha256": "nano-2.9.8-1.mz.sha256",

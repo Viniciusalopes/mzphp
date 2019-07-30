@@ -54,7 +54,7 @@ Finalidade: No início a terra era vazia e sem forma.
             $_SESSION['server'] = $_SERVER;
             $urls = [];
             $packages = [];
-
+            $novos_pacotes = 0;
             $doc = new DOMDocument();
 
             foreach ($_SESSION['repositorios'] as $repo) {
@@ -100,7 +100,7 @@ Finalidade: No início a terra era vazia e sem forma.
                             $packages[] = json_decode($repo_dirlib . '/json' . $file_json);
                         } else {
                             # Existe o .mz mas não existe o .json
-
+                            $novos_pacotes ++;
                             $package = (object) [
                                         'repo_name' => $url->repo_name,
                                         'repo_url' => $url->repo_url,
@@ -139,16 +139,21 @@ Finalidade: No início a terra era vazia e sem forma.
                                 $package->maintainer = trim(str_replace("'", '', explode('<', $txt[0])[0]));
                                 foreach ($txt as $key => $value) {
                                     if (strpos($value, 'license=') !== FALSE) {
-                                        $package->license = trim(explode('license=', $txt[$key])[1]);
+                                        $package_license = trim(explode('license=', $txt[$key])[1]);
+                                        $package->license = str_replace("'", '', $package_license);
+                                        
                                     }
                                     if (strpos($value, 'desc=') !== FALSE) {
                                         $package->desc = trim(explode("'", (explode('desc=', $txt[$key])[1]))[1]);
                                     }
                                     if (strpos($value, 'url=') !== FALSE) {
                                         $package->url = trim(explode("'", explode('url=', $txt[$key])[1])[1]);
+                                        
                                     }
                                     if (strpos($value, 'dep=(') !== FALSE) {
-                                        $package->deps = trim(str_replace(')', '', explode('dep=(', $value)[1]));
+                                        $package_deps = trim(str_replace(')', '', explode('dep=(', $value)[1]));
+                                        $package->deps = str_replace('  ', ' ', str_replace(',', ', ', str_replace("'", '', str_replace("' '", ', ', $package_deps))));
+                                        
                                     }
                                 }
                             } else {
@@ -181,8 +186,9 @@ Finalidade: No início a terra era vazia e sem forma.
             ?>
             <div class="m-4">
                 <?php
+                echo "Novos pacotes: $novos_pacotes<br>";
                 if (count($packages) > 0) {
-
+                    
                     require 'html/tabela.php';
                 }
                 ?>
