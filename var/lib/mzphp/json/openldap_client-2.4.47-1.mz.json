@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovomazon",
+    "repo_url": "http://mazonos.com/vovo/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "packages/",
+    "name": "openldap_client",
+    "version": "2.4.47-1",
+    "maintainer": "Vovolinux",
+    "license": "OpenLDAP",
+    "url": "http://www.linuxfromscratch.org/blfs/view/cvs/server/openldap.html",
+    "deps": "",
+    "file_mz": "openldap_client-2.4.47-1.mz",
+    "file_desc": "openldap_client-2.4.47-1.mz.desc",
+    "file_sha256": "openldap_client-2.4.47-1.mz.sha256",
+    "file_json": "openldap_client-2.4.47-1.mz.json",
+    "desc": "The OpenLDAP package provides an open source implementation of the\nLightweight Directory Access Protocol.\n\nUsing this package you install only the client side ldap* \nbinaries, corresponding man pages, libraries and header files \n(referred to as a \u201cclient-only\u201d install).\n\nThis package is known to build and \nwork properly using an LFS-8.4 platform."
+}

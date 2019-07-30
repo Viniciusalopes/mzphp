@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "base/",
@@ -13,5 +13,5 @@
     "file_desc": "gnupg-2.2.9-1.mz.desc",
     "file_sha256": "gnupg-2.2.9-1.mz.sha256",
     "file_json": "gnupg-2.2.9-1.mz.json",
-    "desc": "The GnuPG package is GNU"
+    "desc": "The GnuPG package is GNUs tool for secure communication and \ndata storage. It can be used to encrypt data and to create digital \nsignatures. It includes an advanced key management facility and is \ncompliant with the proposed OpenPGP Internet standard as described \nin RFC2440 and the S/MIME standard as described by several RFCs. \nGnuPG 2 is the stable version of GnuPG integrating support \nfor OpenPGP and S/MIME."
 }

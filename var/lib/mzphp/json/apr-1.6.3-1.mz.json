@@ -13,5 +13,5 @@
     "file_desc": "apr-1.6.3-1.mz.desc",
     "file_sha256": "apr-1.6.3-1.mz.sha256",
     "file_json": "apr-1.6.3-1.mz.json",
-    "desc": "The Apache Portable Runtime (APR) is a supporting library for\nthe Apache web server. It provides a set of application programming\ninterfaces (APIs) that map to the underlying Operating System (OS).\nWhere the OS doesn"
+    "desc": "The Apache Portable Runtime (APR) is a supporting library for\nthe Apache web server. It provides a set of application programming\ninterfaces (APIs) that map to the underlying Operating System (OS).\nWhere the OS doesnt support a particular function, APR will provide\nan emulation. Thus programmers can use the APR to make a program\nportable across different platforms."
 }

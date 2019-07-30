@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "xapp/",
@@ -13,5 +13,5 @@
     "file_desc": "nm_applet-1.8.16-1.mz.desc",
     "file_sha256": "nm_applet-1.8.16-1.mz.sha256",
     "file_json": "nm_applet-1.8.16-1.mz.json",
-    "desc": "The NetworkManager Applet provides a tool and a panel applet used \nto configure wired and wireless network connections through GUI. It"
+    "desc": "The NetworkManager Applet provides a tool and a panel applet used \nto configure wired and wireless network connections through GUI. Its \ndesigned for use with any desktop environment that uses GTK+ like \nXfce and LXDE."
 }

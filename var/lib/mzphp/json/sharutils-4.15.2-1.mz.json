@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "extra/",
@@ -13,5 +13,5 @@
     "file_desc": "sharutils-4.15.2-1.mz.desc",
     "file_sha256": "sharutils-4.15.2-1.mz.sha256",
     "file_json": "sharutils-4.15.2-1.mz.json",
-    "desc": "The Sharutils package contains utilities that can \ncreate"
+    "desc": "The Sharutils package contains utilities that can \ncreate shell archives."
 }

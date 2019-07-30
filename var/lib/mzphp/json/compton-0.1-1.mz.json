@@ -13,5 +13,5 @@
     "file_desc": "compton-0.1-1.mz.desc",
     "file_sha256": "compton-0.1-1.mz.sha256",
     "file_json": "compton-0.1-1.mz.json",
-    "desc": "I was frustrated by the low amount of standalone lightweight\ncompositors. Compton was forked from Dana Jansens"
+    "desc": "I was frustrated by the low amount of standalone lightweight\ncompositors. Compton was forked from Dana Jansens fork of xcompmgr\nand refactored. I fixed whatever bug I found, and added features I\nwanted. Things seem stable, but dont quote me on it. I will most\nlikely be actively working on this until I get the features I want.\nThis is also a learning experience for me. That is, Im partially\ndoing this out of a desire to learn Xlib."
 }

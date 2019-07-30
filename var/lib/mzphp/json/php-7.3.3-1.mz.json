@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovomazon",
+    "repo_url": "http://mazonos.com/vovo/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "packages/",
+    "name": "php",
+    "version": "7.3.3-1",
+    "maintainer": "Vovolinux",
+    "license": "PHP License v3.01",
+    "url": "http://www.linuxfromscratch.org/blfs/view/svn/general/php.html",
+    "deps": "",
+    "file_mz": "php-7.3.3-1.mz",
+    "file_desc": "php-7.3.3-1.mz.desc",
+    "file_sha256": "php-7.3.3-1.mz.sha256",
+    "file_json": "php-7.3.3-1.mz.json",
+    "desc": "PHP is a popular general-purpose scripting language that is \nespecially suited to web development.\n\nFast, flexible and pragmatic, PHP powers everything from your blog to \nthe most popular websites in the world.\n\nVovolinux loves php!"
+}

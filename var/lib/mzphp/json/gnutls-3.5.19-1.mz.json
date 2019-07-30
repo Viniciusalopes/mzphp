@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "base/",
@@ -13,5 +13,5 @@
     "file_desc": "gnutls-3.5.19-1.mz.desc",
     "file_sha256": "gnutls-3.5.19-1.mz.sha256",
     "file_json": "gnutls-3.5.19-1.mz.json",
-    "desc": "The GnuTLS package contains libraries and userspace tools which\nprovide a secure layer over a reliable transport layer. Currently the\nGnuTLS library implements the proposed standards by the IETF"
+    "desc": "The GnuTLS package contains libraries and userspace tools which\nprovide a secure layer over a reliable transport layer. Currently the\nGnuTLS library implements the proposed standards by the IETFs TLS\nworking group. Quoting from the TLS protocol specification:\n\nThe TLS protocol provides communications privacy over the Internet.\nThe protocol allows client/server applications to communicate in a\nway that is designed to prevent eavesdropping, tampering, or message forgery."
 }

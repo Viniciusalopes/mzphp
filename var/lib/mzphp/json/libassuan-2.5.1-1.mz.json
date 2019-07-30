@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "libraries/",
@@ -13,5 +13,5 @@
     "file_desc": "libassuan-2.5.1-1.mz.desc",
     "file_sha256": "libassuan-2.5.1-1.mz.sha256",
     "file_json": "libassuan-2.5.1-1.mz.json",
-    "desc": "The libassuan package contains an inter process communication \nlibrary used by some of the other GnuPG related packages. libassuan"
+    "desc": "The libassuan package contains an inter process communication \nlibrary used by some of the other GnuPG related packages. libassuans \nprimary use is to allow a client to interact with a non-persistent \nserver. libassuan is not, however, limited to use with GnuPG servers \nand clients. It was designed to be flexible enough to meet the demands \nof many transaction based environments with non-persistent servers."
 }

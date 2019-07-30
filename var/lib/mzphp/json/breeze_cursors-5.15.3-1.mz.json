@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovomazon",
+    "repo_url": "http://mazonos.com/vovo/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "packages/",
+    "name": "breeze_cursors",
+    "version": "5.15.3-1",
+    "maintainer": "Vovolinux",
+    "license": "GPL2",
+    "url": "https://github.com/KDE/breeze/releases/tag/v5.15.3",
+    "deps": "",
+    "file_mz": "breeze_cursors-5.15.3-1.mz",
+    "file_desc": "breeze_cursors-5.15.3-1.mz.desc",
+    "file_sha256": "breeze_cursors-5.15.3-1.mz.sha256",
+    "file_json": "breeze_cursors-5.15.3-1.mz.json",
+    "desc": "KDE v5.15.3 Breeze cursors theme"
+}

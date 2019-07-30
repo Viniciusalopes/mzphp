@@ -13,5 +13,5 @@
     "file_desc": "xarchiver-0.5.4.14-1.mz.desc",
     "file_sha256": "xarchiver-0.5.4.14-1.mz.sha256",
     "file_json": "xarchiver-0.5.4.14-1.mz.json",
-    "desc": "Xarchiver is the ultimate solution for handling archives on Linux \nand FreeBSD. It"
+    "desc": "Xarchiver is the ultimate solution for handling archives on Linux \nand FreeBSD. Its a Desktop Environment independent archiver front end. \nAll common archive formats are supported, deb and RPM packages are \nhandled without their package managers being installed. Xarchiver only \ndepends on the GTK+ libraries and utilizes various \n(un)compressor/(un)archiver command line programs at runtime.\nInstallation of xdg-utils is optional but installing it will allow \nXarchiver to support opening more file types directly from \ninside an archive."
 }

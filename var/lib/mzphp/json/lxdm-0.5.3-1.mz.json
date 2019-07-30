@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "extra/",
@@ -13,5 +13,5 @@
     "file_desc": "lxdm-0.5.3-1.mz.desc",
     "file_sha256": "lxdm-0.5.3-1.mz.sha256",
     "file_json": "lxdm-0.5.3-1.mz.json",
-    "desc": "The LXDM is a lightweight Display Manager for the LXDE desktop. \nIt can also be used as an alternative to other Display Managers such \nas GNOME"
+    "desc": "The LXDM is a lightweight Display Manager for the LXDE desktop. \nIt can also be used as an alternative to other Display Managers such \nas GNOMEs GDM or LightDM."
 }

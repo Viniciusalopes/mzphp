@@ -246,3 +246,23 @@
 [ 2019-07-30 01:08:21 ] login()-> executando
 [ 2019-07-30 01:08:21 ] Aguardando autenticação do r00t...
 [ 2019-07-30 01:08:29 ] Cancelado pelo usuário.
+[ 2019-07-30 07:04:26 ] -------------------------------------------------------------------------------
+[ 2019-07-30 07:04:26 ] /opt/mzphp/mzphp
+[ 2019-07-30 07:04:26 ] root_on()-> executando
+[ 2019-07-30 07:04:28 ] login()-> executando
+[ 2019-07-30 07:04:28 ] Aguardando autenticação do r00t...
+[ 2019-07-30 07:04:31 ] valida_senha()-> executando
+[ 2019-07-30 07:04:31 ] root_on()-> executando
+[ 2019-07-30 07:04:31 ] bora()-> executando
+[ 2019-07-30 07:04:31 ] inicius()-> executando
+[ 2019-07-30 07:04:31 ] startThreadPhpHost()-> executando
+[ 2019-07-30 07:04:31 ] getPid()-> executando
+[ 2019-07-30 07:04:31 ] Iniciando servidor web...
+[ 2019-07-30 07:04:31 ] phpHost()-> executando
+[ 2019-07-30 07:04:31 ] Aguardando inicialização do host...[ 1s ]
+[ 2019-07-30 07:04:31 ] getPid()-> executando
+[ 2019-07-30 07:04:32 ] Aguardando inicialização do host...[ 2s ]
+[ 2019-07-30 07:04:32 ] getPid()-> executando
+[ 2019-07-30 07:04:33 ] Servidor web inicializado. [ pid-> 1934 ]
+[ 2019-07-30 07:04:33 ] webBrowser()-> executando
+[ 2019-07-30 07:04:33 ] Abrindo o navegador...

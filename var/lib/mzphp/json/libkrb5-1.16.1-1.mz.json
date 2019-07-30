@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovomazon",
+    "repo_url": "http://mazonos.com/vovo/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "packages/",
+    "name": "libkrb5",
+    "version": "1.16.1-1",
+    "maintainer": "Vovolinux",
+    "license": "GPL",
+    "url": "https://kerberos.org",
+    "deps": "",
+    "file_mz": "libkrb5-1.16.1-1.mz",
+    "file_desc": "libkrb5-1.16.1-1.mz.desc",
+    "file_sha256": "libkrb5-1.16.1-1.mz.sha256",
+    "file_json": "libkrb5-1.16.1-1.mz.json",
+    "desc": "Karberos was originally developed for MITs Project Athena in the\n1980s and has grown to become the most widely deployed system for \nauthentication and authorization in modern computer networks.\n\nThe libkrb5 package was created by Vovolinux specially for the MazonOs\ndistribution, in order to mett the needs of services such as smbd, nmbd\nand winbindd, without the need to install the complete Kerberos program \nand its respective services.\n\nThe libraries were extracted from package krb5-1.16.1-1.mz."
+}

@@ -13,5 +13,5 @@
     "file_desc": "wxgtk-3.0.4-1.mz.desc",
     "file_sha256": "wxgtk-3.0.4-1.mz.sha256",
     "file_json": "wxgtk-3.0.4-1.mz.json",
-    "desc": "wxGTK3 is part of wxWidgets, a cross-platform API for writing GUI\napplications on multiple platforms that still utilize the native\nplatform"
+    "desc": "wxGTK3 is part of wxWidgets, a cross-platform API for writing GUI\napplications on multiple platforms that still utilize the native\nplatforms controls and utilities."
 }

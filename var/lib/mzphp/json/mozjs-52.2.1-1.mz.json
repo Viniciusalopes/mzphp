@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "dev-tools/",
@@ -13,5 +13,5 @@
     "file_desc": "mozjs-52.2.1-1.mz.desc",
     "file_sha256": "mozjs-52.2.1-1.mz.sha256",
     "file_json": "mozjs-52.2.1-1.mz.json",
-    "desc": "JS is Mozilla"
+    "desc": "JS is Mozillas JavaScript engine written in C. This package \nis present for GJS and polkit."
 }

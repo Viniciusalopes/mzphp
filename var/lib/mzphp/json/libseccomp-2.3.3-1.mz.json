@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "libraries/",
@@ -13,5 +13,5 @@
     "file_desc": "libseccomp-2.3.3-1.mz.desc",
     "file_sha256": "libseccomp-2.3.3-1.mz.sha256",
     "file_json": "libseccomp-2.3.3-1.mz.json",
-    "desc": "The libseccomp package provides an easy to use and platform \nindependent interface to the Linux kernel"
+    "desc": "The libseccomp package provides an easy to use and platform \nindependent interface to the Linux kernels syscall filtering mechanism."
 }

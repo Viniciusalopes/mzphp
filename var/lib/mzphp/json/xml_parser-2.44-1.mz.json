@@ -13,5 +13,5 @@
     "file_desc": "xml_parser-2.44-1.mz.desc",
     "file_sha256": "xml_parser-2.44-1.mz.sha256",
     "file_json": "xml_parser-2.44-1.mz.json",
-    "desc": "The XML::Parser module is a Perl interface to James Clark"
+    "desc": "The XML::Parser module is a Perl interface to James Clarks\nXML parser, Expat."
 }

@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "libraries/",
@@ -13,5 +13,5 @@
     "file_desc": "quazip-0.7.6-1.mz.desc",
     "file_sha256": "quazip-0.7.6-1.mz.sha256",
     "file_json": "quazip-0.7.6-1.mz.json",
-    "desc": "QuaZIP is the C++ wrapper for Gilles Vollant"
+    "desc": "QuaZIP is the C++ wrapper for Gilles Vollants ZIP/UNZIP package \n(AKA Minizip) using Trolltechs Qt library."
 }

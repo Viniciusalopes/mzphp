@@ -144,7 +144,8 @@ Finalidade: No início a terra era vazia e sem forma.
                                         
                                     }
                                     if (strpos($value, 'desc=') !== FALSE) {
-                                        $package->desc = trim(explode("'", (explode('desc=', $txt[$key])[1]))[1]);
+                                        #$package->desc = trim(explode("'", (explode('desc=', $txt[$key])[1]))[1]);
+                                        $package->desc = trim(str_replace("'", '', explode('desc=', $txt[$key])[1]));
                                     }
                                     if (strpos($value, 'url=') !== FALSE) {
                                         $package->url = trim(explode("'", explode('url=', $txt[$key])[1])[1]);

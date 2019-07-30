@@ -13,5 +13,5 @@
     "file_desc": "ssr-0.3.11-1.mz.desc",
     "file_sha256": "ssr-0.3.11-1.mz.sha256",
     "file_json": "ssr-0.3.11-1.mz.json",
-    "desc": "SimpleScreenRecorder is a Linux program that I"
+    "desc": "SimpleScreenRecorder is a Linux program that Ive created to\nrecord programs and games.\nThere were already a few programs that could do this, but I wasnt 100%\nhappy with any of them, so I created my own."
 }

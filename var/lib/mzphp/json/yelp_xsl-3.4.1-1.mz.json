@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovomazon",
+    "repo_url": "http://mazonos.com/vovo/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "packages/",
+    "name": "yelp_xsl",
+    "version": "3.4.1-1",
+    "maintainer": "Vovolinux",
+    "license": "LGPL",
+    "url": "http://www.linuxfromscratch.org/~thomasp/blfs-book-xsl/gnome/yelp-xsl.html",
+    "deps": "libxslt-1.1.26, intltool-0.50.0, itstool-1.1.1",
+    "file_mz": "yelp_xsl-3.4.1-1.mz",
+    "file_desc": "yelp_xsl-3.4.1-1.mz.desc",
+    "file_sha256": "yelp_xsl-3.4.1-1.mz.sha256",
+    "file_json": "yelp_xsl-3.4.1-1.mz.json",
+    "desc": "The yelp-xsl package contains XSL stylesheets that are used by the\nyelp help browser to format Docbook and Mallard documents.\n\nThis package is known to build and \nwork properly using an LFS-7.0 platform."
+}

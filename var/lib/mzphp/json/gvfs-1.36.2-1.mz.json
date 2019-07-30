@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "extra/",
@@ -13,5 +13,5 @@
     "file_desc": "gvfs-1.36.2-1.mz.desc",
     "file_sha256": "gvfs-1.36.2-1.mz.sha256",
     "file_json": "gvfs-1.36.2-1.mz.json",
-    "desc": "The Gvfs package is a userspace virtual filesystem designed \nto work with the I/O abstractions of GLib"
+    "desc": "The Gvfs package is a userspace virtual filesystem designed \nto work with the I/O abstractions of GLibs GIO library."
 }

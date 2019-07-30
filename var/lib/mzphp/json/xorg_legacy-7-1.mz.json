@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "xorg/",
@@ -13,5 +13,5 @@
     "file_desc": "xorg_legacy-7-1.mz.desc",
     "file_sha256": "xorg_legacy-7-1.mz.sha256",
     "file_json": "xorg_legacy-7-1.mz.json",
-    "desc": "Xorg"
+    "desc": "Xorgs ancestor (X11R1, in 1987) at first only provided bitmap \nfonts, with a tool (bdftopcf) to assist in their installation."
 }

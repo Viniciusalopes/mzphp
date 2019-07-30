@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "multimedia/",
@@ -13,5 +13,5 @@
     "file_desc": "gst_plugins_bad-1.14.2-1.mz.desc",
     "file_sha256": "gst_plugins_bad-1.14.2-1.mz.sha256",
     "file_json": "gst_plugins_bad-1.14.2-1.mz.json",
-    "desc": "The GStreamer Bad Plug-ins package contains a set of plug-ins \nthat aren"
+    "desc": "The GStreamer Bad Plug-ins package contains a set of plug-ins \nthat arent up to par compared to the rest. They might be close \nto being good quality, but theyre missing something - be it a good \ncode review, some documentation, a set of tests, a real live maintainer, \nor some actual wide use."
 }

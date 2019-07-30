@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovomazon",
+    "repo_url": "http://mazonos.com/vovo/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "packages/",
+    "name": "itstool",
+    "version": "1.1.1-1",
+    "maintainer": "Vovolinux",
+    "license": "GPL3",
+    "url": "http://www.linuxfromscratch.org/~thomasp/blfs-book-xsl/pst/itstool.html",
+    "deps": "",
+    "file_mz": "itstool-1.1.1-1.mz",
+    "file_desc": "itstool-1.1.1-1.mz.desc",
+    "file_sha256": "itstool-1.1.1-1.mz.sha256",
+    "file_json": "itstool-1.1.1-1.mz.json",
+    "desc": "Itstool itstool extracts messages from XML files and outputs PO \ntemplate files, then merges translations from MO files to create \ntranslated XML files. \nIt determines what to translate and how to chunk it into messages using \nthe W3C Internationalization Tag Set (ITS).\n\nThis package is known to build using an LFS 7.0 \nplatform but has not been tested."
+}

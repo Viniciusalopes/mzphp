@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovomazon",
+    "repo_url": "http://mazonos.com/vovo/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "packages/",
+    "name": "libgcrypt",
+    "version": "1.8.4-1",
+    "maintainer": "Vovolinux",
+    "license": "",
+    "url": "https://www.gnupg.org/software/libgcrypt/index.html",
+    "deps": "",
+    "file_mz": "libgcrypt-1.8.4-1.mz",
+    "file_desc": "libgcrypt-1.8.4-1.mz.desc",
+    "file_sha256": "libgcrypt-1.8.4-1.mz.sha256",
+    "file_json": "libgcrypt-1.8.4-1.mz.json",
+    "desc": "Libgcrypt is a general purpose cryptographic library originally \nbased on code from GnuPG. It provides functions for all cryptograhic \nbuilding blocks: symmetric cipher algorithms (AES, Arcfour, Blowfish, \nCamellia, CAST5, ChaCha20 DES, GOST28147, Salsa20, SEED, Serpent, \nTwofish) and modes (ECB,CFB,CBC,OFB,CTR,CCM,GCM,OCB,POLY1305,AESWRAP),\nhash algorithms (MD2, MD4, MD5, GOST R 34.11, RIPE-MD160, SHA-1, \nSHA2-224, SHA2-256, SHA2-384, SHA2-512, SHA3-224, SHA3-256, SHA3-384, \nSHA3-512, SHAKE-128, SHAKE-256, TIGER-192, Whirlpool), MACs (HMAC for \nall hash algorithms, CMAC for all cipher algorithms, GMAC-AES, \nGMAC-CAMELLIA, GMAC-TWOFISH, GMAC-SERPENT, GMAC-SEED, Poly1305, \nPoly1305-AES, Poly1305-CAMELLIA, Poly1305-TWOFISH, Poly1305-SERPENT, \nPoly1305-SEED), public key algorithms (RSA, Elgamal, DSA, ECDSA, EdDSA, \nECDH), large integer functions, random numbers and a lot of supporting\nfunctions.\n\nLibgcrypt works on most POSIX systems and many pre-POSIX systems. \nIt can also be built using a cross-compiler system for \nMicrosoft Windows."
+}

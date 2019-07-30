@@ -13,5 +13,5 @@
     "file_desc": "gettext-0.19.8.1-1.mz.desc",
     "file_sha256": "gettext-0.19.8.1-1.mz.sha256",
     "file_json": "gettext-0.19.8.1-1.mz.json",
-    "desc": "The Gettext package contains utilities for internationalization\nand localization. These allow programs to be compiled with NLS (Native\nLanguage Support), enabling them to output messages in the user"
+    "desc": "The Gettext package contains utilities for internationalization\nand localization. These allow programs to be compiled with NLS (Native\nLanguage Support), enabling them to output messages in the users native\nlanguage."
 }

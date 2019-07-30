@@ -13,5 +13,5 @@
     "file_desc": "SDL2_mixer-2.0.4-1.mz.desc",
     "file_sha256": "SDL2_mixer-2.0.4-1.mz.sha256",
     "file_json": "SDL2_mixer-2.0.4-1.mz.json",
-    "desc": "SDL_mixer is a sample multi-channel audio mixer library. \nIt supports any number of simultaneously playing channels of 16 bit stereo\naudio, plus a single channel of music, mixed by the popular FLAC, MikMod\nMOD, Timidity MIDI, Ogg Vorbis, and SMPEG MP3 libraries.\n\nAs of SDL_mixer 1.2.7, FLAC, MikMod, Ogg Vorbis and MP3 loading libraries\nare dynamically loaded, so if you don"
+    "desc": "SDL_mixer is a sample multi-channel audio mixer library. \nIt supports any number of simultaneously playing channels of 16 bit stereo\naudio, plus a single channel of music, mixed by the popular FLAC, MikMod\nMOD, Timidity MIDI, Ogg Vorbis, and SMPEG MP3 libraries.\n\nAs of SDL_mixer 1.2.7, FLAC, MikMod, Ogg Vorbis and MP3 loading libraries\nare dynamically loaded, so if you dont need to load those formats, you\ndont need to include those shared"
 }

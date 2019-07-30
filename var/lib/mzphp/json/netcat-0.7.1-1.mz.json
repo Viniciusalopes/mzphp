@@ -13,5 +13,5 @@
     "file_desc": "netcat-0.7.1-1.mz.desc",
     "file_sha256": "netcat-0.7.1-1.mz.sha256",
     "file_json": "netcat-0.7.1-1.mz.json",
-    "desc": "Netcat is a featured networking utility which reads and writes \ndata across network connections, using the TCP/IP protocol.\nIt is designed to be a reliable"
+    "desc": "Netcat is a featured networking utility which reads and writes \ndata across network connections, using the TCP/IP protocol.\nIt is designed to be a reliable back-end tool that can be used \ndirectly or easily driven by other programs and scripts. At the same \ntime, it is a feature-rich network debugging and exploration tool, \nsince it can create almost any kind of connection you would need and \nhas several interesting built-in capabilities.\nAlthough the project development is marked as beta, GNU Netcat is \nalready enough stable for everyday use.\nGoals of this project are full compatibility with the original nc 1.10 \nthat is widely used, and portability."
 }

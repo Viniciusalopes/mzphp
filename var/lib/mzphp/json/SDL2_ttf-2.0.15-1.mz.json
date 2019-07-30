@@ -13,5 +13,5 @@
     "file_desc": "SDL2_ttf-2.0.15-1.mz.desc",
     "file_sha256": "SDL2_ttf-2.0.15-1.mz.sha256",
     "file_json": "SDL2_ttf-2.0.15-1.mz.json",
-    "desc": "This is a sample library which allows you to use TrueType fonts in\nyour SDL applications. It comes with an example program"
+    "desc": "This is a sample library which allows you to use TrueType fonts in\nyour SDL applications. It comes with an example program showfont which\ndisplays an example string for a given TrueType font file."
 }

@@ -1,5 +1,5 @@
 {
-    "repo_name": "vovolinux",
+    "repo_name": "vovo",
     "repo_url": "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/",
     "repo_dirlib": "/var/lib/mzphp/",
     "folder": "extra/",
@@ -13,5 +13,5 @@
     "file_desc": "dconf-0.28.0-1.mz.desc",
     "file_sha256": "dconf-0.28.0-1.mz.sha256",
     "file_json": "dconf-0.28.0-1.mz.json",
-    "desc": "The DConf package contains a low-level configuration system. \nIts main purpose is to provide a backend to GSettings on platforms \nthat don"
+    "desc": "The DConf package contains a low-level configuration system. \nIts main purpose is to provide a backend to GSettings on platforms \nthat dont already have configuration storage systems."
 }

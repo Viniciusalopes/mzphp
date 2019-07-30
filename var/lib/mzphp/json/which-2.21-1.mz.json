@@ -13,5 +13,5 @@
     "file_desc": "which-2.21-1.mz.desc",
     "file_sha256": "which-2.21-1.mz.sha256",
     "file_json": "which-2.21-1.mz.json",
-    "desc": "The presence or absence of the which program in the main LFS book\nis probably one of the most contentious issues on the mailing lists.\n\nIt has resulted in at least one flame war in the past. To hopefully put\nan end to this once and for all, presented here are two options for\nequipping your system with which. The question of which"
+    "desc": "The presence or absence of the which program in the main LFS book\nis probably one of the most contentious issues on the mailing lists.\n\nIt has resulted in at least one flame war in the past. To hopefully put\nan end to this once and for all, presented here are two options for\nequipping your system with which. The question of which which\nis for you to decide."
 }
