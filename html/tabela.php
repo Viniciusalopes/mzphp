@@ -47,6 +47,7 @@ require_once './bin/sessao.php';
 <table id="table-packages" class="table table-sm table-hover">
     <thead class="thead-dark text-left">
         <tr>
+            <th scope="col">Diretório</th>
             <th scope="col">Nome</th>
             <th scope="col">Versão</th>
             <th scope="col">Licença</th>
@@ -87,6 +88,10 @@ require_once './bin/sessao.php';
             ?>
 
             <tr scope="row" id="<?php echo $id ?>"class="detalhes" onclick="setModal('<?php echo $id ?>')">
+                
+                <td>
+                    <?php echo $package->folder ?>
+                </td>
                 <td>
                     <?php echo $package->name ?>
                 </td>
@@ -97,7 +102,7 @@ require_once './bin/sessao.php';
                     <?php echo $package->license ?>
                 </td>
                 <td>
-                    <?php echo ucfirst($package->repo_name) ?>
+                    <?php echo ucfirst(($package->repo_name == 'vovolinux') ? 'vovomazon': $package->repo_name) ?>
                 </td>
                 <td>
                     <?php echo $package->maintainer ?>

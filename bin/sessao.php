@@ -41,7 +41,7 @@ if (!isset($_SESSION['repositorios'])) {
             'url' => 'http://mazonos.com/packages/'
         ],
         (object) [
-            'name' => 'vovolinux',
+            'name' => 'vovomazon',
             'dirlib' => $dirlib,
             'url' => 'https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/unreleased/'
         ]

@@ -240,3 +240,9 @@
 [ 2019-07-30 00:22:49 ] Servidor web inicializado. [ pid-> 2027 ]
 [ 2019-07-30 00:22:49 ] webBrowser()-> executando
 [ 2019-07-30 00:22:49 ] Abrindo o navegador...
+[ 2019-07-30 01:08:20 ] -------------------------------------------------------------------------------
+[ 2019-07-30 01:08:20 ] /opt/mzphp/mzphp
+[ 2019-07-30 01:08:20 ] root_on()-> executando
+[ 2019-07-30 01:08:21 ] login()-> executando
+[ 2019-07-30 01:08:21 ] Aguardando autenticação do r00t...
+[ 2019-07-30 01:08:29 ] Cancelado pelo usuário.

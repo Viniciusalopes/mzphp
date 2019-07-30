@@ -34,7 +34,7 @@ $id = str_replace('-', '', str_replace('_', '', $_GET['id']));
 foreach ($_SESSION['packages'] as $p) {
     if ($id == str_replace('-', '', str_replace('.', '', str_replace('_', '', $p->name . $p->version)))) {
         $descricao = $p->desc;
-        $repo_name = $p->repo_name;
+        $repo_name = ($p->repo_name == 'vovolinux') ? 'vovomazon': $p->repo_name;
         $repo_url = $p->repo_url;
         $repo_dirlib = $p->repo_dirlib;
         $folder = $p->folder;
@@ -58,7 +58,7 @@ $link_sha256 = $repo_url . $folder . $file_sha256;
 $link_json = "https://vovolinux.com.br/vovomazon/packages/var/lib/mzphp/json/$file_json";
 
 
-$repositorio = "REPOSIÓRIO:<a href=\"$repo_url" . "$folder\">$repo_name</a>";
+$repositorio = "REPOSIÓRIO:<a href=\"$repo_url" . "$folder\">".ucfirst($repo_name)."</a>";
 $tituloModal = $name . '-' . $version . '.mz';
 $modalBody = "<p>MANTENEDOR: $maintainer</p>"
         . "<hr>"
