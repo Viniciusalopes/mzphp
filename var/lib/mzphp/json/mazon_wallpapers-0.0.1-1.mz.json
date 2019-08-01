@@ -1,0 +1,17 @@
+{
+    "repo_name": "vovomazon",
+    "repo_url": "http://mazonos.com/vovo/",
+    "repo_dirlib": "/var/lib/mzphp/",
+    "folder": "packages/",
+    "name": "mazon_wallpapers",
+    "version": "0.0.1-1",
+    "maintainer": "Vovolinux",
+    "license": "MIT",
+    "url": "http://mazonos.com",
+    "deps": "",
+    "file_mz": "mazon_wallpapers-0.0.1-1.mz",
+    "file_desc": "mazon_wallpapers-0.0.1-1.mz.desc",
+    "file_sha256": "mazon_wallpapers-0.0.1-1.mz.sha256",
+    "file_json": "mazon_wallpapers-0.0.1-1.mz.json",
+    "desc": "Walpapers for Mazon Os"
+}

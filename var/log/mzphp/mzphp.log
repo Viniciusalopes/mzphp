@@ -266,3 +266,23 @@
 [ 2019-07-30 07:04:33 ] Servidor web inicializado. [ pid-> 1934 ]
 [ 2019-07-30 07:04:33 ] webBrowser()-> executando
 [ 2019-07-30 07:04:33 ] Abrindo o navegador...
+[ 2019-08-01 02:39:22 ] -------------------------------------------------------------------------------
+[ 2019-08-01 02:39:22 ] /opt/mzphp/mzphp
+[ 2019-08-01 02:39:22 ] root_on()-> executando
+[ 2019-08-01 02:39:24 ] login()-> executando
+[ 2019-08-01 02:39:24 ] Aguardando autenticação do r00t...
+[ 2019-08-01 02:39:28 ] valida_senha()-> executando
+[ 2019-08-01 02:39:28 ] root_on()-> executando
+[ 2019-08-01 02:39:28 ] bora()-> executando
+[ 2019-08-01 02:39:28 ] inicius()-> executando
+[ 2019-08-01 02:39:28 ] startThreadPhpHost()-> executando
+[ 2019-08-01 02:39:28 ] getPid()-> executando
+[ 2019-08-01 02:39:28 ] Iniciando servidor web...
+[ 2019-08-01 02:39:28 ] phpHost()-> executando
+[ 2019-08-01 02:39:28 ] Aguardando inicialização do host...[ 1s ]
+[ 2019-08-01 02:39:28 ] getPid()-> executando
+[ 2019-08-01 02:39:29 ] Aguardando inicialização do host...[ 2s ]
+[ 2019-08-01 02:39:29 ] getPid()-> executando
+[ 2019-08-01 02:39:30 ] Servidor web inicializado. [ pid-> 6331 ]
+[ 2019-08-01 02:39:30 ] webBrowser()-> executando
+[ 2019-08-01 02:39:30 ] Abrindo o navegador...
