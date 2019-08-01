@@ -6,8 +6,6 @@ Citar LICENÇAS para:
 - bootstrap-material-design
 
 
-
-
 DEV:
 
 Na instalação local:
