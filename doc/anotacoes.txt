@@ -13,7 +13,7 @@ Na instalação local:
 - Link para o log
     # ln -s /opt/mzphp/var/log/mzphp /var/log/mzphp
 
--Dependencias:
+-Dependencias: (incluir instalação de dependencias no script de instalação do mzphp)
 -- sudo
 -- php7
     # apt install php
